@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: Your name you.login@imperial.ac.uk
+# Author: Hira hira.tannvir@imperial.ac.uk
 # Script: csvtospace.sh
 # Desc: Coverts comma separated values to a space separated values file
 # saves the output into a .txt file
