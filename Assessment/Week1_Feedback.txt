@@ -278,7 +278,7 @@ Done!
 
 Code ran without errors
 
-Time consumed = 0.00601s
+Time consumed = 0.00837s
 
 ======================================================================
 Inspecting script file FirstExample.tex...
@@ -338,7 +338,7 @@ Hello mhasoba
 
 Code ran without errors
 
-Time consumed = 0.00515s
+Time consumed = 0.00657s
 
 ======================================================================
 Inspecting script file FirstBiblio.bib...
@@ -407,7 +407,7 @@ Done!
 
 Code ran without errors
 
-Time consumed = 0.01654s
+Time consumed = 0.00809s
 
 ======================================================================
 Inspecting script file boilerplate.sh...
@@ -436,7 +436,7 @@ This is a shell script!
 
 Code ran without errors
 
-Time consumed = 0.00484s
+Time consumed = 0.00587s
 
 ======================================================================
 ======================================================================
