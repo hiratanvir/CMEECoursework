@@ -37,22 +37,24 @@ z = 12
 while z < 100:
 	if z == 31: 
 		for k in range(7):
-			print 'hello'
+			print 'hello' 
 	elif z == 18:
 		print 'hello'
-	z = z + 1        
+	z = z + 1         
 
-# What does fooXX do?
+# What does fooXX do? #fooXX is the name of the function and the 
+# the indented lines following it are function body which define 
+# the meaning of fooXX
 def foo1(x):
-	return x ** 0.5
+	return x ** 0.5 # foo1(x) returns the answer for x when it is raised to the power of 0.5
 
 def foo2(x, y):
-	if x > y:
+	if x > y:  # foo2(x, y) returns the answer for x if x is greater than y
 		return x
-	return y
+	return y   # if x is less than y, then the function returns y. This function essentially returns the larger number of the two.
 
-def foo3(x, y, z):
-	if x > y:
+def foo3(x, y, z): #this function re-assigns the x and y variables between (x, y, z) and returning (x, y, z)
+	if x > y:   
 		tmp = y
 		y = x
 		x = tmp
@@ -62,17 +64,17 @@ def foo3(x, y, z):
 		y = tmp
 	return [x, y, z]
 
-def foo4(x):
+def foo4(x):  #This function uses the x value for i in the range(1, x + i) and multiplies that range to the intial value of results
 	result = 1
-	for i in range(1, x + 1):
-		result = result * i
+	for i in range(1, x + 1): #If x=5, then i is equivalent to the range(1, 6)
+		result = result * i #then 'results = 1 x (1x2x3x4x5)', also known as 5! - this equals to 120
 	return result
 
 # This is a recursive function, meaning that the function calls itself
 # read about it at
 # en.wikipedia.org/wiki/Recursion_(computer_science)
-def foo5(x):
-	if x == 1:
+def foo5(x): # This function is a recursive function as it can call on itself and  
+	if x == 1: # allows the funtion to terminate when a condition is satisfied.
 		return 1
 	return x * foo5(x - 1)
 
