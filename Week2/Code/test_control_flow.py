@@ -28,9 +28,9 @@ def even_or_odd(x=0): # if not specified, x should take value 0.
 
 	"""
 	#Define function to be tested
-	if x % 2 == 0:
-		return "%d is Even!" % x
-	return "%d is Odd!" % x
+	if x % 2 == 0: #% will divide the first number by the second number & output the remainder
+		return "%d is Even!" % x #If there is 0 remainder then return this
+	return "%d is Odd!" % x #if there is a remainder i.e if x is not = 0 then it's odd
 
 ## I SUPPRESSED THIS BLOCK: WHY?
 

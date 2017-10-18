@@ -10,8 +10,8 @@ import sys
 def createabug(x):
 	y = x**4 # ** means to the power of
 	z = 0.
-	import pdb; pdb.set_trace()
 	y = y/z
+	import pdb; pdb.set_trace()
 	return y
 
 createabug(25)

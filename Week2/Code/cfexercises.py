@@ -11,35 +11,36 @@ import sys # module to interface our program with the operating system
 
 # 1)
 for i in range(3, 17):
-	print 'hello'
+	print 'hello' #for the numbers between the ranges of 3 and 17, print 'hello'
 
 # 2)
 for j in range(12):
 	if j % 3 == 0:
-		print 'hello'
+		print 'hello' #for a list of 12 numbers starting from 0 and divided by 3, 
+		              #if their remainder is comparable to 0, then print 'hello'
 
 # 3)
 	for j in range(15):
 		if j % 5 == 3:
-			print 'hello'
-		elif j % 4 == 3:
+			print 'hello'  #print 'hello' if the remainder of the j % 5 == 3, if not
+		elif j % 4 == 3:   #...then print 'hello' if the remainder is 3 for j % 4
 			print 'hello'
 
 # 4)
 z = 0
 while z != 15:
 	print 'hello'
-	z = z + 3
+	z = z + 3 #while z is not equal to 15, print 'hello'
 
 # 5)
 z = 12
 while z < 100:
-	if z == 31:
+	if z == 31: 
 		for k in range(7):
 			print 'hello'
 	elif z == 18:
 		print 'hello'
-	z = z + 1
+	z = z + 1        
 
 # What does fooXX do?
 def foo1(x):
