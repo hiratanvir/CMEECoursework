@@ -88,10 +88,10 @@ Results directory missing!
 
 Found 12 code files: ConcatenateTwoFiles.sh, .txt, CountLines.sh, variables.sh, CompileLaTeX.sh, csvtospace.sh, FirstExample.tex, MyExampleScript.sh, FirstBiblio.bib, UnixPrac1.txt, tabtocsv.sh, boilerplate.sh
 
-Found the following extra files: FirstExample.pdf, .csv
+Found the following extra files: .csv
 0.5 pt deducted per extra file
 
-Current Marks = 99.0
+Current Marks = 99.5
 
 ======================================================================
 Testing script/code files...
@@ -249,6 +249,30 @@ rm: cannot remove '*.toc': No such file or directory
 rm: cannot remove '*.bbl': No such file or directory
 rm: cannot remove '*.blg': No such file or directory
 
+** (evince:31095): WARNING **: Error when getting information for file '/home/mhasoba/Documents/Teaching/IC_CMEE/2017-18/Coursework/StudentRepos/HiraTanvir_HT4917/Week1/Code/*.pdf': No such file or directory
+
+** (evince:31095): WARNING **: Error setting file metadata: No such file or directory
+
+** (evince:31095): WARNING **: Error setting file metadata: No such file or directory
+
+** (evince:31095): WARNING **: Error setting file metadata: No such file or directory
+
+** (evince:31095): WARNING **: Error setting file metadata: No such file or directory
+
+** (evince:31095): WARNING **: Error setting file metadata: No such file or directory
+
+** (evince:31095): WARNING **: Error setting file metadata: No such file or directory
+
+** (evince:31095): WARNING **: Error setting file metadata: No such file or directory
+
+** (evince:31095): WARNING **: Error setting file metadata: No such file or directory
+
+** (evince:31095): WARNING **: Error setting file metadata: No such file or directory
+
+** (evince:31095): WARNING **: Error setting file metadata: No such file or directory
+
+** (evince:31095): WARNING **: Error setting file metadata: No such file or directory
+
 ======================================================================
 Inspecting script file csvtospace.sh...
 
@@ -278,7 +302,7 @@ Done!
 
 Code ran without errors
 
-Time consumed = 0.00837s
+Time consumed = 0.00336s
 
 ======================================================================
 Inspecting script file FirstExample.tex...
@@ -338,7 +362,7 @@ Hello mhasoba
 
 Code ran without errors
 
-Time consumed = 0.00657s
+Time consumed = 0.00235s
 
 ======================================================================
 Inspecting script file FirstBiblio.bib...
@@ -407,7 +431,7 @@ Done!
 
 Code ran without errors
 
-Time consumed = 0.00809s
+Time consumed = 0.00386s
 
 ======================================================================
 Inspecting script file boilerplate.sh...
@@ -436,7 +460,7 @@ This is a shell script!
 
 Code ran without errors
 
-Time consumed = 0.00587s
+Time consumed = 0.00227s
 
 ======================================================================
 ======================================================================
@@ -449,6 +473,6 @@ Ran into 4 errors
 
 FINISHED WEEKLY ASSESSMENT
 
-Current Marks for the Week = 99.0
+Current Marks for the Week = 99.5
 
 NOTE THAT THESE ARE NOT THE FINAL MARKS FOR THE WEEK, BUT AN UPPER BOUND ON THE MARKS!
