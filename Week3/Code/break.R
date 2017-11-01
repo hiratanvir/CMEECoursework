@@ -1,3 +1,6 @@
+#!/usr/bin/env Rscript
+rm(list=ls())
+
 i <- 0 #Initialize i
 	while(i < Inf) {
 		if (i == 20) {
@@ -6,4 +9,4 @@ i <- 0 #Initialize i
 			cat("i equals " , i , " \n")
 			i <- i + 1 # Update i
 	}
-}
+	}

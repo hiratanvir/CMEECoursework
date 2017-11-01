@@ -1,6 +1,9 @@
 ## apply: applying the same function to rows/colums of a matrix
 ## Build a random matrix
 
+#!/usr/bin/env Rscript
+rm(list=ls())
+
 M <- matrix(rnorm(100), 10, 10)
 
 ## Take the mean of each row

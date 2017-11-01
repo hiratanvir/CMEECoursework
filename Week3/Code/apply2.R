@@ -1,3 +1,6 @@
+#!/usr/bin/env Rscript
+rm(list=ls())
+
 SomeOperation <- function(v){ # (What does this function do?)
 	if (sum(v) > 0){
 		return (v * 100)

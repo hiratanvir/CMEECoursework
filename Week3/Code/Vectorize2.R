@@ -1,3 +1,4 @@
+#!/usr/bin/env Rscript
 rm(list=ls())
 
 stochrickvect<-function(p0=runif(1000,.5,1.5),r=1.2,K=1,sigma=0.2,numyears=100)
@@ -29,6 +30,6 @@ print(system.time(res2<-stochrickvect()))
 #generate random numbers in a vectorized way
 #N is the matrix
 #change the sequence of number in vector rnorm(1,0,sigma) to rnorm(1000,0,sigma)
-#...as it we want to generate numbers for 1000 populations, not just one
+#...as we want to generate numbers for 1000 populations, not just one
 #You are applying the function exp(r*(1-N[yr-1,]/K)+rnorm(1000,0,sigma) to 
 #...the vector N[yr-1,]
