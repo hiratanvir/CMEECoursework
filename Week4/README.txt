@@ -1,4 +1,5 @@
-Week 4 Contents
+Week 4 - Statistics and R programming
+Directory Contents
 
 Code:
 1. lecture2.R
