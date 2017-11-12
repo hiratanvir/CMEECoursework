@@ -1,0 +1,384 @@
+Starting weekly assessment for Hira, Week4
+
+Current Marks = 100
+
+Note that: 
+(1) Major sections begin with a double "====" line 
+(2) Subsections begin with a single "====" line 
+(3) Code output or text file content are printed within single "*****" lines 
+
+======================================================================
+======================================================================
+Your Git repo size this week is about 76.85 MiB on disk 
+
+PART 1: Checking project workflow...
+
+Found the following directories in parent directory: Week6, Week1, Week7, Assessment, Week5, Week2, Week4, .git, Week3
+
+Found the following files in parent directory: README.txt, .gitignore
+
+Checking for key files in parent directory...
+
+Found .gitignore in parent directory, great! 
+
+Printing contents of .gitignore:
+**********************************************************************
+*~ 
+*.tmp
+**********************************************************************
+
+Found README in parent directory, named: README.txt
+
+Printing contents of README.txt:
+**********************************************************************
+My CMEE 2017-18 Coursework Respository
+**********************************************************************
+
+======================================================================
+Looking for the weekly directories...
+
+Found 7 weekly directories: Week1, Week2, Week3, Week4, Week5, Week6, Week7
+
+The Week4 directory will be assessed 
+
+======================================================================
+======================================================================
+PART 2: Checking weekly code and workflow...
+
+======================================================================
+Assessing WEEK4...
+
+Found the following directories: Code, Data
+
+Found the following files: README.txt
+
+Checking for readme file in weekly directory...
+
+Found README in parent directory, named: README.txt
+
+Printing contents of README.txt:
+**********************************************************************
+Week 4 - Statistics and R programming
+Directory Contents
+
+Code:
+1. lecture2.R
+2. lecture3.R
+3. lecture9.R
+4. linear_modelling.R
+5. SparrowSize.R
+
+SparrowStats:
+1. SparrowSize.txt**********************************************************************
+
+Results directory missing!
+
+Found 5 code files: lecture2.R, lecture9.R, SparrowSize.R, lecture3.R, linear_modelling.R
+
+Found the following extra files: Rplots.pdf
+0.5 pt deducted per extra file
+
+Current Marks = 99.5
+
+======================================================================
+Testing script/code files...
+
+======================================================================
+Inspecting script file lecture2.R...
+
+File contents are:
+**********************************************************************
+rm(list=ls())
+setwd("~/Documents/Stats_Julia/Week1/SparrowStats")
+d<-read.table("SparrowSize.txt", header=TRUE)
+str(d)
+
+names(d)
+head(d)
+length(d$Tarsus)
+hist(d$Tarsus)
+mean(d$Tarsus)
+help(mean)
+mean(d$Tarsus, na.rm=TRUE)
+mode(d$Tarsus)
+median(d$Tarsus, na.rm=TRUE)
+par(mfrow=c(2,2))
+hist(d$Tarsus, breaks=3, col="grey")
+hist(d$Tarsus, breaks=10, col="grey")
+hist(d$Tarsus, breaks=30, col="grey")
+hist(d$Tarsus, breaks=100, col="grey")
+
+install.packages("modeest")
+require(modeest)
+#mlv(d$Tarsus, na.rm=TRUE) you can remove the NA's using this but also...
+# Sometimes it's just easier to recode the dataset we work with into one 
+# ...that doesn't contain NAs for tarsus
+d2<-subset(d, d$Tarsus!="NA")
+length(d$Tarsus)
+length(d2$Tarsus)
+mlv(d2$Tarsus)
+mean(d$Tarsus, na.rm=TRUE)
+median(d$Tarsus, na.rm=TRUE)
+range(d$Tarsus, na.rm=TRUE)
+range(d2$Tarsus, na.rm=TRUE)
+var(d$Tarsus, na.rm=TRUE)
+var(d2$Tarsus, na.rm=TRUE)
+sum((d2$Tarsus-mean(d2$Tarsus))^2)/(length(d2$Tarsus)-1) #long method to calculate variance
+sqrt(var(d2$Tarsus))
+sqrt(0.74)
+sd(d2$Tarsus)
+
+#z-scores
+zTarsus<-(d2$Tarsus-mean(d2$Tarsus))/sd(d2$Tarsus)
+var(zTarsus)
+sd(zTarsus)
+hist(zTarsus)
+set.seed(123)
+znormal <- rnorm(1e+06)
+hist(znormal, breaks=100)
+summary(znormal)
+qnorm(c(0.025, 0.975))
+pnorm(.Last.value)
+
+par(mfrow=c(1,2))
+hist(znormal, breaks=100)
+abline(v=qnorm(c(0.25, 0.5, 0.75)), lwd=2)
+abline(v=qnorm(c(0.025, 0.975)), lwd=2, lty="dashed")
+plot(density(znormal))
+abline(v=qnorm(c(0.25, 0.5, 0.75)), col="gray")
+abline(v=qnorm(c(0.025, 0.975)), lty="dotted", col="black")
+abline(h=0, lwd=3, col="blue")
+text(2, 0.3, "1.96", col="red", adj=0)
+text(-2, 0.3, "-1.96", col="red", adj=1)
+
+## null device
+
+boxplot(d$Tarsus~d$Sex.1, col=c("red","blue"), ylab="Tarsus length (mm)")
+
+**********************************************************************
+
+Testing lecture2.R...
+
+Output (only first 500 characters): 
+
+**********************************************************************
+
+**********************************************************************
+
+Encountered error:
+Error in setwd("~/Documents/Stats_Julia/Week1/SparrowStats") : 
+  cannot change working directory
+Execution halted
+
+======================================================================
+Inspecting script file lecture9.R...
+
+File contents are:
+**********************************************************************
+x<-c(1, 2, 3, 4, 8) #make vectors for x values
+y<-c(4, 3, 5, 7, 9) #make vectors for y values
+model1<-(lm(y~x)) #create a linear model(lm) for y over x
+summary(model1)
+plot(model1)
+anova(model1) #Computes analysis of variance (or deviance) tables 
+resid(model1)
+cov(x,y)
+var(x)
+plot(y~x)
+setwd("../Data")
+**********************************************************************
+
+Testing lecture9.R...
+
+Output (only first 500 characters): 
+
+**********************************************************************
+
+Call:
+lm(formula = y ~ x)
+
+Residuals:
+      1       2       3       4       5 
+ 0.5548 -1.2740 -0.1027  1.0685 -0.2466 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)   2.6164     0.8214   3.185   0.0499 *
+x             0.8288     0.1894   4.375   0.0221 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.024 on 3 degrees of freedom
+Multiple R-squared:  0.8645,	Adjusted R-squared:  0.8193 
+F-statistic
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.13474s
+
+======================================================================
+Inspecting script file SparrowSize.R...
+
+File contents are:
+**********************************************************************
+rm(list=ls()) #Clear your workspace at the beginning of each session,
+# and between different parts of a project.
+
+library(lme4)
+require(lme4)
+# require is used inside functions, as it outputs a warning &
+# continues if the package is not found, 
+# lwhereas library will throw an error.
+
+d<-read.table("SparrowSize.txt", header=TRUE) #importing data
+str(d)
+
+#In r when you click run, it runs that line
+#To run the whole script, you can highlight it and click run
+#In this case, you had to run d on the command line first
+#for it to identify the object d.
+#It is better to run command line by line to see what each function does**********************************************************************
+
+Testing SparrowSize.R...
+
+Output (only first 500 characters): 
+
+**********************************************************************
+
+**********************************************************************
+
+Encountered error:
+Loading required package: Matrix
+Loading required package: methods
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'SparrowSize.txt': No such file or directory
+Execution halted
+
+======================================================================
+Inspecting script file lecture3.R...
+
+File contents are:
+**********************************************************************
+getwd()
+setwd("Documents/Stats_Julia/Week1/SparrowStats")
+d<-read.table("SparrowSize.txt", header=TRUE)
+str(d)
+#BirdID - Categorical, Nominal use class(d$BirdID) to find out
+#Year - Numerical, Discrete or Categorical, ranked?
+#Tarsus - Numerical, Continuous
+#Bill - Numeric, Continuous
+#Wing - Numeric, Continuous
+#Mass - Numeric, Continuous
+#Sex - Binomial
+#Sex.1 - Binomial
+
+#if there's more than 2 categories then it's categorical, otherwise it's binomial
+
+hist(d$Tarsus)
+par(mfrow=c(1,1))
+par(mar=c(4,7,6,7))
+
+hist(d$Tarsus)
+hist(d$Bill)
+hist(d$Wing)
+hist(d$Mass)
+
+plot(density(d$Year))
+hist(d$Year)
+
+sqrt(var(d2$Tarsus)/length(d2$Tarsus))
+
+d2<-subset(d, header=TRUE, na.rm=TRUE)
+d2
+length(d$Tarsus)
+length(d2$Tarsus)
+str(d)
+**********************************************************************
+
+Testing lecture3.R...
+
+Output (only first 500 characters): 
+
+**********************************************************************
+[1] "/home/mhasoba/Documents/Teaching/IC_CMEE/2017-18/Coursework/StudentRepos/HiraTanvir_HT4917/Week4/Code"
+
+**********************************************************************
+
+Encountered error:
+Error in setwd("Documents/Stats_Julia/Week1/SparrowStats") : 
+  cannot change working directory
+Execution halted
+
+======================================================================
+Inspecting script file linear_modelling.R...
+
+File contents are:
+**********************************************************************
+rm(list=ls())
+setwd("~/Documents/Stats_Julia/SparrowStats")
+d<-read.table("SparrowSize.txt", header=TRUE)
+
+plot(d$Mass~d$Tarsus, ylab="Mass (g)", xlab="Tarsus (mm)", pch=19, cex=0.4)
+
+x<-c(1:100)
+b<-0.5
+m<-1.5
+y<-m*x+b
+plot(x,y, xlim=c(0,100), ylim=c(0,100), pch=19, cex=0.5)
+d$Mass[1]
+length(d$Mass)
+d$Mass[1770]
+plot(d$Mass~d$Tarsus, ylab="Mass (g)", xlab="Tarsus (mm)", pch=19, cex=0.4, ylim=c(-5,38), xlim=c(0,22))
+
+d1<-subset(d, d$Mass!="NA")
+d2<-subset(d1, d1$Tarsus!="NA")
+length(d2$Tarsus)
+
+model1<-lm(Mass~Tarsus, data=d2)
+summary(model1)
+plot(model1)
+
+hist(model1$residuals)
+head(model1$residuals)
+
+model2<-lm(y~x)
+summary(model2)
+plot(model2)
+
+d2$z.Tarsus<-scale(d2$Tarsus)
+model3<-lm(Mass~z.Tarsus, data=d2)
+plot(model3)
+summary(model3)
+**********************************************************************
+
+Testing linear_modelling.R...
+
+Output (only first 500 characters): 
+
+**********************************************************************
+
+**********************************************************************
+
+Encountered error:
+Error in setwd("~/Documents/Stats_Julia/SparrowStats") : 
+  cannot change working directory
+Execution halted
+
+======================================================================
+======================================================================
+Finished running scripts
+
+Ran into 4 errors
+
+======================================================================
+======================================================================
+
+FINISHED WEEKLY ASSESSMENT
+
+Current Marks for the Week = 99.5
+
+NOTE THAT THESE ARE NOT THE FINAL MARKS FOR THE WEEK, BUT AN UPPER BOUND ON THE MARKS!
