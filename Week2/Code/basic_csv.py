@@ -7,11 +7,11 @@ import csv
 f = open('../Sandbox/testcsv.csv','rb')
 
 csvread = csv.reader(f)
-temp = []
-for row in csvread:
+temp = [] #create a mutuble tuple called temp
+for row in csvread: #for every row in csvread, append the row to temp tuple
 	temp.append(tuple(row))
-	print row
-	print "The species is", row[0]
+	print row #Print the row
+	print "The species is", row[0] #Print the first element in that row
 
 f.close()
 
@@ -23,7 +23,7 @@ csvread = csv.reader(f)
 csvwrite = csv.writer(g)
 for row in csvread:
 	print row
-	csvwrite.writerow([row[0], row[4]])
-	
+	csvwrite.writerow([row[0], row[4]]) #Should print just the species name and bodymass
+	#into a new file - extracts data from the original file
 f.close()
 g.close()
