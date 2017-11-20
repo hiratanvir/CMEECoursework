@@ -1,4 +1,6 @@
 *~ 
 *.tmp
-.RData
-.Rhistory
+*.pyc
+*.tif
+*.shp
+._*
