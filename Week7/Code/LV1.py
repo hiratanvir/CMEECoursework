@@ -1,3 +1,10 @@
+#!usr/bin/python
+
+"""Chapter 6.3 Practical"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
 """ The typical Lotka-Volterra Model simulated using scipy """
 
 import scipy as sc

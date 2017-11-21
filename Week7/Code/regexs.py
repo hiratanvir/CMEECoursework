@@ -1,3 +1,10 @@
+#!usr/bin/python
+
+"""Chapter 6.6.3 regex in python"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
 import re
 
 my_string = "a given string"

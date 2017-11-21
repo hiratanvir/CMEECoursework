@@ -1,3 +1,10 @@
+#!usr/bin/python
+
+"""Chapter 6.2,2 Quick Profiling with timeit"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
 ##############################################################################
 # range vs. xrange.
 ##############################################################################
@@ -47,8 +54,8 @@ def my_squares_lc(x):
 	out = [i ** 2 for i in x]
 	return out
 
-# %timeit my_squares_loop(my_list)
-# %timeit my_squares_lc(my_list)
+#%timeit my_squares_loop(my_list)
+#%timeit my_squares_lc(my_list)
 
 ##############################################################################
 # for loops vs. join method.

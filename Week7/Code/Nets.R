@@ -1,8 +1,10 @@
 #!/usr/bin/env Rscript
+
+#Chapter 6.4 Practical
+
 rm(list=ls())
 
 library(igraph) # Load the igraph package
-library(Cairo)
 
 # 	ICL	UoR	CEH	ZSL	CEFAS	Nonacademic/CASE
 # ICL	0	0	10	9	5	70

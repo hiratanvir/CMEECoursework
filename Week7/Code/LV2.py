@@ -1,3 +1,10 @@
+#!usr/bin/python
+
+"""Chapter 6.3 Practical"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
 """ The typical Lotka-Volterra Model simulated using scipy """
 """ LV2.py practical is a modification of LV1.py by taking the arguments for the parameters from the command line """
 
@@ -56,4 +63,4 @@ p.show()
 f1.savefig('../Results/LV2_plot.pdf') #Save figure
 
 print "Resource population density is %f" % pop[-1,0] #-1 is the last element entry (nth entry)
-print "Resource population density is %f" % pop[-1,1] 
+print "Resource population density is %f" % pop[-1,1]

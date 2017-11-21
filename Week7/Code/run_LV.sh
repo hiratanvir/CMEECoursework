@@ -1,5 +1,10 @@
 #!/bin/bash
 
+"""Chapter 6.3 Practical"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
 # Shell script to run the Lotka-Volterra model scripts and profile's them,
 #printing the time it takes to run each loop in each script
 

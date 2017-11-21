@@ -1,6 +1,6 @@
 #!usr/bin/python
 
-"""Chapter 6.6 Networks in Python (and R)"""
+"""Chapter 6.4 Networks in Python (and R)"""
 
 __author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
 __version__ = '2.7.14'

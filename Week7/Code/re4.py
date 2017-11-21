@@ -1,4 +1,11 @@
-MyStr = 'Samraat Pawar, s.pawar@imperial.ac.uk, Systems biology and ecological theory'
+#!usr/bin/python
+
+"""Chapter 6.6.3 regex in python"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
+ = 'Samraat Pawar, s.pawar@imperial.ac.uk, Systems biology and ecological theory'
 
 # without groups
 match = re.search(r"[\w\s]*,\s[\w\.@]*,\s[\w\s&]*",MyStr)
