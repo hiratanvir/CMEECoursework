@@ -1,0 +1,1496 @@
+Starting weekly assessment for Hira, Week7
+
+Current Marks = 100
+
+Note that: 
+(1) Major sections begin with a double "====" line 
+(2) Subsections begin with a single "====" line 
+(3) Code output or text file content are printed within single "*****" lines 
+
+======================================================================
+======================================================================
+Your Git repo size this week is about 83.91 MiB on disk 
+
+PART 1: Checking project workflow...
+
+Found the following directories in parent directory: Week3, Week5, Week1, Week7, Week4, Week2, .git, Assessment, Week6
+
+Found the following files in parent directory: .gitignore, README.txt
+
+Checking for key files in parent directory...
+
+Found .gitignore in parent directory, great! 
+
+Printing contents of .gitignore:
+**********************************************************************
+*~ 
+*.tmp
+*.pyc
+*.tif
+*.shp
+._*
+**********************************************************************
+
+Found README in parent directory, named: README.txt
+
+Printing contents of README.txt:
+**********************************************************************
+My CMEE 2017-18 Coursework Respository
+**********************************************************************
+
+======================================================================
+Looking for the weekly directories...
+
+Found 7 weekly directories: Week1, Week2, Week3, Week4, Week5, Week6, Week7
+
+The Week7 directory will be assessed 
+
+======================================================================
+======================================================================
+PART 2: Checking weekly code and workflow...
+
+======================================================================
+Assessing WEEK7...
+
+Found the following directories: Data, Sandbox, Code, Results
+
+Found the following files: README.txt
+
+Checking for readme file in weekly directory...
+
+Found README in parent directory, named: README.txt
+
+Printing contents of README.txt:
+**********************************************************************
+Week 7 - Advanced Python
+Directory Contents:
+
+Code:
+1.  LV1.py #Using python imports scipy to perform mathematical functions and pylab to plot graph 
+
+2.  profileme.py #using the %run -p (filename) command to profile function execution times in script
+
+3.  timeitme.py #Using timeit to find the most efficient method, i.e. loops, to run script
+
+4.  LV2.py #Modification of LV1.py by taking arguments for parameters from the command line
+ 
+5.  run_LV.sh #Profiling the two scripts to determine time it takes to run each loop
+
+6.  DrawFW.py #Using networkx package to plot networks graph using randomly number generation
+
+7.  Nets.R #Using igraph in R to plot networks graph visualising QMEE CDT collaboration network, coloring the nodes by node type, plotting weighted edges, and adding a legend
+
+8.  Nets.py #Replicating Nets.R graph in python using networkx
+
+9.  regexs.py #Using regex functions from python module re- to search string for match to given pattern
+
+10.  blackbirds.py #Using regex on csv file, using re.findall function to extract specific characters
+
+11. Test.R #Creating a simple R-script to test python's subprocess module
+
+12. TestR.py #Using subprocess.Popen to open execute R-script from within python/ipython
+
+13. using_os.py #Using subprocess and os to get a list of files and directories from home directory
+
+14. fmr.R #R-script which plots a logarithmic graph and writes list of species to a csv file
+
+15. run_fmr_R.py #using subprocess.Popen to open and run fmr.R, printing R console output to python console
+
+16. re4.py #Parsing email addresses using regex
+
+17. MyFirstJupyterNb.ipynb #My first jupyter notebook
+
+
+Data: 
+1. blackbirds.txt #Data used for blackbirds.py
+
+2. NagyEtAl1999.csv #Data used for fmr.R
+
+3. QMEE_Net_Mat_edges.csv #Edges data used for Nets.py and Nets.R
+
+4. QMEE_Net_Mat_nodes.csv #Nodes data used for Nets.py and Nets.R
+
+Results:
+To be produced when you run the scripts.
+**********************************************************************
+
+Found following files in results directory: README.txt...
+
+Found 17 code files: using_os.py, Nets.py, regexs.py, run_LV.sh, timeitme.py, DrawFW.py, TestR.R, Nets.R, LV1.py, fmr.R, re4.py, TestR.py, blackbirds.py, run_fmr_R.py, profileme.py, MyFirstJupyterNb.ipynb, LV2.py
+
+Found the following extra files: .Rhistory
+0.5 pt deducted per extra file
+
+Current Marks = 99.5
+
+======================================================================
+Testing script/code files...
+
+======================================================================
+Inspecting script file using_os.py...
+
+File contents are:
+**********************************************************************
+#!usr/bin/python
+
+"""Chapter 6.10 Practical - Using is problem 1"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
+# Use the subprocess.os module to get a list of files and  directories
+# in your ubuntu home directory
+
+# Hint: look in subprocess.os and/or subprocess.os.path and/or
+# subprocess.os.walk for helpful functions
+
+import subprocess
+import os
+
+#################################
+#~Get a list of files and
+#~directories in your home/ that start with an uppercase 'C'
+
+# Type your code here:
+
+# Get the user's home directory.
+home = subprocess.os.path.expanduser("~")
+
+# Create a list to store the results.
+# creates an empty list
+FilesDirsStartingWithC = []
+
+# Use a for loop to walk through the home directory.
+# os.walk function goes throught the files
+for (dir, subdir, files) in subprocess.os.walk(home):
+    for f in files:
+        if f.startswith("C"):
+            FilesDirsStartingWithC.append(os.path.join(f))
+            print FilesDirsStartingWithC
+
+#################################
+# Get files and directories in your home/ that start with either an
+# upper or lower case 'C'
+FilesCc = []
+# Type your code here:
+for dirpath, subdirs, files in os.walk(home):
+    for f in files:
+        if f.startswith("c"): #finds files with lowercase c and appends to the list
+            FilesCc.append(os.path.join(f))
+        if f.startswith("C"): #finds files with uppercase C and appends to the list
+            FilesCc.append(os.path.join(f))
+            print FilesCc
+
+#################################
+# Get only directories in your home/ that start with either an upper or
+#~lower case 'C'
+SubdirCc = []
+# Type your code here:
+for f in os.listdir(home):
+    if f.startswith("c"): #finds files with lowercase c and appends to the list
+        SubdirCc.append(os.path.join(f))
+    if f.startswith("C"): #finds files with uppercase C and appends to the list
+        SubdirCc.append(os.path.join(f))
+        print SubdirCc
+**********************************************************************
+
+Testing using_os.py...
+
+using_os.py is a Python script file;
+ checking for docstrings...
+
+Found one or more doctrings!
+
+Output (only first 500 characters): 
+
+**********************************************************************
+['C--Documents and Settings-sam...7o5.pdf']
+['C--Documents and Settings-sam...7o5.pdf', 'Chaui-Berlinck et al._2005_Journal of Experimental Biology.pdf']
+['C--Documents and Settings-sam...7o5.pdf', 'Chaui-Berlinck et al._2005_Journal of Experimental Biology.pdf', 'Canaday, Rivadeneyra_2001_Biodiversity and Conservation.pdf']
+['C--Documents and Settings-sam...7o5.pdf', 'Chaui-Berlinck et al._2005_Journal of Experimental Biology.pdf', 'Canaday, Rivadeneyra_2001_Biodiversity and Conservation.pdf', '
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 11.12255s
+
+======================================================================
+Inspecting script file Nets.py...
+
+File contents are:
+**********************************************************************
+#!usr/bin/python
+
+"""Chapter 6.6 Networks in Python (and R)"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
+import networkx as nx #Package creates graphs
+import scipy as sc  #allows operations on arrays
+import matplotlib.pyplot as plt #allows plotting in python
+import pandas as pd #reads in data as dataframes
+import csv #allows csv files to be read
+
+#1. Reading in the edges as a dataframe
+edges = pd.read_csv('../Data/QMEE_Net_Mat_edges.csv', sep=',')
+print edges
+
+#2. Reading in the nodes as a dataframe
+nodes = pd.read_csv('../Data/QMEE_Net_Mat_nodes.csv', sep=',')
+print nodes
+
+#3. Creating an empty list and then converting the dataframe
+#into a list of tuples which will fo into n_nodes
+
+n_nodes=[]
+for row in nodes.iterrows():
+    index, data=row
+    n_nodes.append(data.tolist())
+
+#4. Getting the names of the nodes to be plotted
+New_nodes = [i[0] for i in n_nodes]
+
+#5. Gives integers below 0.8 in edges dataframe a False value and >0.8 True value
+sc.triu(edges, 1) > 0
+
+#6. Then extracting the rows/columns where it's True & shows you the upper part of triangle to avoid repeating co-ordinates
+rows, cols = sc.where(sc.triu(edges > 0))
+
+#7. Create a list comprehension (tuples of tuples) of node names where there is a link (edges)
+Lnks = [(New_nodes[i], New_nodes[z]) for i, z in zip(rows, cols)]
+
+#8. Weights of edges retrieved from Lnks
+weights = [edges.iloc[i,z] for i,z in zip(rows,cols)]
+relative_weight = weights/(min(weights)*2)
+
+#9. Creating a dictionary and setting nodes 'id' as key, and 'Type' as value
+location_type = nodes.set_index('id')['Type'].to_dict()
+
+#10. Creating lists of nodes according to location type
+
+#University
+University_nodes = [key for key, value in location_type.items() if value == 'University']
+print University_nodes
+
+#Hosting Partner
+HP_nodes = [key for key, value in location_type.items() if value == 'Hosting Partner']
+print HP_nodes
+
+#Non-Hosting Partner
+NonHP_nodes = [key for key, value in location_type.items() if value == 'Non-Hosting Partners']
+print NonHP_nodes
+
+#10. Plotting the graph
+G = nx.Graph() #Creating an empty graph called G
+G.add_nodes_from(New_nodes) #Adding the list of nodes to graph
+nx.set_node_attributes(G,'location', location_type)
+pos = nx.spring_layout(G) #using a spring layout to fix node positions
+
+#plotting the links between nodes and weights of edges between nodes
+nx.draw_networkx_edges(G, pos, edgelist=Lnks, width=list(relative_weight))
+
+#increasing the size of the nodes, setting labels and colours according to network type
+nx.draw_networkx_nodes(G, pos, node_size = 3000, nodelist = University_nodes, node_color = 'g', label = 'University')
+nx.draw_networkx_nodes(G, pos, node_size = 3000, nodelist = HP_nodes, node_color = 'b', label = 'Hosting Partner')
+nx.draw_networkx_nodes(G, pos, node_size = 3000, nodelist = NonHP_nodes, node_color = 'r', label = 'Non-Hosting Partners')
+
+nx.draw_networkx_labels(G, pos) #adding labels to the nodes
+
+#Adding a legend to the graph and adjusting it's size and position
+plt.legend(title="Network Type", fontsize=10, loc='best', markerscale=0.2, scatterpoints=1)
+plt.tight_layout()
+plt.savefig('../Results/networks.svg')
+plt.show()
+**********************************************************************
+
+Testing Nets.py...
+
+Nets.py is a Python script file;
+ checking for docstrings...
+
+Found one or more doctrings!
+
+Output (only first 500 characters): 
+
+**********************************************************************
+
+**********************************************************************
+
+Encountered error:
+Traceback (most recent call last):
+  File "Nets.py", line 11, in <module>
+    import pandas as pd #reads in data as dataframes
+ImportError: No module named pandas
+
+======================================================================
+Inspecting script file regexs.py...
+
+File contents are:
+**********************************************************************
+#!usr/bin/python
+
+"""Chapter 6.6.3 regex in python"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
+import re
+
+my_string = "a given string"
+# find a space in the string
+match = re.search(r'\s', my_string)
+
+print match
+
+# this should print something like
+# <_sre.SRE_Match object at 0x93ecdd30>
+
+# now we can see what has matched
+match.group()
+
+match = re.search(r's\w*', my_string)
+
+# this should return "string"
+match.group()
+
+# NOW AN EXAMPLE OF NO MATCH:
+# find a digit in the string
+match = re.search(r'\d', my_string)
+
+# this should print "None"
+print match
+
+  # Further Example
+  #
+
+my_string = 'an example'
+match = re.search(r'\w*\s', my_string)
+
+if match:
+  print 'found a match:', match.group()
+else:
+  print 'did not find a match'
+
+match = re.search(r'\d' , "it takes 2 to tango")
+print match.group() # print 2
+
+match = re.search(r'\s\w*\s', 'once upon a time')
+match.group() # ' upon '
+
+#To find both ' upon a ' enclosed between spaces - use .
+# . matches any character except line break (newline)
+match = re.search(r'\s\w.*\s', 'once upon a time')
+match.group() # ' upon a'
+
+match = re.search(r'\s\w{1,3}\s', 'once upon a time') #can also match = re.search(r'\s\w\s', 'once upon a time')
+match.group() # ' a '
+
+match = re.search(r'\s\w*$', 'once upon a time')
+match.group() # ' time'
+
+match = re.search(r'\w*\s\d.*\d', 'take 2 grams of H2O')
+match.group() # 'take 2 grams of H2'
+
+match = re.search(r'^\w*.*\s', 'once upon a time') #match any character including spaces from the start of the line up and repeats match until the last space
+match.group() # 'once upon a '
+## NOTE THAT *, +, and { } are all "greedy":
+## They repeat the previous regex token as many times as possible
+## As a result, they may match more text than you want
+
+## To make it non-greedy, use ?: #? only performs the match once and therefore only outputs the character matched before the first space
+match = re.search(r'^\w*.*?\s', 'once upon a time')
+match.group() # 'once '
+
+## To further illustrate greediness, let's try matching an HTML tag:
+match = re.search(r'<.+>', 'This is a <EM>first</EM> test')
+match.group() # '<EM>first</EM>'
+## But we didn't want this: we wanted just <EM>
+## It's because + is greedy!
+
+## Instead, we can make + "lazy"!
+match = re.search(r'<.+?>', 'This is a <EM>first</EM> test')
+match.group() # '<EM>'
+
+## OK, moving on from greed and laziness
+match = re.search(r'\d*\.?\d*','1432.75+60.22i') #note "\" before "."
+match.group() # '1432.75'
+
+match = re.search(r'\d*\.?\d*','1432+60.22i')
+match.group() # '1432'
+
+match = re.search(r'[AGTC]+', 'the sequence ATTCGT')
+match.group() # 'ATTCGT'
+
+re.search(r'\s+[A-Z]{1}\w+\s\w+', 'The bird-shit frog''s name is Theloderma asper').group() # ' Theloderma asper'
+## NOTE THAT I DIRECTLY RETURNED THE RESULT BY APPENDING .group()
+**********************************************************************
+
+Testing regexs.py...
+
+regexs.py is a Python script file;
+ checking for docstrings...
+
+Found one or more doctrings!
+
+Output (only first 500 characters): 
+
+**********************************************************************
+<_sre.SRE_Match object at 0x7feb1b9315e0>
+None
+found a match: an 
+2
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.00933s
+
+======================================================================
+Inspecting script file run_LV.sh...
+
+File contents are:
+**********************************************************************
+#!/bin/bash
+
+"""Chapter 6.3 Practical"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
+# Shell script to run the Lotka-Volterra model scripts and profile's them,
+#printing the time it takes to run each loop in each script
+
+#The equivalent in bash for %run -p in ipython (which profiles a script) is python -m cProfile
+
+python -m cProfile LV1.py &
+python -m cProfile LV2.py 2 0.1 1.5 0.75 30.0
+**********************************************************************
+
+Testing run_LV.sh...
+
+Output (only first 500 characters): 
+
+**********************************************************************
+
+**********************************************************************
+
+Encountered error:
+run_LV.sh: line 3: Chapter 6.3 Practical: command not found
+run_LV.sh: line 5: __author__: command not found
+run_LV.sh: line 6: __version__: command not found
+
+======================================================================
+Inspecting script file timeitme.py...
+
+File contents are:
+**********************************************************************
+#!usr/bin/python
+
+"""Chapter 6.2,2 Quick Profiling with timeit"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
+##############################################################################
+# range vs. xrange.
+##############################################################################
+import time
+import timeit
+
+def a_not_useful_function():
+	y = 0
+	for i in range(100000):
+		y = y + i
+	return 0
+
+def a_less_useless_function():
+	y = 0
+	for i in xrange(100000):
+		y = y + i
+	return 0
+
+# One approach is to time it like this:
+start = time.time()
+a_not_useful_function()
+print "a_not_useful_function takes %f s to run." % (time.time() - start)
+
+start = time.time()
+a_less_useless_function()
+print "a_less_useless_function takes %f s to run." % (time.time() - start)
+
+# But you'll notice that if you run it multiple times, the time taken changes a
+# bit. So instead, you can also run:
+# %timeit a_not_useful_function()
+# %timeit a_less_useless_function()
+# in iPython.
+
+##############################################################################
+# for loops vs. list comprehensions.
+##############################################################################
+
+my_list = range(1000)
+
+def my_squares_loop(x):
+	out = []
+	for i in x:
+		out.append(i ** 2)
+	return out
+
+def my_squares_lc(x):
+	out = [i ** 2 for i in x]
+	return out
+
+#%timeit my_squares_loop(my_list)
+#%timeit my_squares_lc(my_list)
+
+##############################################################################
+# for loops vs. join method.
+##############################################################################
+
+import string
+my_letters = list(string.ascii_lowercase)
+
+def my_join_loop(l):
+	out = ''
+	for letter in l:
+		out += letter
+	return out
+
+def my_join_method(l):
+	out = ''.join(l)
+	return out
+
+# %timeit(my_join_loop(my_letters))
+# %timeit(my_join_method(my_letters))
+
+##############################################################################
+# Oh dear.
+##############################################################################
+
+def getting_silly_pi():
+	y = 0
+	for i in xrange(100000):
+		y = y + i
+	return 0
+
+def getting_silly_pii():
+	y = 0
+	for i in xrange(100000):
+		y += i
+	return 0
+
+# %timeit(getting_silly_pi())
+# %timeit(getting_silly_pii())
+**********************************************************************
+
+Testing timeitme.py...
+
+timeitme.py is a Python script file;
+ checking for docstrings...
+
+Found one or more doctrings!
+
+Missing docstrings in one more functions!
+.5 pt deducted per missing docstring
+
+Current Marks = 91.0
+
+Output (only first 500 characters): 
+
+**********************************************************************
+a_not_useful_function takes 0.004020 s to run.
+a_less_useless_function takes 0.002413 s to run.
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.01748s
+
+======================================================================
+Inspecting script file DrawFW.py...
+
+File contents are:
+**********************************************************************
+#!usr/bin/python
+
+"""Chapter 6.4 Networks in Python (and R)"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
+"""
+Plot a snapshot of a food web graph/network.
+Needs: Adjacency list of who eats whom (consumer name/id in 1st
+column, resource name/id in 2nd column), and list of species
+names/ids and properties such as biomass (node abundance), or average
+body mass.
+"""
+
+import networkx as nx
+import scipy as sc
+import matplotlib.pyplot as plt
+# import matplotlib.animation as ani #for animation
+
+def GenRdmAdjList(N = 2, C = 0.5): #N=2 as default
+    """
+    Generate random adjacency list given N nodes with connectance
+    probability C
+    """
+    Ids = range(N)
+    ALst = []
+    for i in Ids:
+            if sc.random.uniform(0,1,1) < C: #Generating uniformly distributred random number from 0-1 one time
+                Lnk = sc.random.choice(Ids,2).tolist() #sc.random.choice(n, size) - creates an array of numbers from
+#so it will randomnly generate 2 nodes that will be connected and adding it to Lnk
+                if Lnk[0] != Lnk[1]: #avoid self loops
+                    ALst.append(Lnk)
+    return ALst
+
+## Assign body mass range
+SizRan = ([-10,10]) #use log scale
+SizRan
+## Assign number of species (MaxN) and connectance (C)
+MaxN = 30
+C = 0.75
+
+## Generate adjacency list:
+AdjL = sc.array(GenRdmAdjList(MaxN, C)) #giving it different input parameters here
+# AdjL shows a list showing links between two different species - link generated randomnly
+## Generate species (node) data:
+Sps = sc.unique(AdjL) # get species ids
+# Sps is a list of species that is created from 0 - 29
+Sizs = sc.random.uniform(SizRan[0],SizRan[1],MaxN)# Generate body sizes (log10 scale)
+# Sizs is the body sizes of each node(species) and is randomly generated
+###### The Plotting #####
+plt.close('all')
+
+##Plot using networkx:
+
+## Calculate coordinates for circular configuration:
+## (See networkx.layout for inbuilt functions to compute other types of node
+# coords)
+
+pos = nx.circular_layout(Sps)
+# pos are the co-ordinates of the species from 0-29
+G = nx.Graph()
+G
+G.add_nodes_from(Sps)
+G.add_edges_from(tuple(AdjL))
+NodSizs= 10**-32 + (Sizs-min(Sizs))/(max(Sizs)-min(Sizs)) #node sizes in proportion to  - body sizes
+nx.draw(G, pos, node_size = NodSizs*1000)
+plt.show()
+**********************************************************************
+
+Testing DrawFW.py...
+
+DrawFW.py is a Python script file;
+ checking for docstrings...
+
+Found one or more doctrings!
+
+Output (only first 500 characters): 
+
+**********************************************************************
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 10.00599s
+
+======================================================================
+Inspecting script file TestR.R...
+
+File contents are:
+**********************************************************************
+#!/usr/bin/env Rscript
+rm(list=ls())
+
+print("Hello, this is R")
+**********************************************************************
+
+Testing TestR.R...
+
+Output (only first 500 characters): 
+
+**********************************************************************
+[1] "Hello, this is R"
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.08372s
+
+======================================================================
+Inspecting script file Nets.R...
+
+File contents are:
+**********************************************************************
+#!/usr/bin/env Rscript
+
+#Chapter 6.4 Practical
+
+rm(list=ls())
+
+library(igraph) # Load the igraph package
+
+# 	ICL	UoR	CEH	ZSL	CEFAS	Nonacademic/CASE
+# ICL	0	0	10	9	5	70
+# UoR		0	12	0	2	76
+# CEH			0	0	0	6
+# ZSL				0# plot(net, edge.arrow.size=1, edge.curved=.1,
+#      vertex.color="orange", vertex.frame.color="#555555",
+#      vertex.label=V(net)$Type, vertex.label.color="black",
+#      vertex.label.cex=.7) 	0	28
+# CEFAS					0	0
+# Nonacademic/CASE						0
+
+links <- read.csv("../Data/QMEE_Net_Mat_edges.csv", header=T, as.is=T)
+nodes <- read.csv("../Data/QMEE_Net_Mat_nodes.csv", header=T, row.names = 1)
+
+#Create graph object
+net <- graph.adjacency(as.matrix(links), mode = "directed", weighted=TRUE, diag=F)
+
+#Test plot
+# plot(net, edge.arrow.size=1, edge.curved=.1,
+#      vertex.color="orange", vertex.frame.color="#555555",
+#      vertex.label=V(net)$Type, vertex.label.color="black",
+#      vertex.label.cex=.7)
+
+# Generate colors based on partner type:
+colrs <- c("green", "red", "blue")
+V(net)$color <- colrs[nodes$Type]
+
+# Set node size based on Number of PIs:
+V(net)$size <- V(net)$Pis*0.9
+
+V(net)$size <- 50
+
+# Set edge width based on weight (PhD Students):
+E(net)$width <- E(net)$weight
+
+#change arrow size and edge color:
+E(net)$arrow.size <- 1
+E(net)$edge.color <- "gray80"
+
+E(net)$width <- 1+E(net)$weight/10
+
+graphics.off()
+
+svg("../Results/QMEENet.svg",width=7,height=7)
+
+plot(net, edge.curved=0, vertex.label.color="black")
+
+legend(x=-1.5, y=-0.1, c("University","Hosting Partner", "Non-hosting Partner"), pch=21,
+       col="#777777", pt.bg=colrs, pt.cex=2, cex=.8, bty="n", ncol=1)
+
+dev.off()
+**********************************************************************
+
+Testing Nets.R...
+
+Output (only first 500 characters): 
+
+**********************************************************************
+null device 
+          1 
+
+**********************************************************************
+
+Encountered error:
+Loading required package: methods
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+
+======================================================================
+Inspecting script file LV1.py...
+
+File contents are:
+**********************************************************************
+#!usr/bin/python
+
+"""Chapter 6.3 Practical"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
+""" The typical Lotka-Volterra Model simulated using scipy """
+
+import scipy as sc
+import scipy.integrate as integrate
+import pylab as p #Contains matplotlib for plotting
+
+# import matplotlip.pylab as p #Some people might need to do this
+
+def dR_dt(pops, t=0):
+    """ Returns the growth rate of predator and prey populations at any
+    given time step """
+
+    R = pops[0] #resource - prey
+    C = pops[1] #consumer - predator
+    dRdt = r*R - a*R*C
+    dydt = -z*C + e*a*R*C
+
+    return sc.array([dRdt, dydt])
+
+# Define parameters:
+r = 1. # Resource growth rate
+a = 0.1 # Consumer search rate (determines consumption rate)
+z = 1.5 # Consumer mortality rate
+e = 0.75 # Consumer production efficiency
+
+# Now define time -- integrate from 0 to 15, using 1000 points:
+t = sc.linspace(0, 15,  1000)
+
+x0 = 10 #initial conditions - 10 preys
+y0 = 5  # 5 predators
+z0 = sc.array([x0, y0]) # initials conditions: 10 prey and 5 predators per unit area
+
+pops, infodict = integrate.odeint(dR_dt, z0, t, full_output=True) #setting up equation for graph
+
+infodict['message']     # >>> 'Integration successful.'
+
+prey, predators = pops.T # What's this for? pops.T transposes it
+f1 = p.figure() #Open empty figure object
+p.plot(t, prey, 'g-', label='Resource density') # Plot g is green
+p.plot(t, predators  , 'b-', label='Consumer density') #b is blue
+p.grid()
+p.legend(loc='best')
+p.xlabel('Time')
+p.ylabel('Population')
+p.title('Consumer-Resource population dynamics')
+p.show()
+f1.savefig('prey_and_predators_1.pdf') #Save figure
+**********************************************************************
+
+Testing LV1.py...
+
+LV1.py is a Python script file;
+ checking for docstrings...
+
+Found one or more doctrings!
+
+Output (only first 500 characters): 
+
+**********************************************************************
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 10.00548s
+
+======================================================================
+Inspecting script file fmr.R...
+
+File contents are:
+**********************************************************************
+# Plots log(field metabolic rate) against log(body mass) for the Nagy et al 
+# 1999 dataset to a file fmr.pdf.
+# Writes the list of species names to species.csv
+
+cat("Reading CSV\n")
+
+nagy <- read.csv('../Data/NagyEtAl1999.csv', stringsAsFactors = FALSE)
+
+cat("Creating graph\n")
+pdf('../Results/fmr_plot.pdf', 11, 8.5)
+col <- c(Aves='purple3', Mammalia='red3', Reptilia='green3')
+plot(log10(nagy$M.g), log10(nagy$FMR.kJ.day.1), pch=19, col=col[nagy$Class], 
+     xlab=~log[10](M), ylab=~log[10](FMR))
+for(class in unique(nagy$Class)){
+    model <- lm(log10(FMR.kJ.day.1) ~ log10(M.g), data=nagy[nagy$Class==class,])
+    abline(model, col=col[class])
+}
+dev.off()
+
+cat("Finished in R!\n")
+**********************************************************************
+
+Testing fmr.R...
+
+Output (only first 500 characters): 
+
+**********************************************************************
+Reading CSV
+Creating graph
+null device 
+          1 
+Finished in R!
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.10584s
+
+======================================================================
+Inspecting script file re4.py...
+
+File contents are:
+**********************************************************************
+#!usr/bin/python
+
+"""Chapter 6.6.3 regex in python"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
+ = 'Samraat Pawar, s.pawar@imperial.ac.uk, Systems biology and ecological theory'
+
+# without groups
+match = re.search(r"[\w\s]*,\s[\w\.@]*,\s[\w\s&]*",MyStr)
+match = re.search(r"[\w\s]*,\s[\w\.@]*,\s[\w\s&]*",MyStr)
+
+match.group()
+'Samraat Pawar, s.pawar@imperial.ac.uk, Systems biology and ecological theory'
+
+match.group(0)
+'Samraat Pawar, s.pawar@imperial.ac.uk, Systems biology and ecological theory'
+
+# now add groups using ( )
+match = re.search(r"([\w\s]*),\s([\w\.@]*),\s([\w\s&]*)",MyStr)
+
+match.group(0)
+'Samraat Pawar, s.pawar@imperial.ac.uk, Systems biology and ecological theory'
+
+match.group(1)
+'Samraat Pawar'
+
+match.group(2)
+'s.pawar@imperial.ac.uk'
+
+match.group(3)
+'Systems biology and ecological theory'
+**********************************************************************
+
+Testing re4.py...
+
+re4.py is a Python script file;
+ checking for docstrings...
+
+Found one or more doctrings!
+
+Output (only first 500 characters): 
+
+**********************************************************************
+
+**********************************************************************
+
+Encountered error:
+  File "re4.py", line 8
+    = 'Samraat Pawar, s.pawar@imperial.ac.uk, Systems biology and ecological theory'
+    ^
+IndentationError: unexpected indent
+
+======================================================================
+Inspecting script file TestR.py...
+
+File contents are:
+**********************************************************************
+#!usr/bin/python
+
+"""Chapter 6.9.2 Running R"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
+import subprocess
+
+subprocess.Popen("/usr/lib/R/bin/Rscipt --verbose TestR.R > \
+../Results/TestR.Rout 2> ../Results/TestR_errFile.Rout", \
+shell=True).wait()
+**********************************************************************
+
+Testing TestR.py...
+
+TestR.py is a Python script file;
+ checking for docstrings...
+
+Found one or more doctrings!
+
+Output (only first 500 characters): 
+
+**********************************************************************
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.01098s
+
+======================================================================
+Inspecting script file blackbirds.py...
+
+File contents are:
+**********************************************************************
+#!usr/bin/python
+
+"""Chapter 6 Regular Expressions"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
+import re
+import ast
+# Read the file
+f = open('../Data/blackbirds.txt', 'r')
+text = f.read()
+f.close()
+
+# remove \t\n and put a space in:
+text = text.replace('\t',' ')
+text = text.replace('\n',' ')
+
+# note that there are "strange characters" (these are accents and
+# non-ascii symbols) because we don't care for them, first transform
+# to ASCII:
+text = text.decode('ascii', 'ignore')
+
+
+# Now extend this script so that it captures the Kingdom,
+# Phylum and Species name for each species and prints it out to screen neatly.
+
+regular_expression = zip(re.findall(r'(?<=\bKingdom\s)\w*', text), re.findall(r'(?<=\bPhylum\s)\w*', text), re.findall(r'(?<=\bSpecies\s)\w*\s\w*', text))
+print regular_expression
+
+counter = 1
+for i in regular_expression:
+    print "Blackbird species ", counter, " is:"
+    print "Kingdom: ", i[0], '\n', "Phylum: ", i[1], '\n', "Species: ", i[2], '\n'
+    counter = counter + 1
+
+
+# Hint: you may want to use re.findall(my_reg, text)...
+# Keep in mind that there are multiple ways to skin this cat!
+# Your solution may involve multiple regular expression calls (easier!), or a single one (harder!)
+**********************************************************************
+
+Testing blackbirds.py...
+
+blackbirds.py is a Python script file;
+ checking for docstrings...
+
+Found one or more doctrings!
+
+Output (only first 500 characters): 
+
+**********************************************************************
+[(u'Animalia', u'Chordata', u'Euphagus carolinus'), (u'Animalia', u'Chordata', u'Euphagus cyanocephalus'), (u'Animalia', u'Chordata', u'Turdus boulboul'), (u'Animalia', u'Chordata', u'Agelaius assimilis')]
+Blackbird species  1  is:
+Kingdom:  Animalia 
+Phylum:  Chordata 
+Species:  Euphagus carolinus 
+
+Blackbird species  2  is:
+Kingdom:  Animalia 
+Phylum:  Chordata 
+Species:  Euphagus cyanocephalus 
+
+Blackbird species  3  is:
+Kingdom:  Animalia 
+Phylum:  Chordata 
+Species:  Turdus boulboul 
+
+Blackb
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.00997s
+
+======================================================================
+Inspecting script file run_fmr_R.py...
+
+File contents are:
+**********************************************************************
+#!usr/bin/python
+
+"""Chapter 6.10 Practical - Using is problem 2"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
+import subprocess
+import os
+
+# SUBPROCESS CALL
+a = subprocess.Popen("Rscript --verbose fmr.R", shell=True).wait()
+#Popen should print 0 as a if process is successful, if it prints 127 then it
+#means that there is an error in locating the file.
+#Since fmr.R is also in code, you do not need to give it a relative path
+
+# R CONSOLE OUTPUT PRINTED TO PYTHON CONSOLE
+if a == 0:               # SUBPROCESS SUCCESSFUL
+    print 'SUCCESSFUL'
+else:                               # SUBPROCESS FAILED
+    print 'FAILED'
+**********************************************************************
+
+Testing run_fmr_R.py...
+
+run_fmr_R.py is a Python script file;
+ checking for docstrings...
+
+Found one or more doctrings!
+
+Output (only first 500 characters): 
+
+**********************************************************************
+Reading CSV
+Creating graph
+null device 
+          1 
+Finished in R!
+SUCCESSFUL
+
+**********************************************************************
+
+Encountered error:
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=fmr.R'
+
+
+======================================================================
+Inspecting script file profileme.py...
+
+File contents are:
+**********************************************************************
+#!usr/bin/python
+
+"""Chapter 6.2.1 Profiling"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
+def a_useless_function(x):
+	y = 0
+	# eight zeros!
+	for i in range(100000000):
+		y = y + i
+	return 0
+
+def a_less_useless_function(x):
+	y = 0
+	# five zeros!
+	for i in range(100000):
+		y = y + i
+	return 0
+
+def some_function(x):
+	print x
+	a_useless_function(x)
+	a_less_useless_function(x)
+	return 0
+
+some_function(1000)
+**********************************************************************
+
+Testing profileme.py...
+
+profileme.py is a Python script file;
+ checking for docstrings...
+
+Found one or more doctrings!
+
+Output (only first 500 characters): 
+
+**********************************************************************
+1000
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 4.74444s
+
+======================================================================
+Inspecting script file MyFirstJupyterNb.ipynb...
+
+File contents are:
+**********************************************************************
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "this is python!\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = \"this is python!\"; print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "this is R!"
+     ]
+    }
+   ],
+   "source": [
+    "a <- \"this is R!\"; cat(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "image/png": "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\n",
+      "text/plain": [
+       "<matplotlib.figure.Figure at 0x10650c650>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "import matplotlib.pyplot as p\n",
+    "import scipy as sc\n",
+    "\n",
+    "x = sc.arange(0, 5, 0.1); y = sc.sin(x)\n",
+    "p.plot(x,y); p.show()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "require(ggplot2)\n",
+    "library(repr)# to rezise plot within jupyter - this package is part\n",
+    "options(repr.plot.width=3.5,repr.)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "R 3.4",
+   "language": "R",
+   "name": "ir34"
+  },
+  "language_info": {
+   "codemirror_mode": "r",
+   "file_extension": ".r",
+   "mimetype": "text/x-r-source",
+   "name": "R",
+   "pygments_lexer": "r",
+   "version": "3.4.2"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
+**********************************************************************
+
+Testing MyFirstJupyterNb.ipynb...
+
+======================================================================
+Inspecting script file LV2.py...
+
+File contents are:
+**********************************************************************
+#!usr/bin/python
+
+"""Chapter 6.3 Practical"""
+
+__author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
+__version__ = '2.7.14'
+
+""" The typical Lotka-Volterra Model simulated using scipy """
+""" LV2.py practical is a modification of LV1.py by taking the arguments for the parameters from the command line """
+
+import scipy as sc
+import scipy.integrate as integrate
+import pylab as p #Contains matplotlib for plotting
+# import matplotlip.pylab as p #Some people might need to do this
+import sys #Taking arguments for parameters from command line
+
+def dR_dt(pops, t=0):
+    """ Returns the growth rate of predator and prey populations at any
+    given time step """
+
+    R = pops[0]
+    C = pops[1]
+    dRdt = r*R*(1-(R/K)) - a*R*C
+    dydt = -z*C + e*a*R*C
+
+    return sc.array([dRdt, dydt])
+
+if len(sys.argv)>1: #if length of the argument from command line is >1 then define parameters
+     r = float(sys.argv[1])
+     a = float(sys.argv[2])
+     z = float(sys.argv[3])
+     e = float(sys.argv[4])
+     K = float(sys.argv[5])
+else: #otherwise define the parameters as such...
+    # Define parameters:
+    r = 1. # Resource growth rate
+    a = 0.1 # Consumer search rate (determines consumption rate)
+    z = 1.5 # Consumer mortality rate
+    e = 0.75 # Consumer production efficiency
+    K = 30.0 #carrying capacity of the system - the max pop that is stable
+# Now define time -- integrate from 0 to 15, using 1000 points:
+t = sc.linspace(0, 15,  1000)
+
+x0 = 10
+y0 = 5
+z0 = sc.array([x0, y0]) # initials conditions: 10 prey and 5 predators per unit area
+
+pops, infodict = integrate.odeint(dR_dt, z0, t, full_output=True)
+
+infodict['message']     # >>> 'Integration successful.'
+
+prey, predators = pops.T # What's this for?
+f1 = p.figure() #Open empty figure object
+p.plot(t, prey, 'g-', label='Resource density') # Plot
+p.plot(t, predators  , 'b-', label='Consumer density')
+p.grid()
+p.legend(loc='best')
+p.xlabel('Time')
+p.ylabel('Population')
+p.title('Consumer-Resource population dynamics')
+p.annotate('r=%r, a=%r, z=%r, e=%r, K=%r' %(r,a,z,e,K), xy=(0,0), xytext=(10,8))
+p.show()
+f1.savefig('../Results/LV2_plot.pdf') #Save figure
+
+print "Resource population density is %f" % pop[-1,0] #-1 is the last element entry (nth entry)
+print "Resource population density is %f" % pop[-1,1]
+**********************************************************************
+
+Testing LV2.py...
+
+LV2.py is a Python script file;
+ checking for docstrings...
+
+Found one or more doctrings!
+
+Output (only first 500 characters): 
+
+**********************************************************************
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 10.00530s
+
+======================================================================
+======================================================================
+Finished running scripts
+
+Ran into 5 errors
+
+======================================================================
+======================================================================
+
+FINISHED WEEKLY ASSESSMENT
+
+Current Marks for the Week = 91.0
+
+NOTE THAT THESE ARE NOT THE FINAL MARKS FOR THE WEEK, BUT AN UPPER BOUND ON THE MARKS!
