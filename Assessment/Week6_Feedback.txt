@@ -1,0 +1,563 @@
+Starting weekly assessment for Hira, Week6
+
+Current Marks = 100
+
+Note that: 
+(1) Major sections begin with a double "====" line 
+(2) Subsections begin with a single "====" line 
+(3) Code output or text file content are printed within single "*****" lines 
+
+======================================================================
+======================================================================
+Your Git repo size this week is about 83.91 MiB on disk 
+
+PART 1: Checking project workflow...
+
+Found the following directories in parent directory: Week3, Week5, Week1, Week7, Week4, Week2, .git, Assessment, Week6
+
+Found the following files in parent directory: .gitignore, README.txt
+
+Checking for key files in parent directory...
+
+Found .gitignore in parent directory, great! 
+
+Printing contents of .gitignore:
+**********************************************************************
+*~ 
+*.tmp
+*.pyc
+*.tif
+*.shp
+._*
+**********************************************************************
+
+Found README in parent directory, named: README.txt
+
+Printing contents of README.txt:
+**********************************************************************
+My CMEE 2017-18 Coursework Respository
+**********************************************************************
+
+======================================================================
+Looking for the weekly directories...
+
+Found 7 weekly directories: Week1, Week2, Week3, Week4, Week5, Week6, Week7
+
+The Week6 directory will be assessed 
+
+======================================================================
+======================================================================
+PART 2: Checking weekly code and workflow...
+
+======================================================================
+Assessing WEEK6...
+
+Found the following directories: Data, Code, Results
+
+Found the following files: README.txt
+
+Checking for readme file in weekly directory...
+
+Found README in parent directory, named: README.txt
+
+Printing contents of README.txt:
+**********************************************************************
+Week 6 - Genomic Data and Bioinformatics
+Directory Contents: 
+
+Code:
+1. frqx2geno.pl - Perl script that converts format from .frqx to .geno format
+2. HWE_analysis_pipe.sh - Shell script that creates results from multiple analyses.
+3. Moving_F.R - Script that plots the moving F values and prints to pdf
+4. Ob_v_Ex_het.R - Script plots the expected vs observed heterozygosity, plots graph and prints to pdf
+5. Practical2.R - Running Hardy-Weinberg analysis and plotting it
+
+Data:
+1. Dataset1 - 1. ME_Dataset1.bed
+	      2. ME_Dataset1.bim
+	      3. ME_Dataset1.fam
+2. H938_chr15.geno
+3. primate_aligned.fasta
+4. primate_raw.fasta
+
+Results:
+
+Dataset1_HWE_Analysis_results:
+Should produce - 
+1. Dataset1_HWE_Analysis_F.pdf
+2. Dataset1_HWE_Analysis_hwe_outliers.txt
+3. Dataset1_HWE_Analysis_Ob_v_E_het.pdf
+4. Dataset1_HWE_Analysis.frqx
+5. Dataset1_HWE_Analysis.geno
+6. Dataset1_HWE_Analysis.hwe
+7. Dataset1_HWE_Analysis.log**********************************************************************
+
+Found 4 code files: Moving_F.R, Ob_v_Ex_het.R, HWE_analysis_pipe.sh, Practical2.R
+
+Found the following extra files: frqx2geno.pl
+0.5 pt deducted per extra file
+
+Current Marks = 99.5
+
+======================================================================
+Testing script/code files...
+
+======================================================================
+Inspecting script file Moving_F.R...
+
+File contents are:
+**********************************************************************
+#!/usr/bin/env Rscript
+
+# read in packages
+require(dplyr)
+require(ggplot2)
+require(reshape2)
+
+# Take in the arguments
+
+args <- commandArgs(trailingOnly = TRUE)
+
+FileName <- args[1]
+
+OutputName <- args[2]
+
+# read in the data
+
+g <- read.table(FileName, header = T)
+
+g <- mutate(g, nObs = nA1A1 + nA1A2 + nA2A2)
+
+g <- mutate(g, p11 = nA1A1/nObs, p12 = nA1A2/nObs, p22 = nA2A2/nObs)
+
+g <- mutate(g, p1 = p11 + 0.5*p12, p2 = p22 + 0.5*p12)
+
+g <- mutate(g, X2 = (nA1A1 - nObs*p1^2)^2 /(nObs*p1^2) +
+            (nA1A2 - nObs*2*p1*p2)^2 / (nObs*2*p1*p2) +
+            (nA2A2 - nObs*p2^2)^2 / (nObs*p2^2))
+
+g <- mutate(g, pval = 1-pchisq(X2,1))
+
+g <- mutate(g, F = (2*p1*(1-p1)-p12) / (2*p1*(1-p1)))
+
+
+
+# pdf("../Results/Ob_v_Ex_het.pdf")
+# 
+# qplot(2*p1*(1-p1), p12, data = g) +
+#     geom_abline(intercept = 0, slope = 1, color = "red", size = 1.5)
+# 
+# dev.off()
+# 
+
+movingavg <- function(x, n=5){
+    stats::filter(x, rep(1/n, n), sides = 2)
+}
+
+
+pdf(paste(OutputName))
+    plot(movingavg(g$F), xlab = "SNP Number")
+dev.off()
+**********************************************************************
+
+Testing Moving_F.R...
+
+Output (only first 500 characters): 
+
+**********************************************************************
+
+**********************************************************************
+
+Encountered error:
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: ggplot2
+Loading required package: reshape2
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") : cannot open file 'NA': No such file or directory
+Execution halted
+
+======================================================================
+Inspecting script file Ob_v_Ex_het.R...
+
+File contents are:
+**********************************************************************
+#!/usr/bin/env Rscript
+
+# read in packages
+require(dplyr)
+require(ggplot2)
+require(reshape2)
+
+# Take in the arguments
+
+args <- commandArgs(trailingOnly = TRUE)
+
+FileName <- args[1]
+
+OutputName <- args[2]
+
+
+# read in the data
+
+g <- read.table(FileName, header = T)
+
+g <- mutate(g, nObs = nA1A1 + nA1A2 + nA2A2)
+
+g <- mutate(g, p11 = nA1A1/nObs, p12 = nA1A2/nObs, p22 = nA2A2/nObs)
+
+g <- mutate(g, p1 = p11 + 0.5*p12, p2 = p22 + 0.5*p12)
+
+g <- mutate(g, X2 = (nA1A1 - nObs*p1^2)^2 /(nObs*p1^2) +
+            (nA1A2 - nObs*2*p1*p2)^2 / (nObs*2*p1*p2) +
+            (nA2A2 - nObs*p2^2)^2 / (nObs*p2^2))
+
+g <- mutate(g, pval = 1-pchisq(X2,1))
+
+g <- mutate(g, F = (2*p1*(1-p1)-p12) / (2*p1*(1-p1)))
+
+
+
+pdf(paste(OutputName))
+    q <- qplot(2*p1*(1-p1), p12, data = g) +
+        geom_abline(intercept = 0, slope = 1, color = "red", size = 1.5)
+print(q)
+dev.off()
+
+**********************************************************************
+
+Testing Ob_v_Ex_het.R...
+
+Output (only first 500 characters): 
+
+**********************************************************************
+
+**********************************************************************
+
+Encountered error:
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: ggplot2
+Loading required package: reshape2
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") : cannot open file 'NA': No such file or directory
+Execution halted
+
+======================================================================
+Inspecting script file HWE_analysis_pipe.sh...
+
+File contents are:
+**********************************************************************
+#!/bin/bash
+
+
+# usage: ./Analysis.sh [PLINKIN] [outfile_prefix]
+
+
+
+PLINK=$1    # Plink file set indicated by the user
+OUT=$2      # outfile prefix indicated by the user
+
+
+# the following are the necessary file names needed for the various steps
+
+DIR=$OUT"_results"  #this is the name of the results directory
+FRQX=$OUT".frqx"    # name of the .frqx file
+GENO=$OUT".geno"    # name of the .geno file
+OVE=$OUT"_Ob_v_Ex_het.pdf"   					#name of the observed v expected heterzygosity plot
+MOVEF=$OUT"_F.pdf"					        # name of the moving F plot
+HWE=$OUT".hwe"					            # name of the .hwe file
+SNPS=$OUT"_hwe_outliers.txt"					# name of the file containing the 50 most extreme SNPs
+
+
+
+# Make a results directory
+
+
+mkdir ../Results/$DIR
+
+
+# give the commands for running the analyses exactly as you would on the terminal,
+# however you should replace the file names with the appropriate variables
+
+
+plink --bfile $PLINK --freqx --out $OUT   	#run plink to calculate genotype proportions
+
+
+../Code/frqx2geno.pl $FRQX $GENO   		#convert the plink output to .geno format
+
+
+Rscript ../Code/Ob_v_Ex_het.R $GENO $OVE			# plot the observed versus expected heterozygosity
+
+
+Rscript ../Code/Moving_F.R $GENO $MOVEF			# plot the moving F values
+
+
+plink --bfile $PLINK --hardy --out $OUT		# run Hardy Weinberg analysis
+
+
+sort -k9 $HWE | tail -n 50 >$SNPS		    # command to write the 50 most extreme SNPs to file
+
+
+
+# Move everything into the results directory
+
+mv $FRQX ../Results/$DIR     	# move the .frqx file to results
+mv $GENO ../Results/$DIR     	# move the .geno file to results
+mv $OVE ../Results/$DIR		# move the observed v expected plot to results
+mv $MOVEF ../Results/$DIR 		# move the moving F plot to results
+mv $HWE ../Results/$DIR 		# move the .hwe file to results
+mv $SNPS ../Results/$DIR 		# move the 50 SNPs file to results
+
+
+
+mv $OUT".log" ../Results/$DIR  # also move the plink log file to results. This is the record of what you have done
+
+
+# cleanup
+
+rm $OUT.nosex  #get rid of unnecessary files
+**********************************************************************
+
+Testing HWE_analysis_pipe.sh...
+
+Output (only first 500 characters): 
+
+**********************************************************************
+
+**********************************************************************
+
+Encountered error:
+HWE_analysis_pipe.sh: line 34: plink: command not found
+
+
+ERROR: Cannot find .frqx. Check file path.
+
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: ggplot2
+Loading required package: reshape2
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") : cannot open file '.geno': No such file or directory
+Execution halted
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: ggplot2
+Loading required package: reshape2
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") : cannot open file '.geno': No such file or directory
+Execution halted
+HWE_analysis_pipe.sh: line 46: plink: command not found
+sort: cannot read: .hwe: No such file or directory
+mv: cannot stat '.frqx': No such file or directory
+mv: cannot stat '.geno': No such file or directory
+mv: cannot stat '_Ob_v_Ex_het.pdf': No such file or directory
+mv: cannot stat '_F.pdf': No such file or directory
+mv: cannot stat '.hwe': No such file or directory
+mv: cannot stat '.log': No such file or directory
+rm: cannot remove '.nosex': No such file or directory
+
+======================================================================
+Inspecting script file Practical2.R...
+
+File contents are:
+**********************************************************************
+rm(list=ls())
+library(dplyr)
+library(ggplot2)
+library(reshape2)
+
+#Hardy-Weinberg equation p2 + 2pq + q2 = 1
+#the sum of the allele frequencies for all the alleles at the locus must be 1, 
+#so p + q = 1.
+g<- read.table(file="../Data/H938_chr15.geno", header=TRUE) #Loads in file
+
+dim(g) #Tells you the amount of data in the file
+
+#How many SNPs are there? Calculates the number of counts at each locus
+#Using the mutate function from dplyr library to do the addition &
+#adding a new column to the dataframe in one step
+g<- mutate(g,nObs = nA1A1 + nA1A2 + nA2A2)
+#nObs - the total number of observation for each gene
+ 
+head(g)
+summary(g$nObs)
+
+qplot(nObs, data=g)
+
+#Question: Do most of the SNPs have complete data? Yes, as it shows the highest histogram peak in the graph
+#Question: What is the lowest count observed? 887.0
+
+#Calculating genotype and allele frequencies
+
+#Compute genotype frequencies
+g <- mutate(g, p11 = nA1A1/nObs, p12 = nA1A2/nObs, p22=nA2A2/nObs)
+
+#Compute allele frequencies from genotype frequencies
+#p11 is homozygous and p12 heterozygous
+g<- mutate(g, p1= p11 + 0.5*p12, p2 = p22 + 0.5*p12)
+
+head(g)
+
+qplot(p1, p2, data=g)
+
+#Plotting genotype on allele frequencies using ggplot2 commands
+
+gTidy <- select(g, c(p1, p11, p12, p22)) %>%
+  melt(id='p1', value.name = "Genotype.Proportion")
+
+head(gTidy)
+dim(gTidy)
+
+ggplot(gTidy)+geom_point(aes(x=p1, 
+                             y=Genotype.Proportion, 
+                             color=variable,
+                             shape=variable))
+
+#Plotting the Hardy-Weinberg proportions:
+ggplot(gTidy) + geom_point(aes(x=p1, y=Genotype.Proportion, color=variable, shape=variable)) +
+  stat_function(fun=function(p) p^2, geom="line", colour="red", size=2.5) +
+  stat_function(fun=function(p) 2*p*(1-p), geom="line", colour="green", size=2.5) +
+  stat_function(fun=function(p) (1-p)^2, geom="line", colour="blue", size=2.5)
+
+#Hardy-weinberg:  p2 + 2pq + q2 = 1
+#p2 = p*p
+#q2 = (1-p)*(1-p)
+#2pq = 2 * p * (1-p)
+
+#Testing Hardy Weinberg
+g <- mutate(g, X2 = (nA1A1-nObs*p1^2)/(nObs*p1^2) + 
+              (nA1A2-nObs*2*p1*p2)^2/(nObs*2*p1*p2) + 
+              (nA2A2-nObs*p2^2)^2 / (nObs*p2^2))
+
+g <- mutate(g,pval = 1-pchisq(X2,1))
+
+#The problem of multiple testing
+head(g$pval)
+
+#How many tests have p-values less than 0.05?
+sum(g$pval < 0.05, na.rm = TRUE)
+
+#Result from Fisher is that under the null hypothesis the
+#p-values of a well-designed test should be distributes uniformaly
+#between 0 and 1.
+qplot(pval, data=g)
+
+#Plotting expected vs observed heterzygosity
+qplot(2*p1*(1-p1), p12, data=g) + geom_abline(intercept = 0, slope=1, color="red", size=1.5)
+#Most of the points fall below the y=x line. 
+#That is, we see a systematic deficiency of heterozygotes (and this implies a concordant excess of homozygotes). 
+#This general pattern is contributing to the departure from HW seen in the χ2 statistics.
+
+#Plotting average deficiency heterozygotes relative to expected proportions
+#Create another column & calculate the deficiency of each row,
+#Then find out the mean and plot it
+g <- mutate(g, F=(2*p1*(1-p1)-p12)/2*p1*(1-p1))
+head(g)
+mean(g$F)
+plot(g$F, xlab="SNP numbers")
+#The mean is <10%, so the difference between observed vs expected average deficiency 
+#of heterozygotes is not significant and human pop is not very structured - not very varied
+
+movingavg <- function(x, n=5){stats::filter(x, rep(1/n,n), sides=2)}
+plot(movingavg(g$F), xlab="SNP number")
+
+outlier=which(movingavg(g$F)==max(movingavg(g$F), na.rm=TRUE))
+g[outlier,]
+**********************************************************************
+
+Testing Practical2.R...
+
+Output (only first 500 characters): 
+
+**********************************************************************
+[1] 19560     7
+  CHR        SNP A1 A2 nA1A1 nA1A2 nA2A2 nObs
+1  15 rs12905389  A  G    52   310   572  934
+2  15  rs6599770  A  C    70   323   544  937
+3  15  rs7170864  A  G   142   417   379  938
+4  15 rs12440100  A  G    57   274   607  938
+5  15  rs4932079  G  T    71   337   530  938
+6  15  rs2665033  G  T     0   144   772  916
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  887.0   938.0   938.0   937.4   938.0   938.0 
+  CHR        SNP A1 A2 nA1A1 nA1A2 nA2A2 nObs        p11       p1
+**********************************************************************
+
+Encountered error:
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+
+======================================================================
+======================================================================
+Finished running scripts
+
+Ran into 4 errors
+
+======================================================================
+======================================================================
+
+FINISHED WEEKLY ASSESSMENT
+
+Current Marks for the Week = 99.5
+
+NOTE THAT THESE ARE NOT THE FINAL MARKS FOR THE WEEK, BUT AN UPPER BOUND ON THE MARKS!
