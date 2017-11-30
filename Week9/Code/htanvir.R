@@ -144,3 +144,60 @@ species_abundance <- function(community){
 }
 species_abundance(community)
 
+#14. 
+octaves <- function(a){
+  oct_classes = tabulate(floor(log2(a))+1)
+  return(oct_classes)
+}
+#a = species_abundance(community)
+#octaves(a)
+#o = octaves(a)
+
+#15. 
+sum_vect <- function(x, y){
+  n <- max(length(x), length(y))
+ if (length(x) < length(y)){
+   x = c(x, rep(0, length(y)-length(x)))
+   sum = x + y
+ }
+ else if (length(x) > length(y)){
+   y = c(y, rep(0, length(x)-length(y)))
+   sum = x + y
+ }
+ else {
+   sum = x + y
+ } 
+  return (sum)
+}
+
+#x <- c(1, 2, 3, 4, 5, 6)
+#y <- c(1, 2, 3)
+
+#sum_vect(x, y)
+
+#16. 
+question_16 <- function(J=100, v=0.1, generation = 2000, burnin= 200){
+  Initial_Min = initialise_min(J)
+  octavelist <- list()
+  for(i in 1:burnin){
+    Initial_Min <- neutral_generation_speciation(Initial_Min, v)
+  }
+  
+  #appending octaves at current time to our list of octaves
+  for(i in 1:generation){
+    Initial_Min <- neutral_generation_speciation(Initial_Min, v)
+    #for every 20 generations, adds octaves to octave list
+    if(i %% 20 == 0){
+      octavelist <- c(octavelist, list(octaves(species_abundance(Initial_Min)))) 
+    }
+  }
+  
+  total_octaves = vector()
+  for(i in 1:length(octavelist)){
+    total_octaves <- sum_vect(total_octaves, octavelist[[i]])
+  }
+    
+  mean_octaves = total_octaves/(length(octavelist)) #the length(octavelist) equals the number of times an octave is noted
+  print(mean_octaves) #make a bar plot of these values
+}
+
