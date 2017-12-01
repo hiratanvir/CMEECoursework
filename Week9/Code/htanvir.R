@@ -211,4 +211,4 @@ question_16 <- function(J=100, v=0.1, generation = 2000, burnin= 200){
 
 
 #Simulations using HPC
-#17.
+#17. Code written in different file called 'cluster_run.R'
