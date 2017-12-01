@@ -197,7 +197,18 @@ question_16 <- function(J=100, v=0.1, generation = 2000, burnin= 200){
     total_octaves <- sum_vect(total_octaves, octavelist[[i]])
   }
     
-  mean_octaves = total_octaves/(length(octavelist)) #the length(octavelist) equals the number of times an octave is noted
-  print(mean_octaves) #make a bar plot of these values
+  mean_octaves <- total_octaves/(length(octavelist)) #the length(octavelist) equals the number of times an octave is noted
+  #print(mean_octaves) #make a bar plot of these values
+  
+  barplot(mean_octaves, main ="Average Species Abundance Distribution(as octaves)",
+          xlab = "Average Species Abundance Octaves",
+          ylab = "Avergae Count",
+          names.arg = c("1", "2-3", "4-7", "8-15", "16-31", "32-63"),
+          col = "darkred")
 }
 
+#question_16() tells you how many species have an abundance of 1, 2-3, 4-7, etc.
+
+
+#Simulations using HPC
+#17.
