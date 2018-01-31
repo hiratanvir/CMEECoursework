@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Author: Hira hira.tanvir@imperial.ac.uk
 # Date: Oct 2017
 
