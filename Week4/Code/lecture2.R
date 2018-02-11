@@ -1,5 +1,5 @@
 rm(list=ls())
-setwd("~/Documents/Stats_Julia/Week1/SparrowStats")
+setwd("~/Documents/HandOutsandData'17")
 d<-read.table("SparrowSize.txt", header=TRUE)
 str(d)
 
@@ -43,6 +43,10 @@ zTarsus<-(d2$Tarsus-mean(d2$Tarsus))/sd(d2$Tarsus)
 var(zTarsus)
 sd(zTarsus)
 hist(zTarsus)
+
+scale(d2$Tarsus)
+(d2$Tarsus-mean(d2$Tarsus))/sd(d2$Tarsus)
+
 set.seed(123)
 znormal <- rnorm(1e+06)
 hist(znormal, breaks=100)
