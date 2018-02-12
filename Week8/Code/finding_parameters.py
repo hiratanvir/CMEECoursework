@@ -56,8 +56,8 @@ for i,g in grouped:
     print i
 
     #define x and y axis for e parameter estimate plot
-    x = subset_dF['1/kT']
-    y = subset_dF['log_TraitValues']
+    x = g['1/kT']
+    y = g['log_TraitValues']
 
     #plot data
     plt.plot(x,y) #[<matplotlib.lines.Line2D at 0x7fc56a1a2590>]
@@ -103,14 +103,14 @@ for i,g in grouped:
 
     #EXTRACTING STARTING PARAMETER VALUES and appending them to temporary dataframe
 
-    temp = pd.DataFrame({'log_B0':(g.loc[g['Temp(kel)']==(find_nearest(Temp,value)), 'StandardisedTraitValue'].iloc[0]),
+    temp = pd.DataFrame({'B0':(g.loc[g['Temp(kel)']==(find_nearest(Temp,value)), 'StandardisedTraitValue'].iloc[0]),
                         'E':E_estimate[0],
                         'Eh': Eh_estimate[0],
                         'El': E_estimate[0]/2,
-                        'Th': float(xvalues[idy]),
+                        'Th': (xvalues[idy]).astype(float),
                         'Tl': g['1/kT'].min(axis=0),
                         'ID': i},
-                        index=[0])
+                        g.set_index('uniqueID', inplace=True))
 
     newDF = pd.concat([newDF, temp.reset_index()])
     #newDF.to_csv('parameters.csv', sep=',', encoding='utf-8')
