@@ -47,7 +47,7 @@ subset_dF['log_TraitValues'] = np.log(subset_dF.StandardisedTraitValue)
 #one_group = subset_dF.loc[subset_dF['uniqueID']<4]
 
 #Creating an empty dataframe with parameter columns
-newDF = pd.DataFrame(columns=['log_B0','E','Eh','El','Th','Tl','ID'])
+newDF = pd.DataFrame(columns=['B0','E','Eh','El','Th','Tl','ID'])
 
 #subset_dF.to_csv('subset_dF.csv', sep=',', encoding='utf-8')
 
@@ -116,4 +116,7 @@ for i,g in grouped:
     #newDF.to_csv('parameters.csv', sep=',', encoding='utf-8')
 
 final_dF = pd.merge(subset_dF, newDF, left_on='uniqueID', right_on='ID', how='left').drop('ID', axis=1)
+
+#Deal with E column where there is no E-value and give it a generic valur of 0.66
+
 final_dF.to_csv('../Results/final_dF.csv', sep=',', encoding='utf-8')
