@@ -23,7 +23,7 @@ from scipy import constants
 dF = pd.read_csv('../Results/final_dF.csv', low_memory=False)
 
 #Do NLLS fit for one group only
-#DF_1 = dF.loc[dF['uniqueID']==808]
+DF_1 = dF.loc[dF['uniqueID']==1]
 
 #### FITTING THE CUBIC MODEL ###
 
