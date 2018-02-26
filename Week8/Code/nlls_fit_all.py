@@ -42,7 +42,7 @@ cubic_dF = pd.DataFrame()
 
 grouped = dF.groupby('uniqueID')
 for i,g in grouped:
-    
+
     # create data to be fitted
     x_vals = g['Temp(kel)']    #x is you temp data
     y_vals = g['log_TraitValues'] #is the y value, log transformed trait data
@@ -69,6 +69,22 @@ for i,g in grouped:
         chi_squared = out1.chisqr
         status = "C"
 
+        ### calculating r-squared Value ###
+        # r-squared = 1 - sum(yi - yihat)^2/sum(yi-yibar)^2   r2 = 1 - SSE/SST
+
+        minimised_params = Parameters()
+        minimised_params.add('a', value= A1)
+        minimised_params.add('b', value= B1)
+        minimised_params.add('c', value= C1)
+        minimised_params.add('d', value= D1)
+
+        ybar = np.mean(y_vals)
+        yhat = residual(minimised_params, x_vals, y_vals)
+        SSE = np.sum(((yhat)**2))
+        SST = np.sum((y_vals - ybar)**2)
+
+        r2 = 1 - (SSE/SST)
+
         print i,"Model converges!"
 
     except ValueError:
@@ -81,16 +97,16 @@ for i,g in grouped:
         AIC = np.NaN
         BIC = np.NaN
         chi_squared = np.NaN
+        r2 = np.NaN
         status = "NC"
 
         print i,"Model doesn't converge..."
 
     ## SAVING OUTPUT STATS AND MINIMIZED PARAMETER VALUES FOR THE CUBIC MODEL INTO A DATAFRAME ##
-    data = pd.DataFrame({"ID": i, "A": A1, "B": B1, "C": C1, "D": D1, "AIC": AIC , "BIC": BIC, "chi-squared": chi_squared, "status":status}, index=[0])
+    data = pd.DataFrame({"ID": i, "A": A1, "B": B1, "C": C1, "D": D1, "AIC": AIC , "BIC": BIC, "chi-squared": chi_squared, "r-squared":r2, "status":status}, index=[0])
     cubic_dF = cubic_dF.append(data)
 
-cubic_dF.to_csv('../Results/cubic_report.csv', columns=['ID', 'A', 'B', 'C', 'D','AIC','BIC','chi-squared','status'], sep=',', encoding='utf-8')
-
+cubic_dF.to_csv('../Results/cubic_report_r2.csv', columns=['ID', 'A', 'B', 'C', 'D','AIC','BIC','chi-squared','r-squared','status'], sep=',', encoding='utf-8')
 
 
 
@@ -150,6 +166,24 @@ for i,g in grouped:
             chi_squared = out.chisqr
             status = "C"
 
+            ### calculating r-squared Value ###
+            # r-squared = 1 - sum(yi - yihat)^2/sum(yi-yibar)^2   r2 = 1 - SSE/SST
+
+            minimised_params = Parameters()
+            minimised_params.add('B0', value= A)
+            minimised_params.add('E', value= B)
+            minimised_params.add('Eh', value= C)
+            minimised_params.add('El', value= D)
+            minimised_params.add('Th', value= E)
+            minimised_params.add('Tl', value= F)
+
+            ybar = np.mean(y_vals)
+            yhat = get_residual(minimised_params, x_vals, y_vals)
+            SSE = np.sum(((yhat)**2))
+            SST = np.sum((y_vals - ybar)**2)
+
+            r2 = 1 - (SSE/SST)
+
             print i,"Model converges!"
 
         except ValueError:
@@ -164,6 +198,7 @@ for i,g in grouped:
             AIC = np.NaN
             BIC = np.NaN
             chi_squared = np.NaN
+            r2 = np.NaN
             status = "NC"
 
             print i,"Model doesn't converge..."
@@ -181,14 +216,15 @@ for i,g in grouped:
         AIC = np.NaN
         BIC = np.NaN
         chi_squared = np.NaN
+        r2 = np.NaN
         status = "lessX"
 
         print i,"Length of x is less than length of parameters!"
 
     ## SAVING OUTPUT STATS AND MINIMIZED PARAMETER VALUES FOR THE CUBIC MODEL INTO A DATAFRAME ##
-    schoolfield_data = pd.DataFrame({"ID": i, "B0":A, "E":B, "Eh":C, "El":D, "Th":E, "Tl":F, "AIC":AIC, "BIC":BIC, "chi-squared":chi_squared, "status": status}, index=[0])
+    schoolfield_data = pd.DataFrame({"ID": i, "B0":A, "E":B, "Eh":C, "El":D, "Th":E, "Tl":F, "AIC":AIC, "BIC":BIC, "chi-squared":chi_squared, "r-squared":r2, "status": status}, index=[0])
     schoolfield_dF = schoolfield_dF.append(schoolfield_data)
 
 
 
-schoolfield_dF.to_csv('../Results/schoolfield_report.csv', columns=['ID','B0','E','Eh','El','Th','Tl','AIC','BIC','chi-squared','status'], sep=',', encoding='utf-8')
+schoolfield_dF.to_csv('../Results/schoolfield_report.csv', columns=['ID','B0','E','Eh','El','Th','Tl','AIC','BIC','chi-squared','r-squared','status'], sep=',', encoding='utf-8')
