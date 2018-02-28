@@ -20,7 +20,7 @@ from scipy import constants
 #such as the inverse of the uncertainty in the data.
 
 #read in data as pandas
-dF = pd.read_csv('../Results/final_dF.csv', low_memory=False)
+dF = pd.read_csv('../Results/FINAL_dF.csv', low_memory=False)
 
 #Do NLLS fit for one group only
 #dF = dF.loc[dF['uniqueID']<5]

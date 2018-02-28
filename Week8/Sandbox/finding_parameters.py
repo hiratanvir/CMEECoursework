@@ -10,18 +10,22 @@ import scipy as sc
 from scipy import constants
 import matplotlib.pyplot as plt
 from scipy import stats
+import numexpr
 
 #Reading in the csv file as a pandas dataframe
 dF = pd.read_csv('../Data/GrowthRespPhotoData_new.csv', low_memory=False)
 
 #Creating a subset of the dataframes with relevant columns
-subset_dF = dF.loc[:, ['FinalID','StandardisedTraitName','StandardisedTraitValue','StandardisedTraitUnit','ConTemp','ConTempUnit']]
+subset_dF = dF.loc[:, ['FinalID','StandardisedTraitName','OriginalTraitValue','OriginalTraitUnit','ConTemp','ConTempUnit']]
 
 #removing rows with 0 trait values
-subset_dF = subset_dF.iloc[subset_dF.index[dF["StandardisedTraitValue"] > 0]]
+subset_dF = subset_dF.iloc[subset_dF.index[dF["OriginalTraitValue"] > 0]]
 
 #removing any values that are non-numeric in columns
 subset_dF = subset_dF[pd.to_numeric(subset_dF['ConTemp'], errors='coerce').notnull()]
+
+#filter rows by group and keep unique ConTemp values so that duplicates are removed
+subset_dF = subset_dF.groupby('FinalID').filter(lambda x: x.ConTemp.value_counts().max() < 2)
 
 #Using groupby to group the IDs and then using filter to only show IDs with datasets with more than 4 datapoints
 subset_dF = subset_dF.groupby(['FinalID']).filter(lambda x: len(x)>4)
@@ -41,10 +45,10 @@ subset_dF['Temp(kel)'] = subset_dF.apply(lambda row: float(row.ConTemp) + 273.15
 subset_dF['1/kT'] = 1/(subset_dF['Temp(kel)']*float(k))
 
 #Adding columns for the log of StandardisedTraitValues
-subset_dF['log_TraitValues'] = np.log(subset_dF.StandardisedTraitValue)
+subset_dF['log_TraitValues'] = np.log(subset_dF.OriginalTraitValue)
 
 #Creating a subset dataframe by of only one group[i]
-#one_group = subset_dF.loc[subset_dF['uniqueID']<4]
+subset_dF = subset_dF.loc[subset_dF['uniqueID']<6]
 
 #Creating an empty dataframe with parameter columns
 newDF = pd.DataFrame(columns=['B0','E','Eh','El','Th','Tl','ID'])
@@ -103,7 +107,7 @@ for i,g in grouped:
 
     #EXTRACTING STARTING PARAMETER VALUES and appending them to temporary dataframe
 
-    temp = pd.DataFrame({'B0':(g.loc[g['Temp(kel)']==(find_nearest(Temp,value)), 'StandardisedTraitValue'].iloc[0]),
+    temp = pd.DataFrame({'B0':(g.loc[g['Temp(kel)']==(find_nearest(Temp,value)), 'OriginalTraitValue'].iloc[0]),
                         'E':E_estimate[0],
                         'Eh': Eh_estimate[0],
                         'El': E_estimate[0]/2,
