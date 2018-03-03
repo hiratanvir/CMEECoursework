@@ -130,10 +130,6 @@ dev.off()
 #The larger the Δi the weaker the model
 
 #The AIC differences in the cubic model
-AIC_min = min(cubic_df$AIC)
-
-AIC_sfmin = min(schoolfield_df$AIC, na.rm=T)
-
 
 #make new dataframe containing ID column and AIC for cubic and schoolfield
 subset_cubic <- cubic_df[,c("ID","AIC")]
@@ -141,15 +137,20 @@ subset_sf <- schoolfield_df[,c("ID","AIC")]
 #merge the two subsetted dataframes by id
 aic_df <- merge(x = subset_cubic, y = subset_sf, by = "ID", all = TRUE)
 colnames(aic_df) <- c("ID","AIC_cubic","AIC_schoolfield")
-for(i in unique(aic_df$ID)){
-  aic_min = apply((aic_df[2:3]), 1, FUN=min)
-  aic_max = apply((aic_df[2:3]), 1, FUN=max)
-  aic_df$AIC_diff_cubic <- aic_df$AIC_cubic - aic_min
-  aic_df$AIC_diff_sf <- aic_df$AIC_schoolfield - aic_min
-}
+
+aic_min = apply((aic_df[2:3]), 1, FUN=min)
+aic_df$AIC_diff_cubic <- aic_df$AIC_cubic - aic_min
+aic_df$AIC_diff_sf <- aic_df$AIC_schoolfield - aic_min
 
 
-#try to get the model name with the minimum aic value printed
-#and then compare how many cubic and schoolfield had minimum aic value
+#compare how many cubic and schoolfield had minimum aic value
+#work out the weighted aic for each model using the formula
+# wi = exp(-1/2*Δi)/sum(exp(-1/2*Δ))
 
-  
+
+aic_df$wi_cubic <- as.numeric(unlist(exp(-1/2*aic_df[4])/((exp(-1/2*(aic_df[4])))+(exp(-1/2*(aic_df[5]))))))
+aic_df$wi_sf <- as.numeric(unlist(exp(-1/2*aic_df[5])/((exp(-1/2*(aic_df[4])))+(exp(-1/2*(aic_df[5]))))))
+aic_df$weighted_sum <- as.numeric(unlist(aic_df[6]+aic_df[7]))
+
+
+write.csv(aic_df, "../Results/AIC_results.csv")
