@@ -3,11 +3,10 @@ rm(list=ls())
 graphics.off()
 require(ggplot2)
 library(dplyr)
-library(grid)
-library(gridExtra)
+
 
 #load in TPC data set to get the x and y co-ordinates per group
-df <- read.csv("../Results/final_dF.csv")
+df <- read.csv("../Results/FINAL_dF.csv")
 DF = df %>% group_by(uniqueID) %>% arrange(uniqueID) #orders the ID in ascending order
 
 #load in the nlls results for the cubic model and plot the results using ggplot2
@@ -22,8 +21,8 @@ cubic <- function(i, cubic_df, DF){
   cdf = subset(cubic_df, ID == i)
   DF2 = subset(DF, uniqueID == i)
   
-  x_vals <- DF2$Temp.kel.
-  #y_vals <- DF$log_TraitValues
+  x_vals <- DF2$ConTemp
+  #y_vals <- DF$OriginalTraitValue
   
   if(cdf$status =="C"){
     #parameter values for the cubic model
@@ -36,10 +35,10 @@ cubic <- function(i, cubic_df, DF){
     x_points = seq(min(x_vals),max(x_vals),0.2)
     
     #get the corresponding y_values from the sampled x_points using the model equation
-    cubic_model <- A1 + B1*x_points + C1*x_points^2 + D1*x_points^3
+    cubic_model <- (A1 + B1*x_points + C1*x_points^2 + D1*x_points^3)
     
     
-    temp <- data.frame(x_points, cubic_model)
+    temp <- data.frame(x_points+273.15, cubic_model)
     return(temp)
   }
  
@@ -74,7 +73,7 @@ schoolfield <- function(i, schoolfield_df, DF){
     x_points = seq(min(x_vals),max(x_vals),0.2)
     
     #get the corresponding y_values from the sampled x_points using the model equation
-    schoolfield_model <- log((B0*exp((-E/k)*((1/x_points)-(1/283.15)))) / (1 + (exp((El/k)*((1/Tl)-(1/x_points)))) + (exp((Eh/k)*((1/Th)-(1/x_points))))))
+    schoolfield_model <- ((B0*exp((-E/k)*((1/x_points)-(1/283.15)))) / (1 + (exp((El/k)*((1/Tl)-(1/x_points)))) + (exp((Eh/k)*((1/Th)-(1/x_points))))))
     
     
     temp <- data.frame(x_points, schoolfield_model)
@@ -94,7 +93,7 @@ for(i in unique(DF$uniqueID)){
   sfdf = subset(schoolfield_df, ID == i)
   DF2 = subset(DF, uniqueID == i)
   x_vals = DF2$Temp.kel.
-  y_vals = DF2$log_TraitValues
+  y_vals = DF2$OriginalTraitValue
   
   #cubeout gets the output of the function 
   cubeout <- cubic(i, cubic_df, DF)
@@ -112,7 +111,7 @@ for(i in unique(DF$uniqueID)){
 
   models_plot <- ggplot(DF2, aes(x=x_vals, y=y_vals, colour))+geom_point(color="blue")+
     xlab("Temp(kelvin)")+
-    ylab("Log Trait Value")+
+    ylab("Original Trait Value")+
     ggtitle(paste("Model plots for ID:",i))+
     theme(plot.title = element_text(hjust = 0.5)) + geom_line(data=cubic(i, cubic_df, DF), aes(x, y, colour="Cubic model"))
   models_plot <- models_plot + labs(color='Legend')
@@ -123,4 +122,34 @@ for(i in unique(DF$uniqueID)){
   print(models_plot)
 }
 dev.off()
+
+#Calculate the AIC differences for each model:
+#Δi = AICi - AIC(min)
+#where AICi is the AIC for the ith model and AIC(min) is the minimum of AIC among all the models
+#The model with Δi>10 have no support and can be omited from further consideration as explained
+#The larger the Δi the weaker the model
+
+#The AIC differences in the cubic model
+AIC_min = min(cubic_df$AIC)
+
+AIC_sfmin = min(schoolfield_df$AIC, na.rm=T)
+
+
+#make new dataframe containing ID column and AIC for cubic and schoolfield
+subset_cubic <- cubic_df[,c("ID","AIC")]
+subset_sf <- schoolfield_df[,c("ID","AIC")]
+#merge the two subsetted dataframes by id
+aic_df <- merge(x = subset_cubic, y = subset_sf, by = "ID", all = TRUE)
+colnames(aic_df) <- c("ID","AIC_cubic","AIC_schoolfield")
+for(i in unique(aic_df$ID)){
+  aic_min = apply((aic_df[2:3]), 1, FUN=min)
+  aic_max = apply((aic_df[2:3]), 1, FUN=max)
+  aic_df$AIC_diff_cubic <- aic_df$AIC_cubic - aic_min
+  aic_df$AIC_diff_sf <- aic_df$AIC_schoolfield - aic_min
+}
+
+
+#try to get the model name with the minimum aic value printed
+#and then compare how many cubic and schoolfield had minimum aic value
+
   
