@@ -154,3 +154,33 @@ aic_df$weighted_sum <- as.numeric(unlist(aic_df[6]+aic_df[7]))
 
 
 write.csv(aic_df, "../Results/AIC_results.csv")
+
+#make a barplot showing the aic weightings of the cubic model vs the schoolfield model
+
+#plot the distribution of the model weights
+library(reshape2)
+library(scales)
+dat.m <- aic_df[,c("wi_cubic","wi_sf")]
+ggplot(data = melt(dat.m), aes(x=variable, y=value)) + geom_boxplot(aes(fill=variable))+ xlab("AIC weights distribution") +
+  ggtitle("Comparison of the AIC weights distribution between two models for multiple traits") + theme(plot.title = element_text(hjust = 0.5)) + 
+  scale_fill_discrete(name = "Models", labels=c("Cubic","Schoolfield")) + ylab("AIC weightings") 
+
+
+#counts the number of occurrences of particular values in the aic cubic differences
+cubic_count <- aggregate(data.frame(count = aic_df$AIC_diff_cubic), list(value = aic_df$AIC_diff_cubic), length)
+#0 represents that there is no difference between the with the lowest aic model and the model in question - therefore it is the best model between the two
+#0 occurs 752 times in the cubic model dataset
+
+schoolfield_count <- aggregate(data.frame(count = aic_df$AIC_diff_sf), list(value = aic_df$AIC_diff_sf), length)
+#0 occurs 351 times in the schoolfield model dataset
+
+
+dat1 = data.frame(x=aic_df$wi_cubic, group="cubic_weights")
+dat2 = data.frame(x=aic_df$wi_sf, group="schoolfield_weights")
+dat = rbind(dat1, dat2)
+
+#plot shows the distribution of the aic weights of each model
+ggplot(dat, aes(x, fill=group, colour=group)) +
+  geom_density(alpha=0.4, lwd=0.8, adjust=0.5) + scale_y_continuous(labels=percent_format()) + xlab("AIC weights distribution") +
+  ggtitle("Comparison of the AIC weights distribution between two models for multiple traits") + theme(plot.title = element_text(hjust = 0.5))
+

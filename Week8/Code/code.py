@@ -44,7 +44,7 @@ subset_dF['Temp(kel)'] = subset_dF.apply(lambda row: float(row.ConTemp) + 273.15
 #Adding a column for 1/kT (k constant x Temperature in Kelvin)
 subset_dF['1/kT'] = 1/(subset_dF['Temp(kel)']*float(k))
 
-#Adding columns for the log of StandardisedTraitValues
+#Adding columns for the log of Original Trait Values
 subset_dF['log_TraitValues'] = np.log(subset_dF.OriginalTraitValue)
 
 #sort data by temperature and id
