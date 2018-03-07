@@ -3,7 +3,10 @@ rm(list=ls())
 graphics.off()
 require(ggplot2)
 library(dplyr)
-
+library(reshape2)
+library(scales)
+library(lattice)
+require(gridExtra)
 
 #load in TPC data set to get the x and y co-ordinates per group
 df <- read.csv("../Results/FINAL_dF.csv")
@@ -158,8 +161,6 @@ write.csv(aic_df, "../Results/AIC_results.csv")
 #make a barplot showing the aic weightings of the cubic model vs the schoolfield model
 
 #plot the distribution of the model weights
-library(reshape2)
-library(scales)
 dat.m <- aic_df[,c("wi_cubic","wi_sf")]
 ggplot(data = melt(dat.m), aes(x=variable, y=value)) + geom_boxplot(aes(fill=variable))+ xlab("AIC weights distribution") +
   ggtitle("Comparison of the AIC weights distribution between two models for multiple traits") + theme(plot.title = element_text(hjust = 0.5)) + 
@@ -180,7 +181,46 @@ dat2 = data.frame(x=aic_df$wi_sf, group="schoolfield_weights")
 dat = rbind(dat1, dat2)
 
 #plot shows the distribution of the aic weights of each model
-ggplot(dat, aes(x, fill=group, colour=group)) +
+pdf("../Results/general_plot.pdf")  
+general_plot <- ggplot(dat, aes(x, fill=group, colour=group)) +
   geom_density(alpha=0.4, lwd=0.8, adjust=0.5) + scale_y_continuous(labels=percent_format()) + xlab("AIC weights distribution") +
-  ggtitle("Comparison of the AIC weights distribution between two models for multiple traits") + theme(plot.title = element_text(hjust = 0.5))
+  theme(plot.title = element_text(hjust = 0.5))
+print(general_plot)
+dev.off()
 
+#Plotting cubic and schoolfield model by growth rate, respiration and photosynthesis
+colnames(DF)[8] <- c("ID")
+DF_X <- DF[,c("StandardisedTraitName","ID")]
+by_trait <- merge(x = aic_df, y = DF_X, by = "ID", all = TRUE)
+trait <- subset(by_trait,!duplicated(by_trait$ID))
+
+Photosynthesis <- trait[grep("hotosyn", trait$StandardisedTraitName), ]
+cubic_photo = data.frame(x=Photosynthesis$wi_cubic, group="cubic_weights")
+sf_photo = data.frame(x=Photosynthesis$wi_sf, group="schoolfield_weights")
+photo_dat = rbind(cubic_photo, sf_photo)
+
+Respiration <- trait[grep("espiration", trait$StandardisedTraitName), ]
+cubic_resp = data.frame(x=Respiration$wi_cubic, group="cubic_weights")
+sf_resp = data.frame(x=Respiration$wi_sf, group="schoolfield_weights")
+resp_dat = rbind(cubic_resp, sf_resp)
+
+Growth_rate <- trait[grep("rowth", trait$StandardisedTraitName), ]
+cubic_gr = data.frame(x=Growth_rate$wi_cubic, group="cubic_weights")
+sf_gr = data.frame(x=Growth_rate$wi_sf, group="schoolfield_weights")
+gr_dat = rbind(cubic_gr, sf_gr)
+
+photosynthesis_plot <- ggplot(photo_dat, aes(x, fill=group, colour=group)) +
+  geom_density(alpha=0.4, lwd=0.8, adjust=0.5) + scale_y_continuous(labels=percent_format()) + xlab("AIC weights distribution") +
+  theme(plot.title = element_text(hjust = 0.5)) + ylab("density(Photosynthesis)")
+
+respiration_plot <- ggplot(resp_dat, aes(x, fill=group, colour=group)) +
+  geom_density(alpha=0.4, lwd=0.8, adjust=0.5) + scale_y_continuous(labels=percent_format()) + xlab(NULL) +
+  theme(plot.title = element_text(hjust = 0.5)) + ylab("density(Respiration)")
+
+growth_rate_plot <- ggplot(gr_dat, aes(x, fill=group, colour=group)) +
+  geom_density(alpha=0.4, lwd=0.8, adjust=0.5) + scale_y_continuous(labels=percent_format()) + xlab(NULL) +
+  theme(plot.title = element_text(hjust = 0.5)) + ylab("density(Growth Rate)")
+
+grid.arrange(growth_rate_plot, respiration_plot, photosynthesis_plot, ncol=3)
+ggsave("../Results/trait_plot.pdf", arrangeGrob(growth_rate_plot, respiration_plot, photosynthesis_plot), width=3, height=3, units="in", scale=3)
+dev.off()
