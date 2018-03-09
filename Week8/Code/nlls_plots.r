@@ -5,7 +5,6 @@ require(ggplot2)
 library(dplyr)
 library(reshape2)
 library(scales)
-library(lattice)
 require(gridExtra)
 
 #load in TPC data set to get the x and y co-ordinates per group
@@ -89,9 +88,9 @@ schoolfield <- function(i, schoolfield_df, DF){
   }
 }
 
-
+unique(DF$uniqueID)
 pdf("../Results/nlls_plot.pdf")  
-for(i in unique(DF$uniqueID)){
+for(i in unique(DF$uniqueID)[1:100]){
   print(i)
   sfdf = subset(schoolfield_df, ID == i)
   DF2 = subset(DF, uniqueID == i)
@@ -161,11 +160,13 @@ write.csv(aic_df, "../Results/AIC_results.csv")
 #make a barplot showing the aic weightings of the cubic model vs the schoolfield model
 
 #plot the distribution of the model weights
+pdf("../Results/weights_plot.pdf") 
 dat.m <- aic_df[,c("wi_cubic","wi_sf")]
-ggplot(data = melt(dat.m), aes(x=variable, y=value)) + geom_boxplot(aes(fill=variable))+ xlab("AIC weights distribution") +
+weights_plot <- ggplot(data = melt(dat.m), aes(x=variable, y=value)) + geom_boxplot(aes(fill=variable))+ xlab("Models") +
   ggtitle("Comparison of the AIC weights distribution between two models for multiple traits") + theme(plot.title = element_text(hjust = 0.5)) + 
   scale_fill_discrete(name = "Models", labels=c("Cubic","Schoolfield")) + ylab("AIC weightings") 
-
+print(weights_plot)
+dev.off()
 
 #counts the number of occurrences of particular values in the aic cubic differences
 cubic_count <- aggregate(data.frame(count = aic_df$AIC_diff_cubic), list(value = aic_df$AIC_diff_cubic), length)
@@ -224,3 +225,15 @@ growth_rate_plot <- ggplot(gr_dat, aes(x, fill=group, colour=group)) +
 grid.arrange(growth_rate_plot, respiration_plot, photosynthesis_plot, ncol=3)
 ggsave("../Results/trait_plot.pdf", arrangeGrob(growth_rate_plot, respiration_plot, photosynthesis_plot), width=3, height=3, units="in", scale=3)
 dev.off()
+
+#count number of times the cubic aic difference is less than 2 and same for schoolfield
+less_2_cubic <-sum(aic_df$AIC_diff_cubic<=2, na.rm = TRUE)
+less_2_sf <- sum(aic_df$AIC_diff_sf<=2, na.rm = TRUE)
+
+#Number of Models which have delta value 4 ≤ i ≤ 7  
+more_4_cubic <- sum(aic_df$AIC_diff_cubic>=4 & aic_df$AIC_diff_cubic <=7, na.rm=TRUE)
+more_4_sf <- sum(aic_df$AIC_diff_sf>=4 & aic_df$AIC_diff_sf <=7, na.rm=TRUE)
+
+#Number of models which have an AIC delta > 10
+more_10_cubic <-sum(aic_df$AIC_diff_cubic>10, na.rm = TRUE)
+more_10_sf <-sum(aic_df$AIC_diff_sf>10, na.rm = TRUE)
