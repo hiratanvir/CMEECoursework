@@ -125,6 +125,8 @@ for(i in unique(DF$uniqueID)[1:100]){
 }
 dev.off()
 
+
+
 #Calculate the AIC differences for each model:
 #Δi = AICi - AIC(min)
 #where AICi is the AIC for the ith model and AIC(min) is the minimum of AIC among all the models
