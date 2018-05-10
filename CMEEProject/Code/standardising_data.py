@@ -38,13 +38,29 @@ subset_dF = subset_dF[~subset_dF['ConClass'].isin(['Liliopsida','Klebsormidiophy
 subset_dF['StandardisedTraits'] = np.nan
 grouped = subset_dF.groupby('OriginalTraitUnit')
 
-for i,g in grouped:
-    if i == 'milligram (body mass - wet) / (1 individual * 24 hour)':
-        subset_dF['StandardisedTraits'] = g['OriginalTraitValue']*(10**-6)/86400
-    elif i == 'day^-1':
-        subset_dF['StandardisedTraits'] = g['OriginalTraitValue']/86400
-    
-    else:
-        print 'R sux'
+#for i,g in grouped:
+#
+#    if i == 'day^-1':
+#        print("Elif triggered")
+#        subset_dF['StandardisedTraits'] = g['OriginalTraitValue']/86400
+#
+#    elif i == 'milligram (body mass - wet) / (1 individual * 24 hour)':
+#        subset_dF['StandardisedTraits'] = g['OriginalTraitValue']*(10**-6)/86400
+#
+#    else:
+#        print 'R sux'
+
+mask = subset_dF.OriginalTraitUnit == 'day^-1'
+subset_dF.loc[mask, 'StandardisedTraits'] = subset_dF.OriginalTraitValue[mask]/86400
+
+mask = subset_dF.OriginalTraitUnit == 'milligram (body mass - wet) / (1 individual * 24 hour)'
+subset_dF.loc[mask, 'StandardisedTraits'] = subset_dF.OriginalTraitValue[mask]*(10**-6)/86400
+
+mask = subset_dF.OriginalTraitUnit == 'micro (day^-1)'
+subset_dF.loc[mask, 'StandardisedTraits'] = subset_dF.OriginalTraitValue[mask]/86400
+
+mask = subset_dF.OriginalTraitUnit == 'event / (1 individual * 24 hour)'
+subset_dF.loc[mask, 'StandardisedTraits'] = subset_dF.OriginalTraitValue[mask]/86400
+
 
 subset_dF.to_csv('../Data/standardised_data.csv', sep=',', encoding='utf-8')
