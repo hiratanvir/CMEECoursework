@@ -175,5 +175,7 @@ subset_dF.GenusSpecies[(subset_dF.ConSize == np.nan)].unique()
 nan_rows = subset_dF[subset_dF['ConSize'].isnull()]
 
 print "Bacterial species with no size information:"
-nan_rows.GenusSpecies.unique()
+a = nan_rows.GenusSpecies.unique()
+dataframe=pd.DataFrame(a, columns=['no_size'])
+dataframe.to_csv('../Data/no_size_bacteria.csv', sep=',', encoding='utf-8')
 print str(len(nan_rows.GenusSpecies.unique())) + " out of 235 species have no size information"
