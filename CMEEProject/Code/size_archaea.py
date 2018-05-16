@@ -25,7 +25,7 @@ microbe_dF = pd.read_csv('../Data/microbial_partitioning_paper_data.csv', low_me
 subset_dF = subset_dF.loc[:, ['FinalID','Consumer','OriginalTraitName','OriginalTraitValue','OriginalTraitUnit','StandardisedTraitValue','StandardisedTraitUnit','ConTemp','ConTempUnit','ConKingdom','ConPhylum','ConClass','ConOrder','ConFamily','ConGenus','ConSpecies','ConSize','ConSizeUnit',]]
 
 #Filter group by bacteria only
-subset_dF = subset_dF.loc[subset_dF['ConKingdom'] == 'Bacteria']
+subset_dF = subset_dF.loc[subset_dF['ConKingdom'] == 'Archaea']
 
 #removing rows with 0 trait values
 subset_dF = subset_dF.loc[subset_dF["StandardisedTraitValue"] > 0]
@@ -80,8 +80,4 @@ nan_rows = cellsizeDF[cellsizeDF['SizeValue'].isnull()]
 #To find out how many species still need size information
 nan_rows.count()
 
-#merging more size data to DataFrame
-#cellsizeDF = cellsizeDF.merge(microbe_dF, how='left', left_on='GenusSpecies', right_on='species').drop('species', axis=1)
-
-
-cellsizeDF.to_csv('../Data/bacteria_size.csv', sep=',', encoding='utf-8')
+cellsizeDF.to_csv('../Data/Archaea_size.csv', sep=',', encoding='utf-8')
