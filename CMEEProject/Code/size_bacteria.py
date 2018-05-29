@@ -4,9 +4,8 @@
 __author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
 __version__ = '2.7.14'
 
-### A python script that opens the new modified dataset and does the NLLS fitting ###
-### Uses the following features:
-### Uses lmfit - look up submodules minimize, Parameters, Parameter, and report_fit
+### A python script that opens the new modified dataset and ...###
+
 
 import pandas as pd #reads in data as dataframes
 import numpy as np
@@ -84,4 +83,4 @@ nan_rows.count()
 #cellsizeDF = cellsizeDF.merge(microbe_dF, how='left', left_on='GenusSpecies', right_on='species').drop('species', axis=1)
 
 
-cellsizeDF.to_csv('../Data/bacteria_size.csv', sep=',', encoding='utf-8')
+cellsizeDF.to_csv('../Data/bacteria_size_.csv', sep=',', encoding='utf-8')

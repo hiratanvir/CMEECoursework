@@ -80,4 +80,4 @@ nan_rows = cellsizeDF[cellsizeDF['SizeValue'].isnull()]
 #To find out how many species still need size information
 nan_rows.count()
 
-cellsizeDF.to_csv('../Data/Archaea_size.csv', sep=',', encoding='utf-8')
+cellsizeDF.to_csv('../Data/Archaea_size1.csv', sep=',', encoding='utf-8')

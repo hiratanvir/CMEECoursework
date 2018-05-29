@@ -11,10 +11,7 @@ __version__ = '2.7.14'
 import pandas as pd #reads in data as dataframes
 import numpy as np
 import scipy as sc
-from scipy import constants
-import matplotlib.pyplot as plt
-from scipy import stats
-from lmfit import minimize, Parameters, Parameter, report_fit
+
 
 #Reading in the csv file as a pandas dataframe
 subset_dF = pd.read_csv('../Data/GlobalDataset.csv', low_memory=False)
@@ -59,11 +56,11 @@ subset_dF['uniqueID'] = subset_dF['FinalID'].rank(method='dense').astype(int)
 subset_dF['GenusSpecies'] = subset_dF["ConGenus"].map(str) + ' ' + subset_dF["ConSpecies"]
 
 ### COMBININIG SIZE DATAFRAME AND BACTERIAL DataFrame ###
-subset_dF = subset_dF.merge(sizeDF, how='left', left_on='GenusSpecies', right_on='Species').drop('Species', axis=1)
+#subset_dF = subset_dF.merge(sizeDF, how='left', left_on='GenusSpecies', right_on='Species').drop('Species', axis=1)
 
 #concatenate columns for size and size size unit
-subset_dF.ConSize = subset_dF.ConSize.fillna(subset_dF.Mass)
-subset_dF.ConSizeUnit = subset_dF.ConSizeUnit.fillna(subset_dF.SizeUnit)
+#subset_dF.ConSize = subset_dF.ConSize.fillna(subset_dF.Mass)
+#subset_dF.ConSizeUnit = subset_dF.ConSizeUnit.fillna(subset_dF.SizeUnit)
 
 #Adding columns containing starting values of the model parameters for the NLLS fitting
 k = constants.value("Boltzmann constant in eV/K")
@@ -170,12 +167,12 @@ final_dF = final_dF.drop(columns, axis=1)
 
 final_dF.to_csv('../Data/bacteria_subset.csv', sep=',', encoding='utf-8')
 
-subset_dF.GenusSpecies[(subset_dF.ConSize == np.nan)].unique()
+#subset_dF.GenusSpecies[(subset_dF.ConSize == np.nan)].unique()
 
-nan_rows = subset_dF[subset_dF['ConSize'].isnull()]
+#nan_rows = subset_dF[subset_dF['ConSize'].isnull()]
 
-print "Bacterial species with no size information:"
-a = nan_rows.GenusSpecies.unique()
-dataframe=pd.DataFrame(a, columns=['no_size'])
-dataframe.to_csv('../Data/no_size_bacteria.csv', sep=',', encoding='utf-8')
-print str(len(nan_rows.GenusSpecies.unique())) + " out of 235 species have no size information"
+#print "Bacterial species with no size information:"
+#a = nan_rows.GenusSpecies.unique()
+#dataframe=pd.DataFrame(a, columns=['no_size'])
+#dataframe.to_csv('../Data/no_size_bacteria.csv', sep=',', encoding='utf-8')
+#print str(len(nan_rows.GenusSpecies.unique())) + " out of 235 groups have no size information"

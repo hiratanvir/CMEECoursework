@@ -35,8 +35,8 @@ subset_dF = subset_dF[~subset_dF['ConPhylum'].isin(['Ciliophora','Ascomycota','R
 subset_dF = subset_dF[~subset_dF['ConClass'].isin(['Liliopsida','Klebsormidiophyceae'])]
 
 #Creating an empty column to add Standardised Trait Values
-subset_dF['StandardisedTraits'] = np.nan
-grouped = subset_dF.groupby('OriginalTraitUnit')
+#subset_dF['StandardisedTraits'] = np.nan
+#grouped = subset_dF.groupby('OriginalTraitUnit')
 
 #for i,g in grouped:
 #
