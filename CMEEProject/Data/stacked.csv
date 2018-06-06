@@ -1,0 +1,1622 @@
+0,GenusSpecies,Acetobacterium carbinolicum
+0,MinSizeValue,1.5
+0,MaxSizeValue,2.5
+0,SizeUnit,um
+0,SizeType,Length
+0,Shape,rod
+0,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+0,Phylum,firmucutes
+0,Notes,pg.894
+1,GenusSpecies,Acetobacterium fimetarium
+1,MinSizeValue,1.5
+1,MaxSizeValue,2.6
+1,SizeUnit,um
+1,SizeType,Length
+1,Shape,rod
+1,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+1,Phylum,firmucutes
+1,Notes,pg.894
+2,GenusSpecies,Aeribacillus pallidus
+2,MinSizeValue,2.0
+2,MaxSizeValue,5.0
+2,SizeUnit,um
+2,SizeType,Length
+2,Shape,rod
+2,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+2,Phylum,firmucutes
+2,Notes,pg. 156
+3,GenusSpecies,Aeromonas hydrophila
+3,MinSizeValue,3.5
+3,MaxSizeValue,3.5
+3,SizeUnit,um
+3,SizeType,Length
+3,Shape,rod
+3,Sources,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255052/
+3,Phylum,proteobacteria
+4,GenusSpecies,Alkaliphilus transvaalensis
+4,MinSizeValue,3.0
+4,MaxSizeValue,6.0
+4,SizeUnit,um
+4,SizeType,Length
+4,Shape,rod
+4,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+4,Phylum,firmucutes
+4,Notes,pg.829
+5,GenusSpecies,Arthrospira fusiformis
+5,MinSizeValue,113.0
+5,MaxSizeValue,302.0
+5,SizeUnit,um
+5,SizeType,Length
+5,Shape,rod
+5,Sources,https://www.researchgate.net/publication/233502806_Arthrospira_fusiformis_Voronichin_Komarek_et_Lund_Cyanoprokaryota_-_A_new_species_for_Europe
+5,Phylum,cyanobacteria
+6,GenusSpecies,Bacillus infernus
+6,MinSizeValue,4.0
+6,MaxSizeValue,8.0
+6,SizeUnit,um
+6,SizeType,Length
+6,Shape,rod
+6,Sources,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.106"
+6,Phylum,firmucutes
+7,GenusSpecies,Bosea eneae
+7,MinSizeValue,1.2
+7,MaxSizeValue,3.0
+7,SizeUnit,um
+7,SizeType,Length
+7,Shape,rod
+7,Sources,https://books.google.co.uk/books?id=dgejA4wa5R4C&pg=PA710&lpg=PA710&dq=Hydrogenophaga+pseudoflava+cell+size&source=bl&ots=cYZTDQzGbm&sig=5P5ROil4OvMEgQ_cg2UuXk00Vyc&hl=en&sa=X&ved=0ahUKEwid5Ovxl5DbAhXFB8AKHUlzAkkQ6AEIVDAH#v=onepage&q=Bosea%20eneae&f=false
+7,Phylum,proteobacteria
+7,Notes,pg. 438
+8,GenusSpecies,Brochothrix thermosphacta
+8,MinSizeValue,1.0
+8,MaxSizeValue,2.0
+8,SizeUnit,um
+8,SizeType,Length
+8,Shape,rod
+8,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+8,Phylum,firmucutes
+8,Notes,"pg.257, Genus: Brochothrix size info used"
+9,GenusSpecies,Caldanaerobacter subterraneus
+9,MinSizeValue,2.0
+9,MaxSizeValue,8.0
+9,SizeUnit,um
+9,SizeType,Length
+9,Shape,rod
+9,Sources,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1243"
+9,Phylum,firmucutes
+9,Notes,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1243"
+10,GenusSpecies,Caldicellulosiruptor obsidiansis
+10,MinSizeValue,2.0
+10,MaxSizeValue,2.0
+10,SizeUnit,um
+10,SizeType,Length
+10,Shape,rod
+10,Sources,https://www.ncbi.nlm.nih.gov/pubmed/20023107
+10,Phylum,firmucutes
+11,GenusSpecies,Caloramator fervidus
+11,MinSizeValue,2.0
+11,MaxSizeValue,2.5
+11,SizeUnit,um
+11,SizeType,Length
+11,Shape,rod
+11,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+11,Phylum,firmucutes
+11,Notes,pg.836
+12,GenusSpecies,Caloramator indicus
+12,MinSizeValue,10.0
+12,MaxSizeValue,100.0
+12,SizeUnit,um
+12,SizeType,Length
+12,Shape,rod
+12,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+12,Phylum,firmucutes
+12,Notes,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.838"
+13,GenusSpecies,Clostridium perfringens
+13,MinSizeValue,1.3
+13,MaxSizeValue,19.0
+13,SizeUnit,um
+13,SizeType,Length
+13,Shape,rod
+13,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+13,Phylum,firmucutes
+13,Notes,pg.799
+14,GenusSpecies,Colwellia demingiae
+14,MinSizeValue,1.5
+14,MaxSizeValue,4.5
+14,SizeUnit,um
+14,SizeType,Length
+14,Shape,rod
+14,Sources,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+14,Phylum,proteobacteria
+14,Notes,pg. 453 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+15,GenusSpecies,Colwellia hornerae
+15,MinSizeValue,1.5
+15,MaxSizeValue,3.0
+15,SizeUnit,um
+15,SizeType,Length
+15,Shape,rod
+15,Sources,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+15,Phylum,proteobacteria
+15,Notes,pg. 453 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+16,GenusSpecies,Colwellia psychrerythraea
+16,MinSizeValue,2.5
+16,MaxSizeValue,3.5
+16,SizeUnit,um
+16,SizeType,Length
+16,Shape,rod
+16,Sources,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+16,Phylum,proteobacteria
+16,Notes,pg. 453 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+17,GenusSpecies,Colwellia psychrotropica
+17,MinSizeValue,1.5
+17,MaxSizeValue,3.0
+17,SizeUnit,um
+17,SizeType,Length
+17,Shape,rod
+17,Sources,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+17,Phylum,proteobacteria
+17,Notes,pg. 454 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+18,GenusSpecies,Deferribacter thermophilus
+18,MinSizeValue,1.0
+18,MaxSizeValue,5.0
+18,SizeUnit,um
+18,SizeType,Length
+18,Shape,rod
+18,Sources,http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-47-2-505
+18,Phylum,Deferribacteres
+19,GenusSpecies,Desulfobacter curvatus
+19,MinSizeValue,1.7
+19,MaxSizeValue,3.5
+19,SizeUnit,um
+19,SizeType,Length
+19,Shape,rod
+19,Sources,https://link.springer.com/content/pdf/10.1007%2FBF00456706.pdf
+19,Phylum,proteobacteria
+20,GenusSpecies,Desulfofaba gelida
+20,MinSizeValue,5.4
+20,MaxSizeValue,6.2
+20,SizeUnit,um
+20,SizeType,Length
+20,Shape,rod
+20,Sources,https://books.google.co.uk/books?id=dgejA4wa5R4C&pg=PA324&dq=Rhizobiales&hl=en&sa=X&ved=0ahUKEwiW9_PajpDbAhXmLcAKHcd4DjgQ6AEIMTAB#v=snippet&q=Desulfofaba%20gelida&f=false
+20,Phylum,proteobacteria
+20,Notes,"large rods, pg. 975 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria"
+21,GenusSpecies,Desulfofrigus fragile
+21,MinSizeValue,3.2
+21,MaxSizeValue,4.2
+21,SizeUnit,um
+21,SizeType,Length
+21,Shape,rod
+21,Sources,https://books.google.co.uk/books?id=9cwgo-9IyTUC&pg=PA977&lpg=PA977&dq=Desulfofrigus+oceanense+cell+size&source=bl&ots=lTtbfougYA&sig=4rpA3CrTU5e2uXVWlwzPw1h9H54&hl=en&sa=X&ved=0ahUKEwj46PvYz5bbAhVDxRQKHf4wD-sQ6AEIMzAC#v=onepage&q=Desulfofrigus%20oceanense%20cell%20size&f=false
+21,Phylum,proteobacteria
+21,Notes,pg.977
+22,GenusSpecies,Desulfofrigus oceanense
+22,MinSizeValue,4.2
+22,MaxSizeValue,6.1
+22,SizeUnit,um
+22,SizeType,Length
+22,Shape,rod
+22,Sources,https://books.google.co.uk/books?id=9cwgo-9IyTUC&pg=PA977&lpg=PA977&dq=Desulfofrigus+oceanense+cell+size&source=bl&ots=lTtbfougYA&sig=4rpA3CrTU5e2uXVWlwzPw1h9H54&hl=en&sa=X&ved=0ahUKEwj46PvYz5bbAhVDxRQKHf4wD-sQ6AEIMzAC#v=onepage&q=Desulfofrigus%20oceanense%20cell%20size&f=false
+22,Phylum,proteobacteria
+22,Notes,pg.977
+23,GenusSpecies,Desulforhopalus vacuolatus
+23,MinSizeValue,3.0
+23,MaxSizeValue,5.0
+23,SizeUnit,um
+23,SizeType,Length
+23,Shape,rod
+23,Sources,https://www.researchgate.net/publication/225671825_Desulforpalus_vacuolatus_gen_nov_sp_nov_a_new_moderately_psychrophilic_sulfate-reducing_bacterium_with_gas_vacuoles_isolated_from_a_temperate_estuary
+23,Phylum,proteobacteria
+24,GenusSpecies,Desulfotalea arctica
+24,MinSizeValue,1.6
+24,MaxSizeValue,2.7
+24,SizeUnit,um
+24,SizeType,Length
+24,Shape,rod
+24,Sources,https://bacdive.dsmz.de/search?search=Desulfotalea+arctica&submit=search
+24,Phylum,proteobacteria
+24,Notes,BacDrive meta-Database
+25,GenusSpecies,Desulfotalea psychrophila
+25,MinSizeValue,4.5
+25,MaxSizeValue,7.4
+25,SizeUnit,um
+25,SizeType,Length
+25,Shape,rod
+25,Sources,https://bacdive.dsmz.de/search?search=Desulfotalea+psychrophila&submit=search
+25,Phylum,proteobacteria
+25,Notes,BacDrive meta-Database
+26,GenusSpecies,Desulfotomaculum putei
+26,MinSizeValue,2.0
+26,MaxSizeValue,5.0
+26,SizeUnit,um
+26,SizeType,Length
+26,Shape,oval
+26,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+26,Phylum,firmucutes
+26,Notes,"pg.993, Table 186"
+27,GenusSpecies,Desulfuromonas michiganensis
+27,MinSizeValue,0.8
+27,MaxSizeValue,1.4
+27,SizeUnit,um
+27,SizeType,Length
+27,Shape,rod
+27,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/65/5/1686_ijs000159.pdf?expires=1526902904&id=id&accname=guest&checksum=44CE48144AF9CF34C5D264FA58575AB5
+27,Phylum,proteobacteria
+28,GenusSpecies,Geobacillus stearothermophilus
+28,MinSizeValue,2.0
+28,MaxSizeValue,3.5
+28,SizeUnit,um
+28,SizeType,Length
+28,Shape,rod
+28,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+28,Phylum,firmucutes
+28,Notes,pg.154
+29,GenusSpecies,Glaciecola punicea
+29,MinSizeValue,1.0
+29,MaxSizeValue,5.0
+29,SizeUnit,um
+29,SizeType,Length
+29,Shape,rod
+29,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/48/4/ijs-48-4-1213.pdf?expires=1526915961&id=id&accname=guest&checksum=088CF97C1DF83E51FD1BE8ED3B8D2D3D
+29,Phylum,proteobacteria
+30,GenusSpecies,Halanaerobium alcaliphilum
+30,MinSizeValue,3.3
+30,MaxSizeValue,5.0
+30,SizeUnit,um
+30,SizeType,Length
+30,Shape,rod
+30,Sources,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1199"
+30,Phylum,firmucutes
+30,Notes,pg.1199
+31,GenusSpecies,Halanaerobium lacusrosei
+31,MinSizeValue,2.0
+31,MaxSizeValue,3.0
+31,SizeUnit,um
+31,SizeType,Length
+31,Shape,rod
+31,Sources,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1200"
+31,Phylum,firmucutes
+31,Notes,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1200"
+32,GenusSpecies,Halomonas campisalis
+32,MinSizeValue,3.0
+32,MaxSizeValue,5.0
+32,SizeUnit,um
+32,SizeType,Length
+32,Shape,rod
+32,Sources,https://www.ncbi.nlm.nih.gov/pubmed/10794143
+32,Phylum,proteobacteria
+33,GenusSpecies,Halomonas elongata
+33,MinSizeValue,2.0
+33,MaxSizeValue,3.0
+33,SizeUnit,um
+33,SizeType,Length
+33,Shape,rod
+33,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/51/4/0511457a.pdf?expires=1526917758&id=id&accname=guest&checksum=88E8DCDABD428EA0F6249F0404341F87
+33,Phylum,proteobacteria
+34,GenusSpecies,Halomonas subglaciescola
+34,MinSizeValue,1.1
+34,MaxSizeValue,56.5
+34,SizeUnit,um
+34,SizeType,Length
+34,Shape,rod
+34,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/37/1/ijs-37-1-27.pdf?expires=1526918345&id=id&accname=guest&checksum=BCFA940E8C9D2267ACB4B0C4DE28C1DA
+34,Phylum,proteobacteria
+35,GenusSpecies,Halonatronum saccharophilum
+35,MinSizeValue,3.5
+35,MaxSizeValue,10.0
+35,SizeUnit,um
+35,SizeType,Length
+35,Shape,rod
+35,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+35,Phylum,firmucutes
+35,Notes,pg.1215
+36,GenusSpecies,Hydrogenophaga pseudoflava
+36,MinSizeValue,0.6
+36,MaxSizeValue,5.5
+36,SizeUnit,um
+36,SizeType,Length
+36,Shape,rod
+36,Sources,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2812990/
+36,Phylum,proteobacteria
+37,GenusSpecies,Klebsiella oxytoca
+37,MinSizeValue,0.6
+37,MaxSizeValue,6.0
+37,SizeUnit,um
+37,SizeType,Length
+37,Shape,rod
+37,Sources,http://www.vetbact.org/index.php?artid=156
+37,Phylum,proteobacteria
+38,GenusSpecies,Lactobacillus acidophilus
+38,MinSizeValue,1.5
+38,MaxSizeValue,6.0
+38,SizeUnit,um
+38,SizeType,Length
+38,Shape,rod
+38,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+38,Phylum,firmucutes
+38,Notes,pg.491
+39,GenusSpecies,Lactobacillus delbrueckii
+39,MinSizeValue,2.0
+39,MaxSizeValue,9.0
+39,SizeUnit,um
+39,SizeType,Length
+39,Shape,rod
+39,Sources,https://hal.archives-ouvertes.fr/hal-00929612/document
+39,Phylum,firmucutes
+39,Notes,pg.499
+40,GenusSpecies,Lactobacillus paracasei
+40,MinSizeValue,2.0
+40,MaxSizeValue,4.0
+40,SizeUnit,um
+40,SizeType,Length
+40,Shape,rod
+40,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+40,Phylum,firmucutes
+40,Notes,pg.504
+41,GenusSpecies,Lactobacillus rhamnosus
+41,MinSizeValue,2.0
+41,MaxSizeValue,4.0
+41,SizeUnit,um
+41,SizeType,Length
+41,Shape,rod
+41,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+41,Phylum,firmucutes
+41,Notes,pg.507
+42,GenusSpecies,Listeria monocytogenes
+42,MinSizeValue,0.5
+42,MaxSizeValue,2.0
+42,SizeUnit,um
+42,SizeType,Length
+42,Shape,rod
+42,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+42,Phylum,firmucutes
+43,GenusSpecies,Marinithermus hydrothermalis
+43,MinSizeValue,7.5
+43,MaxSizeValue,9.4
+43,SizeUnit,um
+43,SizeType,Length
+43,Shape,rod
+43,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/53/1/59.pdf?expires=1526922495&id=id&accname=guest&checksum=E4691D32D2EA9A09BB04138504F6D456
+43,Phylum,Deinococcus-Thermus
+44,GenusSpecies,Marinitoga piezophila
+44,MinSizeValue,1.0
+44,MaxSizeValue,2.5
+44,SizeUnit,um
+44,SizeType,Length
+44,Shape,rod
+44,Sources,https://www.ncbi.nlm.nih.gov/pubmed/12148648
+44,Phylum,Thermotogae
+45,GenusSpecies,Marinobacter alkaliphilus
+45,MinSizeValue,2.0
+45,MaxSizeValue,5.0
+45,SizeUnit,um
+45,SizeType,Length
+45,Shape,rod
+45,Sources,https://www.researchgate.net/publication/8388977_Marinobacter_alkaliphilus_sp_nov_a_novel_alkaliphilic_bacterium_isolated_from_subseafloor_alkaline_serpentine_mud_from_Ocean_Drilling_Program_Site_1200_at_South_Chamorro_Seamount_Mariana_Forearc
+45,Phylum,proteobacteria
+46,GenusSpecies,Moritella abyssi
+46,MinSizeValue,2.0
+46,MaxSizeValue,7.0
+46,SizeUnit,um
+46,SizeType,Length
+46,Shape,rod
+46,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/53/2/533.pdf?expires=1526923609&id=id&accname=guest&checksum=0A81172A69073197CC23FFE176BBC42C
+46,Phylum,proteobacteria
+47,GenusSpecies,Moritella profunda
+47,MinSizeValue,1.5
+47,MaxSizeValue,5.0
+47,SizeUnit,um
+47,SizeType,Length
+47,Shape,rod
+47,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/53/2/533.pdf?expires=1526923609&id=id&accname=guest&checksum=0A81172A69073197CC23FFE176BBC42C
+47,Phylum,proteobacteria
+48,GenusSpecies,Pelotomaculum thermopropionicum
+48,MinSizeValue,1.7
+48,MaxSizeValue,2.8
+48,SizeUnit,um
+48,SizeType,Length
+48,Shape,Spherical
+48,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+48,Phylum,firmucutes
+48,Notes,pg.997
+49,GenusSpecies,Persephonella guaymasensis
+49,MinSizeValue,2.0
+49,MaxSizeValue,4.0
+49,SizeUnit,um
+49,SizeType,Length
+49,Shape,rod
+49,Sources,http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-52-4-1349#tab2
+49,Phylum,Aquificae
+50,GenusSpecies,Persephonella marina
+50,MinSizeValue,2.0
+50,MaxSizeValue,4.0
+50,SizeUnit,um
+50,SizeType,Length
+50,Shape,rod
+50,Sources,http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-52-4-1349#tab2
+50,Phylum,Aquificae
+51,GenusSpecies,Profundimonas piezophila
+51,MinSizeValue,4.0
+51,MaxSizeValue,5.0
+51,SizeUnit,um
+51,SizeType,Length
+51,Shape,rod
+51,Sources,http://aem.asm.org/content/80/1/54.full
+51,Phylum,proteobacteria
+52,GenusSpecies,Pseudoalteromonas antarctica
+52,MinSizeValue,1.0
+52,MaxSizeValue,3.0
+52,SizeUnit,um
+52,SizeType,Length
+52,Shape,rod
+52,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/47/2/ijs-47-2-345.pdf?expires=1526924343&id=id&accname=guest&checksum=FF1A3F36005B016E92C7B9740F808F9A
+52,Phylum,proteobacteria
+53,GenusSpecies,Pseudothermotoga lettingae
+53,MinSizeValue,1.5
+53,MaxSizeValue,11.0
+53,SizeUnit,um
+53,SizeType,Length
+53,Shape,rod
+53,Sources,https://books.google.co.uk/books?id=3znhBwAAQBAJ&pg=PA370&lpg=PA370&dq=thermotogaceae+cell+size&source=bl&ots=iAqIJx8wC_&sig=PVgY-4Ga0mAJzpzmsQnfUfXkjEU&hl=en&sa=X&ved=0ahUKEwjEoreSxorbAhXILsAKHaPCA88Q6AEIMjAC#v=onepage&q=thermotogaceae%20cell%20size&f=false
+53,Phylum,Thermotogae
+53,Notes,Average size of family Thermotogaceae taken. pg.370
+54,GenusSpecies,Pseudoxanthomonas broegbernensis
+54,MinSizeValue,0.8
+54,MaxSizeValue,2.0
+54,SizeUnit,um
+54,SizeType,Length
+54,Shape,rod
+54,Sources,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Xanthomonadaceae&f=false
+54,Phylum,proteobacteria
+54,Notes,"Could not find size info for genus or species, so info on family: Xanthomonas used"
+55,GenusSpecies,Pseudoxanthomonas taiwanensis
+55,MinSizeValue,0.8
+55,MaxSizeValue,2.0
+55,SizeUnit,um
+55,SizeType,Length
+55,Shape,rod
+55,Sources,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Xanthomonadaceae&f=false
+55,Phylum,proteobacteria
+55,Notes,"Could not find size info for genus or species, so info on family: Xanthomonas used"
+56,GenusSpecies,Psychrobacter muriicola
+56,MinSizeValue,0.5
+56,MaxSizeValue,2.0
+56,SizeUnit,um
+56,SizeType,Length
+56,Shape,rod
+56,Sources,http://cryosol.ru/images/stuff/liza/shcherb-2009.pdf
+56,Phylum,proteobacteria
+56,Notes,Cells are cocci or coccobacilli
+57,GenusSpecies,Psychroflexus torquis
+57,MinSizeValue,0.5
+57,MaxSizeValue,3.0
+57,SizeUnit,um
+57,SizeType,Length
+57,Shape,rod
+57,Sources,https://books.google.co.uk/books?id=0kghF7qBE98C&pg=PA258&lpg=PA258&dq=Psychroflexus+torquis+cell+size&source=bl&ots=Rkp9HzNY4S&sig=oi1y7rL_0PSrFXxrPvXfR8KnvhU&hl=en&sa=X&ved=0ahUKEwjggeHa04rbAhVKAsAKHWyXAgw4ChDoAQgtMAE#v=onepage&q=Psychroflexus%20torquis%20cell%20size&f=false
+57,Phylum,bacteroidetes
+57,Notes,pg. 258 of Bergey’s Manual of Systematic Bacteriology Volume 4: The Bacteroidetes
+58,GenusSpecies,Rubrobacter radiotolerans
+58,MinSizeValue,1.0
+58,MaxSizeValue,4.0
+58,SizeUnit,um
+58,SizeType,Length
+58,Shape,rod
+58,Sources,https://books.google.co.uk/books?id=66UMS7A2KisC&pg=PA2006&lpg=PA2006&dq=Rubrobacter+xylanophilus+cell+volume&source=bl&ots=_8IUoOsVAb&sig=ISGSN_kQXz9eLGaLTAua_OkTDaI&hl=en&sa=X&ved=0ahUKEwij1MrJ1YrbAhUJXMAKHdoNCm84ChDoAQgvMAE#v=onepage&q=Rubrobacter%20xylanophilus%20cell%20volume&f=false
+58,Phylum,Actinobacteria
+58,Notes,pg. 2008 of Bergey’s Manual of Systematic Bacteriology Volume 5: The Actinobacteria
+59,GenusSpecies,Rubrobacter xylanophilus
+59,MinSizeValue,1.0
+59,MaxSizeValue,3.0
+59,SizeUnit,um
+59,SizeType,Length
+59,Shape,rod
+59,Sources,https://books.google.co.uk/books?id=66UMS7A2KisC&pg=PA2006&lpg=PA2006&dq=Rubrobacter+xylanophilus+cell+volume&source=bl&ots=_8IUoOsVAb&sig=ISGSN_kQXz9eLGaLTAua_OkTDaI&hl=en&sa=X&ved=0ahUKEwij1MrJ1YrbAhUJXMAKHdoNCm84ChDoAQgvMAE#v=onepage&q=Rubrobacter%20xylanophilus%20cell%20volume&f=false
+59,Phylum,Actinobacteria
+59,Notes,pg. 2008 of Bergey’s Manual of Systematic Bacteriology Volume 5: The Actinobacteria
+60,GenusSpecies,Shewanella gelidimarina
+60,MinSizeValue,1.5
+60,MaxSizeValue,2.5
+60,SizeUnit,um
+60,SizeType,Length
+60,Shape,rod
+60,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/47/4/ijs-47-4-1040.pdf?expires=1526993475&id=id&accname=guest&checksum=C762647EEFD31431F488074CDAC07BB4
+60,Phylum,proteobacteria
+61,GenusSpecies,Sphaerospermopsis aphanizomenoides
+61,MinSizeValue,4.4
+61,MaxSizeValue,5.1
+61,SizeUnit,um
+61,SizeType,Length
+61,Shape,cylindrical
+61,Sources,https://www.researchgate.net/publication/283282292_Morphological_and_ecological_characteristics_of_potentially_toxic_invasive_cyanobacterium_Sphaerospermopsis_aphanizomenoides_Forti_Zapomelova_Jezberova_Hrouzek_Hisem_Rehakova_Komarkova_Nostocales_Cyan
+61,Phylum,cyanobacteria
+61,Notes,"Aphanizomenon aphanizomenoides – Name in Consumer column, avergae length of vegetative cell size"
+62,GenusSpecies,Sulfobacillus thermotolerans
+62,MinSizeValue,1.5
+62,MaxSizeValue,4.5
+62,SizeUnit,um
+62,SizeType,Length
+62,Shape,rod
+62,Sources,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1184"
+62,Phylum,firmucutes
+63,GenusSpecies,Sulfurihydrogenibium kristjanssonii
+63,MinSizeValue,1.5
+63,MaxSizeValue,2.5
+63,SizeUnit,um
+63,SizeType,Length
+63,Shape,rod
+63,Sources,https://www.researchgate.net/publication/5401401_Sulfurihydrogenibium_kristjanssonii_sp_nov_a_hydrogen-_and_sulfur-oxidizing_thermophile_isolated_from_a_terrestrial_Icelandic_hot_spring
+63,Phylum,Aquificae
+64,GenusSpecies,Thermacetogenium phaeum
+64,MinSizeValue,2.0
+64,MaxSizeValue,12.6
+64,SizeUnit,um
+64,SizeType,Length
+64,Shape,rod
+64,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+64,Phylum,firmucutes
+64,Notes,pg.1256
+65,GenusSpecies,Thermoanaerobacter kivui
+65,MinSizeValue,2.0
+65,MaxSizeValue,3.5
+65,SizeUnit,um
+65,SizeType,Length
+65,Shape,rod
+65,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+65,Phylum,firmucutes
+65,Notes,"pg.1235, cell size during growth on H2 and CO2"
+66,GenusSpecies,Thermoanaerobacter kivui
+66,MinSizeValue,5.5
+66,MaxSizeValue,7.5
+66,SizeUnit,um
+66,SizeType,Length
+66,Shape,rod
+66,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+66,Phylum,firmucutes
+66,Notes,"pg.1235,  cell size during growth on glucose "
+67,GenusSpecies,Thermoanaerobacter mathranii
+67,MinSizeValue,1.8
+67,MaxSizeValue,3.9
+67,SizeUnit,um
+67,SizeType,Length
+67,Shape,rod
+67,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+67,Phylum,firmucutes
+67,Notes,pg.1235
+68,GenusSpecies,Thermoanaerobacter siderophilus
+68,MinSizeValue,3.5
+68,MaxSizeValue,9.0
+68,SizeUnit,um
+68,SizeType,Length
+68,Shape,rod
+68,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+68,Phylum,firmucutes
+68,Notes,pg.1236
+69,GenusSpecies,Thermoanaerobacterium thermosulfurigenes
+69,MinSizeValue,2.0
+69,MaxSizeValue,20.0
+69,SizeUnit,um
+69,SizeType,Length
+69,Shape,rod
+69,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+69,Phylum,firmucutes
+69,Notes,pg.1283
+70,GenusSpecies,Thermosipho japonicus
+70,MinSizeValue,1.0
+70,MaxSizeValue,4.0
+70,SizeUnit,um
+70,SizeType,Length
+70,Shape,rod
+70,Sources,https://books.google.co.uk/books?id=3znhBwAAQBAJ&pg=PA661&lpg=PA661&dq=thermotogales+bergey%27s&source=bl&ots=iAqIMu7ryZ&sig=xsb-FNO97kHa59apMvfxGg8vfXU&hl=en&sa=X&ved=0ahUKEwis-N6drpLbAhVItxQKHQBRBnkQ6AEIWTAF#v=onepage&q=thermotogales%20bergey's&f=false
+70,Phylum,Thermotogae
+70,Notes,pg. 370  size of Genus Thermosipho used
+71,GenusSpecies,Xanthomonas campestris
+71,MinSizeValue,1.35
+71,MaxSizeValue,2.17
+71,SizeUnit,um
+71,SizeType,Length
+71,Shape,rod
+71,Sources,https://books.google.co.uk/books?id=8A_yBwAAQBAJ&pg=PA191&lpg=PA191&dq=Xanthomonas+campestris+cell+width&source=bl&ots=LCjaeonYF-&sig=cHYPUCF7EAQ6Dq8eV8xlGskcvMA&hl=en&sa=X&ved=0ahUKEwiO6IXQs5nbAhUMthQKHckwA9o4ChDoAQhDMAc#v=onepage&q=Xanthomonas%20campestris%20cell%20width&f=false
+71,Phylum,proteobacteria
+71,Notes,pg.191
+72,GenusSpecies,Xylella fastidiosa
+72,MinSizeValue,0.9
+72,MaxSizeValue,3.5
+72,SizeUnit,um
+72,SizeType,Length
+72,Shape,rod
+72,Sources,http://aem.asm.org/content/73/8/2690.full?view=long&pmid=17293518
+72,Phylum,proteobacteria
+73,GenusSpecies,Yersinia enterocolitica
+73,MinSizeValue,1.0
+73,MaxSizeValue,3.0
+73,SizeUnit,um
+73,SizeType,Length
+73,Shape,rod
+73,Sources,http://www.elsevier.es/es-revista-enfermedades-infecciosas-microbiologia-clinica-28-articulo-yersinia-enterocolitica-pathogenesis-virulence-antimicrobial-S0213005X11002655?referer=buscador
+73,Phylum,proteobacteria
+74,GenusSpecies,Bacillus cereus
+74,SizeType,mass
+74,MinMass,3.7e-12
+74,MaxMass,3.7e-12
+74,MassUnit,g
+74,Shape,rod
+74,Sources,http://www.pnas.org/content/105/44/16994
+74,Phylum,firmucutes
+75,GenusSpecies,Bacillus megaterium
+75,SizeType,mass
+75,MinMass,7e-12
+75,MaxMass,7e-12
+75,MassUnit,g
+75,Shape,rod
+75,Sources,http://www.pnas.org/content/105/44/16994
+75,Phylum,firmucutes
+76,GenusSpecies,Enterococcus faecalis
+76,SizeType,mass
+76,MinMass,2e-13
+76,MaxMass,2e-13
+76,MassUnit,g
+76,Shape,oval
+76,Sources,http://www.pnas.org/content/105/44/16994
+76,Phylum,proteobacteria
+77,GenusSpecies,Escherichia coli
+77,SizeType,mass
+77,MinMass,1.2e-12
+77,MaxMass,1.2e-12
+77,MassUnit,g
+77,Shape,rod
+77,Sources,http://www.pnas.org/content/105/44/16994
+77,Phylum,proteobacteria
+78,GenusSpecies,Halomonas halodenitrificans
+78,SizeType,mass
+78,MinMass,4e-13
+78,MaxMass,4e-13
+78,MassUnit,g
+78,Shape,rod
+78,Sources,http://www.pnas.org/content/105/44/16994
+78,Phylum,proteobacteria
+78,Notes,DeLong
+79,GenusSpecies,Lactococcus lactis
+79,SizeType,mass
+79,MinMass,2e-13
+79,MaxMass,2e-13
+79,MassUnit,g
+79,Shape,Spherical
+79,Sources,http://www.pnas.org/content/105/44/16994
+79,Phylum,firmucutes
+80,GenusSpecies,Pseudomonas fluorescens
+80,SizeType,mass
+80,MinMass,1e-12
+80,MaxMass,1e-12
+80,MassUnit,g
+80,Shape,rod
+80,Sources,http://www.pnas.org/content/105/44/16994
+80,Phylum,proteobacteria
+81,GenusSpecies,Pseudomonas fluorescens
+81,SizeType,mass
+81,MinMass,1.2e-12
+81,MaxMass,1.2e-12
+81,MassUnit,g
+81,Shape,rod
+81,Sources,http://www.pnas.org/content/105/44/16994
+81,Phylum,proteobacteria
+82,GenusSpecies,Pseudomonas putida
+82,SizeType,mass
+82,MinMass,1.7e-12
+82,MaxMass,1.7e-12
+82,MassUnit,g
+82,Shape,rod
+82,Sources,http://www.pnas.org/content/105/44/16994
+82,Phylum,proteobacteria
+83,GenusSpecies,Pseudomonas putida
+83,SizeType,mass
+83,MinMass,1.9e-12
+83,MaxMass,1.9e-12
+83,MassUnit,g
+83,Shape,rod
+83,Sources,http://www.pnas.org/content/105/44/16994
+83,Phylum,proteobacteria
+84,GenusSpecies,Salmonella enterica
+84,SizeType,mass
+84,MinMass,6.6e-13
+84,MaxMass,6.6e-13
+84,MassUnit,g
+84,Shape,rod
+84,Sources,http://www.pnas.org/content/105/44/16994
+84,Phylum,proteobacteria
+84,Notes,Size of Salmonella enterica serovar Typhimurium: http://www.salmonella.org/info.html
+85,GenusSpecies,Staphylococcus aureus
+85,SizeType,mass
+85,MinMass,2.7e-13
+85,MaxMass,2.7e-13
+85,MassUnit,g
+85,Shape,Spherical
+85,Sources,http://www.pnas.org/content/105/44/16994
+85,Phylum,firmucutes
+86,GenusSpecies,Streptococcus thermophilus
+86,SizeType,mass
+86,MinMass,2.6e-13
+86,MaxMass,2.6e-13
+86,MassUnit,g
+86,Shape,Spherical
+86,Sources,http://www.pnas.org/content/105/44/16994
+86,Phylum,firmucutes
+87,GenusSpecies,Arthrospira fusiformis
+87,MinSizeValue,24.7
+87,MaxSizeValue,48.0
+87,SizeUnit,um
+87,SizeType,Sprial Width
+87,Shape,rod
+87,Sources,https://www.researchgate.net/publication/233502806_Arthrospira_fusiformis_Voronichin_Komarek_et_Lund_Cyanoprokaryota_-_A_new_species_for_Europe
+87,Phylum,cyanobacteria
+88,GenusSpecies,Anacystis incerta
+88,SizeType,Volume
+88,MinVolume,5e-19
+88,MaxVolume,5e-19
+88,VolumeUnit,m^3
+88,Shape,Spherical
+88,Sources,Saujanya’s phytoplankton data
+88,Phylum,cyanobacteria
+88,Notes,Average mean cell volume
+89,GenusSpecies,Anacystis incerta
+89,SizeType,Volume
+89,MinVolume,1e-17
+89,MaxVolume,1e-17
+89,VolumeUnit,m^3
+89,Shape,Spherical
+89,Sources,Saujanya’s phytoplankton data
+89,Phylum,cyanobacteria
+89,Notes,Average mean cell volume
+90,GenusSpecies,Anacystis incerta
+90,SizeType,Volume
+90,MinVolume,1.05e-16
+90,MaxVolume,1.05e-16
+90,VolumeUnit,m^3
+90,Shape,Spherical
+90,Sources,Saujanya’s phytoplankton data
+90,Phylum,cyanobacteria
+90,Notes,Average mean cell volume
+91,GenusSpecies,Anacystis incerta
+91,SizeType,Volume
+91,MinVolume,2.6e-17
+91,MaxVolume,2.6e-17
+91,VolumeUnit,m^3
+91,Shape,Spherical
+91,Sources,Saujanya’s phytoplankton data
+91,Phylum,cyanobacteria
+91,Notes,Average mean cell volume
+92,GenusSpecies,Aphanizomenon flosaquae
+92,SizeType,Volume
+92,MinVolume,1.96e-15
+92,MaxVolume,1.96e-15
+92,VolumeUnit,m^3
+92,Shape,rod
+92,Sources,Saujanya’s phytoplankton data
+92,Phylum,cyanobacteria
+93,GenusSpecies,Crocosphaera watsonii
+93,SizeType,Volume
+93,MinVolume,1.7e-08
+93,MaxVolume,1.7e-08
+93,VolumeUnit,um3
+93,Sources,https://books.google.co.uk/books?id=OsbSCQAAQBAJ&pg=PA55&lpg=PA55&dq=crocosphaera+watsonii+cell+volume&source=bl&ots=qswP10xFB2&sig=GTBZfRJBhdA2aYe7QIcuquYcgH0&hl=en&sa=X&ved=0ahUKEwiruLOIm4jbAhVpAcAKHXY0Cx44FBDoAQgnMAA#v=onepage&q=crocosphaera%20watsonii%20cell%20volume&f=false
+93,Phylum,cyanobacteria
+93,Notes,Pg.55 confirm units of measurement – Physiological and molecular ecology of aquatic cyanobacteria
+94,GenusSpecies,Microcystis aeruginosa
+94,SizeType,Volume
+94,MinVolume,6.5e-17
+94,MaxVolume,6.5e-17
+94,VolumeUnit,m^3
+94,Shape,Spherical
+94,Sources,https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/12-2060.1
+94,Phylum,cyanobacteria
+94,Notes,"Dell, A.I., S. Pawar, V.M. Savage. 2013. The thermal dependence of biological traits. Ecology 94: 1205."
+95,GenusSpecies,Microcystis aeruginosa
+95,SizeType,Volume
+95,MinVolume,1.31e-15
+95,MaxVolume,1.31e-15
+95,VolumeUnit,m^3
+95,Shape,Spherical
+95,Sources,Saujanya’s phytoplankton data
+95,Phylum,cyanobacteria
+95,Notes,Average mean cell volume
+96,GenusSpecies,Microcystis aeruginosa
+96,SizeType,Volume
+96,MinVolume,3.27e-15
+96,MaxVolume,3.27e-15
+96,VolumeUnit,m^3
+96,Shape,Spherical
+96,Sources,Saujanya’s phytoplankton data
+96,Phylum,cyanobacteria
+96,Notes,Average mean cell volume
+97,GenusSpecies,Microcystis aeruginosa
+97,SizeType,Volume
+97,MinVolume,6.54e-15
+97,MaxVolume,6.54e-15
+97,VolumeUnit,m^3
+97,Shape,Spherical
+97,Sources,Saujanya’s phytoplankton data
+97,Phylum,cyanobacteria
+97,Notes,Average mean cell volume
+98,GenusSpecies,Planktothrix agardhii
+98,SizeType,Volume
+98,MinVolume,1.96e-15
+98,MaxVolume,1.96e-15
+98,VolumeUnit,m^3
+98,Shape,rod
+98,Sources,Saujanya’s phytoplankton data
+98,Phylum,cyanobacteria
+99,GenusSpecies,Planktothrix agardhii
+99,SizeType,Volume
+99,MinVolume,9.62e-16
+99,MaxVolume,9.62e-16
+99,VolumeUnit,m^3
+99,Shape,rod
+99,Sources,Saujanya’s phytoplankton data
+99,Phylum,cyanobacteria
+100,GenusSpecies,Synechococcus lividus
+100,SizeType,Volume
+100,MinVolume,1.8
+100,MaxVolume,1.8
+100,VolumeUnit,um3
+100,Shape,Spherical
+100,Sources,"http://kirschner.med.harvard.edu/files/bionumbers/Nucleic%20acid%20contents,%20observed%20and%20predicted%20burst%20sizes%20for%20a%20range%20of%20algae%20and%20viruses.pdf"
+100,Phylum,cyanobacteria
+100,Notes,length info: https://www.researchgate.net/publication/230475979_The_effects_of_some_ecological_factors_on_cell_size_of_the_hot_spring_alga_Synechococcus_lividus_Cyanophyta
+101,GenusSpecies,Trichodesmium erythraeum
+101,SizeType,Volume
+101,MinVolume,9.5e-16
+101,MaxVolume,9.5e-16
+101,VolumeUnit,m^3
+101,Sources,Saujanya’s phytoplankton data
+101,Phylum,cyanobacteria
+102,GenusSpecies,Acetobacterium carbinolicum
+102,MinSizeValue,0.8
+102,MaxSizeValue,1.0
+102,SizeUnit,um
+102,SizeType,Width
+102,Shape,rod
+102,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+102,Phylum,firmucutes
+102,Notes,pg.894
+103,GenusSpecies,Acetobacterium fimetarium
+103,MinSizeValue,0.8
+103,MaxSizeValue,1.1
+103,SizeUnit,um
+103,SizeType,Width
+103,Shape,rod
+103,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+103,Phylum,firmucutes
+103,Notes,pg.894
+104,GenusSpecies,Aeribacillus pallidus
+104,MinSizeValue,0.8
+104,MaxSizeValue,0.9
+104,SizeUnit,um
+104,SizeType,Width
+104,Shape,rod
+104,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+104,Phylum,firmucutes
+104,Notes,Reclassification of Geobacillus as Aeribacillus: https://www.ncbi.nlm.nih.gov/pubmed/19700455 
+105,GenusSpecies,Aeromonas hydrophila
+105,MinSizeValue,1.0
+105,MaxSizeValue,1.0
+105,SizeUnit,um
+105,SizeType,Width
+105,Shape,rod
+105,Sources,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255052/
+105,Phylum,proteobacteria
+106,GenusSpecies,Alkaliphilus transvaalensis
+106,MinSizeValue,0.4
+106,MaxSizeValue,0.7
+106,SizeUnit,um
+106,SizeType,Width
+106,Shape,rod
+106,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+106,Phylum,firmucutes
+106,Notes,pg.829
+107,GenusSpecies,Aphanizomenon aphanizomenoides
+107,MinSizeValue,4.0
+107,MaxSizeValue,5.0
+107,SizeUnit,um
+107,SizeType,Width
+107,Shape,rod
+107,Sources,https://books.google.co.uk/books?id=Sc4897dfM_MC&pg=PA94&lpg=PA94&dq=Aphanizomenon+aphanizomenoides+cell+diameter&source=bl&ots=n5bGtiJOIK&sig=SqQmHcagACzx3QwHXBB6BGXhZUE&hl=en&sa=X&ved=0ahUKEwjDlOKJ2IfbAhUUWsAKHZZSDUoQ6AEIKDAA#v=onepage&q=Aphanizomenon%20aphanizomenoides%20cell%20diameter&f=false
+107,Phylum,cyanobacteria
+107,Notes,pg.94 of citation
+108,GenusSpecies,Arthrospira fusiformis
+108,MinSizeValue,7.3
+108,MaxSizeValue,8.9
+108,SizeUnit,um
+108,SizeType,Width
+108,Shape,rod
+108,Sources,https://www.researchgate.net/publication/233502806_Arthrospira_fusiformis_Voronichin_Komarek_et_Lund_Cyanoprokaryota_-_A_new_species_for_Europe
+108,Phylum,cyanobacteria
+109,GenusSpecies,Bacillus infernus
+109,MinSizeValue,0.7
+109,MaxSizeValue,0.8
+109,SizeUnit,um
+109,SizeType,Width
+109,Shape,rod
+109,Sources,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.106"
+109,Phylum,firmucutes
+110,GenusSpecies,Bosea eneae
+110,MinSizeValue,0.5
+110,MaxSizeValue,0.9
+110,SizeUnit,um
+110,SizeType,Width
+110,Shape,rod
+110,Sources,https://books.google.co.uk/books?id=dgejA4wa5R4C&pg=PA710&lpg=PA710&dq=Hydrogenophaga+pseudoflava+cell+size&source=bl&ots=cYZTDQzGbm&sig=5P5ROil4OvMEgQ_cg2UuXk00Vyc&hl=en&sa=X&ved=0ahUKEwid5Ovxl5DbAhXFB8AKHUlzAkkQ6AEIVDAH#v=onepage&q=Bosea%20eneae&f=false
+110,Phylum,proteobacteria
+110,Notes,size info of Family: Bradyrhizobiaceae use
+111,GenusSpecies,Brochothrix thermosphacta
+111,MinSizeValue,0.6
+111,MaxSizeValue,0.75
+111,SizeUnit,um
+111,SizeType,Width
+111,Shape,rod
+111,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+111,Phylum,firmucutes
+111,Notes,"pg.257, Genus: Brochothrix size info used"
+112,GenusSpecies,Caldanaerobacter subterraneus
+112,MinSizeValue,0.5
+112,MaxSizeValue,0.7
+112,SizeUnit,um
+112,SizeType,Width
+112,Shape,rod
+112,Sources,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1243"
+112,Phylum,firmucutes
+112,Notes,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1243"
+113,GenusSpecies,Caldicellulosiruptor obsidiansis
+113,MinSizeValue,0.2
+113,MaxSizeValue,0.2
+113,SizeUnit,um
+113,SizeType,Width
+113,Shape,rod
+113,Sources,https://www.ncbi.nlm.nih.gov/pubmed/20023107
+113,Phylum,firmucutes
+114,GenusSpecies,Caloramator fervidus
+114,MinSizeValue,0.65
+114,MaxSizeValue,0.75
+114,SizeUnit,um
+114,SizeType,Width
+114,Shape,rod
+114,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+114,Phylum,firmucutes
+114,Notes,pg.836
+115,GenusSpecies,Caloramator indicus
+115,MinSizeValue,0.6
+115,MaxSizeValue,0.8
+115,SizeUnit,um
+115,SizeType,Width
+115,Shape,rod
+115,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+115,Phylum,firmucutes
+115,Notes,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.838"
+116,GenusSpecies,Clostridium perfringens
+116,MinSizeValue,0.6
+116,MaxSizeValue,2.4
+116,SizeUnit,um
+116,SizeType,Width
+116,Shape,rod
+116,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+116,Phylum,firmucutes
+116,Notes,pg.799
+117,GenusSpecies,Colwellia demingiae
+117,MinSizeValue,0.4
+117,MaxSizeValue,0.6
+117,SizeUnit,um
+117,SizeType,Width
+117,Shape,rod
+117,Sources,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+117,Phylum,proteobacteria
+117,Notes,pg. 453 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+118,GenusSpecies,Colwellia hornerae
+118,MinSizeValue,0.4
+118,MaxSizeValue,0.8
+118,SizeUnit,um
+118,SizeType,Width
+118,Shape,rod
+118,Sources,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+118,Phylum,proteobacteria
+118,Notes,pg. 453 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+119,GenusSpecies,Colwellia psychrerythraea
+119,MinSizeValue,0.5
+119,MaxSizeValue,0.5
+119,SizeUnit,um
+119,SizeType,Width
+119,Shape,rod
+119,Sources,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+119,Phylum,proteobacteria
+119,Notes,pg. 453 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+120,GenusSpecies,Colwellia psychrotropica
+120,MinSizeValue,0.4
+120,MaxSizeValue,0.8
+120,SizeUnit,um
+120,SizeType,Width
+120,Shape,rod
+120,Sources,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+120,Phylum,proteobacteria
+120,Notes,pg. 454 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+121,GenusSpecies,Deferribacter thermophilus
+121,MinSizeValue,0.3
+121,MaxSizeValue,0.5
+121,SizeUnit,um
+121,SizeType,Width
+121,Shape,rod
+121,Sources,http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-47-2-505
+121,Phylum,Deferribacteres
+122,GenusSpecies,Deinococcus geothermalis
+122,MinSizeValue,1.5
+122,MaxSizeValue,2.0
+122,SizeUnit,um
+122,SizeType,Width
+122,Shape,Spherical
+122,Sources,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5023248/
+122,Phylum,Deinococcus-Thermus
+123,GenusSpecies,Deinococcus murrayi
+123,MinSizeValue,1.2
+123,MaxSizeValue,2.0
+123,SizeUnit,um
+123,SizeType,Width
+123,Shape,Spherical
+123,Sources,https://books.google.co.uk/books?id=3znhBwAAQBAJ&pg=PA370&lpg=PA370&dq=thermotogaceae+cell+size&source=bl&ots=iAqIJx8wC_&sig=PVgY-4Ga0mAJzpzmsQnfUfXkjEU&hl=en&sa=X&ved=0ahUKEwjEoreSxorbAhXILsAKHaPCA88Q6AEIMjAC#v=snippet&q=Deinococcus%20geothermalis&f=false
+123,Phylum,Deinococcus-Thermus
+123,Notes,Bergey's Manual of Systematic Bacteriology: Volume 1. pg.401
+124,GenusSpecies,Desulfobacter curvatus
+124,MinSizeValue,0.5
+124,MaxSizeValue,1.0
+124,SizeUnit,um
+124,SizeType,Width
+124,Shape,rod
+124,Sources,https://link.springer.com/content/pdf/10.1007%2FBF00456706.pdf
+124,Phylum,proteobacteria
+125,GenusSpecies,Desulfofaba gelida
+125,MinSizeValue,3.1
+125,MaxSizeValue,3.1
+125,SizeUnit,um
+125,SizeType,Width
+125,Shape,rod
+125,Sources,https://books.google.co.uk/books?id=dgejA4wa5R4C&pg=PA324&dq=Rhizobiales&hl=en&sa=X&ved=0ahUKEwiW9_PajpDbAhXmLcAKHcd4DjgQ6AEIMTAB#v=snippet&q=Desulfofaba%20gelida&f=false
+125,Phylum,proteobacteria
+125,Notes,"large rods, pg. 975 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria"
+126,GenusSpecies,Desulfofrigus fragile
+126,MinSizeValue,0.8
+126,MaxSizeValue,0.8
+126,SizeUnit,um
+126,SizeType,Width
+126,Shape,rod
+126,Sources,https://books.google.co.uk/books?id=9cwgo-9IyTUC&pg=PA977&lpg=PA977&dq=Desulfofrigus+oceanense+cell+size&source=bl&ots=lTtbfougYA&sig=4rpA3CrTU5e2uXVWlwzPw1h9H54&hl=en&sa=X&ved=0ahUKEwj46PvYz5bbAhVDxRQKHf4wD-sQ6AEIMzAC#v=onepage&q=Desulfofrigus%20oceanense%20cell%20size&f=false
+126,Phylum,proteobacteria
+126,Notes,pg.977
+127,GenusSpecies,Desulfofrigus oceanense
+127,MinSizeValue,2.1
+127,MaxSizeValue,2.1
+127,SizeUnit,um
+127,SizeType,Width
+127,Shape,rod
+127,Sources,https://books.google.co.uk/books?id=9cwgo-9IyTUC&pg=PA977&lpg=PA977&dq=Desulfofrigus+oceanense+cell+size&source=bl&ots=lTtbfougYA&sig=4rpA3CrTU5e2uXVWlwzPw1h9H54&hl=en&sa=X&ved=0ahUKEwj46PvYz5bbAhVDxRQKHf4wD-sQ6AEIMzAC#v=onepage&q=Desulfofrigus%20oceanense%20cell%20size&f=false
+127,Phylum,proteobacteria
+127,Notes,pg.977
+128,GenusSpecies,Desulforhopalus vacuolatus
+128,MinSizeValue,1.5
+128,MaxSizeValue,1.8
+128,SizeUnit,um
+128,SizeType,Width
+128,Shape,rod
+128,Sources,https://www.researchgate.net/publication/225671825_Desulforpalus_vacuolatus_gen_nov_sp_nov_a_new_moderately_psychrophilic_sulfate-reducing_bacterium_with_gas_vacuoles_isolated_from_a_temperate_estuary
+128,Phylum,proteobacteria
+129,GenusSpecies,Desulfotalea arctica
+129,MinSizeValue,0.7
+129,MaxSizeValue,0.7
+129,SizeUnit,um
+129,SizeType,Width
+129,Shape,rod
+129,Sources,https://bacdive.dsmz.de/search?search=Desulfotalea+arctica&submit=search
+129,Phylum,proteobacteria
+129,Notes,BacDrive meta-Database
+130,GenusSpecies,Desulfotalea psychrophila
+130,MinSizeValue,0.6
+130,MaxSizeValue,0.6
+130,SizeUnit,um
+130,SizeType,Width
+130,Shape,rod
+130,Sources,https://bacdive.dsmz.de/search?search=Desulfotalea+psychrophila&submit=search
+130,Phylum,proteobacteria
+130,Notes,BacDrive meta-Database
+131,GenusSpecies,Desulfotomaculum putei
+131,MinSizeValue,1.0
+131,MaxSizeValue,1.1
+131,SizeUnit,um
+131,SizeType,Width
+131,Shape,oval
+131,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+131,Phylum,firmucutes
+131,Notes,"pg.993, Table 186"
+132,GenusSpecies,Desulfuromonas michiganensis
+132,MinSizeValue,0.4
+132,MaxSizeValue,0.5
+132,SizeUnit,um
+132,SizeType,Width
+132,Shape,rod
+132,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/65/5/1686_ijs000159.pdf?expires=1526902904&id=id&accname=guest&checksum=44CE48144AF9CF34C5D264FA58575AB5
+132,Phylum,proteobacteria
+133,GenusSpecies,Geobacillus caldotenax
+133,MinSizeValue,0.5
+133,MaxSizeValue,0.5
+133,SizeUnit,um
+133,SizeType,Width
+133,Shape,rod
+133,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+133,Phylum,firmucutes
+133,Notes,pg.159 as Bacillus caldotenax
+134,GenusSpecies,Geobacillus stearothermophilus
+134,MinSizeValue,0.6
+134,MaxSizeValue,1.0
+134,SizeUnit,um
+134,SizeType,Width
+134,Shape,rod
+134,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+134,Phylum,firmucutes
+134,Notes,pg.154
+135,GenusSpecies,Glaciecola punicea
+135,MinSizeValue,0.2
+135,MaxSizeValue,0.4
+135,SizeUnit,um
+135,SizeType,Width
+135,Shape,rod
+135,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/48/4/ijs-48-4-1213.pdf?expires=1526915961&id=id&accname=guest&checksum=088CF97C1DF83E51FD1BE8ED3B8D2D3D
+135,Phylum,proteobacteria
+136,GenusSpecies,Halanaerobium alcaliphilum
+136,MinSizeValue,0.8
+136,MaxSizeValue,0.8
+136,SizeUnit,um
+136,SizeType,Width
+136,Shape,rod
+136,Sources,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1198"
+136,Phylum,firmucutes
+136,Notes,pg.1199
+137,GenusSpecies,Halanaerobium lacusrosei
+137,MinSizeValue,0.4
+137,MaxSizeValue,0.6
+137,SizeUnit,um
+137,SizeType,Width
+137,Shape,rod
+137,Sources,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1200"
+137,Phylum,firmucutes
+137,Notes,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1200"
+138,GenusSpecies,Halomonas campisalis
+138,MinSizeValue,1.0
+138,MaxSizeValue,1.0
+138,SizeUnit,um
+138,SizeType,Width
+138,Shape,rod
+138,Sources,https://www.ncbi.nlm.nih.gov/pubmed/10794143
+138,Phylum,proteobacteria
+139,GenusSpecies,Halomonas elongata
+139,MinSizeValue,0.7
+139,MaxSizeValue,1.0
+139,SizeUnit,um
+139,SizeType,Width
+139,Shape,rod
+139,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/51/4/0511457a.pdf?expires=1526917758&id=id&accname=guest&checksum=88E8DCDABD428EA0F6249F0404341F87
+139,Phylum,proteobacteria
+140,GenusSpecies,Halomonas subglaciescola
+140,MinSizeValue,0.5
+140,MaxSizeValue,1.1
+140,SizeUnit,um
+140,SizeType,Width
+140,Shape,rod
+140,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/37/1/ijs-37-1-27.pdf?expires=1526918345&id=id&accname=guest&checksum=BCFA940E8C9D2267ACB4B0C4DE28C1DA
+140,Phylum,proteobacteria
+140,Notes,length vary’s dramatically 
+141,GenusSpecies,Halonatronum saccharophilum
+141,MinSizeValue,0.4
+141,MaxSizeValue,0.6
+141,SizeUnit,um
+141,SizeType,Width
+141,Shape,rod
+141,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+141,Phylum,firmucutes
+141,Notes,pg.1215
+142,GenusSpecies,Hydrogenophaga pseudoflava
+142,MinSizeValue,0.3
+142,MaxSizeValue,0.6
+142,SizeUnit,um
+142,SizeType,Width
+142,Shape,rod
+142,Sources,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2812990/
+142,Phylum,proteobacteria
+143,GenusSpecies,Isosphaera pallida
+143,MinSizeValue,2.5
+143,MaxSizeValue,3.0
+143,SizeUnit,um
+143,SizeType,Width
+143,Shape,Spherical
+143,Sources,https://link.springer.com/article/10.1007/BF00463488
+143,Phylum,Planctomycetes
+144,GenusSpecies,Klebsiella oxytoca
+144,MinSizeValue,0.3
+144,MaxSizeValue,1.0
+144,SizeUnit,um
+144,SizeType,Width
+144,Shape,rod
+144,Sources,http://www.vetbact.org/index.php?artid=156
+144,Phylum,proteobacteria
+145,GenusSpecies,Lactobacillus delbrueckii
+145,MinSizeValue,0.5
+145,MaxSizeValue,0.8
+145,SizeUnit,um
+145,SizeType,Width
+145,Shape,rod
+145,Sources,https://hal.archives-ouvertes.fr/hal-00929612/document
+145,Phylum,firmucutes
+145,Notes,pg.499
+146,GenusSpecies,Lactobacillus rhamnosus
+146,MinSizeValue,0.8
+146,MaxSizeValue,1.0
+146,SizeUnit,um
+146,SizeType,Width
+146,Shape,rod
+146,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+146,Phylum,firmucutes
+146,Notes,pg.507
+147,GenusSpecies,Lactococcus piscium
+147,MinSizeValue,0.5
+147,MaxSizeValue,1.0
+147,SizeUnit,um
+147,SizeType,Width
+147,Shape,Spherical
+147,Sources,https://onlinelibrary.wiley.com/doi/pdf/10.1111/jam.13179
+147,Phylum,firmucutes
+147,Notes,pg.245
+148,GenusSpecies,Listeria monocytogenes
+148,MinSizeValue,0.4
+148,MaxSizeValue,0.5
+148,SizeUnit,um
+148,SizeType,Width
+148,Shape,rod
+148,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+148,Phylum,firmucutes
+148,Notes,pg.245
+149,GenusSpecies,Marinithermus hydrothermalis
+149,MinSizeValue,0.9
+149,MaxSizeValue,1.0
+149,SizeUnit,um
+149,SizeType,Width
+149,Shape,rod
+149,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/53/1/59.pdf?expires=1526922495&id=id&accname=guest&checksum=E4691D32D2EA9A09BB04138504F6D456
+149,Phylum,Deinococcus-Thermus
+150,GenusSpecies,Marinobacter alkaliphilus
+150,MinSizeValue,0.3
+150,MaxSizeValue,0.8
+150,SizeUnit,um
+150,SizeType,Width
+150,Shape,rod
+150,Sources,https://www.researchgate.net/publication/8388977_Marinobacter_alkaliphilus_sp_nov_a_novel_alkaliphilic_bacterium_isolated_from_subseafloor_alkaline_serpentine_mud_from_Ocean_Drilling_Program_Site_1200_at_South_Chamorro_Seamount_Mariana_Forearc
+150,Phylum,proteobacteria
+151,GenusSpecies,Mastigocladus laminosus
+151,MinSizeValue,8.0
+151,MaxSizeValue,10.0
+151,SizeUnit,mm
+151,SizeType,Width
+151,Shape,rod
+151,Sources,https://www.researchgate.net/publication/235606612_Mastigocladus_Laminosus_Stigonematales_Cyanobacteria_Phylogenetic_Relationship_of_Strains_from_Thermal_Springs_to_Soil-Inhabiting_Genera_of_The_Order_and_Taxonomic_Implications_for_The_Genus
+151,Phylum,cyanobacteria
+152,GenusSpecies,Meiothermus chliarophilus
+152,MinSizeValue,0.5
+152,MaxSizeValue,0.8
+152,SizeUnit,um
+152,SizeType,Width
+152,Shape,rod
+152,Sources,https://onlinelibrary.wiley.com/doi/full/10.1111/j.1574-6968.2002.tb11445.x
+152,Phylum,Deinococcus-Thermus
+152,Notes,Length is variable
+153,GenusSpecies,Microcystis ichthyoblabe
+153,MinSizeValue,2.0
+153,MaxSizeValue,3.0
+153,SizeUnit,um
+153,SizeType,Width
+153,Shape,Spherical
+153,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/50/2/0500767a.pdf?expires=1526386385&id=id&accname=guest&checksum=D6D463D904C41C12E91EDE3C839CD10D
+153,Notes,"Width is Diameter, shape info: Wiki Microcystis"
+154,GenusSpecies,Moritella abyssi
+154,MinSizeValue,0.8
+154,MaxSizeValue,1.2
+154,SizeUnit,um
+154,SizeType,Width
+154,Shape,rod
+154,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/53/2/533.pdf?expires=1526923609&id=id&accname=guest&checksum=0A81172A69073197CC23FFE176BBC42C
+154,Phylum,proteobacteria
+155,GenusSpecies,Moritella profunda
+155,MinSizeValue,0.9
+155,MaxSizeValue,1.2
+155,SizeUnit,um
+155,SizeType,Width
+155,Shape,rod
+155,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/53/2/533.pdf?expires=1526923609&id=id&accname=guest&checksum=0A81172A69073197CC23FFE176BBC42C
+155,Phylum,proteobacteria
+156,GenusSpecies,Pelotomaculum thermopropionicum
+156,MinSizeValue,0.7
+156,MaxSizeValue,0.8
+156,SizeUnit,um
+156,SizeType,Width
+156,Shape,Spherical
+156,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+156,Phylum,firmucutes
+156,Notes,pg.997
+157,GenusSpecies,Persephonella guaymasensis
+157,MinSizeValue,0.3
+157,MaxSizeValue,0.4
+157,SizeUnit,um
+157,SizeType,Width
+157,Shape,rod
+157,Sources,http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-52-4-1349#tab2
+157,Phylum,Aquificae
+158,GenusSpecies,Persephonella marina
+158,MinSizeValue,0.3
+158,MaxSizeValue,0.4
+158,SizeUnit,um
+158,SizeType,Width
+158,Shape,rod
+158,Sources,http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-52-4-1349#tab2
+158,Phylum,Aquificae
+159,GenusSpecies,Profundimonas piezophila
+159,MinSizeValue,0.5
+159,MaxSizeValue,0.8
+159,SizeUnit,um
+159,SizeType,Width
+159,Shape,rod
+159,Sources,http://aem.asm.org/content/80/1/54.full
+159,Phylum,proteobacteria
+160,GenusSpecies,Pseudoalteromonas antarctica
+160,MinSizeValue,0.3
+160,MaxSizeValue,0.9
+160,SizeUnit,um
+160,SizeType,Width
+160,Shape,rod
+160,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/47/2/ijs-47-2-345.pdf?expires=1526924343&id=id&accname=guest&checksum=FF1A3F36005B016E92C7B9740F808F9A
+160,Phylum,proteobacteria
+161,GenusSpecies,Pseudoxanthomonas broegbernensis
+161,MinSizeValue,0.4
+161,MaxSizeValue,0.6
+161,SizeUnit,um
+161,SizeType,Width
+161,Shape,rod
+161,Sources,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Xanthomonadaceae&f=false
+161,Phylum,proteobacteria
+161,Notes,pg. 63 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+162,GenusSpecies,Pseudoxanthomonas taiwanensis
+162,MinSizeValue,0.4
+162,MaxSizeValue,0.6
+162,SizeUnit,um
+162,SizeType,Width
+162,Shape,rod
+162,Sources,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Xanthomonadaceae&f=false
+162,Phylum,proteobacteria
+162,Notes,pg. 63 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+163,GenusSpecies,Psychrobacter muriicola
+163,MinSizeValue,0.5
+163,MaxSizeValue,1.0
+163,SizeUnit,um
+163,SizeType,Width
+163,Shape,rod
+163,Sources,http://cryosol.ru/images/stuff/liza/shcherb-2009.pdf
+163,Phylum,proteobacteria
+163,Notes,Cells are cocci or coccobacilli
+164,GenusSpecies,Psychroflexus torquis
+164,MinSizeValue,0.4
+164,MaxSizeValue,1.5
+164,SizeUnit,um
+164,SizeType,Width
+164,Shape,rod
+164,Sources,https://books.google.co.uk/books?id=0kghF7qBE98C&pg=PA258&lpg=PA258&dq=Psychroflexus+torquis+cell+size&source=bl&ots=Rkp9HzNY4S&sig=oi1y7rL_0PSrFXxrPvXfR8KnvhU&hl=en&sa=X&ved=0ahUKEwjggeHa04rbAhVKAsAKHWyXAgw4ChDoAQgtMAE#v=onepage&q=Psychroflexus%20torquis%20cell%20size&f=false
+164,Phylum,bacteroidetes
+164,Notes,pg. 258 of Bergey’s Manual of Systematic Bacteriology Volume 4: The Bacteroidetes
+165,GenusSpecies,Rubrobacter radiotolerans
+165,MinSizeValue,0.8
+165,MaxSizeValue,1.0
+165,SizeUnit,um
+165,SizeType,Width
+165,Shape,rod
+165,Sources,https://books.google.co.uk/books?id=66UMS7A2KisC&pg=PA2006&lpg=PA2006&dq=Rubrobacter+xylanophilus+cell+volume&source=bl&ots=_8IUoOsVAb&sig=ISGSN_kQXz9eLGaLTAua_OkTDaI&hl=en&sa=X&ved=0ahUKEwij1MrJ1YrbAhUJXMAKHdoNCm84ChDoAQgvMAE#v=onepage&q=Rubrobacter%20xylanophilus%20cell%20volume&f=false
+165,Phylum,Actinobacteria
+165,Notes,pg. 2008 of Bergey’s Manual of Systematic Bacteriology Volume 5: The Actinobacteria
+166,GenusSpecies,Rubrobacter xylanophilus
+166,MinSizeValue,0.9
+166,MaxSizeValue,1.0
+166,SizeUnit,um
+166,SizeType,Width
+166,Shape,rod
+166,Sources,https://books.google.co.uk/books?id=66UMS7A2KisC&pg=PA2006&lpg=PA2006&dq=Rubrobacter+xylanophilus+cell+volume&source=bl&ots=_8IUoOsVAb&sig=ISGSN_kQXz9eLGaLTAua_OkTDaI&hl=en&sa=X&ved=0ahUKEwij1MrJ1YrbAhUJXMAKHdoNCm84ChDoAQgvMAE#v=onepage&q=Rubrobacter%20xylanophilus%20cell%20volume&f=false
+166,Phylum,Actinobacteria
+166,Notes,pg. 2008 of Bergey’s Manual of Systematic Bacteriology Volume 5: The Actinobacteria
+167,GenusSpecies,Shewanella gelidimarina
+167,MinSizeValue,0.5
+167,MaxSizeValue,0.8
+167,SizeUnit,um
+167,SizeType,Width
+167,Shape,rod
+167,Sources,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/47/4/ijs-47-4-1040.pdf?expires=1526993475&id=id&accname=guest&checksum=C762647EEFD31431F488074CDAC07BB4
+167,Phylum,proteobacteria
+168,GenusSpecies,Sphaerospermopsis aphanizomenoides
+168,MinSizeValue,3.5
+168,MaxSizeValue,4.1
+168,SizeUnit,um
+168,SizeType,Width
+168,Shape,cylindrical
+168,Sources,https://www.researchgate.net/publication/283282292_Morphological_and_ecological_characteristics_of_potentially_toxic_invasive_cyanobacterium_Sphaerospermopsis_aphanizomenoides_Forti_Zapomelova_Jezberova_Hrouzek_Hisem_Rehakova_Komarkova_Nostocales_Cyan
+168,Phylum,cyanobacteria
+168,Notes,"Aphanizomenon aphanizomenoides – Name in Consumer column, avergae length of vegetative cell size"
+169,GenusSpecies,Spirulina platensis
+169,MinSizeValue,10.0
+169,MaxSizeValue,10.0
+169,SizeUnit,um
+169,SizeType,Width
+169,Shape,rod
+169,Sources,http://www.scielo.br/pdf/cta/v33s1/v33s1a26.pdf
+169,Phylum,cyanobacteria
+169,Notes,"pg.180, or 5-6um as stated in https://www.researchgate.net/publication/259503619_SPIRULINA_PLATENSIS_-_FOOD_FOR_FUTURE_A_REVIEW"
+170,GenusSpecies,Staphylococcus xylosus
+170,MinSizeValue,0.8
+170,MaxSizeValue,1.2
+170,SizeUnit,um
+170,SizeType,Width
+170,Shape,Spherical
+170,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+170,Phylum,firmucutes
+170,Notes,pg.420
+171,GenusSpecies,Streptococcus salivarius
+171,MinSizeValue,0.7
+171,MaxSizeValue,1.0
+171,SizeUnit,um
+171,SizeType,Width
+171,Shape,Spherical
+171,Sources,https://books.google.co.uk/books?id=hPjpBwAAQBAJ&pg=PA114&dq=S.+salivarius+cell+diameter&hl=en&sa=X&ved=0ahUKEwjC0pCfkYrbAhXqK8AKHcGIB38Q6AEILDAB#v=onepage&q=S.%20salivarius%20cell%20diameter&f=false
+171,Phylum,firmucutes
+171,Notes,pg. 114 of reference
+172,GenusSpecies,Sulfobacillus thermotolerans
+172,MinSizeValue,0.8
+172,MaxSizeValue,1.2
+172,SizeUnit,um
+172,SizeType,Width
+172,Shape,rod
+172,Sources,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1184"
+172,Phylum,firmucutes
+173,GenusSpecies,Sulfurihydrogenibium kristjanssonii
+173,MinSizeValue,0.5
+173,MaxSizeValue,0.5
+173,SizeUnit,um
+173,SizeType,Width
+173,Shape,rod
+173,Sources,https://www.researchgate.net/publication/5401401_Sulfurihydrogenibium_kristjanssonii_sp_nov_a_hydrogen-_and_sulfur-oxidizing_thermophile_isolated_from_a_terrestrial_Icelandic_hot_spring
+173,Phylum,Aquificae
+174,GenusSpecies,Thermacetogenium phaeum
+174,MinSizeValue,0.4
+174,MaxSizeValue,0.7
+174,SizeUnit,um
+174,SizeType,Width
+174,Shape,rod
+174,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+174,Phylum,firmucutes
+174,Notes,pg.1256
+175,GenusSpecies,Thermoanaerobacter kivui
+175,MinSizeValue,0.7
+175,MaxSizeValue,0.7
+175,SizeUnit,um
+175,SizeType,Width
+175,Shape,rod
+175,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+175,Phylum,firmucutes
+175,Notes,"pg.1235, cell size during growth on H2 and CO2"
+176,GenusSpecies,Thermoanaerobacter kivui
+176,MinSizeValue,0.7
+176,MaxSizeValue,0.8
+176,SizeUnit,um
+176,SizeType,Width
+176,Shape,rod
+176,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+176,Phylum,firmucutes
+176,Notes,"pg.1235,  cell size during growth on glucose "
+177,GenusSpecies,Thermoanaerobacter mathranii
+177,MinSizeValue,0.7
+177,MaxSizeValue,0.7
+177,SizeUnit,um
+177,SizeType,Width
+177,Shape,rod
+177,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+177,Phylum,firmucutes
+177,Notes,pg.1235
+178,GenusSpecies,Thermoanaerobacter siderophilus
+178,MinSizeValue,0.4
+178,MaxSizeValue,0.6
+178,SizeUnit,um
+178,SizeType,Width
+178,Shape,rod
+178,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+178,Phylum,firmucutes
+178,Notes,pg.1236
+179,GenusSpecies,Thermoanaerobacterium thermosulfurigenes
+179,MinSizeValue,0.5
+179,MaxSizeValue,2.0
+179,SizeUnit,um
+179,SizeType,Width
+179,Shape,rod
+179,Sources,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+179,Phylum,firmucutes
+179,Notes,pg.1283
+180,GenusSpecies,Thermus thermophilus
+180,MinSizeValue,0.2
+180,MaxSizeValue,1.7
+180,SizeUnit,um
+180,SizeType,Width
+180,Shape,rod
+180,Sources,https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118960608.gbm00477.pub2
+180,Phylum,Deinococcus-Thermus
+180,Notes,Genus: Thermus size info
+181,GenusSpecies,Trichormus variabilis
+181,MinSizeValue,4.3
+181,MaxSizeValue,4.3
+181,SizeUnit,um
+181,SizeType,Width
+181,Shape,Conical
+181,Sources,"http://www.ebr.or.kr/journal/article.php?code=14429, http://www.microbiologyresearch.org/docserver/fulltext/ijsem/55/1/11.pdf?expires=1526381804&id=id&accname=guest&checksum=58AF11FF47E2F489A48392FAC3F397EB"
+181,Phylum,cyanobacteria
+181,Notes,https://books.google.co.uk/books?id=yjnLAwAAQBAJ&pg=PA224&lpg=PA224&dq=Trichormus+variabilis+cell+diameter&source=bl&ots=FtYPtDMsnF&sig=BSuUkqm7CJej0h9l2vBuwLrHkJ4&hl=en&sa=X&ved=0ahUKEwjVwteVv4fbAhWJA8AKHeK2CSwQ6AEIXTAM#v=onepage&q=Trichormus%20variabilis%20cell%20diameter&f=false  Anabaena = Trichormus variabilis
+182,GenusSpecies,Xanthomonas campestris
+182,MinSizeValue,0.55
+182,MaxSizeValue,0.75
+182,SizeUnit,um
+182,SizeType,Width
+182,Shape,rod
+182,Sources,https://books.google.co.uk/books?id=8A_yBwAAQBAJ&pg=PA191&lpg=PA191&dq=Xanthomonas+campestris+cell+width&source=bl&ots=LCjaeonYF-&sig=cHYPUCF7EAQ6Dq8eV8xlGskcvMA&hl=en&sa=X&ved=0ahUKEwiO6IXQs5nbAhUMthQKHckwA9o4ChDoAQhDMAc#v=onepage&q=Xanthomonas%20campestris%20cell%20width&f=false
+182,Phylum,proteobacteria
+182,Notes,pg.191
+183,GenusSpecies,Xylella fastidiosa
+183,MinSizeValue,0.25
+183,MaxSizeValue,0.35
+183,SizeUnit,um
+183,SizeType,Width
+183,Shape,rod
+183,Sources,http://aem.asm.org/content/73/8/2690.full?view=long&pmid=17293518
+183,Phylum,proteobacteria
+184,GenusSpecies,Yersinia enterocolitica
+184,MinSizeValue,0.5
+184,MaxSizeValue,0.8
+184,SizeUnit,um
+184,SizeType,Width
+184,Shape,rod
+184,Sources,http://www.elsevier.es/es-revista-enfermedades-infecciosas-microbiologia-clinica-28-articulo-yersinia-enterocolitica-pathogenesis-virulence-antimicrobial-S0213005X11002655?referer=buscador
+184,Phylum,proteobacteria
+185,GenusSpecies,Lactobacillus acidophilus
+185,MinSizeValue,0.6
+185,MaxSizeValue,0.9
+185,SizeUnit,um
+185,SizeType,Width
+185,Shape,rod
+185,Sources,https://books.google.co.uk/books?id=0-VqgLiCPFcC&pg=PA500&dq=Lactobacillus+acidophilus+cell+diameter&hl=en&sa=X&ved=0ahUKEwjr5JO5t4rbAhUSe8AKHc_xDKoQ6AEITzAI#v=snippet&q=L.acidophilus%20&f=false
+185,Phylum,firmucutes
+185,Notes,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.491"
+186,GenusSpecies,Lactobacillus paracasei
+186,MinSizeValue,0.8
+186,MaxSizeValue,1.0
+186,SizeUnit,um
+186,SizeType,Width
+186,Shape,rod
+186,Sources,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.504"
+186,Phylum,firmucutes
+186,Notes,pg.504
+187,GenusSpecies,Pseudothermotoga lettingae
+187,MinSizeValue,0.5
+187,MaxSizeValue,1.0
+187,SizeUnit,um
+187,SizeType,Width
+187,Shape,rod
+187,Sources,https://books.google.co.uk/books?id=3znhBwAAQBAJ&pg=PA370&lpg=PA370&dq=thermotogaceae+cell+size&source=bl&ots=iAqIJx8wC_&sig=PVgY-4Ga0mAJzpzmsQnfUfXkjEU&hl=en&sa=X&ved=0ahUKEwjEoreSxorbAhXILsAKHaPCA88Q6AEIMjAC#v=onepage&q=thermotogaceae%20cell%20size&f=false
+187,Phylum,Thermotogae
+187,Notes,Average size of family Thermotogaceae taken. pg.370
+188,GenusSpecies,Erwinia amylovora
+188,Shape,rod
+188,Phylum,proteobacteria
+189,GenusSpecies,Psychrobacter glacincola
+190,GenusSpecies,Psychromonas profunda
+191,GenusSpecies,Synechocystis minima
+191,Phylum,cyanobacteria

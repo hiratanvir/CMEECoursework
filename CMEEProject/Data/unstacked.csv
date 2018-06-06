@@ -1,0 +1,2880 @@
+GenusSpecies,0,Acetobacterium carbinolicum
+GenusSpecies,1,Acetobacterium fimetarium
+GenusSpecies,2,Aeribacillus pallidus
+GenusSpecies,3,Aeromonas hydrophila
+GenusSpecies,4,Alkaliphilus transvaalensis
+GenusSpecies,5,Arthrospira fusiformis
+GenusSpecies,6,Bacillus infernus
+GenusSpecies,7,Bosea eneae
+GenusSpecies,8,Brochothrix thermosphacta
+GenusSpecies,9,Caldanaerobacter subterraneus
+GenusSpecies,10,Caldicellulosiruptor obsidiansis
+GenusSpecies,11,Caloramator fervidus
+GenusSpecies,12,Caloramator indicus
+GenusSpecies,13,Clostridium perfringens
+GenusSpecies,14,Colwellia demingiae
+GenusSpecies,15,Colwellia hornerae
+GenusSpecies,16,Colwellia psychrerythraea
+GenusSpecies,17,Colwellia psychrotropica
+GenusSpecies,18,Deferribacter thermophilus
+GenusSpecies,19,Desulfobacter curvatus
+GenusSpecies,20,Desulfofaba gelida
+GenusSpecies,21,Desulfofrigus fragile
+GenusSpecies,22,Desulfofrigus oceanense
+GenusSpecies,23,Desulforhopalus vacuolatus
+GenusSpecies,24,Desulfotalea arctica
+GenusSpecies,25,Desulfotalea psychrophila
+GenusSpecies,26,Desulfotomaculum putei
+GenusSpecies,27,Desulfuromonas michiganensis
+GenusSpecies,28,Geobacillus stearothermophilus
+GenusSpecies,29,Glaciecola punicea
+GenusSpecies,30,Halanaerobium alcaliphilum
+GenusSpecies,31,Halanaerobium lacusrosei
+GenusSpecies,32,Halomonas campisalis
+GenusSpecies,33,Halomonas elongata
+GenusSpecies,34,Halomonas subglaciescola
+GenusSpecies,35,Halonatronum saccharophilum
+GenusSpecies,36,Hydrogenophaga pseudoflava
+GenusSpecies,37,Klebsiella oxytoca
+GenusSpecies,38,Lactobacillus acidophilus
+GenusSpecies,39,Lactobacillus delbrueckii
+GenusSpecies,40,Lactobacillus paracasei
+GenusSpecies,41,Lactobacillus rhamnosus
+GenusSpecies,42,Listeria monocytogenes
+GenusSpecies,43,Marinithermus hydrothermalis
+GenusSpecies,44,Marinitoga piezophila
+GenusSpecies,45,Marinobacter alkaliphilus
+GenusSpecies,46,Moritella abyssi
+GenusSpecies,47,Moritella profunda
+GenusSpecies,48,Pelotomaculum thermopropionicum
+GenusSpecies,49,Persephonella guaymasensis
+GenusSpecies,50,Persephonella marina
+GenusSpecies,51,Profundimonas piezophila
+GenusSpecies,52,Pseudoalteromonas antarctica
+GenusSpecies,53,Pseudothermotoga lettingae
+GenusSpecies,54,Pseudoxanthomonas broegbernensis
+GenusSpecies,55,Pseudoxanthomonas taiwanensis
+GenusSpecies,56,Psychrobacter muriicola
+GenusSpecies,57,Psychroflexus torquis
+GenusSpecies,58,Rubrobacter radiotolerans
+GenusSpecies,59,Rubrobacter xylanophilus
+GenusSpecies,60,Shewanella gelidimarina
+GenusSpecies,61,Sphaerospermopsis aphanizomenoides
+GenusSpecies,62,Sulfobacillus thermotolerans
+GenusSpecies,63,Sulfurihydrogenibium kristjanssonii
+GenusSpecies,64,Thermacetogenium phaeum
+GenusSpecies,65,Thermoanaerobacter kivui
+GenusSpecies,66,Thermoanaerobacter kivui
+GenusSpecies,67,Thermoanaerobacter mathranii
+GenusSpecies,68,Thermoanaerobacter siderophilus
+GenusSpecies,69,Thermoanaerobacterium thermosulfurigenes
+GenusSpecies,70,Thermosipho japonicus
+GenusSpecies,71,Xanthomonas campestris
+GenusSpecies,72,Xylella fastidiosa
+GenusSpecies,73,Yersinia enterocolitica
+GenusSpecies,74,Bacillus cereus
+GenusSpecies,75,Bacillus megaterium
+GenusSpecies,76,Enterococcus faecalis
+GenusSpecies,77,Escherichia coli
+GenusSpecies,78,Halomonas halodenitrificans
+GenusSpecies,79,Lactococcus lactis
+GenusSpecies,80,Pseudomonas fluorescens
+GenusSpecies,81,Pseudomonas fluorescens
+GenusSpecies,82,Pseudomonas putida
+GenusSpecies,83,Pseudomonas putida
+GenusSpecies,84,Salmonella enterica
+GenusSpecies,85,Staphylococcus aureus
+GenusSpecies,86,Streptococcus thermophilus
+GenusSpecies,87,Arthrospira fusiformis
+GenusSpecies,88,Anacystis incerta
+GenusSpecies,89,Anacystis incerta
+GenusSpecies,90,Anacystis incerta
+GenusSpecies,91,Anacystis incerta
+GenusSpecies,92,Aphanizomenon flosaquae
+GenusSpecies,93,Crocosphaera watsonii
+GenusSpecies,94,Microcystis aeruginosa
+GenusSpecies,95,Microcystis aeruginosa
+GenusSpecies,96,Microcystis aeruginosa
+GenusSpecies,97,Microcystis aeruginosa
+GenusSpecies,98,Planktothrix agardhii
+GenusSpecies,99,Planktothrix agardhii
+GenusSpecies,100,Synechococcus lividus
+GenusSpecies,101,Trichodesmium erythraeum
+GenusSpecies,102,Acetobacterium carbinolicum
+GenusSpecies,103,Acetobacterium fimetarium
+GenusSpecies,104,Aeribacillus pallidus
+GenusSpecies,105,Aeromonas hydrophila
+GenusSpecies,106,Alkaliphilus transvaalensis
+GenusSpecies,107,Aphanizomenon aphanizomenoides
+GenusSpecies,108,Arthrospira fusiformis
+GenusSpecies,109,Bacillus infernus
+GenusSpecies,110,Bosea eneae
+GenusSpecies,111,Brochothrix thermosphacta
+GenusSpecies,112,Caldanaerobacter subterraneus
+GenusSpecies,113,Caldicellulosiruptor obsidiansis
+GenusSpecies,114,Caloramator fervidus
+GenusSpecies,115,Caloramator indicus
+GenusSpecies,116,Clostridium perfringens
+GenusSpecies,117,Colwellia demingiae
+GenusSpecies,118,Colwellia hornerae
+GenusSpecies,119,Colwellia psychrerythraea
+GenusSpecies,120,Colwellia psychrotropica
+GenusSpecies,121,Deferribacter thermophilus
+GenusSpecies,122,Deinococcus geothermalis
+GenusSpecies,123,Deinococcus murrayi
+GenusSpecies,124,Desulfobacter curvatus
+GenusSpecies,125,Desulfofaba gelida
+GenusSpecies,126,Desulfofrigus fragile
+GenusSpecies,127,Desulfofrigus oceanense
+GenusSpecies,128,Desulforhopalus vacuolatus
+GenusSpecies,129,Desulfotalea arctica
+GenusSpecies,130,Desulfotalea psychrophila
+GenusSpecies,131,Desulfotomaculum putei
+GenusSpecies,132,Desulfuromonas michiganensis
+GenusSpecies,133,Geobacillus caldotenax
+GenusSpecies,134,Geobacillus stearothermophilus
+GenusSpecies,135,Glaciecola punicea
+GenusSpecies,136,Halanaerobium alcaliphilum
+GenusSpecies,137,Halanaerobium lacusrosei
+GenusSpecies,138,Halomonas campisalis
+GenusSpecies,139,Halomonas elongata
+GenusSpecies,140,Halomonas subglaciescola
+GenusSpecies,141,Halonatronum saccharophilum
+GenusSpecies,142,Hydrogenophaga pseudoflava
+GenusSpecies,143,Isosphaera pallida
+GenusSpecies,144,Klebsiella oxytoca
+GenusSpecies,145,Lactobacillus delbrueckii
+GenusSpecies,146,Lactobacillus rhamnosus
+GenusSpecies,147,Lactococcus piscium
+GenusSpecies,148,Listeria monocytogenes
+GenusSpecies,149,Marinithermus hydrothermalis
+GenusSpecies,150,Marinobacter alkaliphilus
+GenusSpecies,151,Mastigocladus laminosus
+GenusSpecies,152,Meiothermus chliarophilus
+GenusSpecies,153,Microcystis ichthyoblabe
+GenusSpecies,154,Moritella abyssi
+GenusSpecies,155,Moritella profunda
+GenusSpecies,156,Pelotomaculum thermopropionicum
+GenusSpecies,157,Persephonella guaymasensis
+GenusSpecies,158,Persephonella marina
+GenusSpecies,159,Profundimonas piezophila
+GenusSpecies,160,Pseudoalteromonas antarctica
+GenusSpecies,161,Pseudoxanthomonas broegbernensis
+GenusSpecies,162,Pseudoxanthomonas taiwanensis
+GenusSpecies,163,Psychrobacter muriicola
+GenusSpecies,164,Psychroflexus torquis
+GenusSpecies,165,Rubrobacter radiotolerans
+GenusSpecies,166,Rubrobacter xylanophilus
+GenusSpecies,167,Shewanella gelidimarina
+GenusSpecies,168,Sphaerospermopsis aphanizomenoides
+GenusSpecies,169,Spirulina platensis
+GenusSpecies,170,Staphylococcus xylosus
+GenusSpecies,171,Streptococcus salivarius
+GenusSpecies,172,Sulfobacillus thermotolerans
+GenusSpecies,173,Sulfurihydrogenibium kristjanssonii
+GenusSpecies,174,Thermacetogenium phaeum
+GenusSpecies,175,Thermoanaerobacter kivui
+GenusSpecies,176,Thermoanaerobacter kivui
+GenusSpecies,177,Thermoanaerobacter mathranii
+GenusSpecies,178,Thermoanaerobacter siderophilus
+GenusSpecies,179,Thermoanaerobacterium thermosulfurigenes
+GenusSpecies,180,Thermus thermophilus
+GenusSpecies,181,Trichormus variabilis
+GenusSpecies,182,Xanthomonas campestris
+GenusSpecies,183,Xylella fastidiosa
+GenusSpecies,184,Yersinia enterocolitica
+GenusSpecies,185,Lactobacillus acidophilus
+GenusSpecies,186,Lactobacillus paracasei
+GenusSpecies,187,Pseudothermotoga lettingae
+GenusSpecies,188,Erwinia amylovora
+GenusSpecies,189,Psychrobacter glacincola
+GenusSpecies,190,Psychromonas profunda
+GenusSpecies,191,Synechocystis minima
+MinSizeValue,0,1.5
+MinSizeValue,1,1.5
+MinSizeValue,2,2.0
+MinSizeValue,3,3.5
+MinSizeValue,4,3.0
+MinSizeValue,5,113.0
+MinSizeValue,6,4.0
+MinSizeValue,7,1.2
+MinSizeValue,8,1.0
+MinSizeValue,9,2.0
+MinSizeValue,10,2.0
+MinSizeValue,11,2.0
+MinSizeValue,12,10.0
+MinSizeValue,13,1.3
+MinSizeValue,14,1.5
+MinSizeValue,15,1.5
+MinSizeValue,16,2.5
+MinSizeValue,17,1.5
+MinSizeValue,18,1.0
+MinSizeValue,19,1.7
+MinSizeValue,20,5.4
+MinSizeValue,21,3.2
+MinSizeValue,22,4.2
+MinSizeValue,23,3.0
+MinSizeValue,24,1.6
+MinSizeValue,25,4.5
+MinSizeValue,26,2.0
+MinSizeValue,27,0.8
+MinSizeValue,28,2.0
+MinSizeValue,29,1.0
+MinSizeValue,30,3.3
+MinSizeValue,31,2.0
+MinSizeValue,32,3.0
+MinSizeValue,33,2.0
+MinSizeValue,34,1.1
+MinSizeValue,35,3.5
+MinSizeValue,36,0.6
+MinSizeValue,37,0.6
+MinSizeValue,38,1.5
+MinSizeValue,39,2.0
+MinSizeValue,40,2.0
+MinSizeValue,41,2.0
+MinSizeValue,42,0.5
+MinSizeValue,43,7.5
+MinSizeValue,44,1.0
+MinSizeValue,45,2.0
+MinSizeValue,46,2.0
+MinSizeValue,47,1.5
+MinSizeValue,48,1.7
+MinSizeValue,49,2.0
+MinSizeValue,50,2.0
+MinSizeValue,51,4.0
+MinSizeValue,52,1.0
+MinSizeValue,53,1.5
+MinSizeValue,54,0.8
+MinSizeValue,55,0.8
+MinSizeValue,56,0.5
+MinSizeValue,57,0.5
+MinSizeValue,58,1.0
+MinSizeValue,59,1.0
+MinSizeValue,60,1.5
+MinSizeValue,61,4.4
+MinSizeValue,62,1.5
+MinSizeValue,63,1.5
+MinSizeValue,64,2.0
+MinSizeValue,65,2.0
+MinSizeValue,66,5.5
+MinSizeValue,67,1.8
+MinSizeValue,68,3.5
+MinSizeValue,69,2.0
+MinSizeValue,70,1.0
+MinSizeValue,71,1.35
+MinSizeValue,72,0.9
+MinSizeValue,73,1.0
+MinSizeValue,74,
+MinSizeValue,75,
+MinSizeValue,76,
+MinSizeValue,77,
+MinSizeValue,78,
+MinSizeValue,79,
+MinSizeValue,80,
+MinSizeValue,81,
+MinSizeValue,82,
+MinSizeValue,83,
+MinSizeValue,84,
+MinSizeValue,85,
+MinSizeValue,86,
+MinSizeValue,87,24.7
+MinSizeValue,88,
+MinSizeValue,89,
+MinSizeValue,90,
+MinSizeValue,91,
+MinSizeValue,92,
+MinSizeValue,93,
+MinSizeValue,94,
+MinSizeValue,95,
+MinSizeValue,96,
+MinSizeValue,97,
+MinSizeValue,98,
+MinSizeValue,99,
+MinSizeValue,100,
+MinSizeValue,101,
+MinSizeValue,102,0.8
+MinSizeValue,103,0.8
+MinSizeValue,104,0.8
+MinSizeValue,105,1.0
+MinSizeValue,106,0.4
+MinSizeValue,107,4.0
+MinSizeValue,108,7.3
+MinSizeValue,109,0.7
+MinSizeValue,110,0.5
+MinSizeValue,111,0.6
+MinSizeValue,112,0.5
+MinSizeValue,113,0.2
+MinSizeValue,114,0.65
+MinSizeValue,115,0.6
+MinSizeValue,116,0.6
+MinSizeValue,117,0.4
+MinSizeValue,118,0.4
+MinSizeValue,119,0.5
+MinSizeValue,120,0.4
+MinSizeValue,121,0.3
+MinSizeValue,122,1.5
+MinSizeValue,123,1.2
+MinSizeValue,124,0.5
+MinSizeValue,125,3.1
+MinSizeValue,126,0.8
+MinSizeValue,127,2.1
+MinSizeValue,128,1.5
+MinSizeValue,129,0.7
+MinSizeValue,130,0.6
+MinSizeValue,131,1.0
+MinSizeValue,132,0.4
+MinSizeValue,133,0.5
+MinSizeValue,134,0.6
+MinSizeValue,135,0.2
+MinSizeValue,136,0.8
+MinSizeValue,137,0.4
+MinSizeValue,138,1.0
+MinSizeValue,139,0.7
+MinSizeValue,140,0.5
+MinSizeValue,141,0.4
+MinSizeValue,142,0.3
+MinSizeValue,143,2.5
+MinSizeValue,144,0.3
+MinSizeValue,145,0.5
+MinSizeValue,146,0.8
+MinSizeValue,147,0.5
+MinSizeValue,148,0.4
+MinSizeValue,149,0.9
+MinSizeValue,150,0.3
+MinSizeValue,151,8.0
+MinSizeValue,152,0.5
+MinSizeValue,153,2.0
+MinSizeValue,154,0.8
+MinSizeValue,155,0.9
+MinSizeValue,156,0.7
+MinSizeValue,157,0.3
+MinSizeValue,158,0.3
+MinSizeValue,159,0.5
+MinSizeValue,160,0.3
+MinSizeValue,161,0.4
+MinSizeValue,162,0.4
+MinSizeValue,163,0.5
+MinSizeValue,164,0.4
+MinSizeValue,165,0.8
+MinSizeValue,166,0.9
+MinSizeValue,167,0.5
+MinSizeValue,168,3.5
+MinSizeValue,169,10.0
+MinSizeValue,170,0.8
+MinSizeValue,171,0.7
+MinSizeValue,172,0.8
+MinSizeValue,173,0.5
+MinSizeValue,174,0.4
+MinSizeValue,175,0.7
+MinSizeValue,176,0.7
+MinSizeValue,177,0.7
+MinSizeValue,178,0.4
+MinSizeValue,179,0.5
+MinSizeValue,180,0.2
+MinSizeValue,181,4.3
+MinSizeValue,182,0.55
+MinSizeValue,183,0.25
+MinSizeValue,184,0.5
+MinSizeValue,185,0.6
+MinSizeValue,186,0.8
+MinSizeValue,187,0.5
+MinSizeValue,188,
+MinSizeValue,189,
+MinSizeValue,190,
+MinSizeValue,191,
+MaxSizeValue,0,2.5
+MaxSizeValue,1,2.6
+MaxSizeValue,2,5.0
+MaxSizeValue,3,3.5
+MaxSizeValue,4,6.0
+MaxSizeValue,5,302.0
+MaxSizeValue,6,8.0
+MaxSizeValue,7,3.0
+MaxSizeValue,8,2.0
+MaxSizeValue,9,8.0
+MaxSizeValue,10,2.0
+MaxSizeValue,11,2.5
+MaxSizeValue,12,100.0
+MaxSizeValue,13,19.0
+MaxSizeValue,14,4.5
+MaxSizeValue,15,3.0
+MaxSizeValue,16,3.5
+MaxSizeValue,17,3.0
+MaxSizeValue,18,5.0
+MaxSizeValue,19,3.5
+MaxSizeValue,20,6.2
+MaxSizeValue,21,4.2
+MaxSizeValue,22,6.1
+MaxSizeValue,23,5.0
+MaxSizeValue,24,2.7
+MaxSizeValue,25,7.4
+MaxSizeValue,26,5.0
+MaxSizeValue,27,1.4
+MaxSizeValue,28,3.5
+MaxSizeValue,29,5.0
+MaxSizeValue,30,5.0
+MaxSizeValue,31,3.0
+MaxSizeValue,32,5.0
+MaxSizeValue,33,3.0
+MaxSizeValue,34,56.5
+MaxSizeValue,35,10.0
+MaxSizeValue,36,5.5
+MaxSizeValue,37,6.0
+MaxSizeValue,38,6.0
+MaxSizeValue,39,9.0
+MaxSizeValue,40,4.0
+MaxSizeValue,41,4.0
+MaxSizeValue,42,2.0
+MaxSizeValue,43,9.4
+MaxSizeValue,44,2.5
+MaxSizeValue,45,5.0
+MaxSizeValue,46,7.0
+MaxSizeValue,47,5.0
+MaxSizeValue,48,2.8
+MaxSizeValue,49,4.0
+MaxSizeValue,50,4.0
+MaxSizeValue,51,5.0
+MaxSizeValue,52,3.0
+MaxSizeValue,53,11.0
+MaxSizeValue,54,2.0
+MaxSizeValue,55,2.0
+MaxSizeValue,56,2.0
+MaxSizeValue,57,3.0
+MaxSizeValue,58,4.0
+MaxSizeValue,59,3.0
+MaxSizeValue,60,2.5
+MaxSizeValue,61,5.1
+MaxSizeValue,62,4.5
+MaxSizeValue,63,2.5
+MaxSizeValue,64,12.6
+MaxSizeValue,65,3.5
+MaxSizeValue,66,7.5
+MaxSizeValue,67,3.9
+MaxSizeValue,68,9.0
+MaxSizeValue,69,20.0
+MaxSizeValue,70,4.0
+MaxSizeValue,71,2.17
+MaxSizeValue,72,3.5
+MaxSizeValue,73,3.0
+MaxSizeValue,74,
+MaxSizeValue,75,
+MaxSizeValue,76,
+MaxSizeValue,77,
+MaxSizeValue,78,
+MaxSizeValue,79,
+MaxSizeValue,80,
+MaxSizeValue,81,
+MaxSizeValue,82,
+MaxSizeValue,83,
+MaxSizeValue,84,
+MaxSizeValue,85,
+MaxSizeValue,86,
+MaxSizeValue,87,48.0
+MaxSizeValue,88,
+MaxSizeValue,89,
+MaxSizeValue,90,
+MaxSizeValue,91,
+MaxSizeValue,92,
+MaxSizeValue,93,
+MaxSizeValue,94,
+MaxSizeValue,95,
+MaxSizeValue,96,
+MaxSizeValue,97,
+MaxSizeValue,98,
+MaxSizeValue,99,
+MaxSizeValue,100,
+MaxSizeValue,101,
+MaxSizeValue,102,1.0
+MaxSizeValue,103,1.1
+MaxSizeValue,104,0.9
+MaxSizeValue,105,1.0
+MaxSizeValue,106,0.7
+MaxSizeValue,107,5.0
+MaxSizeValue,108,8.9
+MaxSizeValue,109,0.8
+MaxSizeValue,110,0.9
+MaxSizeValue,111,0.75
+MaxSizeValue,112,0.7
+MaxSizeValue,113,0.2
+MaxSizeValue,114,0.75
+MaxSizeValue,115,0.8
+MaxSizeValue,116,2.4
+MaxSizeValue,117,0.6
+MaxSizeValue,118,0.8
+MaxSizeValue,119,0.5
+MaxSizeValue,120,0.8
+MaxSizeValue,121,0.5
+MaxSizeValue,122,2.0
+MaxSizeValue,123,2.0
+MaxSizeValue,124,1.0
+MaxSizeValue,125,3.1
+MaxSizeValue,126,0.8
+MaxSizeValue,127,2.1
+MaxSizeValue,128,1.8
+MaxSizeValue,129,0.7
+MaxSizeValue,130,0.6
+MaxSizeValue,131,1.1
+MaxSizeValue,132,0.5
+MaxSizeValue,133,0.5
+MaxSizeValue,134,1.0
+MaxSizeValue,135,0.4
+MaxSizeValue,136,0.8
+MaxSizeValue,137,0.6
+MaxSizeValue,138,1.0
+MaxSizeValue,139,1.0
+MaxSizeValue,140,1.1
+MaxSizeValue,141,0.6
+MaxSizeValue,142,0.6
+MaxSizeValue,143,3.0
+MaxSizeValue,144,1.0
+MaxSizeValue,145,0.8
+MaxSizeValue,146,1.0
+MaxSizeValue,147,1.0
+MaxSizeValue,148,0.5
+MaxSizeValue,149,1.0
+MaxSizeValue,150,0.8
+MaxSizeValue,151,10.0
+MaxSizeValue,152,0.8
+MaxSizeValue,153,3.0
+MaxSizeValue,154,1.2
+MaxSizeValue,155,1.2
+MaxSizeValue,156,0.8
+MaxSizeValue,157,0.4
+MaxSizeValue,158,0.4
+MaxSizeValue,159,0.8
+MaxSizeValue,160,0.9
+MaxSizeValue,161,0.6
+MaxSizeValue,162,0.6
+MaxSizeValue,163,1.0
+MaxSizeValue,164,1.5
+MaxSizeValue,165,1.0
+MaxSizeValue,166,1.0
+MaxSizeValue,167,0.8
+MaxSizeValue,168,4.1
+MaxSizeValue,169,10.0
+MaxSizeValue,170,1.2
+MaxSizeValue,171,1.0
+MaxSizeValue,172,1.2
+MaxSizeValue,173,0.5
+MaxSizeValue,174,0.7
+MaxSizeValue,175,0.7
+MaxSizeValue,176,0.8
+MaxSizeValue,177,0.7
+MaxSizeValue,178,0.6
+MaxSizeValue,179,2.0
+MaxSizeValue,180,1.7
+MaxSizeValue,181,4.3
+MaxSizeValue,182,0.75
+MaxSizeValue,183,0.35
+MaxSizeValue,184,0.8
+MaxSizeValue,185,0.9
+MaxSizeValue,186,1.0
+MaxSizeValue,187,1.0
+MaxSizeValue,188,
+MaxSizeValue,189,
+MaxSizeValue,190,
+MaxSizeValue,191,
+SizeUnit,0,um
+SizeUnit,1,um
+SizeUnit,2,um
+SizeUnit,3,um
+SizeUnit,4,um
+SizeUnit,5,um
+SizeUnit,6,um
+SizeUnit,7,um
+SizeUnit,8,um
+SizeUnit,9,um
+SizeUnit,10,um
+SizeUnit,11,um
+SizeUnit,12,um
+SizeUnit,13,um
+SizeUnit,14,um
+SizeUnit,15,um
+SizeUnit,16,um
+SizeUnit,17,um
+SizeUnit,18,um
+SizeUnit,19,um
+SizeUnit,20,um
+SizeUnit,21,um
+SizeUnit,22,um
+SizeUnit,23,um
+SizeUnit,24,um
+SizeUnit,25,um
+SizeUnit,26,um
+SizeUnit,27,um
+SizeUnit,28,um
+SizeUnit,29,um
+SizeUnit,30,um
+SizeUnit,31,um
+SizeUnit,32,um
+SizeUnit,33,um
+SizeUnit,34,um
+SizeUnit,35,um
+SizeUnit,36,um
+SizeUnit,37,um
+SizeUnit,38,um
+SizeUnit,39,um
+SizeUnit,40,um
+SizeUnit,41,um
+SizeUnit,42,um
+SizeUnit,43,um
+SizeUnit,44,um
+SizeUnit,45,um
+SizeUnit,46,um
+SizeUnit,47,um
+SizeUnit,48,um
+SizeUnit,49,um
+SizeUnit,50,um
+SizeUnit,51,um
+SizeUnit,52,um
+SizeUnit,53,um
+SizeUnit,54,um
+SizeUnit,55,um
+SizeUnit,56,um
+SizeUnit,57,um
+SizeUnit,58,um
+SizeUnit,59,um
+SizeUnit,60,um
+SizeUnit,61,um
+SizeUnit,62,um
+SizeUnit,63,um
+SizeUnit,64,um
+SizeUnit,65,um
+SizeUnit,66,um
+SizeUnit,67,um
+SizeUnit,68,um
+SizeUnit,69,um
+SizeUnit,70,um
+SizeUnit,71,um
+SizeUnit,72,um
+SizeUnit,73,um
+SizeUnit,74,
+SizeUnit,75,
+SizeUnit,76,
+SizeUnit,77,
+SizeUnit,78,
+SizeUnit,79,
+SizeUnit,80,
+SizeUnit,81,
+SizeUnit,82,
+SizeUnit,83,
+SizeUnit,84,
+SizeUnit,85,
+SizeUnit,86,
+SizeUnit,87,um
+SizeUnit,88,
+SizeUnit,89,
+SizeUnit,90,
+SizeUnit,91,
+SizeUnit,92,
+SizeUnit,93,
+SizeUnit,94,
+SizeUnit,95,
+SizeUnit,96,
+SizeUnit,97,
+SizeUnit,98,
+SizeUnit,99,
+SizeUnit,100,
+SizeUnit,101,
+SizeUnit,102,um
+SizeUnit,103,um
+SizeUnit,104,um
+SizeUnit,105,um
+SizeUnit,106,um
+SizeUnit,107,um
+SizeUnit,108,um
+SizeUnit,109,um
+SizeUnit,110,um
+SizeUnit,111,um
+SizeUnit,112,um
+SizeUnit,113,um
+SizeUnit,114,um
+SizeUnit,115,um
+SizeUnit,116,um
+SizeUnit,117,um
+SizeUnit,118,um
+SizeUnit,119,um
+SizeUnit,120,um
+SizeUnit,121,um
+SizeUnit,122,um
+SizeUnit,123,um
+SizeUnit,124,um
+SizeUnit,125,um
+SizeUnit,126,um
+SizeUnit,127,um
+SizeUnit,128,um
+SizeUnit,129,um
+SizeUnit,130,um
+SizeUnit,131,um
+SizeUnit,132,um
+SizeUnit,133,um
+SizeUnit,134,um
+SizeUnit,135,um
+SizeUnit,136,um
+SizeUnit,137,um
+SizeUnit,138,um
+SizeUnit,139,um
+SizeUnit,140,um
+SizeUnit,141,um
+SizeUnit,142,um
+SizeUnit,143,um
+SizeUnit,144,um
+SizeUnit,145,um
+SizeUnit,146,um
+SizeUnit,147,um
+SizeUnit,148,um
+SizeUnit,149,um
+SizeUnit,150,um
+SizeUnit,151,mm
+SizeUnit,152,um
+SizeUnit,153,um
+SizeUnit,154,um
+SizeUnit,155,um
+SizeUnit,156,um
+SizeUnit,157,um
+SizeUnit,158,um
+SizeUnit,159,um
+SizeUnit,160,um
+SizeUnit,161,um
+SizeUnit,162,um
+SizeUnit,163,um
+SizeUnit,164,um
+SizeUnit,165,um
+SizeUnit,166,um
+SizeUnit,167,um
+SizeUnit,168,um
+SizeUnit,169,um
+SizeUnit,170,um
+SizeUnit,171,um
+SizeUnit,172,um
+SizeUnit,173,um
+SizeUnit,174,um
+SizeUnit,175,um
+SizeUnit,176,um
+SizeUnit,177,um
+SizeUnit,178,um
+SizeUnit,179,um
+SizeUnit,180,um
+SizeUnit,181,um
+SizeUnit,182,um
+SizeUnit,183,um
+SizeUnit,184,um
+SizeUnit,185,um
+SizeUnit,186,um
+SizeUnit,187,um
+SizeUnit,188,
+SizeUnit,189,
+SizeUnit,190,
+SizeUnit,191,
+SizeType,0,Length
+SizeType,1,Length
+SizeType,2,Length
+SizeType,3,Length
+SizeType,4,Length
+SizeType,5,Length
+SizeType,6,Length
+SizeType,7,Length
+SizeType,8,Length
+SizeType,9,Length
+SizeType,10,Length
+SizeType,11,Length
+SizeType,12,Length
+SizeType,13,Length
+SizeType,14,Length
+SizeType,15,Length
+SizeType,16,Length
+SizeType,17,Length
+SizeType,18,Length
+SizeType,19,Length
+SizeType,20,Length
+SizeType,21,Length
+SizeType,22,Length
+SizeType,23,Length
+SizeType,24,Length
+SizeType,25,Length
+SizeType,26,Length
+SizeType,27,Length
+SizeType,28,Length
+SizeType,29,Length
+SizeType,30,Length
+SizeType,31,Length
+SizeType,32,Length
+SizeType,33,Length
+SizeType,34,Length
+SizeType,35,Length
+SizeType,36,Length
+SizeType,37,Length
+SizeType,38,Length
+SizeType,39,Length
+SizeType,40,Length
+SizeType,41,Length
+SizeType,42,Length
+SizeType,43,Length
+SizeType,44,Length
+SizeType,45,Length
+SizeType,46,Length
+SizeType,47,Length
+SizeType,48,Length
+SizeType,49,Length
+SizeType,50,Length
+SizeType,51,Length
+SizeType,52,Length
+SizeType,53,Length
+SizeType,54,Length
+SizeType,55,Length
+SizeType,56,Length
+SizeType,57,Length
+SizeType,58,Length
+SizeType,59,Length
+SizeType,60,Length
+SizeType,61,Length
+SizeType,62,Length
+SizeType,63,Length
+SizeType,64,Length
+SizeType,65,Length
+SizeType,66,Length
+SizeType,67,Length
+SizeType,68,Length
+SizeType,69,Length
+SizeType,70,Length
+SizeType,71,Length
+SizeType,72,Length
+SizeType,73,Length
+SizeType,74,mass
+SizeType,75,mass
+SizeType,76,mass
+SizeType,77,mass
+SizeType,78,mass
+SizeType,79,mass
+SizeType,80,mass
+SizeType,81,mass
+SizeType,82,mass
+SizeType,83,mass
+SizeType,84,mass
+SizeType,85,mass
+SizeType,86,mass
+SizeType,87,Sprial Width
+SizeType,88,Volume
+SizeType,89,Volume
+SizeType,90,Volume
+SizeType,91,Volume
+SizeType,92,Volume
+SizeType,93,Volume
+SizeType,94,Volume
+SizeType,95,Volume
+SizeType,96,Volume
+SizeType,97,Volume
+SizeType,98,Volume
+SizeType,99,Volume
+SizeType,100,Volume
+SizeType,101,Volume
+SizeType,102,Width
+SizeType,103,Width
+SizeType,104,Width
+SizeType,105,Width
+SizeType,106,Width
+SizeType,107,Width
+SizeType,108,Width
+SizeType,109,Width
+SizeType,110,Width
+SizeType,111,Width
+SizeType,112,Width
+SizeType,113,Width
+SizeType,114,Width
+SizeType,115,Width
+SizeType,116,Width
+SizeType,117,Width
+SizeType,118,Width
+SizeType,119,Width
+SizeType,120,Width
+SizeType,121,Width
+SizeType,122,Width
+SizeType,123,Width
+SizeType,124,Width
+SizeType,125,Width
+SizeType,126,Width
+SizeType,127,Width
+SizeType,128,Width
+SizeType,129,Width
+SizeType,130,Width
+SizeType,131,Width
+SizeType,132,Width
+SizeType,133,Width
+SizeType,134,Width
+SizeType,135,Width
+SizeType,136,Width
+SizeType,137,Width
+SizeType,138,Width
+SizeType,139,Width
+SizeType,140,Width
+SizeType,141,Width
+SizeType,142,Width
+SizeType,143,Width
+SizeType,144,Width
+SizeType,145,Width
+SizeType,146,Width
+SizeType,147,Width
+SizeType,148,Width
+SizeType,149,Width
+SizeType,150,Width
+SizeType,151,Width
+SizeType,152,Width
+SizeType,153,Width
+SizeType,154,Width
+SizeType,155,Width
+SizeType,156,Width
+SizeType,157,Width
+SizeType,158,Width
+SizeType,159,Width
+SizeType,160,Width
+SizeType,161,Width
+SizeType,162,Width
+SizeType,163,Width
+SizeType,164,Width
+SizeType,165,Width
+SizeType,166,Width
+SizeType,167,Width
+SizeType,168,Width
+SizeType,169,Width
+SizeType,170,Width
+SizeType,171,Width
+SizeType,172,Width
+SizeType,173,Width
+SizeType,174,Width
+SizeType,175,Width
+SizeType,176,Width
+SizeType,177,Width
+SizeType,178,Width
+SizeType,179,Width
+SizeType,180,Width
+SizeType,181,Width
+SizeType,182,Width
+SizeType,183,Width
+SizeType,184,Width
+SizeType,185,Width
+SizeType,186,Width
+SizeType,187,Width
+SizeType,188,
+SizeType,189,
+SizeType,190,
+SizeType,191,
+MinVolume,0,
+MinVolume,1,
+MinVolume,2,
+MinVolume,3,
+MinVolume,4,
+MinVolume,5,
+MinVolume,6,
+MinVolume,7,
+MinVolume,8,
+MinVolume,9,
+MinVolume,10,
+MinVolume,11,
+MinVolume,12,
+MinVolume,13,
+MinVolume,14,
+MinVolume,15,
+MinVolume,16,
+MinVolume,17,
+MinVolume,18,
+MinVolume,19,
+MinVolume,20,
+MinVolume,21,
+MinVolume,22,
+MinVolume,23,
+MinVolume,24,
+MinVolume,25,
+MinVolume,26,
+MinVolume,27,
+MinVolume,28,
+MinVolume,29,
+MinVolume,30,
+MinVolume,31,
+MinVolume,32,
+MinVolume,33,
+MinVolume,34,
+MinVolume,35,
+MinVolume,36,
+MinVolume,37,
+MinVolume,38,
+MinVolume,39,
+MinVolume,40,
+MinVolume,41,
+MinVolume,42,
+MinVolume,43,
+MinVolume,44,
+MinVolume,45,
+MinVolume,46,
+MinVolume,47,
+MinVolume,48,
+MinVolume,49,
+MinVolume,50,
+MinVolume,51,
+MinVolume,52,
+MinVolume,53,
+MinVolume,54,
+MinVolume,55,
+MinVolume,56,
+MinVolume,57,
+MinVolume,58,
+MinVolume,59,
+MinVolume,60,
+MinVolume,61,
+MinVolume,62,
+MinVolume,63,
+MinVolume,64,
+MinVolume,65,
+MinVolume,66,
+MinVolume,67,
+MinVolume,68,
+MinVolume,69,
+MinVolume,70,
+MinVolume,71,
+MinVolume,72,
+MinVolume,73,
+MinVolume,74,
+MinVolume,75,
+MinVolume,76,
+MinVolume,77,
+MinVolume,78,
+MinVolume,79,
+MinVolume,80,
+MinVolume,81,
+MinVolume,82,
+MinVolume,83,
+MinVolume,84,
+MinVolume,85,
+MinVolume,86,
+MinVolume,87,
+MinVolume,88,5e-19
+MinVolume,89,1e-17
+MinVolume,90,1.05e-16
+MinVolume,91,2.6e-17
+MinVolume,92,1.96e-15
+MinVolume,93,1.7e-08
+MinVolume,94,6.5e-17
+MinVolume,95,1.31e-15
+MinVolume,96,3.27e-15
+MinVolume,97,6.54e-15
+MinVolume,98,1.96e-15
+MinVolume,99,9.62e-16
+MinVolume,100,1.8
+MinVolume,101,9.5e-16
+MinVolume,102,
+MinVolume,103,
+MinVolume,104,
+MinVolume,105,
+MinVolume,106,
+MinVolume,107,
+MinVolume,108,
+MinVolume,109,
+MinVolume,110,
+MinVolume,111,
+MinVolume,112,
+MinVolume,113,
+MinVolume,114,
+MinVolume,115,
+MinVolume,116,
+MinVolume,117,
+MinVolume,118,
+MinVolume,119,
+MinVolume,120,
+MinVolume,121,
+MinVolume,122,
+MinVolume,123,
+MinVolume,124,
+MinVolume,125,
+MinVolume,126,
+MinVolume,127,
+MinVolume,128,
+MinVolume,129,
+MinVolume,130,
+MinVolume,131,
+MinVolume,132,
+MinVolume,133,
+MinVolume,134,
+MinVolume,135,
+MinVolume,136,
+MinVolume,137,
+MinVolume,138,
+MinVolume,139,
+MinVolume,140,
+MinVolume,141,
+MinVolume,142,
+MinVolume,143,
+MinVolume,144,
+MinVolume,145,
+MinVolume,146,
+MinVolume,147,
+MinVolume,148,
+MinVolume,149,
+MinVolume,150,
+MinVolume,151,
+MinVolume,152,
+MinVolume,153,
+MinVolume,154,
+MinVolume,155,
+MinVolume,156,
+MinVolume,157,
+MinVolume,158,
+MinVolume,159,
+MinVolume,160,
+MinVolume,161,
+MinVolume,162,
+MinVolume,163,
+MinVolume,164,
+MinVolume,165,
+MinVolume,166,
+MinVolume,167,
+MinVolume,168,
+MinVolume,169,
+MinVolume,170,
+MinVolume,171,
+MinVolume,172,
+MinVolume,173,
+MinVolume,174,
+MinVolume,175,
+MinVolume,176,
+MinVolume,177,
+MinVolume,178,
+MinVolume,179,
+MinVolume,180,
+MinVolume,181,
+MinVolume,182,
+MinVolume,183,
+MinVolume,184,
+MinVolume,185,
+MinVolume,186,
+MinVolume,187,
+MinVolume,188,
+MinVolume,189,
+MinVolume,190,
+MinVolume,191,
+MaxVolume,0,
+MaxVolume,1,
+MaxVolume,2,
+MaxVolume,3,
+MaxVolume,4,
+MaxVolume,5,
+MaxVolume,6,
+MaxVolume,7,
+MaxVolume,8,
+MaxVolume,9,
+MaxVolume,10,
+MaxVolume,11,
+MaxVolume,12,
+MaxVolume,13,
+MaxVolume,14,
+MaxVolume,15,
+MaxVolume,16,
+MaxVolume,17,
+MaxVolume,18,
+MaxVolume,19,
+MaxVolume,20,
+MaxVolume,21,
+MaxVolume,22,
+MaxVolume,23,
+MaxVolume,24,
+MaxVolume,25,
+MaxVolume,26,
+MaxVolume,27,
+MaxVolume,28,
+MaxVolume,29,
+MaxVolume,30,
+MaxVolume,31,
+MaxVolume,32,
+MaxVolume,33,
+MaxVolume,34,
+MaxVolume,35,
+MaxVolume,36,
+MaxVolume,37,
+MaxVolume,38,
+MaxVolume,39,
+MaxVolume,40,
+MaxVolume,41,
+MaxVolume,42,
+MaxVolume,43,
+MaxVolume,44,
+MaxVolume,45,
+MaxVolume,46,
+MaxVolume,47,
+MaxVolume,48,
+MaxVolume,49,
+MaxVolume,50,
+MaxVolume,51,
+MaxVolume,52,
+MaxVolume,53,
+MaxVolume,54,
+MaxVolume,55,
+MaxVolume,56,
+MaxVolume,57,
+MaxVolume,58,
+MaxVolume,59,
+MaxVolume,60,
+MaxVolume,61,
+MaxVolume,62,
+MaxVolume,63,
+MaxVolume,64,
+MaxVolume,65,
+MaxVolume,66,
+MaxVolume,67,
+MaxVolume,68,
+MaxVolume,69,
+MaxVolume,70,
+MaxVolume,71,
+MaxVolume,72,
+MaxVolume,73,
+MaxVolume,74,
+MaxVolume,75,
+MaxVolume,76,
+MaxVolume,77,
+MaxVolume,78,
+MaxVolume,79,
+MaxVolume,80,
+MaxVolume,81,
+MaxVolume,82,
+MaxVolume,83,
+MaxVolume,84,
+MaxVolume,85,
+MaxVolume,86,
+MaxVolume,87,
+MaxVolume,88,5e-19
+MaxVolume,89,1e-17
+MaxVolume,90,1.05e-16
+MaxVolume,91,2.6e-17
+MaxVolume,92,1.96e-15
+MaxVolume,93,1.7e-08
+MaxVolume,94,6.5e-17
+MaxVolume,95,1.31e-15
+MaxVolume,96,3.27e-15
+MaxVolume,97,6.54e-15
+MaxVolume,98,1.96e-15
+MaxVolume,99,9.62e-16
+MaxVolume,100,1.8
+MaxVolume,101,9.5e-16
+MaxVolume,102,
+MaxVolume,103,
+MaxVolume,104,
+MaxVolume,105,
+MaxVolume,106,
+MaxVolume,107,
+MaxVolume,108,
+MaxVolume,109,
+MaxVolume,110,
+MaxVolume,111,
+MaxVolume,112,
+MaxVolume,113,
+MaxVolume,114,
+MaxVolume,115,
+MaxVolume,116,
+MaxVolume,117,
+MaxVolume,118,
+MaxVolume,119,
+MaxVolume,120,
+MaxVolume,121,
+MaxVolume,122,
+MaxVolume,123,
+MaxVolume,124,
+MaxVolume,125,
+MaxVolume,126,
+MaxVolume,127,
+MaxVolume,128,
+MaxVolume,129,
+MaxVolume,130,
+MaxVolume,131,
+MaxVolume,132,
+MaxVolume,133,
+MaxVolume,134,
+MaxVolume,135,
+MaxVolume,136,
+MaxVolume,137,
+MaxVolume,138,
+MaxVolume,139,
+MaxVolume,140,
+MaxVolume,141,
+MaxVolume,142,
+MaxVolume,143,
+MaxVolume,144,
+MaxVolume,145,
+MaxVolume,146,
+MaxVolume,147,
+MaxVolume,148,
+MaxVolume,149,
+MaxVolume,150,
+MaxVolume,151,
+MaxVolume,152,
+MaxVolume,153,
+MaxVolume,154,
+MaxVolume,155,
+MaxVolume,156,
+MaxVolume,157,
+MaxVolume,158,
+MaxVolume,159,
+MaxVolume,160,
+MaxVolume,161,
+MaxVolume,162,
+MaxVolume,163,
+MaxVolume,164,
+MaxVolume,165,
+MaxVolume,166,
+MaxVolume,167,
+MaxVolume,168,
+MaxVolume,169,
+MaxVolume,170,
+MaxVolume,171,
+MaxVolume,172,
+MaxVolume,173,
+MaxVolume,174,
+MaxVolume,175,
+MaxVolume,176,
+MaxVolume,177,
+MaxVolume,178,
+MaxVolume,179,
+MaxVolume,180,
+MaxVolume,181,
+MaxVolume,182,
+MaxVolume,183,
+MaxVolume,184,
+MaxVolume,185,
+MaxVolume,186,
+MaxVolume,187,
+MaxVolume,188,
+MaxVolume,189,
+MaxVolume,190,
+MaxVolume,191,
+VolumeUnit,0,
+VolumeUnit,1,
+VolumeUnit,2,
+VolumeUnit,3,
+VolumeUnit,4,
+VolumeUnit,5,
+VolumeUnit,6,
+VolumeUnit,7,
+VolumeUnit,8,
+VolumeUnit,9,
+VolumeUnit,10,
+VolumeUnit,11,
+VolumeUnit,12,
+VolumeUnit,13,
+VolumeUnit,14,
+VolumeUnit,15,
+VolumeUnit,16,
+VolumeUnit,17,
+VolumeUnit,18,
+VolumeUnit,19,
+VolumeUnit,20,
+VolumeUnit,21,
+VolumeUnit,22,
+VolumeUnit,23,
+VolumeUnit,24,
+VolumeUnit,25,
+VolumeUnit,26,
+VolumeUnit,27,
+VolumeUnit,28,
+VolumeUnit,29,
+VolumeUnit,30,
+VolumeUnit,31,
+VolumeUnit,32,
+VolumeUnit,33,
+VolumeUnit,34,
+VolumeUnit,35,
+VolumeUnit,36,
+VolumeUnit,37,
+VolumeUnit,38,
+VolumeUnit,39,
+VolumeUnit,40,
+VolumeUnit,41,
+VolumeUnit,42,
+VolumeUnit,43,
+VolumeUnit,44,
+VolumeUnit,45,
+VolumeUnit,46,
+VolumeUnit,47,
+VolumeUnit,48,
+VolumeUnit,49,
+VolumeUnit,50,
+VolumeUnit,51,
+VolumeUnit,52,
+VolumeUnit,53,
+VolumeUnit,54,
+VolumeUnit,55,
+VolumeUnit,56,
+VolumeUnit,57,
+VolumeUnit,58,
+VolumeUnit,59,
+VolumeUnit,60,
+VolumeUnit,61,
+VolumeUnit,62,
+VolumeUnit,63,
+VolumeUnit,64,
+VolumeUnit,65,
+VolumeUnit,66,
+VolumeUnit,67,
+VolumeUnit,68,
+VolumeUnit,69,
+VolumeUnit,70,
+VolumeUnit,71,
+VolumeUnit,72,
+VolumeUnit,73,
+VolumeUnit,74,
+VolumeUnit,75,
+VolumeUnit,76,
+VolumeUnit,77,
+VolumeUnit,78,
+VolumeUnit,79,
+VolumeUnit,80,
+VolumeUnit,81,
+VolumeUnit,82,
+VolumeUnit,83,
+VolumeUnit,84,
+VolumeUnit,85,
+VolumeUnit,86,
+VolumeUnit,87,
+VolumeUnit,88,m^3
+VolumeUnit,89,m^3
+VolumeUnit,90,m^3
+VolumeUnit,91,m^3
+VolumeUnit,92,m^3
+VolumeUnit,93,um3
+VolumeUnit,94,m^3
+VolumeUnit,95,m^3
+VolumeUnit,96,m^3
+VolumeUnit,97,m^3
+VolumeUnit,98,m^3
+VolumeUnit,99,m^3
+VolumeUnit,100,um3
+VolumeUnit,101,m^3
+VolumeUnit,102,
+VolumeUnit,103,
+VolumeUnit,104,
+VolumeUnit,105,
+VolumeUnit,106,
+VolumeUnit,107,
+VolumeUnit,108,
+VolumeUnit,109,
+VolumeUnit,110,
+VolumeUnit,111,
+VolumeUnit,112,
+VolumeUnit,113,
+VolumeUnit,114,
+VolumeUnit,115,
+VolumeUnit,116,
+VolumeUnit,117,
+VolumeUnit,118,
+VolumeUnit,119,
+VolumeUnit,120,
+VolumeUnit,121,
+VolumeUnit,122,
+VolumeUnit,123,
+VolumeUnit,124,
+VolumeUnit,125,
+VolumeUnit,126,
+VolumeUnit,127,
+VolumeUnit,128,
+VolumeUnit,129,
+VolumeUnit,130,
+VolumeUnit,131,
+VolumeUnit,132,
+VolumeUnit,133,
+VolumeUnit,134,
+VolumeUnit,135,
+VolumeUnit,136,
+VolumeUnit,137,
+VolumeUnit,138,
+VolumeUnit,139,
+VolumeUnit,140,
+VolumeUnit,141,
+VolumeUnit,142,
+VolumeUnit,143,
+VolumeUnit,144,
+VolumeUnit,145,
+VolumeUnit,146,
+VolumeUnit,147,
+VolumeUnit,148,
+VolumeUnit,149,
+VolumeUnit,150,
+VolumeUnit,151,
+VolumeUnit,152,
+VolumeUnit,153,
+VolumeUnit,154,
+VolumeUnit,155,
+VolumeUnit,156,
+VolumeUnit,157,
+VolumeUnit,158,
+VolumeUnit,159,
+VolumeUnit,160,
+VolumeUnit,161,
+VolumeUnit,162,
+VolumeUnit,163,
+VolumeUnit,164,
+VolumeUnit,165,
+VolumeUnit,166,
+VolumeUnit,167,
+VolumeUnit,168,
+VolumeUnit,169,
+VolumeUnit,170,
+VolumeUnit,171,
+VolumeUnit,172,
+VolumeUnit,173,
+VolumeUnit,174,
+VolumeUnit,175,
+VolumeUnit,176,
+VolumeUnit,177,
+VolumeUnit,178,
+VolumeUnit,179,
+VolumeUnit,180,
+VolumeUnit,181,
+VolumeUnit,182,
+VolumeUnit,183,
+VolumeUnit,184,
+VolumeUnit,185,
+VolumeUnit,186,
+VolumeUnit,187,
+VolumeUnit,188,
+VolumeUnit,189,
+VolumeUnit,190,
+VolumeUnit,191,
+MinMass,0,
+MinMass,1,
+MinMass,2,
+MinMass,3,
+MinMass,4,
+MinMass,5,
+MinMass,6,
+MinMass,7,
+MinMass,8,
+MinMass,9,
+MinMass,10,
+MinMass,11,
+MinMass,12,
+MinMass,13,
+MinMass,14,
+MinMass,15,
+MinMass,16,
+MinMass,17,
+MinMass,18,
+MinMass,19,
+MinMass,20,
+MinMass,21,
+MinMass,22,
+MinMass,23,
+MinMass,24,
+MinMass,25,
+MinMass,26,
+MinMass,27,
+MinMass,28,
+MinMass,29,
+MinMass,30,
+MinMass,31,
+MinMass,32,
+MinMass,33,
+MinMass,34,
+MinMass,35,
+MinMass,36,
+MinMass,37,
+MinMass,38,
+MinMass,39,
+MinMass,40,
+MinMass,41,
+MinMass,42,
+MinMass,43,
+MinMass,44,
+MinMass,45,
+MinMass,46,
+MinMass,47,
+MinMass,48,
+MinMass,49,
+MinMass,50,
+MinMass,51,
+MinMass,52,
+MinMass,53,
+MinMass,54,
+MinMass,55,
+MinMass,56,
+MinMass,57,
+MinMass,58,
+MinMass,59,
+MinMass,60,
+MinMass,61,
+MinMass,62,
+MinMass,63,
+MinMass,64,
+MinMass,65,
+MinMass,66,
+MinMass,67,
+MinMass,68,
+MinMass,69,
+MinMass,70,
+MinMass,71,
+MinMass,72,
+MinMass,73,
+MinMass,74,3.7e-12
+MinMass,75,7e-12
+MinMass,76,2e-13
+MinMass,77,1.2e-12
+MinMass,78,4e-13
+MinMass,79,2e-13
+MinMass,80,1e-12
+MinMass,81,1.2e-12
+MinMass,82,1.7e-12
+MinMass,83,1.9e-12
+MinMass,84,6.6e-13
+MinMass,85,2.7e-13
+MinMass,86,2.6e-13
+MinMass,87,
+MinMass,88,
+MinMass,89,
+MinMass,90,
+MinMass,91,
+MinMass,92,
+MinMass,93,
+MinMass,94,
+MinMass,95,
+MinMass,96,
+MinMass,97,
+MinMass,98,
+MinMass,99,
+MinMass,100,
+MinMass,101,
+MinMass,102,
+MinMass,103,
+MinMass,104,
+MinMass,105,
+MinMass,106,
+MinMass,107,
+MinMass,108,
+MinMass,109,
+MinMass,110,
+MinMass,111,
+MinMass,112,
+MinMass,113,
+MinMass,114,
+MinMass,115,
+MinMass,116,
+MinMass,117,
+MinMass,118,
+MinMass,119,
+MinMass,120,
+MinMass,121,
+MinMass,122,
+MinMass,123,
+MinMass,124,
+MinMass,125,
+MinMass,126,
+MinMass,127,
+MinMass,128,
+MinMass,129,
+MinMass,130,
+MinMass,131,
+MinMass,132,
+MinMass,133,
+MinMass,134,
+MinMass,135,
+MinMass,136,
+MinMass,137,
+MinMass,138,
+MinMass,139,
+MinMass,140,
+MinMass,141,
+MinMass,142,
+MinMass,143,
+MinMass,144,
+MinMass,145,
+MinMass,146,
+MinMass,147,
+MinMass,148,
+MinMass,149,
+MinMass,150,
+MinMass,151,
+MinMass,152,
+MinMass,153,
+MinMass,154,
+MinMass,155,
+MinMass,156,
+MinMass,157,
+MinMass,158,
+MinMass,159,
+MinMass,160,
+MinMass,161,
+MinMass,162,
+MinMass,163,
+MinMass,164,
+MinMass,165,
+MinMass,166,
+MinMass,167,
+MinMass,168,
+MinMass,169,
+MinMass,170,
+MinMass,171,
+MinMass,172,
+MinMass,173,
+MinMass,174,
+MinMass,175,
+MinMass,176,
+MinMass,177,
+MinMass,178,
+MinMass,179,
+MinMass,180,
+MinMass,181,
+MinMass,182,
+MinMass,183,
+MinMass,184,
+MinMass,185,
+MinMass,186,
+MinMass,187,
+MinMass,188,
+MinMass,189,
+MinMass,190,
+MinMass,191,
+MaxMass,0,
+MaxMass,1,
+MaxMass,2,
+MaxMass,3,
+MaxMass,4,
+MaxMass,5,
+MaxMass,6,
+MaxMass,7,
+MaxMass,8,
+MaxMass,9,
+MaxMass,10,
+MaxMass,11,
+MaxMass,12,
+MaxMass,13,
+MaxMass,14,
+MaxMass,15,
+MaxMass,16,
+MaxMass,17,
+MaxMass,18,
+MaxMass,19,
+MaxMass,20,
+MaxMass,21,
+MaxMass,22,
+MaxMass,23,
+MaxMass,24,
+MaxMass,25,
+MaxMass,26,
+MaxMass,27,
+MaxMass,28,
+MaxMass,29,
+MaxMass,30,
+MaxMass,31,
+MaxMass,32,
+MaxMass,33,
+MaxMass,34,
+MaxMass,35,
+MaxMass,36,
+MaxMass,37,
+MaxMass,38,
+MaxMass,39,
+MaxMass,40,
+MaxMass,41,
+MaxMass,42,
+MaxMass,43,
+MaxMass,44,
+MaxMass,45,
+MaxMass,46,
+MaxMass,47,
+MaxMass,48,
+MaxMass,49,
+MaxMass,50,
+MaxMass,51,
+MaxMass,52,
+MaxMass,53,
+MaxMass,54,
+MaxMass,55,
+MaxMass,56,
+MaxMass,57,
+MaxMass,58,
+MaxMass,59,
+MaxMass,60,
+MaxMass,61,
+MaxMass,62,
+MaxMass,63,
+MaxMass,64,
+MaxMass,65,
+MaxMass,66,
+MaxMass,67,
+MaxMass,68,
+MaxMass,69,
+MaxMass,70,
+MaxMass,71,
+MaxMass,72,
+MaxMass,73,
+MaxMass,74,3.7e-12
+MaxMass,75,7e-12
+MaxMass,76,2e-13
+MaxMass,77,1.2e-12
+MaxMass,78,4e-13
+MaxMass,79,2e-13
+MaxMass,80,1e-12
+MaxMass,81,1.2e-12
+MaxMass,82,1.7e-12
+MaxMass,83,1.9e-12
+MaxMass,84,6.6e-13
+MaxMass,85,2.7e-13
+MaxMass,86,2.6e-13
+MaxMass,87,
+MaxMass,88,
+MaxMass,89,
+MaxMass,90,
+MaxMass,91,
+MaxMass,92,
+MaxMass,93,
+MaxMass,94,
+MaxMass,95,
+MaxMass,96,
+MaxMass,97,
+MaxMass,98,
+MaxMass,99,
+MaxMass,100,
+MaxMass,101,
+MaxMass,102,
+MaxMass,103,
+MaxMass,104,
+MaxMass,105,
+MaxMass,106,
+MaxMass,107,
+MaxMass,108,
+MaxMass,109,
+MaxMass,110,
+MaxMass,111,
+MaxMass,112,
+MaxMass,113,
+MaxMass,114,
+MaxMass,115,
+MaxMass,116,
+MaxMass,117,
+MaxMass,118,
+MaxMass,119,
+MaxMass,120,
+MaxMass,121,
+MaxMass,122,
+MaxMass,123,
+MaxMass,124,
+MaxMass,125,
+MaxMass,126,
+MaxMass,127,
+MaxMass,128,
+MaxMass,129,
+MaxMass,130,
+MaxMass,131,
+MaxMass,132,
+MaxMass,133,
+MaxMass,134,
+MaxMass,135,
+MaxMass,136,
+MaxMass,137,
+MaxMass,138,
+MaxMass,139,
+MaxMass,140,
+MaxMass,141,
+MaxMass,142,
+MaxMass,143,
+MaxMass,144,
+MaxMass,145,
+MaxMass,146,
+MaxMass,147,
+MaxMass,148,
+MaxMass,149,
+MaxMass,150,
+MaxMass,151,
+MaxMass,152,
+MaxMass,153,
+MaxMass,154,
+MaxMass,155,
+MaxMass,156,
+MaxMass,157,
+MaxMass,158,
+MaxMass,159,
+MaxMass,160,
+MaxMass,161,
+MaxMass,162,
+MaxMass,163,
+MaxMass,164,
+MaxMass,165,
+MaxMass,166,
+MaxMass,167,
+MaxMass,168,
+MaxMass,169,
+MaxMass,170,
+MaxMass,171,
+MaxMass,172,
+MaxMass,173,
+MaxMass,174,
+MaxMass,175,
+MaxMass,176,
+MaxMass,177,
+MaxMass,178,
+MaxMass,179,
+MaxMass,180,
+MaxMass,181,
+MaxMass,182,
+MaxMass,183,
+MaxMass,184,
+MaxMass,185,
+MaxMass,186,
+MaxMass,187,
+MaxMass,188,
+MaxMass,189,
+MaxMass,190,
+MaxMass,191,
+MassUnit,0,
+MassUnit,1,
+MassUnit,2,
+MassUnit,3,
+MassUnit,4,
+MassUnit,5,
+MassUnit,6,
+MassUnit,7,
+MassUnit,8,
+MassUnit,9,
+MassUnit,10,
+MassUnit,11,
+MassUnit,12,
+MassUnit,13,
+MassUnit,14,
+MassUnit,15,
+MassUnit,16,
+MassUnit,17,
+MassUnit,18,
+MassUnit,19,
+MassUnit,20,
+MassUnit,21,
+MassUnit,22,
+MassUnit,23,
+MassUnit,24,
+MassUnit,25,
+MassUnit,26,
+MassUnit,27,
+MassUnit,28,
+MassUnit,29,
+MassUnit,30,
+MassUnit,31,
+MassUnit,32,
+MassUnit,33,
+MassUnit,34,
+MassUnit,35,
+MassUnit,36,
+MassUnit,37,
+MassUnit,38,
+MassUnit,39,
+MassUnit,40,
+MassUnit,41,
+MassUnit,42,
+MassUnit,43,
+MassUnit,44,
+MassUnit,45,
+MassUnit,46,
+MassUnit,47,
+MassUnit,48,
+MassUnit,49,
+MassUnit,50,
+MassUnit,51,
+MassUnit,52,
+MassUnit,53,
+MassUnit,54,
+MassUnit,55,
+MassUnit,56,
+MassUnit,57,
+MassUnit,58,
+MassUnit,59,
+MassUnit,60,
+MassUnit,61,
+MassUnit,62,
+MassUnit,63,
+MassUnit,64,
+MassUnit,65,
+MassUnit,66,
+MassUnit,67,
+MassUnit,68,
+MassUnit,69,
+MassUnit,70,
+MassUnit,71,
+MassUnit,72,
+MassUnit,73,
+MassUnit,74,g
+MassUnit,75,g
+MassUnit,76,g
+MassUnit,77,g
+MassUnit,78,g
+MassUnit,79,g
+MassUnit,80,g
+MassUnit,81,g
+MassUnit,82,g
+MassUnit,83,g
+MassUnit,84,g
+MassUnit,85,g
+MassUnit,86,g
+MassUnit,87,
+MassUnit,88,
+MassUnit,89,
+MassUnit,90,
+MassUnit,91,
+MassUnit,92,
+MassUnit,93,
+MassUnit,94,
+MassUnit,95,
+MassUnit,96,
+MassUnit,97,
+MassUnit,98,
+MassUnit,99,
+MassUnit,100,
+MassUnit,101,
+MassUnit,102,
+MassUnit,103,
+MassUnit,104,
+MassUnit,105,
+MassUnit,106,
+MassUnit,107,
+MassUnit,108,
+MassUnit,109,
+MassUnit,110,
+MassUnit,111,
+MassUnit,112,
+MassUnit,113,
+MassUnit,114,
+MassUnit,115,
+MassUnit,116,
+MassUnit,117,
+MassUnit,118,
+MassUnit,119,
+MassUnit,120,
+MassUnit,121,
+MassUnit,122,
+MassUnit,123,
+MassUnit,124,
+MassUnit,125,
+MassUnit,126,
+MassUnit,127,
+MassUnit,128,
+MassUnit,129,
+MassUnit,130,
+MassUnit,131,
+MassUnit,132,
+MassUnit,133,
+MassUnit,134,
+MassUnit,135,
+MassUnit,136,
+MassUnit,137,
+MassUnit,138,
+MassUnit,139,
+MassUnit,140,
+MassUnit,141,
+MassUnit,142,
+MassUnit,143,
+MassUnit,144,
+MassUnit,145,
+MassUnit,146,
+MassUnit,147,
+MassUnit,148,
+MassUnit,149,
+MassUnit,150,
+MassUnit,151,
+MassUnit,152,
+MassUnit,153,
+MassUnit,154,
+MassUnit,155,
+MassUnit,156,
+MassUnit,157,
+MassUnit,158,
+MassUnit,159,
+MassUnit,160,
+MassUnit,161,
+MassUnit,162,
+MassUnit,163,
+MassUnit,164,
+MassUnit,165,
+MassUnit,166,
+MassUnit,167,
+MassUnit,168,
+MassUnit,169,
+MassUnit,170,
+MassUnit,171,
+MassUnit,172,
+MassUnit,173,
+MassUnit,174,
+MassUnit,175,
+MassUnit,176,
+MassUnit,177,
+MassUnit,178,
+MassUnit,179,
+MassUnit,180,
+MassUnit,181,
+MassUnit,182,
+MassUnit,183,
+MassUnit,184,
+MassUnit,185,
+MassUnit,186,
+MassUnit,187,
+MassUnit,188,
+MassUnit,189,
+MassUnit,190,
+MassUnit,191,
+Shape,0,rod
+Shape,1,rod
+Shape,2,rod
+Shape,3,rod
+Shape,4,rod
+Shape,5,rod
+Shape,6,rod
+Shape,7,rod
+Shape,8,rod
+Shape,9,rod
+Shape,10,rod
+Shape,11,rod
+Shape,12,rod
+Shape,13,rod
+Shape,14,rod
+Shape,15,rod
+Shape,16,rod
+Shape,17,rod
+Shape,18,rod
+Shape,19,rod
+Shape,20,rod
+Shape,21,rod
+Shape,22,rod
+Shape,23,rod
+Shape,24,rod
+Shape,25,rod
+Shape,26,oval
+Shape,27,rod
+Shape,28,rod
+Shape,29,rod
+Shape,30,rod
+Shape,31,rod
+Shape,32,rod
+Shape,33,rod
+Shape,34,rod
+Shape,35,rod
+Shape,36,rod
+Shape,37,rod
+Shape,38,rod
+Shape,39,rod
+Shape,40,rod
+Shape,41,rod
+Shape,42,rod
+Shape,43,rod
+Shape,44,rod
+Shape,45,rod
+Shape,46,rod
+Shape,47,rod
+Shape,48,Spherical
+Shape,49,rod
+Shape,50,rod
+Shape,51,rod
+Shape,52,rod
+Shape,53,rod
+Shape,54,rod
+Shape,55,rod
+Shape,56,rod
+Shape,57,rod
+Shape,58,rod
+Shape,59,rod
+Shape,60,rod
+Shape,61,cylindrical
+Shape,62,rod
+Shape,63,rod
+Shape,64,rod
+Shape,65,rod
+Shape,66,rod
+Shape,67,rod
+Shape,68,rod
+Shape,69,rod
+Shape,70,rod
+Shape,71,rod
+Shape,72,rod
+Shape,73,rod
+Shape,74,rod
+Shape,75,rod
+Shape,76,oval
+Shape,77,rod
+Shape,78,rod
+Shape,79,Spherical
+Shape,80,rod
+Shape,81,rod
+Shape,82,rod
+Shape,83,rod
+Shape,84,rod
+Shape,85,Spherical
+Shape,86,Spherical
+Shape,87,rod
+Shape,88,Spherical
+Shape,89,Spherical
+Shape,90,Spherical
+Shape,91,Spherical
+Shape,92,rod
+Shape,93,
+Shape,94,Spherical
+Shape,95,Spherical
+Shape,96,Spherical
+Shape,97,Spherical
+Shape,98,rod
+Shape,99,rod
+Shape,100,Spherical
+Shape,101,
+Shape,102,rod
+Shape,103,rod
+Shape,104,rod
+Shape,105,rod
+Shape,106,rod
+Shape,107,rod
+Shape,108,rod
+Shape,109,rod
+Shape,110,rod
+Shape,111,rod
+Shape,112,rod
+Shape,113,rod
+Shape,114,rod
+Shape,115,rod
+Shape,116,rod
+Shape,117,rod
+Shape,118,rod
+Shape,119,rod
+Shape,120,rod
+Shape,121,rod
+Shape,122,Spherical
+Shape,123,Spherical
+Shape,124,rod
+Shape,125,rod
+Shape,126,rod
+Shape,127,rod
+Shape,128,rod
+Shape,129,rod
+Shape,130,rod
+Shape,131,oval
+Shape,132,rod
+Shape,133,rod
+Shape,134,rod
+Shape,135,rod
+Shape,136,rod
+Shape,137,rod
+Shape,138,rod
+Shape,139,rod
+Shape,140,rod
+Shape,141,rod
+Shape,142,rod
+Shape,143,Spherical
+Shape,144,rod
+Shape,145,rod
+Shape,146,rod
+Shape,147,Spherical
+Shape,148,rod
+Shape,149,rod
+Shape,150,rod
+Shape,151,rod
+Shape,152,rod
+Shape,153,Spherical
+Shape,154,rod
+Shape,155,rod
+Shape,156,Spherical
+Shape,157,rod
+Shape,158,rod
+Shape,159,rod
+Shape,160,rod
+Shape,161,rod
+Shape,162,rod
+Shape,163,rod
+Shape,164,rod
+Shape,165,rod
+Shape,166,rod
+Shape,167,rod
+Shape,168,cylindrical
+Shape,169,rod
+Shape,170,Spherical
+Shape,171,Spherical
+Shape,172,rod
+Shape,173,rod
+Shape,174,rod
+Shape,175,rod
+Shape,176,rod
+Shape,177,rod
+Shape,178,rod
+Shape,179,rod
+Shape,180,rod
+Shape,181,Conical
+Shape,182,rod
+Shape,183,rod
+Shape,184,rod
+Shape,185,rod
+Shape,186,rod
+Shape,187,rod
+Shape,188,rod
+Shape,189,
+Shape,190,
+Shape,191,
+Sources,0,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,1,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,2,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,3,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255052/
+Sources,4,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,5,https://www.researchgate.net/publication/233502806_Arthrospira_fusiformis_Voronichin_Komarek_et_Lund_Cyanoprokaryota_-_A_new_species_for_Europe
+Sources,6,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.106"
+Sources,7,https://books.google.co.uk/books?id=dgejA4wa5R4C&pg=PA710&lpg=PA710&dq=Hydrogenophaga+pseudoflava+cell+size&source=bl&ots=cYZTDQzGbm&sig=5P5ROil4OvMEgQ_cg2UuXk00Vyc&hl=en&sa=X&ved=0ahUKEwid5Ovxl5DbAhXFB8AKHUlzAkkQ6AEIVDAH#v=onepage&q=Bosea%20eneae&f=false
+Sources,8,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,9,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1243"
+Sources,10,https://www.ncbi.nlm.nih.gov/pubmed/20023107
+Sources,11,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,12,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,13,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,14,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+Sources,15,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+Sources,16,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+Sources,17,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+Sources,18,http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-47-2-505
+Sources,19,https://link.springer.com/content/pdf/10.1007%2FBF00456706.pdf
+Sources,20,https://books.google.co.uk/books?id=dgejA4wa5R4C&pg=PA324&dq=Rhizobiales&hl=en&sa=X&ved=0ahUKEwiW9_PajpDbAhXmLcAKHcd4DjgQ6AEIMTAB#v=snippet&q=Desulfofaba%20gelida&f=false
+Sources,21,https://books.google.co.uk/books?id=9cwgo-9IyTUC&pg=PA977&lpg=PA977&dq=Desulfofrigus+oceanense+cell+size&source=bl&ots=lTtbfougYA&sig=4rpA3CrTU5e2uXVWlwzPw1h9H54&hl=en&sa=X&ved=0ahUKEwj46PvYz5bbAhVDxRQKHf4wD-sQ6AEIMzAC#v=onepage&q=Desulfofrigus%20oceanense%20cell%20size&f=false
+Sources,22,https://books.google.co.uk/books?id=9cwgo-9IyTUC&pg=PA977&lpg=PA977&dq=Desulfofrigus+oceanense+cell+size&source=bl&ots=lTtbfougYA&sig=4rpA3CrTU5e2uXVWlwzPw1h9H54&hl=en&sa=X&ved=0ahUKEwj46PvYz5bbAhVDxRQKHf4wD-sQ6AEIMzAC#v=onepage&q=Desulfofrigus%20oceanense%20cell%20size&f=false
+Sources,23,https://www.researchgate.net/publication/225671825_Desulforpalus_vacuolatus_gen_nov_sp_nov_a_new_moderately_psychrophilic_sulfate-reducing_bacterium_with_gas_vacuoles_isolated_from_a_temperate_estuary
+Sources,24,https://bacdive.dsmz.de/search?search=Desulfotalea+arctica&submit=search
+Sources,25,https://bacdive.dsmz.de/search?search=Desulfotalea+psychrophila&submit=search
+Sources,26,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,27,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/65/5/1686_ijs000159.pdf?expires=1526902904&id=id&accname=guest&checksum=44CE48144AF9CF34C5D264FA58575AB5
+Sources,28,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,29,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/48/4/ijs-48-4-1213.pdf?expires=1526915961&id=id&accname=guest&checksum=088CF97C1DF83E51FD1BE8ED3B8D2D3D
+Sources,30,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1199"
+Sources,31,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1200"
+Sources,32,https://www.ncbi.nlm.nih.gov/pubmed/10794143
+Sources,33,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/51/4/0511457a.pdf?expires=1526917758&id=id&accname=guest&checksum=88E8DCDABD428EA0F6249F0404341F87
+Sources,34,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/37/1/ijs-37-1-27.pdf?expires=1526918345&id=id&accname=guest&checksum=BCFA940E8C9D2267ACB4B0C4DE28C1DA
+Sources,35,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,36,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2812990/
+Sources,37,http://www.vetbact.org/index.php?artid=156
+Sources,38,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,39,https://hal.archives-ouvertes.fr/hal-00929612/document
+Sources,40,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,41,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,42,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,43,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/53/1/59.pdf?expires=1526922495&id=id&accname=guest&checksum=E4691D32D2EA9A09BB04138504F6D456
+Sources,44,https://www.ncbi.nlm.nih.gov/pubmed/12148648
+Sources,45,https://www.researchgate.net/publication/8388977_Marinobacter_alkaliphilus_sp_nov_a_novel_alkaliphilic_bacterium_isolated_from_subseafloor_alkaline_serpentine_mud_from_Ocean_Drilling_Program_Site_1200_at_South_Chamorro_Seamount_Mariana_Forearc
+Sources,46,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/53/2/533.pdf?expires=1526923609&id=id&accname=guest&checksum=0A81172A69073197CC23FFE176BBC42C
+Sources,47,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/53/2/533.pdf?expires=1526923609&id=id&accname=guest&checksum=0A81172A69073197CC23FFE176BBC42C
+Sources,48,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,49,http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-52-4-1349#tab2
+Sources,50,http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-52-4-1349#tab2
+Sources,51,http://aem.asm.org/content/80/1/54.full
+Sources,52,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/47/2/ijs-47-2-345.pdf?expires=1526924343&id=id&accname=guest&checksum=FF1A3F36005B016E92C7B9740F808F9A
+Sources,53,https://books.google.co.uk/books?id=3znhBwAAQBAJ&pg=PA370&lpg=PA370&dq=thermotogaceae+cell+size&source=bl&ots=iAqIJx8wC_&sig=PVgY-4Ga0mAJzpzmsQnfUfXkjEU&hl=en&sa=X&ved=0ahUKEwjEoreSxorbAhXILsAKHaPCA88Q6AEIMjAC#v=onepage&q=thermotogaceae%20cell%20size&f=false
+Sources,54,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Xanthomonadaceae&f=false
+Sources,55,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Xanthomonadaceae&f=false
+Sources,56,http://cryosol.ru/images/stuff/liza/shcherb-2009.pdf
+Sources,57,https://books.google.co.uk/books?id=0kghF7qBE98C&pg=PA258&lpg=PA258&dq=Psychroflexus+torquis+cell+size&source=bl&ots=Rkp9HzNY4S&sig=oi1y7rL_0PSrFXxrPvXfR8KnvhU&hl=en&sa=X&ved=0ahUKEwjggeHa04rbAhVKAsAKHWyXAgw4ChDoAQgtMAE#v=onepage&q=Psychroflexus%20torquis%20cell%20size&f=false
+Sources,58,https://books.google.co.uk/books?id=66UMS7A2KisC&pg=PA2006&lpg=PA2006&dq=Rubrobacter+xylanophilus+cell+volume&source=bl&ots=_8IUoOsVAb&sig=ISGSN_kQXz9eLGaLTAua_OkTDaI&hl=en&sa=X&ved=0ahUKEwij1MrJ1YrbAhUJXMAKHdoNCm84ChDoAQgvMAE#v=onepage&q=Rubrobacter%20xylanophilus%20cell%20volume&f=false
+Sources,59,https://books.google.co.uk/books?id=66UMS7A2KisC&pg=PA2006&lpg=PA2006&dq=Rubrobacter+xylanophilus+cell+volume&source=bl&ots=_8IUoOsVAb&sig=ISGSN_kQXz9eLGaLTAua_OkTDaI&hl=en&sa=X&ved=0ahUKEwij1MrJ1YrbAhUJXMAKHdoNCm84ChDoAQgvMAE#v=onepage&q=Rubrobacter%20xylanophilus%20cell%20volume&f=false
+Sources,60,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/47/4/ijs-47-4-1040.pdf?expires=1526993475&id=id&accname=guest&checksum=C762647EEFD31431F488074CDAC07BB4
+Sources,61,https://www.researchgate.net/publication/283282292_Morphological_and_ecological_characteristics_of_potentially_toxic_invasive_cyanobacterium_Sphaerospermopsis_aphanizomenoides_Forti_Zapomelova_Jezberova_Hrouzek_Hisem_Rehakova_Komarkova_Nostocales_Cyan
+Sources,62,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1184"
+Sources,63,https://www.researchgate.net/publication/5401401_Sulfurihydrogenibium_kristjanssonii_sp_nov_a_hydrogen-_and_sulfur-oxidizing_thermophile_isolated_from_a_terrestrial_Icelandic_hot_spring
+Sources,64,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,65,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,66,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,67,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,68,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,69,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,70,https://books.google.co.uk/books?id=3znhBwAAQBAJ&pg=PA661&lpg=PA661&dq=thermotogales+bergey%27s&source=bl&ots=iAqIMu7ryZ&sig=xsb-FNO97kHa59apMvfxGg8vfXU&hl=en&sa=X&ved=0ahUKEwis-N6drpLbAhVItxQKHQBRBnkQ6AEIWTAF#v=onepage&q=thermotogales%20bergey's&f=false
+Sources,71,https://books.google.co.uk/books?id=8A_yBwAAQBAJ&pg=PA191&lpg=PA191&dq=Xanthomonas+campestris+cell+width&source=bl&ots=LCjaeonYF-&sig=cHYPUCF7EAQ6Dq8eV8xlGskcvMA&hl=en&sa=X&ved=0ahUKEwiO6IXQs5nbAhUMthQKHckwA9o4ChDoAQhDMAc#v=onepage&q=Xanthomonas%20campestris%20cell%20width&f=false
+Sources,72,http://aem.asm.org/content/73/8/2690.full?view=long&pmid=17293518
+Sources,73,http://www.elsevier.es/es-revista-enfermedades-infecciosas-microbiologia-clinica-28-articulo-yersinia-enterocolitica-pathogenesis-virulence-antimicrobial-S0213005X11002655?referer=buscador
+Sources,74,http://www.pnas.org/content/105/44/16994
+Sources,75,http://www.pnas.org/content/105/44/16994
+Sources,76,http://www.pnas.org/content/105/44/16994
+Sources,77,http://www.pnas.org/content/105/44/16994
+Sources,78,http://www.pnas.org/content/105/44/16994
+Sources,79,http://www.pnas.org/content/105/44/16994
+Sources,80,http://www.pnas.org/content/105/44/16994
+Sources,81,http://www.pnas.org/content/105/44/16994
+Sources,82,http://www.pnas.org/content/105/44/16994
+Sources,83,http://www.pnas.org/content/105/44/16994
+Sources,84,http://www.pnas.org/content/105/44/16994
+Sources,85,http://www.pnas.org/content/105/44/16994
+Sources,86,http://www.pnas.org/content/105/44/16994
+Sources,87,https://www.researchgate.net/publication/233502806_Arthrospira_fusiformis_Voronichin_Komarek_et_Lund_Cyanoprokaryota_-_A_new_species_for_Europe
+Sources,88,Saujanya’s phytoplankton data
+Sources,89,Saujanya’s phytoplankton data
+Sources,90,Saujanya’s phytoplankton data
+Sources,91,Saujanya’s phytoplankton data
+Sources,92,Saujanya’s phytoplankton data
+Sources,93,https://books.google.co.uk/books?id=OsbSCQAAQBAJ&pg=PA55&lpg=PA55&dq=crocosphaera+watsonii+cell+volume&source=bl&ots=qswP10xFB2&sig=GTBZfRJBhdA2aYe7QIcuquYcgH0&hl=en&sa=X&ved=0ahUKEwiruLOIm4jbAhVpAcAKHXY0Cx44FBDoAQgnMAA#v=onepage&q=crocosphaera%20watsonii%20cell%20volume&f=false
+Sources,94,https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/12-2060.1
+Sources,95,Saujanya’s phytoplankton data
+Sources,96,Saujanya’s phytoplankton data
+Sources,97,Saujanya’s phytoplankton data
+Sources,98,Saujanya’s phytoplankton data
+Sources,99,Saujanya’s phytoplankton data
+Sources,100,"http://kirschner.med.harvard.edu/files/bionumbers/Nucleic%20acid%20contents,%20observed%20and%20predicted%20burst%20sizes%20for%20a%20range%20of%20algae%20and%20viruses.pdf"
+Sources,101,Saujanya’s phytoplankton data
+Sources,102,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,103,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,104,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,105,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255052/
+Sources,106,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,107,https://books.google.co.uk/books?id=Sc4897dfM_MC&pg=PA94&lpg=PA94&dq=Aphanizomenon+aphanizomenoides+cell+diameter&source=bl&ots=n5bGtiJOIK&sig=SqQmHcagACzx3QwHXBB6BGXhZUE&hl=en&sa=X&ved=0ahUKEwjDlOKJ2IfbAhUUWsAKHZZSDUoQ6AEIKDAA#v=onepage&q=Aphanizomenon%20aphanizomenoides%20cell%20diameter&f=false
+Sources,108,https://www.researchgate.net/publication/233502806_Arthrospira_fusiformis_Voronichin_Komarek_et_Lund_Cyanoprokaryota_-_A_new_species_for_Europe
+Sources,109,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.106"
+Sources,110,https://books.google.co.uk/books?id=dgejA4wa5R4C&pg=PA710&lpg=PA710&dq=Hydrogenophaga+pseudoflava+cell+size&source=bl&ots=cYZTDQzGbm&sig=5P5ROil4OvMEgQ_cg2UuXk00Vyc&hl=en&sa=X&ved=0ahUKEwid5Ovxl5DbAhXFB8AKHUlzAkkQ6AEIVDAH#v=onepage&q=Bosea%20eneae&f=false
+Sources,111,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,112,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1243"
+Sources,113,https://www.ncbi.nlm.nih.gov/pubmed/20023107
+Sources,114,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,115,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,116,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,117,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+Sources,118,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+Sources,119,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+Sources,120,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Colwellia%20demingiae%20cell%20size&f=false
+Sources,121,http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-47-2-505
+Sources,122,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5023248/
+Sources,123,https://books.google.co.uk/books?id=3znhBwAAQBAJ&pg=PA370&lpg=PA370&dq=thermotogaceae+cell+size&source=bl&ots=iAqIJx8wC_&sig=PVgY-4Ga0mAJzpzmsQnfUfXkjEU&hl=en&sa=X&ved=0ahUKEwjEoreSxorbAhXILsAKHaPCA88Q6AEIMjAC#v=snippet&q=Deinococcus%20geothermalis&f=false
+Sources,124,https://link.springer.com/content/pdf/10.1007%2FBF00456706.pdf
+Sources,125,https://books.google.co.uk/books?id=dgejA4wa5R4C&pg=PA324&dq=Rhizobiales&hl=en&sa=X&ved=0ahUKEwiW9_PajpDbAhXmLcAKHcd4DjgQ6AEIMTAB#v=snippet&q=Desulfofaba%20gelida&f=false
+Sources,126,https://books.google.co.uk/books?id=9cwgo-9IyTUC&pg=PA977&lpg=PA977&dq=Desulfofrigus+oceanense+cell+size&source=bl&ots=lTtbfougYA&sig=4rpA3CrTU5e2uXVWlwzPw1h9H54&hl=en&sa=X&ved=0ahUKEwj46PvYz5bbAhVDxRQKHf4wD-sQ6AEIMzAC#v=onepage&q=Desulfofrigus%20oceanense%20cell%20size&f=false
+Sources,127,https://books.google.co.uk/books?id=9cwgo-9IyTUC&pg=PA977&lpg=PA977&dq=Desulfofrigus+oceanense+cell+size&source=bl&ots=lTtbfougYA&sig=4rpA3CrTU5e2uXVWlwzPw1h9H54&hl=en&sa=X&ved=0ahUKEwj46PvYz5bbAhVDxRQKHf4wD-sQ6AEIMzAC#v=onepage&q=Desulfofrigus%20oceanense%20cell%20size&f=false
+Sources,128,https://www.researchgate.net/publication/225671825_Desulforpalus_vacuolatus_gen_nov_sp_nov_a_new_moderately_psychrophilic_sulfate-reducing_bacterium_with_gas_vacuoles_isolated_from_a_temperate_estuary
+Sources,129,https://bacdive.dsmz.de/search?search=Desulfotalea+arctica&submit=search
+Sources,130,https://bacdive.dsmz.de/search?search=Desulfotalea+psychrophila&submit=search
+Sources,131,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,132,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/65/5/1686_ijs000159.pdf?expires=1526902904&id=id&accname=guest&checksum=44CE48144AF9CF34C5D264FA58575AB5
+Sources,133,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,134,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,135,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/48/4/ijs-48-4-1213.pdf?expires=1526915961&id=id&accname=guest&checksum=088CF97C1DF83E51FD1BE8ED3B8D2D3D
+Sources,136,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1198"
+Sources,137,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1200"
+Sources,138,https://www.ncbi.nlm.nih.gov/pubmed/10794143
+Sources,139,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/51/4/0511457a.pdf?expires=1526917758&id=id&accname=guest&checksum=88E8DCDABD428EA0F6249F0404341F87
+Sources,140,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/37/1/ijs-37-1-27.pdf?expires=1526918345&id=id&accname=guest&checksum=BCFA940E8C9D2267ACB4B0C4DE28C1DA
+Sources,141,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,142,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2812990/
+Sources,143,https://link.springer.com/article/10.1007/BF00463488
+Sources,144,http://www.vetbact.org/index.php?artid=156
+Sources,145,https://hal.archives-ouvertes.fr/hal-00929612/document
+Sources,146,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,147,https://onlinelibrary.wiley.com/doi/pdf/10.1111/jam.13179
+Sources,148,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,149,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/53/1/59.pdf?expires=1526922495&id=id&accname=guest&checksum=E4691D32D2EA9A09BB04138504F6D456
+Sources,150,https://www.researchgate.net/publication/8388977_Marinobacter_alkaliphilus_sp_nov_a_novel_alkaliphilic_bacterium_isolated_from_subseafloor_alkaline_serpentine_mud_from_Ocean_Drilling_Program_Site_1200_at_South_Chamorro_Seamount_Mariana_Forearc
+Sources,151,https://www.researchgate.net/publication/235606612_Mastigocladus_Laminosus_Stigonematales_Cyanobacteria_Phylogenetic_Relationship_of_Strains_from_Thermal_Springs_to_Soil-Inhabiting_Genera_of_The_Order_and_Taxonomic_Implications_for_The_Genus
+Sources,152,https://onlinelibrary.wiley.com/doi/full/10.1111/j.1574-6968.2002.tb11445.x
+Sources,153,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/50/2/0500767a.pdf?expires=1526386385&id=id&accname=guest&checksum=D6D463D904C41C12E91EDE3C839CD10D
+Sources,154,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/53/2/533.pdf?expires=1526923609&id=id&accname=guest&checksum=0A81172A69073197CC23FFE176BBC42C
+Sources,155,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/53/2/533.pdf?expires=1526923609&id=id&accname=guest&checksum=0A81172A69073197CC23FFE176BBC42C
+Sources,156,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,157,http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-52-4-1349#tab2
+Sources,158,http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-52-4-1349#tab2
+Sources,159,http://aem.asm.org/content/80/1/54.full
+Sources,160,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/47/2/ijs-47-2-345.pdf?expires=1526924343&id=id&accname=guest&checksum=FF1A3F36005B016E92C7B9740F808F9A
+Sources,161,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Xanthomonadaceae&f=false
+Sources,162,https://books.google.co.uk/books?id=5zSYmcq0GdgC&pg=PA453&lpg=PA453&dq=Colwellia+demingiae+cell+size&source=bl&ots=fke1PEk0Jq&sig=GCks8dltnn04MME18nQ_l3xBObk&hl=en&sa=X&ved=0ahUKEwifxNvxyorbAhUqJMAKHRfjClAQ6AEITzAF#v=onepage&q=Xanthomonadaceae&f=false
+Sources,163,http://cryosol.ru/images/stuff/liza/shcherb-2009.pdf
+Sources,164,https://books.google.co.uk/books?id=0kghF7qBE98C&pg=PA258&lpg=PA258&dq=Psychroflexus+torquis+cell+size&source=bl&ots=Rkp9HzNY4S&sig=oi1y7rL_0PSrFXxrPvXfR8KnvhU&hl=en&sa=X&ved=0ahUKEwjggeHa04rbAhVKAsAKHWyXAgw4ChDoAQgtMAE#v=onepage&q=Psychroflexus%20torquis%20cell%20size&f=false
+Sources,165,https://books.google.co.uk/books?id=66UMS7A2KisC&pg=PA2006&lpg=PA2006&dq=Rubrobacter+xylanophilus+cell+volume&source=bl&ots=_8IUoOsVAb&sig=ISGSN_kQXz9eLGaLTAua_OkTDaI&hl=en&sa=X&ved=0ahUKEwij1MrJ1YrbAhUJXMAKHdoNCm84ChDoAQgvMAE#v=onepage&q=Rubrobacter%20xylanophilus%20cell%20volume&f=false
+Sources,166,https://books.google.co.uk/books?id=66UMS7A2KisC&pg=PA2006&lpg=PA2006&dq=Rubrobacter+xylanophilus+cell+volume&source=bl&ots=_8IUoOsVAb&sig=ISGSN_kQXz9eLGaLTAua_OkTDaI&hl=en&sa=X&ved=0ahUKEwij1MrJ1YrbAhUJXMAKHdoNCm84ChDoAQgvMAE#v=onepage&q=Rubrobacter%20xylanophilus%20cell%20volume&f=false
+Sources,167,http://www.microbiologyresearch.org/docserver/fulltext/ijsem/47/4/ijs-47-4-1040.pdf?expires=1526993475&id=id&accname=guest&checksum=C762647EEFD31431F488074CDAC07BB4
+Sources,168,https://www.researchgate.net/publication/283282292_Morphological_and_ecological_characteristics_of_potentially_toxic_invasive_cyanobacterium_Sphaerospermopsis_aphanizomenoides_Forti_Zapomelova_Jezberova_Hrouzek_Hisem_Rehakova_Komarkova_Nostocales_Cyan
+Sources,169,http://www.scielo.br/pdf/cta/v33s1/v33s1a26.pdf
+Sources,170,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,171,https://books.google.co.uk/books?id=hPjpBwAAQBAJ&pg=PA114&dq=S.+salivarius+cell+diameter&hl=en&sa=X&ved=0ahUKEwjC0pCfkYrbAhXqK8AKHcGIB38Q6AEILDAB#v=onepage&q=S.%20salivarius%20cell%20diameter&f=false
+Sources,172,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1184"
+Sources,173,https://www.researchgate.net/publication/5401401_Sulfurihydrogenibium_kristjanssonii_sp_nov_a_hydrogen-_and_sulfur-oxidizing_thermophile_isolated_from_a_terrestrial_Icelandic_hot_spring
+Sources,174,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,175,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,176,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,177,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,178,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,179,Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes
+Sources,180,https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118960608.gbm00477.pub2
+Sources,181,"http://www.ebr.or.kr/journal/article.php?code=14429, http://www.microbiologyresearch.org/docserver/fulltext/ijsem/55/1/11.pdf?expires=1526381804&id=id&accname=guest&checksum=58AF11FF47E2F489A48392FAC3F397EB"
+Sources,182,https://books.google.co.uk/books?id=8A_yBwAAQBAJ&pg=PA191&lpg=PA191&dq=Xanthomonas+campestris+cell+width&source=bl&ots=LCjaeonYF-&sig=cHYPUCF7EAQ6Dq8eV8xlGskcvMA&hl=en&sa=X&ved=0ahUKEwiO6IXQs5nbAhUMthQKHckwA9o4ChDoAQhDMAc#v=onepage&q=Xanthomonas%20campestris%20cell%20width&f=false
+Sources,183,http://aem.asm.org/content/73/8/2690.full?view=long&pmid=17293518
+Sources,184,http://www.elsevier.es/es-revista-enfermedades-infecciosas-microbiologia-clinica-28-articulo-yersinia-enterocolitica-pathogenesis-virulence-antimicrobial-S0213005X11002655?referer=buscador
+Sources,185,https://books.google.co.uk/books?id=0-VqgLiCPFcC&pg=PA500&dq=Lactobacillus+acidophilus+cell+diameter&hl=en&sa=X&ved=0ahUKEwjr5JO5t4rbAhUSe8AKHc_xDKoQ6AEITzAI#v=snippet&q=L.acidophilus%20&f=false
+Sources,186,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.504"
+Sources,187,https://books.google.co.uk/books?id=3znhBwAAQBAJ&pg=PA370&lpg=PA370&dq=thermotogaceae+cell+size&source=bl&ots=iAqIJx8wC_&sig=PVgY-4Ga0mAJzpzmsQnfUfXkjEU&hl=en&sa=X&ved=0ahUKEwjEoreSxorbAhXILsAKHaPCA88Q6AEIMjAC#v=onepage&q=thermotogaceae%20cell%20size&f=false
+Sources,188,
+Sources,189,
+Sources,190,
+Sources,191,
+Phylum,0,firmucutes
+Phylum,1,firmucutes
+Phylum,2,firmucutes
+Phylum,3,proteobacteria
+Phylum,4,firmucutes
+Phylum,5,cyanobacteria
+Phylum,6,firmucutes
+Phylum,7,proteobacteria
+Phylum,8,firmucutes
+Phylum,9,firmucutes
+Phylum,10,firmucutes
+Phylum,11,firmucutes
+Phylum,12,firmucutes
+Phylum,13,firmucutes
+Phylum,14,proteobacteria
+Phylum,15,proteobacteria
+Phylum,16,proteobacteria
+Phylum,17,proteobacteria
+Phylum,18,Deferribacteres
+Phylum,19,proteobacteria
+Phylum,20,proteobacteria
+Phylum,21,proteobacteria
+Phylum,22,proteobacteria
+Phylum,23,proteobacteria
+Phylum,24,proteobacteria
+Phylum,25,proteobacteria
+Phylum,26,firmucutes
+Phylum,27,proteobacteria
+Phylum,28,firmucutes
+Phylum,29,proteobacteria
+Phylum,30,firmucutes
+Phylum,31,firmucutes
+Phylum,32,proteobacteria
+Phylum,33,proteobacteria
+Phylum,34,proteobacteria
+Phylum,35,firmucutes
+Phylum,36,proteobacteria
+Phylum,37,proteobacteria
+Phylum,38,firmucutes
+Phylum,39,firmucutes
+Phylum,40,firmucutes
+Phylum,41,firmucutes
+Phylum,42,firmucutes
+Phylum,43,Deinococcus-Thermus
+Phylum,44,Thermotogae
+Phylum,45,proteobacteria
+Phylum,46,proteobacteria
+Phylum,47,proteobacteria
+Phylum,48,firmucutes
+Phylum,49,Aquificae
+Phylum,50,Aquificae
+Phylum,51,proteobacteria
+Phylum,52,proteobacteria
+Phylum,53,Thermotogae
+Phylum,54,proteobacteria
+Phylum,55,proteobacteria
+Phylum,56,proteobacteria
+Phylum,57,bacteroidetes
+Phylum,58,Actinobacteria
+Phylum,59,Actinobacteria
+Phylum,60,proteobacteria
+Phylum,61,cyanobacteria
+Phylum,62,firmucutes
+Phylum,63,Aquificae
+Phylum,64,firmucutes
+Phylum,65,firmucutes
+Phylum,66,firmucutes
+Phylum,67,firmucutes
+Phylum,68,firmucutes
+Phylum,69,firmucutes
+Phylum,70,Thermotogae
+Phylum,71,proteobacteria
+Phylum,72,proteobacteria
+Phylum,73,proteobacteria
+Phylum,74,firmucutes
+Phylum,75,firmucutes
+Phylum,76,proteobacteria
+Phylum,77,proteobacteria
+Phylum,78,proteobacteria
+Phylum,79,firmucutes
+Phylum,80,proteobacteria
+Phylum,81,proteobacteria
+Phylum,82,proteobacteria
+Phylum,83,proteobacteria
+Phylum,84,proteobacteria
+Phylum,85,firmucutes
+Phylum,86,firmucutes
+Phylum,87,cyanobacteria
+Phylum,88,cyanobacteria
+Phylum,89,cyanobacteria
+Phylum,90,cyanobacteria
+Phylum,91,cyanobacteria
+Phylum,92,cyanobacteria
+Phylum,93,cyanobacteria
+Phylum,94,cyanobacteria
+Phylum,95,cyanobacteria
+Phylum,96,cyanobacteria
+Phylum,97,cyanobacteria
+Phylum,98,cyanobacteria
+Phylum,99,cyanobacteria
+Phylum,100,cyanobacteria
+Phylum,101,cyanobacteria
+Phylum,102,firmucutes
+Phylum,103,firmucutes
+Phylum,104,firmucutes
+Phylum,105,proteobacteria
+Phylum,106,firmucutes
+Phylum,107,cyanobacteria
+Phylum,108,cyanobacteria
+Phylum,109,firmucutes
+Phylum,110,proteobacteria
+Phylum,111,firmucutes
+Phylum,112,firmucutes
+Phylum,113,firmucutes
+Phylum,114,firmucutes
+Phylum,115,firmucutes
+Phylum,116,firmucutes
+Phylum,117,proteobacteria
+Phylum,118,proteobacteria
+Phylum,119,proteobacteria
+Phylum,120,proteobacteria
+Phylum,121,Deferribacteres
+Phylum,122,Deinococcus-Thermus
+Phylum,123,Deinococcus-Thermus
+Phylum,124,proteobacteria
+Phylum,125,proteobacteria
+Phylum,126,proteobacteria
+Phylum,127,proteobacteria
+Phylum,128,proteobacteria
+Phylum,129,proteobacteria
+Phylum,130,proteobacteria
+Phylum,131,firmucutes
+Phylum,132,proteobacteria
+Phylum,133,firmucutes
+Phylum,134,firmucutes
+Phylum,135,proteobacteria
+Phylum,136,firmucutes
+Phylum,137,firmucutes
+Phylum,138,proteobacteria
+Phylum,139,proteobacteria
+Phylum,140,proteobacteria
+Phylum,141,firmucutes
+Phylum,142,proteobacteria
+Phylum,143,Planctomycetes
+Phylum,144,proteobacteria
+Phylum,145,firmucutes
+Phylum,146,firmucutes
+Phylum,147,firmucutes
+Phylum,148,firmucutes
+Phylum,149,Deinococcus-Thermus
+Phylum,150,proteobacteria
+Phylum,151,cyanobacteria
+Phylum,152,Deinococcus-Thermus
+Phylum,153,
+Phylum,154,proteobacteria
+Phylum,155,proteobacteria
+Phylum,156,firmucutes
+Phylum,157,Aquificae
+Phylum,158,Aquificae
+Phylum,159,proteobacteria
+Phylum,160,proteobacteria
+Phylum,161,proteobacteria
+Phylum,162,proteobacteria
+Phylum,163,proteobacteria
+Phylum,164,bacteroidetes
+Phylum,165,Actinobacteria
+Phylum,166,Actinobacteria
+Phylum,167,proteobacteria
+Phylum,168,cyanobacteria
+Phylum,169,cyanobacteria
+Phylum,170,firmucutes
+Phylum,171,firmucutes
+Phylum,172,firmucutes
+Phylum,173,Aquificae
+Phylum,174,firmucutes
+Phylum,175,firmucutes
+Phylum,176,firmucutes
+Phylum,177,firmucutes
+Phylum,178,firmucutes
+Phylum,179,firmucutes
+Phylum,180,Deinococcus-Thermus
+Phylum,181,cyanobacteria
+Phylum,182,proteobacteria
+Phylum,183,proteobacteria
+Phylum,184,proteobacteria
+Phylum,185,firmucutes
+Phylum,186,firmucutes
+Phylum,187,Thermotogae
+Phylum,188,proteobacteria
+Phylum,189,
+Phylum,190,
+Phylum,191,cyanobacteria
+Notes,0,pg.894
+Notes,1,pg.894
+Notes,2,pg. 156
+Notes,3,
+Notes,4,pg.829
+Notes,5,
+Notes,6,
+Notes,7,pg. 438
+Notes,8,"pg.257, Genus: Brochothrix size info used"
+Notes,9,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1243"
+Notes,10,
+Notes,11,pg.836
+Notes,12,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.838"
+Notes,13,pg.799
+Notes,14,pg. 453 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+Notes,15,pg. 453 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+Notes,16,pg. 453 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+Notes,17,pg. 454 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+Notes,18,
+Notes,19,
+Notes,20,"large rods, pg. 975 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria"
+Notes,21,pg.977
+Notes,22,pg.977
+Notes,23,
+Notes,24,BacDrive meta-Database
+Notes,25,BacDrive meta-Database
+Notes,26,"pg.993, Table 186"
+Notes,27,
+Notes,28,pg.154
+Notes,29,
+Notes,30,pg.1199
+Notes,31,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1200"
+Notes,32,
+Notes,33,
+Notes,34,
+Notes,35,pg.1215
+Notes,36,
+Notes,37,
+Notes,38,pg.491
+Notes,39,pg.499
+Notes,40,pg.504
+Notes,41,pg.507
+Notes,42,
+Notes,43,
+Notes,44,
+Notes,45,
+Notes,46,
+Notes,47,
+Notes,48,pg.997
+Notes,49,
+Notes,50,
+Notes,51,
+Notes,52,
+Notes,53,Average size of family Thermotogaceae taken. pg.370
+Notes,54,"Could not find size info for genus or species, so info on family: Xanthomonas used"
+Notes,55,"Could not find size info for genus or species, so info on family: Xanthomonas used"
+Notes,56,Cells are cocci or coccobacilli
+Notes,57,pg. 258 of Bergey’s Manual of Systematic Bacteriology Volume 4: The Bacteroidetes
+Notes,58,pg. 2008 of Bergey’s Manual of Systematic Bacteriology Volume 5: The Actinobacteria
+Notes,59,pg. 2008 of Bergey’s Manual of Systematic Bacteriology Volume 5: The Actinobacteria
+Notes,60,
+Notes,61,"Aphanizomenon aphanizomenoides – Name in Consumer column, avergae length of vegetative cell size"
+Notes,62,
+Notes,63,
+Notes,64,pg.1256
+Notes,65,"pg.1235, cell size during growth on H2 and CO2"
+Notes,66,"pg.1235,  cell size during growth on glucose "
+Notes,67,pg.1235
+Notes,68,pg.1236
+Notes,69,pg.1283
+Notes,70,pg. 370  size of Genus Thermosipho used
+Notes,71,pg.191
+Notes,72,
+Notes,73,
+Notes,74,
+Notes,75,
+Notes,76,
+Notes,77,
+Notes,78,DeLong
+Notes,79,
+Notes,80,
+Notes,81,
+Notes,82,
+Notes,83,
+Notes,84,Size of Salmonella enterica serovar Typhimurium: http://www.salmonella.org/info.html
+Notes,85,
+Notes,86,
+Notes,87,
+Notes,88,Average mean cell volume
+Notes,89,Average mean cell volume
+Notes,90,Average mean cell volume
+Notes,91,Average mean cell volume
+Notes,92,
+Notes,93,Pg.55 confirm units of measurement – Physiological and molecular ecology of aquatic cyanobacteria
+Notes,94,"Dell, A.I., S. Pawar, V.M. Savage. 2013. The thermal dependence of biological traits. Ecology 94: 1205."
+Notes,95,Average mean cell volume
+Notes,96,Average mean cell volume
+Notes,97,Average mean cell volume
+Notes,98,
+Notes,99,
+Notes,100,length info: https://www.researchgate.net/publication/230475979_The_effects_of_some_ecological_factors_on_cell_size_of_the_hot_spring_alga_Synechococcus_lividus_Cyanophyta
+Notes,101,
+Notes,102,pg.894
+Notes,103,pg.894
+Notes,104,Reclassification of Geobacillus as Aeribacillus: https://www.ncbi.nlm.nih.gov/pubmed/19700455 
+Notes,105,
+Notes,106,pg.829
+Notes,107,pg.94 of citation
+Notes,108,
+Notes,109,
+Notes,110,size info of Family: Bradyrhizobiaceae use
+Notes,111,"pg.257, Genus: Brochothrix size info used"
+Notes,112,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1243"
+Notes,113,
+Notes,114,pg.836
+Notes,115,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.838"
+Notes,116,pg.799
+Notes,117,pg. 453 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+Notes,118,pg. 453 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+Notes,119,pg. 453 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+Notes,120,pg. 454 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+Notes,121,
+Notes,122,
+Notes,123,Bergey's Manual of Systematic Bacteriology: Volume 1. pg.401
+Notes,124,
+Notes,125,"large rods, pg. 975 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria"
+Notes,126,pg.977
+Notes,127,pg.977
+Notes,128,
+Notes,129,BacDrive meta-Database
+Notes,130,BacDrive meta-Database
+Notes,131,"pg.993, Table 186"
+Notes,132,
+Notes,133,pg.159 as Bacillus caldotenax
+Notes,134,pg.154
+Notes,135,
+Notes,136,pg.1199
+Notes,137,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.1200"
+Notes,138,
+Notes,139,
+Notes,140,length vary’s dramatically 
+Notes,141,pg.1215
+Notes,142,
+Notes,143,
+Notes,144,
+Notes,145,pg.499
+Notes,146,pg.507
+Notes,147,pg.245
+Notes,148,pg.245
+Notes,149,
+Notes,150,
+Notes,151,
+Notes,152,Length is variable
+Notes,153,"Width is Diameter, shape info: Wiki Microcystis"
+Notes,154,
+Notes,155,
+Notes,156,pg.997
+Notes,157,
+Notes,158,
+Notes,159,
+Notes,160,
+Notes,161,pg. 63 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+Notes,162,pg. 63 of Bergey’s Manual of Systematic Bacteriology Volume 2: The Proteobacteria
+Notes,163,Cells are cocci or coccobacilli
+Notes,164,pg. 258 of Bergey’s Manual of Systematic Bacteriology Volume 4: The Bacteroidetes
+Notes,165,pg. 2008 of Bergey’s Manual of Systematic Bacteriology Volume 5: The Actinobacteria
+Notes,166,pg. 2008 of Bergey’s Manual of Systematic Bacteriology Volume 5: The Actinobacteria
+Notes,167,
+Notes,168,"Aphanizomenon aphanizomenoides – Name in Consumer column, avergae length of vegetative cell size"
+Notes,169,"pg.180, or 5-6um as stated in https://www.researchgate.net/publication/259503619_SPIRULINA_PLATENSIS_-_FOOD_FOR_FUTURE_A_REVIEW"
+Notes,170,pg.420
+Notes,171,pg. 114 of reference
+Notes,172,
+Notes,173,
+Notes,174,pg.1256
+Notes,175,"pg.1235, cell size during growth on H2 and CO2"
+Notes,176,"pg.1235,  cell size during growth on glucose "
+Notes,177,pg.1235
+Notes,178,pg.1236
+Notes,179,pg.1283
+Notes,180,Genus: Thermus size info
+Notes,181,https://books.google.co.uk/books?id=yjnLAwAAQBAJ&pg=PA224&lpg=PA224&dq=Trichormus+variabilis+cell+diameter&source=bl&ots=FtYPtDMsnF&sig=BSuUkqm7CJej0h9l2vBuwLrHkJ4&hl=en&sa=X&ved=0ahUKEwjVwteVv4fbAhWJA8AKHeK2CSwQ6AEIXTAM#v=onepage&q=Trichormus%20variabilis%20cell%20diameter&f=false  Anabaena = Trichormus variabilis
+Notes,182,pg.191
+Notes,183,
+Notes,184,
+Notes,185,"Bergey's Manual of Systematic Bacteriology: Volume 3: The Firmicutes, pg.491"
+Notes,186,pg.504
+Notes,187,Average size of family Thermotogaceae taken. pg.370
+Notes,188,
+Notes,189,
+Notes,190,
+Notes,191,
