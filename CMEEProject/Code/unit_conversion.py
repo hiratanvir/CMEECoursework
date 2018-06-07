@@ -12,7 +12,11 @@ import scipy as sc
 import math
 
 # Reading in bactertia size data
-bacteria_size = pd.read_csv('../Data/bacteria_size2.csv', low_memory=False)
+bac_size = pd.read_csv('../Data/bac_dF.csv', low_memory=False)
+
+
+bac_size.set_index('Unnamed: 0', inplace=True)
+bac_size.index.name = 'index'
 
 ### FUNCTIONS TO CALCULATE VOLUMES OF DIFFERENT SHAPES OF CELLS ###
 def sphere_vol(width):
@@ -41,23 +45,8 @@ def cone_vol(width, length):
 ### KEEPING ONLY THOSE COLUMNS WHICH HAVE WIDTH AND LENGTH INFORMATION ###
 ### MERGE WITH THE EXISTING VOLUME AND MASS DATA LATER ###
 
-bac_size = bacteria_size.dropna(subset=['MinWidth','MinLength'], how='all')
-bac_size['Shape'] = bac_size['Shape'].astype(str)
-
-#if bacteria_size.Shape == 'Spherical':
-            #Converting temperature from celcius to kelvin and adding a column for it
-    #        bacteria_size['MinVolume'] = bacteria.apply(lambda row: float(row.MinSizeValue)**2*pi/2, axis = 1)
-
-grouped = bac_size.groupby(['Shape'])
-
-for i,g in grouped:
-    print i
-    if (i == 'Spherical'):
-        name = g.GenusSpecies
-        width == g.MinWidth
-        g['MinVolume'] = g.iloc[:, 1:].apply(sphere_vol, axis=1)
-
-        print(width)
+#bac_size = bacteria_size.dropna(subset=['MinWidth','MinLength'], how='all')
+#bac_size['Shape'] = bac_size['Shape'].astype(str)
 
 # CODE THAT RESHAPES DATAFRAME ###
 #reshape = pd.DataFrame({'width': pd.concat([bac_size.MinWidth, bac_size.MaxWidth]), 'length': pd.concat([bac_size.MinLength, bac_size.MaxLength])}).sort_index()
@@ -67,16 +56,37 @@ for i,g in grouped:
 #bac_dF = bac_dF[['GenusSpecies','width','length','SizeUnit','Shape','Phylum','Sources']]
 #bac_dF.to_csv('../Data/bac_dF.csv', sep=',', encoding='utf-8')
 
-print (bac_size.loc[bac_size['Shape'] == 'Spherical'])
+#grouped = bac_size.groupby(['Shape'])
+#for i,g in grouped:
+    #print i
 
-list = bac_size.GenusSpecies.unique()
+#    if (i == 'Spherical'):
+#        g['Volume'] = g.apply(lambda x: sphere_vol(x.loc['width']), axis=1)
 
-for i in list:
-    tmp = bac_size.loc[bac_size.GenusSpecies == i]
-    if len(tmp.Shape) == 1:
-        print(str(i) + ' Spherical')
-    else:
-        print(str(i) +' __________ ')
+#    if (i == ' cylinderical'):
+#        g['Volume'] = g.apply(lambda x: cylinder_vol(x.loc['width'], x.loc['length']), axis=1)
+
+    #g.to_csv('../Data/vols.csv', sep=',', encoding='utf-8')
+
+#    print(g.head())
 
 
-bac_size.to_csv('../Data/bac_size.csv', sep=',', encoding='utf-8')
+#bac_size['Volume'] = bac_size[bac_size['Shape'] == 'Spherical']['width'].apply(lambda row: sphere_vol(row))
+#bac_size['Volume'] = bac_size[bac_size['Shape'] == 'cylindrical'](['width']['length']).apply(lambda row: cylinder_vol(row))
+
+bac_size['Volume'] = ""
+mask = bac_size.Shape=='Spherical'
+bac_size.loc[mask, 'Volume']=bac_size[mask].apply(lambda row: sphere_vol(row.width),axis=1)
+
+mask = bac_size.Shape=='cylindrical'
+bac_size.loc[mask, 'Volume']=bac_size[mask].apply(lambda row: cylinder_vol(row.width, row.length),axis=1)
+
+mask = bac_size.Shape=='rod'
+bac_size.loc[mask, 'Volume']=bac_size[mask].apply(lambda row: rod_vol(row.width, row.length),axis=1)
+
+mask = bac_size.Shape=='oval'
+bac_size.loc[mask, 'Volume']=bac_size[mask].apply(lambda row: oval_vol(row.width, row.length),axis=1)
+
+bac_size['VolumeUnit'] = 'um3'
+
+bac_size.to_csv('../Data/volumes.csv', sep=',', encoding='utf-8')
