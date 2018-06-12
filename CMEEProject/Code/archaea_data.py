@@ -50,7 +50,10 @@ subset_dF = subset_dF.groupby('FinalID').filter(lambda x: x.ConTemp.nunique() > 
 subset_dF = subset_dF.groupby(['FinalID']).filter(lambda x: len(x)>5)
 
 #Drop rows which have no information about ConGenus
-subset_dF = subset_dF.dropna(subset=['ConGenus'])
+#subset_dF = subset_dF.dropna(subset=['ConGenus'])
+#Drop rows which have no information about ConGenus and ConSpecies
+#If time permits then only drop rows with no ConFamily information and then find average size for families
+subset_dF = subset_dF.dropna(subset=['ConGenus','ConSpecies'])
 
 #Creating unique IDs to make the dataset IDs consistent i.e. there are no gaps in the numbering of IDs
 subset_dF['uniqueID'] = subset_dF['FinalID'].rank(method='dense').astype(int)

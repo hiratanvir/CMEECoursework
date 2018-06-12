@@ -152,11 +152,6 @@ for i,g in grouped:
 
 final_dF = pd.merge(subset_dF, newDF, left_on='uniqueID', right_on='ID', how='right').drop('ID', axis=1)
 
-## list of species with no size info ###
-#for i,g in grouped:
-#    if g.Mass
-
-
 #Deal with E column where there is no E-value and give it a generic valur of 0.66
 final_dF.E = final_dF.E.fillna(value=0.66)
 final_dF.Eh = final_dF.Eh.fillna(value=2*0.66)
