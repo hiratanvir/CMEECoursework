@@ -10,7 +10,7 @@ import pandas as pd #reads in data as dataframes
 import numpy as np
 import scipy as sc
 import math
-
+import re
 
 ################################### FUNCTIONS ##################################################################
 ################################################################################################################
@@ -240,3 +240,40 @@ archaea_size['MaxVolume'] = archaea_size.apply(lambda row: to_precision(row.MaxV
 
 # Saving volumes to csv
 archaea_size.to_csv('../Data/archaea_volumes.csv', sep=',', encoding='utf-8')
+
+##############################################################################################################
+##############################################################################################################
+
+#reading in biovolumes for phytoplankton dataset
+plankton = pd.read_csv('../Data/Table2.csv', low_memory=False)
+
+#Converting temperature from cubic mirometers to cubic_meters and adding a column for it
+plankton['CellVolCubicMeters'] = plankton.apply(lambda row: float(row.Biovolume)*1e-18, axis = 1)
+
+#Drop rows which have no information about ConGenus
+plankton = plankton.dropna(subset=['Genus','Species','Biovolume'])
+
+#add column which combines Genus and species name
+plankton['GenusSpecies'] = plankton["Genus"].map(str) + ' ' + plankton["Species"]
+
+#to 3.s.f
+plankton['CellVolCubicMeters'] = plankton.apply(lambda row: to_precision(row.CellVolCubicMeters, 3),axis=1)
+
+#save dataset
+plankton.to_csv('../Data/plankton_volume_data.csv', sep=',', encoding='utf-8')
+
+plankton_vols = pd.read_csv('../Data/phytoplankton_size.csv', low_memory=False)
+
+#Drop rows which have no volumes
+plankton_vols = plankton_vols.dropna(subset=['Volumes'])
+
+#creating a new column and finding the average of repeated volume measurements per species
+plankton_vols['AverageVolume'] = plankton_vols['Volumes'].groupby(plankton_vols['GenusSpecies']).transform(np.mean)
+
+#to 3.s.f
+plankton_vols['AverageVolume'] = plankton_vols.apply(lambda row: to_precision(row.AverageVolume, 3),axis=1)
+
+plankton_vols = plankton_vols[['GenusSpecies','Volumes','AverageVolume','VolumeUnit','Shape','Phylum','Sources','Notes']]
+
+#save dataset
+plankton_vols.to_csv('../Data/phytoplankton_volumes.csv', sep=',', encoding='utf-8')

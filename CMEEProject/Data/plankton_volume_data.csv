@@ -1,0 +1,923 @@
+,Group,Kingdom,Phylum,Class,Order,Family,Genus,Species,Forma,AuthorComments,Author,SpeciesID,Carbon,Biovolume,CellVolCubicMeters,GenusSpecies
+0,Diatom,Chromista,Haptophyta,Haptophyta incertae sedis,,Ceratolithaceae,Ceratolithus,cristatus,,,Derek S.Harbour,1,637.9157027409329,4188.79020478639,4.19e-15,Ceratolithus cristatus
+1,Diatom,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Syracosphaera,anthos,,,Derek S.Harbour,2,90.0,521.529963894225,5.22e-16,Syracosphaera anthos
+35,Ciliates,Chromista,Ciliophora,Oligohymenophorea,Pleuronematida,Cyclidiidae,Cyclidium,oligotrichum,,20-30μm,Derek S.Harbour,22,1196.87702222609,8181.230868723409,8.18e-15,Cyclidium oligotrichum
+37,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,arietinum,,,Derek S.Harbour,24,4288.0,31797.9189916851,3.18e-14,Ceratium arietinum
+38,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,azoricum,,,Derek S.Harbour,25,1028.0,6958.984459662571,6.96e-15,Ceratium azoricum
+39,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,boehmii,,,Derek S.Harbour,26,1500.0,10402.0361969613,1.04e-14,Ceratium boehmii
+40,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,candelabrum,,,Derek S.Harbour,27,2705.0,19477.7886173359,1.95e-14,Ceratium candelabrum
+41,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,candelabrum,,,Derek S.Harbour,27,6377.0,48502.2790273533,4.85e-14,Ceratium candelabrum
+42,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,carriense,,,Derek S.Harbour,28,4288.0,31797.9189916851,3.18e-14,Ceratium carriense
+43,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,carriense,,,Derek S.Harbour,28,6562.0,50000.5415971783,5.00e-14,Ceratium carriense
+44,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,declinatum,,,Derek S.Harbour,29,4102.87943161641,30339.562482834303,3.03e-14,Ceratium declinatum
+45,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,extensum,,,Derek S.Harbour,30,2116.04930867439,15000.0,1.50e-14,Ceratium extensum
+46,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,falcatum,,,Derek S.Harbour,31,2116.04930867439,15000.0,1.50e-14,Ceratium falcatum
+47,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,furca,,,Derek S.Harbour,32,2705.0,19477.7886173359,1.95e-14,Ceratium furca
+48,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,furca,,,Derek S.Harbour,32,3869.0798358870898,28503.7368,2.85e-14,Ceratium furca
+49,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,furca,,,Derek S.Harbour,32,4566.57066007546,34000.0,3.40e-14,Ceratium furca
+50,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,furca,,,Derek S.Harbour,32,4567.0,34003.4006619345,3.40e-14,Ceratium furca
+51,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,fusus,,,Derek S.Harbour,33,1445.0,9996.76336098283,1.00e-14,Ceratium fusus
+52,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,geniculatum,,,Derek S.Harbour,34,2116.04930867439,15000.0,1.50e-14,Ceratium geniculatum
+53,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,gibberum,,,Derek S.Harbour,35,8205.75886323281,63424.0527847956,6.34e-14,Ceratium gibberum
+54,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,hexacanthum,,,Derek S.Harbour,36,10686.0,83998.4857937441,8.40e-14,Ceratium hexacanthum
+55,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,horridum,,,Derek S.Harbour,37,1528.0,10608.723804501,1.06e-14,Ceratium horridum
+56,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,horridum,,,Derek S.Harbour,37,4692.71264914473,34999.999999999905,3.50e-14,Ceratium horridum
+57,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,horridum,,,Derek S.Harbour,37,6562.0,50000.5415971783,5.00e-14,Ceratium horridum
+58,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,limulus,,,Derek S.Harbour,38,8205.75886323281,63424.0527847956,6.34e-14,Ceratium limulus
+59,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,lineatum,,,Derek S.Harbour,39,1028.0,6958.984459662571,6.96e-15,Ceratium lineatum
+60,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,lineatum,,,Derek S.Harbour,39,1648.0,11497.2182023779,1.15e-14,Ceratium lineatum
+61,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,longipes,,,Derek S.Harbour,40,6562.0,50000.5415971783,5.00e-14,Ceratium longipes
+62,Ciliates,Chromista,Ciliophora,Oligohymenophorea,Pleuronematida,Cyclidiidae,Cyclidium,oligotrichum,,<20μm,Derek S.Harbour,41,90.0,521.529963894225,5.22e-16,Cyclidium oligotrichum
+63,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,macroceros,,,Derek S.Harbour,42,4288.0,31797.9189916851,3.18e-14,Ceratium macroceros
+64,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,macroceros,,,Derek S.Harbour,42,6562.0,50000.5415971783,5.00e-14,Ceratium macroceros
+65,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,macroceros,,,Derek S.Harbour,42,7422.0,56999.8025262241,5.70e-14,Ceratium macroceros
+66,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,massiliense,,,Derek S.Harbour,43,7422.0,56999.8025262241,5.70e-14,Ceratium massiliense
+67,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,minutum,,,Derek S.Harbour,44,514.0,3328.9033822452097,3.33e-15,Ceratium minutum
+68,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,minutum,,,Derek S.Harbour,44,753.4107351803349,5000.0,5.00e-15,Ceratium minutum
+69,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,paradoxides,,,Derek S.Harbour,45,21499.880968781297,176714.58676442603,1.77e-13,Ceratium paradoxides
+70,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,pentagonum,,,Derek S.Harbour,46,2056.0,14547.5729238986,1.45e-14,Ceratium pentagonum
+71,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,pentagonum,,,Derek S.Harbour,46,3162.4536266556797,22999.9999999999,2.30e-14,Ceratium pentagonum
+72,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,platycorne,,,Derek S.Harbour,47,1028.0,6958.984459662571,6.96e-15,Ceratium platycorne
+73,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,platycorne,,,Derek S.Harbour,47,237.776133694822,3887.7209088173604,3.89e-15,Ceratium platycorne
+74,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,platycorne,,,Derek S.Harbour,47,24.736185030033496,197.920337176157,1.98e-16,Ceratium platycorne
+75,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,pulchellum,,,Derek S.Harbour,48,4288.0,31797.9189916851,3.18e-14,Ceratium pulchellum
+76,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,ranipes,,,Derek S.Harbour,49,10686.0,83998.4857937441,8.40e-14,Ceratium ranipes
+77,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,ranipes,,,Derek S.Harbour,49,1648.0,11497.2182023779,1.15e-14,Ceratium ranipes
+78,Ciliates,Chromista,Ciliophora,Oligohymenophorea,Pleuronematida,Cyclidiidae,Cyclidium,oligotrichum,,>30μm,Derek S.Harbour,50,6279.0,47709.7231970768,4.77e-14,Cyclidium oligotrichum
+79,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,symmetricum,,,Derek S.Harbour,51,8205.75886323281,63424.0527847956,6.34e-14,Ceratium symmetricum
+80,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,teres,,,Derek S.Harbour,52,1028.0,6958.984459662571,6.96e-15,Ceratium teres
+81,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,teres,,,Derek S.Harbour,52,1648.0,11497.2182023779,1.15e-14,Ceratium teres
+82,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,trichoceros,,,Derek S.Harbour,53,275.209397866487,4712.38898038469,4.71e-15,Ceratium trichoceros
+83,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,trichoceros,,,Derek S.Harbour,53,316.11201792122,5654.866776461629,5.65e-15,Ceratium trichoceros
+84,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,trichoceros,,,Derek S.Harbour,53,4288.0,31797.9189916851,3.18e-14,Ceratium trichoceros
+85,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,trichoceros,,,Derek S.Harbour,53,4692.71264914473,34999.999999999905,3.50e-14,Ceratium trichoceros
+86,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,trichoceros,,,Derek S.Harbour,53,480.75069386329,9817.477042468108,9.82e-15,Ceratium trichoceros
+87,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,tripos,,,Derek S.Harbour,54,13769.2131849745,109999.99999999901,1.10e-13,Ceratium tripos
+88,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,tripos,,,Derek S.Harbour,54,14709.0,118004.064401092,1.18e-13,Ceratium tripos
+89,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,tripos,,,Derek S.Harbour,54,6220.80482053729,47239.4538000001,4.72e-14,Ceratium tripos
+90,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,tripos,,,Derek S.Harbour,54,8205.75886323281,63424.0527847956,6.34e-14,Ceratium tripos
+91,Diatom,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Ceratium,vultur,,,Derek S.Harbour,55,4288.0,31797.9189916851,3.18e-14,Ceratium vultur
+92,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Achnanthales,Achnanthaceae,Achnanthes,longipes,,,Derek S.Harbour,56,325.0,5864.99410905097,5.86e-15,Achnanthes longipes
+94,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Asterolamprales,Asterolampraceae,Asteromphalus,flabellatus,,,Derek S.Harbour,58,402.671653195553,7775.441817634741,7.78e-15,Asteromphalus flabellatus
+96,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Asterolamprales,Asterolampraceae,Asteromphalus,heptactis,,,Derek S.Harbour,60,603.911894960087,13253.5940073319,1.33e-14,Asteromphalus heptactis
+97,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Asterolamprales,Asterolampraceae,Asteromphalus,hyalinus,,,Derek S.Harbour,61,430.19995835330803,8482.30016469243,8.48e-15,Asteromphalus hyalinus
+102,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Asterolamprales,Asterolampraceae,Asteromphalus,parvulus,,,Derek S.Harbour,65,192.54492371965,2945.24311274043,2.95e-15,Asteromphalus parvulus
+103,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Asterolamprales,Asterolampraceae,Asteromphalus,sarcophagus,,,Derek S.Harbour,66,28.6391776690104,240.0,2.40e-16,Asteromphalus sarcophagus
+104,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Bacillaria,paxillifera,,,Derek S.Harbour,67,261.0,4394.89026727561,4.39e-15,Bacillaria paxillifera
+105,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Cylindrotheca,closterium,,,Derek S.Harbour,68,20.0,149.637163774564,1.50e-16,Cylindrotheca closterium
+106,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Fragilariopsis,cylindrus,,D ,Derek S.Harbour,69,2.22752328733189,8.333333333333321,8.33e-18,Fragilariopsis cylindrus
+107,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Fragilariopsis,doliolus,,,Derek S.Harbour,70,427.023973524449,8400.00000000001,8.40e-15,Fragilariopsis doliolus
+108,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Fragilariopsis,doliolus,,,Derek S.Harbour,70,66.93127279776189,733.333333333334,7.33e-16,Fragilariopsis doliolus
+109,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Fragilariopsis,kerguelensis,,B ,Derek S.Harbour,71,57.9484870000961,606.6666666666661,6.07e-16,Fragilariopsis kerguelensis
+110,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Fragilariopsis,kerguelensis,,,Derek S.Harbour,72,57.463880501315096,599.999999999999,6.00e-16,Fragilariopsis kerguelensis
+114,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Fragilariopsis,oceanica,,,Derek S.Harbour,75,32.0,277.72718518475,2.78e-16,Fragilariopsis oceanica
+115,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,bicapitata,,,Derek S.Harbour,76,4.63831807074426,21.875,2.19e-17,Nitzschia bicapitata
+116,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,closterium,,,Derek S.Harbour,77,20.0,149.637163774564,1.50e-16,Nitzschia closterium
+117,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,closterium,,,Derek S.Harbour,77,2.22752328733189,8.333333333333321,8.33e-18,Nitzschia closterium
+118,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,closterium,,,Derek S.Harbour,77,4.63831807074426,21.875,2.19e-17,Nitzschia closterium
+119,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,closterium,,,Derek S.Harbour,77,5.3276817451369896,26.25,2.63e-17,Nitzschia closterium
+120,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,closterium,,Small,Derek S.Harbour,78,0.526807088340769,1.25,1.25e-18,Nitzschia closterium
+121,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,delicatissima,,,Derek S.Harbour,79,3.03145837903582,12.5,1.25e-17,Nitzschia delicatissima
+122,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,delicatissima,,,Derek S.Harbour,79,6.44893605461228,33.75,3.38e-17,Nitzschia delicatissima
+123,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,delicatissima,,,Derek S.Harbour,79,9.0,52.328723891924106,5.23e-17,Nitzschia delicatissima
+124,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,longissima,,,Derek S.Harbour,80,15.0,102.48171710304001,1.02e-16,Nitzschia longissima
+125,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,longissima,,,Derek S.Harbour,80,20.0,149.637163774564,1.50e-16,Nitzschia longissima
+140,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,panduriformis,,,Derek S.Harbour,93,162.51013961838,2356.19449019234,2.36e-15,Nitzschia panduriformis
+141,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,panduriformis,,,Derek S.Harbour,93,163.0,2365.54415211644,2.37e-15,Nitzschia panduriformis
+143,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,pungens,,,Derek S.Harbour,94,35.214053594668606,315.0,3.15e-16,Nitzschia pungens
+144,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,pungens,,,Derek S.Harbour,94,50.0,499.62566872097705,5.00e-16,Nitzschia pungens
+145,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,seriata,,,Derek S.Harbour,95,20.0,149.637163774564,1.50e-16,Nitzschia seriata
+146,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,seriata,,,Derek S.Harbour,95,36.214053594668606,326.822559096903,3.27e-16,Nitzschia seriata
+147,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,seriata,,,Derek S.Harbour,95,50.0,499.62566872097705,5.00e-16,Nitzschia seriata
+149,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,sigma,,,Derek S.Harbour,96,16.1018552088602,112.5,1.13e-16,Nitzschia sigma
+150,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,sigma,,,Derek S.Harbour,96,26.0,211.33183864770902,2.11e-16,Nitzschia sigma
+151,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudonitzschia,delicatissima,,,Derek S.Harbour,97,6.44893605461228,33.75,3.38e-17,Pseudonitzschia delicatissima
+152,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudonitzschia,delicatissima,,,Derek S.Harbour,97,9.0,52.328723891924106,5.23e-17,Pseudonitzschia delicatissima
+153,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,fraudulenta,,,Derek S.Harbour,98,20.0,149.637163774564,1.50e-16,Pseudo-nitzschia fraudulenta
+155,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,pungens,,,Derek S.Harbour,100,50.0,499.62566872097705,5.00e-16,Pseudo-nitzschia pungens
+156,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,seriata,,,Derek S.Harbour,101,70.1442212583855,780.0,7.80e-16,Pseudo-nitzschia seriata
+157,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudonitzschia,seriata,,,Derek S.Harbour,102,50.0,499.62566872097705,5.00e-16,Pseudonitzschia seriata
+158,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudonitzschia,seriata,,,Derek S.Harbour,102,54.7133265287655,562.5,5.63e-16,Pseudonitzschia seriata
+159,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudonitzschia,seriata,,,Derek S.Harbour,102,55.818673474609206,577.5,5.78e-16,Pseudonitzschia seriata
+161,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,subcurvata,,,Derek S.Harbour,103,70.1442212583855,780.0,7.80e-16,Pseudo-nitzschia subcurvata
+162,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Biddulphiales,Biddulphiaceae,Biddulphia,alternans,,,Derek S.Harbour,104,296.0,5186.298564041621,5.19e-15,Biddulphia alternans
+163,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Biddulphiales,Biddulphiaceae,Biddulphia,alternans,,,Derek S.Harbour,104,61.033719900473606,649.519052838329,6.50e-16,Biddulphia alternans
+164,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Biddulphiales,Biddulphiaceae,Biddulphia,aurita,,,Derek S.Harbour,105,296.0,5186.298564041621,5.19e-15,Biddulphia aurita
+165,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Biddulphiales,Biddulphiaceae,Biddulphia,aurita,,,Derek S.Harbour,105,300.0,5278.71198370118,5.28e-15,Biddulphia aurita
+168,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Biddulphiales,Biddulphiaceae,Biddulphia,aurita,,,Derek S.Harbour,105,42.0,397.202729487972,3.97e-16,Biddulphia aurita
+169,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Biddulphiales,Biddulphiaceae,Biddulphia,aurita,,,Derek S.Harbour,105,61.033719900473606,649.519052838329,6.50e-16,Biddulphia aurita
+170,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Biddulphiales,Biddulphiaceae,Biddulphia,rhombus,,,Derek S.Harbour,106,6147.0,280699.132141552,2.81e-13,Biddulphia rhombus
+172,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Bacteriastrum,biconicum,,,Derek S.Harbour,108,132.970404730966,1809.55736846772,1.81e-15,Bacteriastrum biconicum
+173,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Bacteriastrum,elongatum,,,Derek S.Harbour,109,132.970404730966,1809.55736846772,1.81e-15,Bacteriastrum elongatum
+174,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Bacteriastrum,elongatum,,,Derek S.Harbour,109,91.0595745698061,1099.55742875643,1.10e-15,Bacteriastrum elongatum
+175,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Bacteriastrum,furcatum,,,Derek S.Harbour,110,275.0,4707.67177978854,4.71e-15,Bacteriastrum furcatum
+176,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Bacteriastrum,furcatum,,,Derek S.Harbour,110,51.2302211293919,515.863159545291,5.16e-16,Bacteriastrum furcatum
+177,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Bacteriastrum,furcatum,,,Derek S.Harbour,110,57.6956189902508,603.1857894892411,6.03e-16,Bacteriastrum furcatum
+178,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Bacteriastrum,furcatum,,,Derek S.Harbour,110,85.0644085604913,1005.30964914873,1.01e-15,Bacteriastrum furcatum
+179,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Bacteriastrum,minus,,,Derek S.Harbour,111,130.595142497652,1767.14586764427,1.77e-15,Bacteriastrum minus
+180,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Bacteriastrum,solitarium,,,Derek S.Harbour,112,317.11201792122,5678.4164284544495,5.68e-15,Bacteriastrum solitarium
+181,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Bacteriastrum,varians,,,Derek S.Harbour,113,316.11201792122,5654.866776461629,5.65e-15,Bacteriastrum varians
+182,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,aequatorialis,,,Derek S.Harbour,114,54.93397267211329,565.486677646163,5.65e-16,Chaetoceros aequatorialis
+183,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,affinis,,,Derek S.Harbour,115,20.0,149.637163774564,1.50e-16,Chaetoceros affinis
+184,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,affinis,,,Derek S.Harbour,115,26.7508238356519,219.398223686156,2.19e-16,Chaetoceros affinis
+185,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,affinis,,,Derek S.Harbour,115,29.0,243.98649417037998,2.44e-16,Chaetoceros affinis
+186,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,affinis,,,Derek S.Harbour,115,37.846969337786604,346.34954084936095,3.46e-16,Chaetoceros affinis
+187,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,affinis,,,Derek S.Harbour,115,38.7348127005625,357.079632679489,3.57e-16,Chaetoceros affinis
+188,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,anastomosans,,,Derek S.Harbour,116,26.7508238356519,219.398223686156,2.19e-16,Chaetoceros anastomosans
+189,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,anastomosans,,,Derek S.Harbour,116,29.0,243.98649417037998,2.44e-16,Chaetoceros anastomosans
+190,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,anastomosans,,,Derek S.Harbour,116,38.7348127005625,357.079632679489,3.57e-16,Chaetoceros anastomosans
+191,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,atlanticus,,,Derek S.Harbour,117,177.72821556450802,2650.7188014664002,2.65e-15,Chaetoceros atlanticus
+192,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,atlanticus,,,Derek S.Harbour,117,29.406420306581303,248.495559215387,2.48e-16,Chaetoceros atlanticus
+193,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,atlanticus,,,Derek S.Harbour,117,80.99273353876549,942.477796076938,9.42e-16,Chaetoceros atlanticus
+197,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,atlanticus,,var.skeleton,Derek S.Harbour,119,20.0,149.637163774564,1.50e-16,Chaetoceros atlanticus
+198,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,atlanticus,,var.skeleton,Derek S.Harbour,119,81.0,942.5890564703631,9.43e-16,Chaetoceros atlanticus
+199,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,atlanticus,neapolitanus,,Derek S.Harbour,120,262.036282929229,4417.86466911064,4.42e-15,Chaetoceros atlanticus
+200,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,atlanticus,neapolitanus,,Derek S.Harbour,120,8.72901199069215,50.265482457436704,5.03e-17,Chaetoceros atlanticus
+201,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,borealis,,,Derek S.Harbour,121,157.54571681507,2261.9467105846497,2.26e-15,Chaetoceros borealis
+202,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,borealis,,,Derek S.Harbour,121,275.0,4707.67177978854,4.71e-15,Chaetoceros borealis
+203,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,borealis,,,Derek S.Harbour,121,345.71396588277605,6361.725123519311,6.36e-15,Chaetoceros borealis
+205,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,calcitrans,,,Derek S.Harbour,123,3.5566929987694103,15.4247779607694,1.54e-17,Chaetoceros calcitrans
+206,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,calcitrans,,,Derek S.Harbour,123,4.4,20.4082682117567,2.04e-17,Chaetoceros calcitrans
+207,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,compressus,,compressus pa,Derek S.Harbour,124,95.96164114859779,1178.09724509617,1.18e-15,Chaetoceros compressus
+208,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,compressus,,,Derek S.Harbour,125,14.5,98.010744273589,9.80e-17,Chaetoceros compressus
+209,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,compressus,,,Derek S.Harbour,125,14.518438850169,98.1747704246806,9.82e-17,Chaetoceros compressus
+210,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,compressus,,,Derek S.Harbour,125,16.6762219516184,117.809724509618,1.18e-16,Chaetoceros compressus
+211,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,compressus,,,Derek S.Harbour,125,20.1176497907046,150.79644737231,1.51e-16,Chaetoceros compressus
+212,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,concavicornis,,,Derek S.Harbour,126,100.785834631604,1256.63706143592,1.26e-15,Chaetoceros concavicornis
+213,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,concavicornis,,,Derek S.Harbour,126,126.605671410251,1696.4600329384803,1.70e-15,Chaetoceros concavicornis
+214,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,concavicornis,,,Derek S.Harbour,126,34.069051312060196,301.592894744621,3.02e-16,Chaetoceros concavicornis
+215,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,concavicornis,,,Derek S.Harbour,126,54.93397267211329,565.486677646163,5.65e-16,Chaetoceros concavicornis
+216,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,concavicornis,volans,,Derek S.Harbour,127,177.72821556450802,2650.7188014664002,2.65e-15,Chaetoceros concavicornis
+217,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,constrictus,,,Derek S.Harbour,128,22.348496522637202,173.17477042468101,1.73e-16,Chaetoceros constrictus
+218,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,convolutus,,,Derek S.Harbour,129,54.93397267211329,565.486677646163,5.65e-16,Chaetoceros convolutus
+219,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,costatus,,,Derek S.Harbour,130,27.100061315286002,223.17477042468101,2.23e-16,Chaetoceros costatus
+220,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,costatus,,,Derek S.Harbour,130,29.0,243.98649417037998,2.44e-16,Chaetoceros costatus
+221,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,curvisetus,,,Derek S.Harbour,131,10.6549367386914,65.3429173528853,6.53e-17,Chaetoceros curvisetus
+222,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,curvisetus,,,Derek S.Harbour,131,28.860617483697,242.44467859455398,2.42e-16,Chaetoceros curvisetus
+223,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,curvisetus,,,Derek S.Harbour,131,45.893699766911,446.34954084936203,4.46e-16,Chaetoceros curvisetus
+224,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,curvisetus,,,Derek S.Harbour,131,64.0,691.369938584321,6.91e-16,Chaetoceros curvisetus
+225,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,curvisetus,,,Derek S.Harbour,131,87.5745874285363,1044.52431127404,1.04e-15,Chaetoceros curvisetus
+226,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,dadayi,,,Derek S.Harbour,132,27.378307724714304,226.194671058465,2.26e-16,Chaetoceros dadayi
+227,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,dadayi,,,Derek S.Harbour,132,70.5128567251103,785.398163397449,7.85e-16,Chaetoceros dadayi
+228,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,danicus,,,Derek S.Harbour,133,200.0,3096.1995391596,3.10e-15,Chaetoceros danicus
+229,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,danicus,,,Derek S.Harbour,133,28.378307724714304,237.127667067101,2.37e-16,Chaetoceros danicus
+230,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,danicus,,,Derek S.Harbour,133,28.860617483697,242.44467859455398,2.42e-16,Chaetoceros danicus
+231,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,debilis,,,Derek S.Harbour,134,117.773174145179,1542.47779607693,1.54e-15,Chaetoceros debilis
+232,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,debilis,,,Derek S.Harbour,134,19.814097044956398,147.809724509617,1.48e-16,Chaetoceros debilis
+233,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,debilis,,,Derek S.Harbour,134,27.592956770137,228.530964914874,2.29e-16,Chaetoceros debilis
+234,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,debilis,,,Derek S.Harbour,134,28.860617483697,242.44467859455398,2.42e-16,Chaetoceros debilis
+235,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,debilis,,,Derek S.Harbour,134,45.893699766911,446.34954084936203,4.46e-16,Chaetoceros debilis
+236,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,debilis,,,Derek S.Harbour,134,88.0,1051.2057469496901,1.05e-15,Chaetoceros debilis
+237,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,decipiens,,,Derek S.Harbour,135,132.0,1792.20114969238,1.79e-15,Chaetoceros decipiens
+238,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,decipiens,,,Derek S.Harbour,135,87.5745874285363,1044.52431127404,1.04e-15,Chaetoceros decipiens
+239,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,densus,,,Derek S.Harbour,136,177.72821556450802,2650.7188014664002,2.65e-15,Chaetoceros densus
+240,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,densus,,,Derek S.Harbour,136,275.0,4707.67177978854,4.71e-15,Chaetoceros densus
+241,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,densus,,,Derek S.Harbour,136,342.465399678839,6283.18530717958,6.28e-15,Chaetoceros densus
+242,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,densus,,,Derek S.Harbour,136,81.0,942.5890564703631,9.43e-16,Chaetoceros densus
+243,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,diadema,,,Derek S.Harbour,137,132.0,1792.20114969238,1.79e-15,Chaetoceros diadema
+244,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,diadema,,,Derek S.Harbour,137,29.0,243.98649417037998,2.44e-16,Chaetoceros diadema
+245,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,diadema,,,Derek S.Harbour,137,81.2454778912043,946.349540849361,9.46e-16,Chaetoceros diadema
+246,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,didymus,,,Derek S.Harbour,138,60.5460529450759,642.699081698725,6.43e-16,Chaetoceros didymus
+247,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,didymus,,,Derek S.Harbour,138,64.0,691.369938584321,6.91e-16,Chaetoceros didymus
+248,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,diversus,,,Derek S.Harbour,139,20.751577017600997,157.079632679489,1.57e-16,Chaetoceros diversus
+250,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,eibenii,,,Derek S.Harbour,141,275.0,4707.67177978854,4.71e-15,Chaetoceros eibenii
+251,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,externus,,,Derek S.Harbour,142,29.0,243.98649417037998,2.44e-16,Chaetoceros externus
+252,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,filiforme,,,Derek S.Harbour,143,10.0,60.11008864405579,6.01e-17,Chaetoceros filiforme
+254,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,fragilis,,,Derek S.Harbour,145,10.0,60.11008864405579,6.01e-17,Chaetoceros fragilis
+255,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,holsaticus,,,Derek S.Harbour,146,15.0,102.48171710304001,1.02e-16,Chaetoceros holsaticus
+256,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,laciniosus,,,Derek S.Harbour,147,27.100061315286002,223.17477042468101,2.23e-16,Chaetoceros laciniosus
+257,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,laciniosus,,,Derek S.Harbour,147,29.0,243.98649417037998,2.44e-16,Chaetoceros laciniosus
+258,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,laciniosus,,,Derek S.Harbour,147,64.35002843007611,696.3495408493629,6.96e-16,Chaetoceros laciniosus
+259,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,lauderi,,,Derek S.Harbour,148,200.0,3096.1995391596,3.10e-15,Chaetoceros lauderi
+260,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,lorenzianus,,,Derek S.Harbour,149,209.663322969015,3294.5243112740504,3.29e-15,Chaetoceros lorenzianus
+261,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,lorenzianus,,,Derek S.Harbour,149,97.0894735716356,1196.34954084936,1.20e-15,Chaetoceros lorenzianus
+262,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,messanensis,,,Derek S.Harbour,150,45.893699766911,446.34954084936203,4.46e-16,Chaetoceros messanensis
+263,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,messanensis,,,Derek S.Harbour,150,60.8072352950889,646.349540849363,6.46e-16,Chaetoceros messanensis
+264,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,mitra,,,Derek S.Harbour,151,100.0,1243.7607347260198,1.24e-15,Chaetoceros mitra
+265,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,mitra,,,Derek S.Harbour,151,509.708614858427,10602.8752058655,1.06e-14,Chaetoceros mitra
+291,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,neglectus,,,Derek S.Harbour,168,1.7972839662887499,6.2831853071796,6.28e-18,Chaetoceros neglectus
+292,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,neogracilis,,,Derek S.Harbour,169,44.1456145808721,424.11500823462194,4.24e-16,Chaetoceros neogracilis
+293,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,neogracilis,,,Derek S.Harbour,169,6.832528262800371,36.415926535897896,3.64e-17,Chaetoceros neogracilis
+294,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,pelagicus,,,Derek S.Harbour,170,27.100061315286002,223.17477042468101,2.23e-16,Chaetoceros pelagicus
+295,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,pelagicus,,,Derek S.Harbour,170,68.4557592652491,755.389670370359,7.55e-16,Chaetoceros pelagicus
+296,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,pendulus,,,Derek S.Harbour,171,54.93397267211329,565.486677646163,5.65e-16,Chaetoceros pendulus
+297,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,pendulus,,,Derek S.Harbour,171,70.5128567251103,785.398163397449,7.85e-16,Chaetoceros pendulus
+298,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,perpusillus,,,Derek S.Harbour,172,26.7508238356519,219.398223686156,2.19e-16,Chaetoceros perpusillus
+299,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,perpusillus,,,Derek S.Harbour,172,4.4,20.4082682117567,2.04e-17,Chaetoceros perpusillus
+300,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,peruvianus,,,Derek S.Harbour,173,157.54571681507,2261.9467105846497,2.26e-15,Chaetoceros peruvianus
+301,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,peruvianus,,,Derek S.Harbour,173,70.5128567251103,785.398163397449,7.85e-16,Chaetoceros peruvianus
+302,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,peruvianus,,,Derek S.Harbour,173,85.0644085604913,1005.30964914873,1.01e-15,Chaetoceros peruvianus
+303,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,peruvianus,,,Derek S.Harbour,173,85.06440856049142,1005.30964914873,1.01e-15,Chaetoceros peruvianus
+304,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,protuberans,,,Derek S.Harbour,174,100.723800909956,1255.6194490192402,1.26e-15,Chaetoceros protuberans
+305,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,pseudocurvisetus,,,Derek S.Harbour,175,100.723800909956,1255.6194490192402,1.26e-15,Chaetoceros pseudocurvisetus
+306,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,pseudocurvisetus,,,Derek S.Harbour,175,69.91767144420879,776.686926061703,7.77e-16,Chaetoceros pseudocurvisetus
+307,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,radicans,,,Derek S.Harbour,176,15.0,102.48171710304001,1.02e-16,Chaetoceros radicans
+308,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,radicans,,,Derek S.Harbour,176,16.0,111.564569250124,1.12e-16,Chaetoceros radicans
+309,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,rostratus,,,Derek S.Harbour,177,68.35880261701129,753.98223686155,7.54e-16,Chaetoceros rostratus
+310,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,saltans,,,Derek S.Harbour,178,150.004666794371,2120.57504117311,2.12e-15,Chaetoceros saltans
+311,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,seiracanthus,,,Derek S.Harbour,179,26.7508238356519,219.398223686156,2.19e-16,Chaetoceros seiracanthus
+312,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,seiracanthus,,,Derek S.Harbour,179,97.0894735716356,1196.34954084936,1.20e-15,Chaetoceros seiracanthus
+313,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,septentrionalis,,,Derek S.Harbour,180,4.4,20.4082682117567,2.04e-17,Chaetoceros septentrionalis
+314,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,similis,,,Derek S.Harbour,181,11.0,68.141458949981,6.81e-17,Chaetoceros similis
+315,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,similis,,,Derek S.Harbour,181,14.0,93.58820109688021,9.36e-17,Chaetoceros similis
+316,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,similis,,,Derek S.Harbour,181,4.4,20.4082682117567,2.04e-17,Chaetoceros similis
+317,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,simplex,,,Derek S.Harbour,182,11.0,68.141458949981,6.81e-17,Chaetoceros simplex
+318,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,simplex,,,Derek S.Harbour,182,1.16977264254514,3.5707963267949103,3.57e-18,Chaetoceros simplex
+319,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,simplex,,,Derek S.Harbour,182,15.0,102.48171710304001,1.02e-16,Chaetoceros simplex
+320,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,simplex,,,Derek S.Harbour,182,4.4,20.4082682117567,2.04e-17,Chaetoceros simplex
+321,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,socialis,,,Derek S.Harbour,183,10.6549367386914,65.3429173528853,6.53e-17,Chaetoceros socialis
+322,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,socialis,,,Derek S.Harbour,183,15.0,102.48171710304001,1.02e-16,Chaetoceros socialis
+323,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,socialis,,,Derek S.Harbour,183,8.12070662237818,45.707963267949,4.57e-17,Chaetoceros socialis
+325,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,socialis,radians,,Derek S.Harbour,185,15.0,102.48171710304001,1.02e-16,Chaetoceros socialis
+326,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,socialis,radians,,Derek S.Harbour,185,8.12070662237818,45.707963267949,4.57e-17,Chaetoceros socialis
+327,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,subsecundus,,,Derek S.Harbour,186,118.0,1546.38785673828,1.55e-15,Chaetoceros subsecundus
+328,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,subsecundus,,,Derek S.Harbour,186,27.592956770137,228.530964914874,2.29e-16,Chaetoceros subsecundus
+329,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,teres,,,Derek S.Harbour,187,141.482497140362,1963.4954084936103,1.96e-15,Chaetoceros teres
+330,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,teres,,,Derek S.Harbour,187,214.40551757028098,3392.92006587697,3.39e-15,Chaetoceros teres
+332,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,teres,,,Derek S.Harbour,187,443.75598847845197,8835.7293382213,8.84e-15,Chaetoceros teres
+333,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,teres,,,Derek S.Harbour,187,500.0,10337.9449745302,1.03e-14,Chaetoceros teres
+334,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,tetrastichon,,,Derek S.Harbour,189,177.72821556450802,2650.7188014664002,2.65e-15,Chaetoceros tetrastichon
+335,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,throndsenii,,,Derek S.Harbour,190,15.0,102.48171710304001,1.02e-16,Chaetoceros throndsenii
+337,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,tortissimus,,,Derek S.Harbour,191,11.0,68.141458949981,6.81e-17,Chaetoceros tortissimus
+338,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,tortissimus,,,Derek S.Harbour,191,15.0,102.48171710304001,1.02e-16,Chaetoceros tortissimus
+339,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,vixvisibilis,,,Derek S.Harbour,192,44.1456145808721,424.11500823462194,4.24e-16,Chaetoceros vixvisibilis
+340,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,wighamii,,,Derek S.Harbour,193,15.0,102.48171710304001,1.02e-16,Chaetoceros wighamii
+341,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,willei,,,Derek S.Harbour,194,29.0,243.98649417037998,2.44e-16,Chaetoceros willei
+344,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Corethrales,Corethraceae,Corethron,criophilum,,10μm,Derek S.Harbour,196,477.092585919075,9719.30227204342,9.72e-15,Corethron criophilum
+345,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Corethrales,Corethraceae,Corethron,criophilum,,10μm,Derek S.Harbour,196,81.419839988476,949.022780771915,9.49e-16,Corethron criophilum
+346,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Corethrales,Corethraceae,Corethron,criophilum,,15μm,Derek S.Harbour,197,409.608097968726,7952.156404399159,7.95e-15,Corethron criophilum
+347,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Corethrales,Corethraceae,Corethron,criophilum,,30μm,Derek S.Harbour,198,1074.13337356764,28274.333882308198,2.83e-14,Corethron criophilum
+349,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Corethrales,Corethraceae,Corethron,criophilum,,30μm,Derek S.Harbour,198,970.4749520189889,24740.042147019598,2.47e-14,Corethron criophilum
+351,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Corethrales,Corethraceae,Corethron,criophilum,,50μm,Derek S.Harbour,200,2481.34705061802,85084.8010347236,8.51e-14,Corethron criophilum
+352,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Corethrales,Corethraceae,Corethron,criophilum,,50μm,Derek S.Harbour,200,3701.10835859517,143989.66328953198,1.44e-13,Corethron criophilum
+353,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Corethrales,Corethraceae,Corethron,criophilum,,5μm,Derek S.Harbour,201,81.419839988476,949.022780771915,9.49e-16,Corethron criophilum
+354,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Corethrales,Corethraceae,Corethron,criophilum,,,Derek S.Harbour,202,1074.13337356764,28274.333882308198,2.83e-14,Corethron criophilum
+355,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Corethrales,Corethraceae,Corethron,criophilum,,,Derek S.Harbour,202,227.359687347928,3665.1914291880894,3.67e-15,Corethron criophilum
+356,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Corethrales,Corethraceae,Corethron,criophilum,,,Derek S.Harbour,202,409.608097968726,7952.156404399159,7.95e-15,Corethron criophilum
+357,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Corethrales,Corethraceae,Corethron,criophilum,,,Derek S.Harbour,202,840.0,20459.4425950029,2.05e-14,Corethron criophilum
+358,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Corethrales,Corethraceae,Corethron,inerme,,,Derek S.Harbour,203,1268.17211332863,35179.2927355109,3.52e-14,Corethron inerme
+359,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,argus,,,Derek S.Harbour,204,1461.7986864702402,42411.5008234621,4.24e-14,Coscinodiscus argus
+360,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,asteromphalus,,,Derek S.Harbour,205,1461.7986864702402,42411.5008234621,4.24e-14,Coscinodiscus asteromphalus
+361,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,asteromphalus,,,Derek S.Harbour,205,2054.3735204076897,66366.144807084,6.64e-14,Coscinodiscus asteromphalus
+362,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,asteromphalus,,,Derek S.Harbour,205,3178.0,117829.795027599,1.18e-13,Coscinodiscus asteromphalus
+363,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,asteromphalus,,,Derek S.Harbour,205,4570.54498706859,190066.355542182,1.90e-13,Coscinodiscus asteromphalus
+364,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,centralis,,,Derek S.Harbour,206,16362.441656698998,1017876.01976309,1.02e-12,Coscinodiscus centralis
+365,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,centralis,,,Derek S.Harbour,206,7323.0,353406.91659648897,3.53e-13,Coscinodiscus centralis
+366,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,concinnus,,,Derek S.Harbour,207,143194.72627088698,17671458.6764426,1.77e-11,Coscinodiscus concinnus
+367,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,concinnus,,,Derek S.Harbour,207,32522.0,2513235.68601105,2.51e-12,Coscinodiscus concinnus
+368,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,granii,,,Derek S.Harbour,208,27709.641543230497,2035752.03952618,2.04e-12,Coscinodiscus granii
+369,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,granii,,,Derek S.Harbour,208,7323.0,353406.91659648897,3.53e-13,Coscinodiscus granii
+370,Coccolithophorid,Chromista,Haptophyta,Haptophyta incertae sedis,,Ceratolithaceae,Gladiolithus,flabellatus,,,Derek S.Harbour,209,12.7924614587461,65.4498469497871,6.54e-17,Gladiolithus flabellatus
+371,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,marginatus,,,Derek S.Harbour,210,402.671653195553,7775.441817634741,7.78e-15,Coscinodiscus marginatus
+375,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,oculus-iridis,,,Derek S.Harbour,213,1923.31353063045,60852.2204799378,6.09e-14,Coscinodiscus oculus-iridis
+376,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,radiatus,,,Derek S.Harbour,214,1462.0,42419.1861953682,4.24e-14,Coscinodiscus radiatus
+377,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,radiatus,,,Derek S.Harbour,214,2816.7473004888802,100530.96491487301,1.01e-13,Coscinodiscus radiatus
+378,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,radiatus,,,Derek S.Harbour,214,579.961943648833,12566.370614359199,1.26e-14,Coscinodiscus radiatus
+379,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,radiatus,,,Derek S.Harbour,214,580.0,12567.4556110673,1.26e-14,Coscinodiscus radiatus
+380,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,radiatus,,,Derek S.Harbour,214,7000.0,333040.78463923,3.33e-13,Coscinodiscus radiatus
+381,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,radiatus,,,Derek S.Harbour,214,872.68140070528,21513.194058882098,2.15e-14,Coscinodiscus radiatus
+382,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,thorii,,,Derek S.Harbour,215,3954.1314842827705,157079.632679489,1.57e-13,Coscinodiscus thorii
+383,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,wailesii,,,Derek S.Harbour,216,44540.058661699695,3801327.11084364,3.80e-12,Coscinodiscus wailesii
+384,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,wailesii,,,Derek S.Harbour,216,49929.984380275,4417864.66911064,4.42e-12,Coscinodiscus wailesii
+385,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,wailesii,,,Derek S.Harbour,216,99150.0,10895000.668717802,1.09e-11,Coscinodiscus wailesii
+387,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Heliopeltaceae,Actinoptychus,senarius,,,Derek S.Harbour,218,239.59928246989298,3926.99081698724,3.93e-15,Actinoptychus senarius
+388,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Heliopeltaceae,Actinoptychus,senarius,,,Derek S.Harbour,218,600.0,13140.7473760556,1.31e-14,Actinoptychus senarius
+389,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Heliopeltaceae,Actinoptychus,undulatus,,,Derek S.Harbour,219,170.67986605371098,2513.27412287183,2.51e-15,Actinoptychus undulatus
+390,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Heliopeltaceae,Actinoptychus,undulatus,,,Derek S.Harbour,219,70.1047729784909,779.422863405995,7.79e-16,Actinoptychus undulatus
+391,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Hemidiscaceae,Actinocyclus,adriaticus,,,Derek S.Harbour,220,402.671653195553,7775.441817634741,7.78e-15,Actinocyclus adriaticus
+396,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Hemidiscaceae,Azpeitia,africana,,,Derek S.Harbour,224,402.671653195553,7775.441817634741,7.78e-15,Azpeitia africana
+399,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Hemidiscaceae,Pseudoguinardia,recta,,,Derek S.Harbour,226,2544.91925170542,87964.59430051429,8.80e-14,Pseudoguinardia recta
+400,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Hemidiscaceae,Roperia,tesselata,,,Derek S.Harbour,227,580.0,12567.4556110673,1.26e-14,Roperia tesselata
+401,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Hemidiscaceae,Roperia,tesselata,,,Derek S.Harbour,227,640.288406040592,14313.8815279185,1.43e-14,Roperia tesselata
+402,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Hemidiscaceae,Roperia,tesselata,,,Derek S.Harbour,227,687.149297037058,15707.963267948899,1.57e-14,Roperia tesselata
+403,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Coscinodiscales,Hemidiscaceae,Roperia,tesselata,,,Derek S.Harbour,227,941.064948841756,23758.294442772796,2.38e-14,Roperia tesselata
+404,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,Asterionella,bleakeleyi,,,Derek S.Harbour,228,33.9322105846583,300.0,3.00e-16,Asterionella bleakeleyi
+406,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,Asterionella,formosa,,,Derek S.Harbour,229,5.8967423675317505,30.0,3.00e-17,Asterionella formosa
+407,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,Asterionella,glacialis,,,Derek S.Harbour,230,53.0,539.4384933476159,5.39e-16,Asterionella glacialis
+408,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,Asterionella,glacialis,,,Derek S.Harbour,230,61.5650308769287,656.9689898685959,6.57e-16,Asterionella glacialis
+409,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,Asterionella,glacialis,,,Derek S.Harbour,230,79.6575901682067,922.088453960007,9.22e-16,Asterionella glacialis
+410,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,Asterionellopsis,glacialis,,,Derek S.Harbour,231,139.113168074386,1920.3450247038602,1.92e-15,Asterionellopsis glacialis
+411,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,Asterionellopsis,glacialis,,,Derek S.Harbour,231,172.0,2538.8830331418303,2.54e-15,Asterionellopsis glacialis
+412,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,Asterionellopsis,glacialis,,,Derek S.Harbour,231,172.58982683272498,2550.34502470387,2.55e-15,Asterionellopsis glacialis
+413,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,Asterionellopsis,glacialis,,,Derek S.Harbour,231,53.0,539.4384933476159,5.39e-16,Asterionellopsis glacialis
+414,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,Diatoma,tenuis,,,Derek S.Harbour,232,1.05702684349127,3.125,3.13e-18,Diatoma tenuis
+420,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Bellerocheaceae,Bellerochea,malleus,,,Derek S.Harbour,237,885.233643269628,21921.2680332936,2.19e-14,Bellerochea malleus
+421,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Bellerocheaceae,Neostreptotheca,subindica,,,Derek S.Harbour,238,331.0,6007.87716211109,6.01e-15,Neostreptotheca subindica
+427,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Bellerocheaceae,Streptotheca,tamesis,,,Derek S.Harbour,242,331.0,6007.87716211109,6.01e-15,Streptotheca tamesis
+428,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Cerataulina,bergonii,,,Derek S.Harbour,243,1272.6524570342501,35342.917352885095,3.53e-14,Cerataulina bergonii
+430,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Cerataulina,pelagica,,,Derek S.Harbour,245,1308.09116256678,36643.5367114712,3.66e-14,Cerataulina pelagica
+431,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Cerataulina,pelagica,,,Derek S.Harbour,245,1808.6248792947101,56123.2437594426,5.61e-14,Cerataulina pelagica
+432,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Cerataulina,pelagica,,,Derek S.Harbour,245,300.981066807607,5301.43760293278,5.30e-15,Cerataulina pelagica
+433,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Cerataulina,pelagica,,,Derek S.Harbour,245,32.9672682965719,288.82546220042997,2.89e-16,Cerataulina pelagica
+434,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Cerataulina,pelagica,,,Derek S.Harbour,245,395.43821280908304,7592.182246175309,7.59e-15,Cerataulina pelagica
+435,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Cerataulina,pelagica,,,Derek S.Harbour,245,500.0,10337.9449745302,1.03e-14,Cerataulina pelagica
+436,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Cerataulina,pelagica,,,Derek S.Harbour,245,561.503035394327,12042.7718387609,1.20e-14,Cerataulina pelagica
+437,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Cerataulina,pelagica,,,Derek S.Harbour,245,988.9562057832111,25361.815693042598,2.54e-14,Cerataulina pelagica
+438,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Cerataulina,pelagica,,Small,Derek S.Harbour,246,561.503035394327,12042.7718387609,1.20e-14,Cerataulina pelagica
+439,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Climacodium,frauenfeldianum,,,Derek S.Harbour,247,1092.2263558705001,28902.6524130259,2.89e-14,Climacodium frauenfeldianum
+440,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Climacodium,frauenfeldianum,,,Derek S.Harbour,247,1092.22635587051,28902.6524130262,2.89e-14,Climacodium frauenfeldianum
+441,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Climacodium,membranacea,,,Derek S.Harbour,248,498.333333333333,10292.6269929135,1.03e-14,Climacodium membranacea
+442,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Eucampia,antarctica,,,Derek S.Harbour,249,363.093733894594,6785.84013175395,6.79e-15,Eucampia antarctica
+443,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Eucampia,cornuta,,,Derek S.Harbour,250,221.161649454405,3534.29173528851,3.53e-15,Eucampia cornuta
+444,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Eucampia,cornuta,,,Derek S.Harbour,250,766.6787296167281,18142.697574481102,1.81e-14,Eucampia cornuta
+446,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Eucampia,groenlandica,,,Derek S.Harbour,252,11.3107816088937,70.6858347057702,7.07e-17,Eucampia groenlandica
+447,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Eucampia,groenlandica,,,Derek S.Harbour,252,118.50423046491801,1555.08836352694,1.56e-15,Eucampia groenlandica
+448,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Eucampia,groenlandica,,,Derek S.Harbour,252,173.11528610022498,2560.56659895555,2.56e-15,Eucampia groenlandica
+449,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Eucampia,groenlandica,,,Derek S.Harbour,252,32.6435471817253,285.099533313273,2.85e-16,Eucampia groenlandica
+450,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Eucampia,zodiacus,,,Derek S.Harbour,253,273.0,4662.674106615829,4.66e-15,Eucampia zodiacus
+451,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Hemiaulus,hauckii,,,Derek S.Harbour,254,141.0,1954.68949882233,1.95e-15,Hemiaulus hauckii
+452,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Hemiaulus,hauckii,,,Derek S.Harbour,254,141.482497140362,1963.4954084936103,1.96e-15,Hemiaulus hauckii
+454,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Hemiaulus,membranaceus,,,Derek S.Harbour,256,141.482497140362,1963.4954084936103,1.96e-15,Hemiaulus membranaceus
+455,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Hemiaulus,membranaceus,,,Derek S.Harbour,256,498.911812925921,10308.3508945915,1.03e-14,Hemiaulus membranaceus
+456,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Hemiaulus,sinensis,,,Derek S.Harbour,257,142.482497140362,1981.7762930645602,1.98e-15,Hemiaulus sinensis
+457,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,danicus,,,Derek S.Harbour,258,14.0,93.58820109688021,9.36e-17,Leptocylindrus danicus
+458,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,danicus,,,Derek S.Harbour,258,144.055778394974,2010.6192982974699,2.01e-15,Leptocylindrus danicus
+459,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,danicus,,,Derek S.Harbour,258,196.046927521483,3015.9289474462,3.02e-15,Leptocylindrus danicus
+460,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,danicus,,,Derek S.Harbour,258,25.0,200.70243566571,2.01e-16,Leptocylindrus danicus
+461,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,danicus,,,Derek S.Harbour,258,26.0678234271532,212.05750411731097,2.12e-16,Leptocylindrus danicus
+462,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,danicus,,,Derek S.Harbour,258,45.232810400697495,437.911428167019,4.38e-16,Leptocylindrus danicus
+463,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,danicus,,,Derek S.Harbour,258,49.0,486.51933594824897,4.87e-16,Leptocylindrus danicus
+464,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,danicus,,,Derek S.Harbour,258,49.332954196489894,490.873852123405,4.91e-16,Leptocylindrus danicus
+465,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,mediterraneus,,,Derek S.Harbour,259,14.0,93.58820109688021,9.36e-17,Leptocylindrus mediterraneus
+466,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,mediterraneus,,,Derek S.Harbour,259,144.055778394974,2010.6192982974699,2.01e-15,Leptocylindrus mediterraneus
+467,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,mediterraneus,,,Derek S.Harbour,259,59.5136655379872,628.318530717957,6.28e-16,Leptocylindrus mediterraneus
+468,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,minimus,,,Derek S.Harbour,260,11.0,68.141458949981,6.81e-17,Leptocylindrus minimus
+469,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,minimus,,,Derek S.Harbour,260,11.3107816088937,70.6858347057702,7.07e-17,Leptocylindrus minimus
+470,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,minimus,,,Derek S.Harbour,260,12.0,76.4070123772103,7.64e-17,Leptocylindrus minimus
+471,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,minimus,,,Derek S.Harbour,260,14.0,93.58820109688021,9.36e-17,Leptocylindrus minimus
+472,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,minimus,,,Derek S.Harbour,260,4.2727031064581,19.6349540849362,1.96e-17,Leptocylindrus minimus
+473,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Leptocylindrales,Leptocylindraceae,Leptocylindrus,minimus,,,Derek S.Harbour,260,5.517724642102211,27.4889357189107,2.75e-17,Leptocylindrus minimus
+476,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Lithodesmiales,Lithodesmiaceae,Ditylum,brightwellii,,,Derek S.Harbour,262,1044.0,27235.304493122403,2.72e-14,Ditylum brightwellii
+477,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Lithodesmiales,Lithodesmiaceae,Ditylum,brightwellii,,,Derek S.Harbour,262,809.435026991648,19485.5715851498,1.95e-14,Ditylum brightwellii
+478,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Lithodesmiales,Lithodesmiaceae,Ditylum,brightwellii,,,Derek S.Harbour,262,850.127027830643,20784.6096908265,2.08e-14,Ditylum brightwellii
+479,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Lithodesmiales,Lithodesmiaceae,Ditylum,brightwellii,,,Derek S.Harbour,262,876.9153790977671,21650.635094611,2.17e-14,Ditylum brightwellii
+480,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Lithodesmiales,Lithodesmiaceae,Helicotheca,tamesis,,,Derek S.Harbour,263,331.0,6007.87716211109,6.01e-15,Helicotheca tamesis
+482,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Lithodesmiales,Lithodesmiaceae,Lithodesmium,undulatum,,,Derek S.Harbour,265,258.07175985235403,4330.12701892219,4.33e-15,Lithodesmium undulatum
+487,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Mastogloiales,Mastogloiaceae,Mastogloia,rostrata,,,Derek S.Harbour,269,133.93221058465798,1826.79930707374,1.83e-15,Mastogloia rostrata
+488,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Melosirales,Hyalodiscaceae,Podosira,stelliger,,,Derek S.Harbour,270,2032.7808597911899,65449.8469497872,6.54e-14,Podosira stelliger
+489,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Melosirales,Hyalodiscaceae,Podosira,stelliger,,,Derek S.Harbour,270,2033.0,65459.1309243841,6.55e-14,Podosira stelliger
+490,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Melosirales,Hyalodiscaceae,Podosira,stelliger,,,Derek S.Harbour,270,982.160114266619,25132.741228718398,2.51e-14,Podosira stelliger
+492,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Melosirales,Melosiraceae,Melosira,varians,,,Derek S.Harbour,272,405.759138553614,7853.98163397448,7.85e-15,Melosira varians
+493,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Melosirales,Stephanopyxidaceae,Stephanopyxis,palmeriana,,,Derek S.Harbour,273,1556.84646104853,46076.692252650195,4.61e-14,Stephanopyxis palmeriana
+494,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Melosirales,Stephanopyxidaceae,Stephanopyxis,palmeriana,,,Derek S.Harbour,273,2906.0,104743.19149167699,1.05e-13,Stephanopyxis palmeriana
+495,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Melosirales,Stephanopyxidaceae,Stephanopyxis,turris,,,Derek S.Harbour,274,1074.13337356764,28274.333882308198,2.83e-14,Stephanopyxis turris
+496,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Melosirales,Stephanopyxidaceae,Stephanopyxis,turris,,,Derek S.Harbour,274,1272.6524570342501,35342.917352885095,3.53e-14,Stephanopyxis turris
+497,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Melosirales,Stephanopyxidaceae,Stephanopyxis,turris,,,Derek S.Harbour,274,1870.01310549284,58643.0628670094,5.86e-14,Stephanopyxis turris
+498,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Melosirales,Stephanopyxidaceae,Stephanopyxis,turris,,,Derek S.Harbour,274,2906.0,104743.19149167699,1.05e-13,Stephanopyxis turris
+499,Diatom,Chromista,Ochrophyta,Bacillariophyceae,,,Bacterosira,bathyomphala,,10μm,Derek S.Harbour,275,162.51013961838,2356.19449019234,2.36e-15,Bacterosira bathyomphala
+500,Diatom,Chromista,Ochrophyta,Bacillariophyceae,,,Bacterosira,bathyomphala,,,Derek S.Harbour,276,38.4334897709444,353.42917352885104,3.53e-16,Bacterosira bathyomphala
+501,Diatom,Chromista,Ochrophyta,Bacillariophyceae,,,Bacterosira,bathyomphala,,,Derek S.Harbour,276,93.0301676991263,1130.97335529233,1.13e-15,Bacterosira bathyomphala
+503,Diatom,Chromista,Ochrophyta,Bacillariophyceae,,,Nanoneis,hasleae,,,Derek S.Harbour,278,2.0,7.231859736202019,7.23e-18,Nanoneis hasleae
+504,Diatom,Chromista,Ochrophyta,Bacillariophyceae,,,Nanoneis,hasleae,,,Derek S.Harbour,278,2.22752328733189,8.333333333333321,8.33e-18,Nanoneis hasleae
+505,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Diploneidaceae,Diploneis,crabro,,,Derek S.Harbour,279,163.0,2365.54415211644,2.37e-15,Diploneis crabro
+506,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Haslea,wawrikae,,,Derek S.Harbour,280,46.1786795590722,450.0,4.50e-16,Haslea wawrikae
+507,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Membraneis,challengeri,,,Derek S.Harbour,281,1519.68322728026,44634.9540849362,4.46e-14,Membraneis challengeri
+510,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Meuniera,membranacea,,,Derek S.Harbour,283,327.60764913556096,5926.99081698725,5.93e-15,Meuniera membranacea
+511,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Meuniera,membranacea,,,Derek S.Harbour,283,377.471578294108,7141.59265358979,7.14e-15,Meuniera membranacea
+512,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Meuniera,membranacea,,,Derek S.Harbour,283,531.291234505081,11197.521601036002,1.12e-14,Meuniera membranacea
+513,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Meuniera,membranacea,,,Derek S.Harbour,283,626.0,13895.0772231357,1.39e-14,Meuniera membranacea
+514,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Meuniera,membranacea,,,Derek S.Harbour,283,803.0,19281.9979903635,1.93e-14,Meuniera membranacea
+515,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Navicula,directa,,,Derek S.Harbour,284,162.010464566219,2346.66666666666,2.35e-15,Navicula directa
+516,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Navicula,distans,,,Derek S.Harbour,285,151.0,2139.10855882341,2.14e-15,Navicula distans
+519,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Navicula,planamembranacea,,,Derek S.Harbour,287,1196.0259331265,32569.9111843079,3.26e-14,Navicula planamembranacea
+520,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Navicula,planamembranacea,,,Derek S.Harbour,287,462.968215933265,9342.47779607694,9.34e-15,Navicula planamembranacea
+521,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Navicula,planamembranacea,,,Derek S.Harbour,287,463.0,9343.321735893442,9.34e-15,Navicula planamembranacea
+522,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Navicula,septentrionalis,,,Derek S.Harbour,288,68.0842347052503,750.0,7.50e-16,Navicula septentrionalis
+523,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Navicula,vanhoeffenii,,,Derek S.Harbour,289,56.3732921412035,585.061929829746,5.85e-16,Navicula vanhoeffenii
+527,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Pleurosigmataceae,Pleurosigma,directum,,,Derek S.Harbour,293,246.66170204642398,4080.0000000000105,4.08e-15,Pleurosigma directum
+528,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Pleurosigmataceae,Pleurosigma,directum,,,Derek S.Harbour,293,781.321612335421,18600.000000000102,1.86e-14,Pleurosigma directum
+534,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Pleurosigmataceae,Pleurosigma,planctonicum,,,Derek S.Harbour,297,1254.1029351269099,34666.6666666666,3.47e-14,Pleurosigma planctonicum
+535,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Pleurosigmataceae,Pleurosigma,planctonicum,,,Derek S.Harbour,297,2428.0,82686.0940047725,8.27e-14,Pleurosigma planctonicum
+536,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Pleurosigmataceae,Pleurosigma,planctonicum,,,Derek S.Harbour,297,850.60539823989,20800.0,2.08e-14,Pleurosigma planctonicum
+537,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Naviculales,Pleurosigmataceae,Pleurosigma,simonsenii,,,Derek S.Harbour,298,1254.1029351269099,34666.6666666666,3.47e-14,Pleurosigma simonsenii
+538,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Paraliales,Paraliaceae,Paralia,sulcata,,,Derek S.Harbour,299,202.0,3137.0031861625102,3.14e-15,Paralia sulcata
+540,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Paraliales,Paraliaceae,Paralia,sulcata,,,Derek S.Harbour,299,70.5128567251103,785.398163397449,7.85e-16,Paralia sulcata
+541,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhaponeidales,Rhaphoneidaceae,Rhaphoneis,amphiceros,,,Derek S.Harbour,301,46.3759382646121,452.530964914873,4.53e-16,Rhaphoneis amphiceros
+542,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhaponeidales,Rhaphoneidaceae,Rhaphoneis,surirella,,,Derek S.Harbour,302,23.618769737098102,186.24102712875302,1.86e-16,Rhaphoneis surirella
+543,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Dactyliosolen,antarcticus,,,Derek S.Harbour,303,935.148245586536,23561.9449019235,2.36e-14,Dactyliosolen antarcticus
+544,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Dactyliosolen,blavyanus,,,Derek S.Harbour,304,2724.27996968919,96211.2750161875,9.62e-14,Dactyliosolen blavyanus
+545,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Dactyliosolen,blavyanus,,,Derek S.Harbour,304,3337.0,125647.22561692199,1.26e-13,Dactyliosolen blavyanus
+546,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Dactyliosolen,fragilissimus,,,Derek S.Harbour,305,128.0,1721.0860782682,1.72e-15,Dactyliosolen fragilissimus
+547,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Dactyliosolen,fragilissimus,,,Derek S.Harbour,305,14.0,93.58820109688021,9.36e-17,Dactyliosolen fragilissimus
+548,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Dactyliosolen,fragilissimus,,,Derek S.Harbour,305,204.14282833062902,3180.86256175966,3.18e-15,Dactyliosolen fragilissimus
+549,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Dactyliosolen,fragilissimus,,,Derek S.Harbour,305,338.0,6175.610099661011,6.18e-15,Dactyliosolen fragilissimus
+552,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Dactyliosolen,phuketensis,,,Derek S.Harbour,307,266.802194391909,4523.8934211692995,4.52e-15,Dactyliosolen phuketensis
+553,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Dactyliosolen,phuketensis,,,Derek S.Harbour,307,730.461331365204,17023.5051916397,1.70e-14,Dactyliosolen phuketensis
+555,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,blavyana,,,Derek S.Harbour,309,687.149297037058,15707.963267948899,1.57e-14,Guinardia blavyana
+556,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,cylindrus,,,Derek S.Harbour,310,113.69707095420799,1472.62155637022,1.47e-15,Guinardia cylindrus
+557,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,delicatula,,,Derek S.Harbour,311,338.0,6175.610099661011,6.18e-15,Guinardia delicatula
+558,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,delicatula,,,Derek S.Harbour,311,74.7601844154325,848.2300164692439,8.48e-16,Guinardia delicatula
+559,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,flaccida,,,Derek S.Harbour,312,1633.5676449132998,49087.3852123405,4.91e-14,Guinardia flaccida
+560,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,flaccida,,,Derek S.Harbour,312,1933.1262042052201,61261.0567450007,6.13e-14,Guinardia flaccida
+561,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,flaccida,,,Derek S.Harbour,312,2707.36170152185,95425.87685279,9.54e-14,Guinardia flaccida
+562,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,flaccida,,,Derek S.Harbour,312,3833.3391413929207,150796.44737231,1.51e-13,Guinardia flaccida
+563,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,flaccida,,,Derek S.Harbour,312,6376.0,294538.798601321,2.95e-13,Guinardia flaccida
+564,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,flaccida,,,Derek S.Harbour,312,8411.773445419742,424115.008234622,4.24e-13,Guinardia flaccida
+565,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,striata,,,Derek S.Harbour,313,142.0,1972.9507424839499,1.97e-15,Guinardia striata
+566,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,striata,,,Derek S.Harbour,313,275.209397866487,4712.38898038469,4.71e-15,Guinardia striata
+567,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,striata,,,Derek S.Harbour,313,3649.8533393290004,141371.66941154,1.41e-13,Guinardia striata
+568,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,striata,,,Derek S.Harbour,313,375.0,7080.12852945218,7.08e-15,Guinardia striata
+569,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,10μm,Derek S.Harbour,314,1234.0,33937.3433040142,3.39e-14,Proboscia alata
+570,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,10μm,Derek S.Harbour,314,814.146792887546,19634.954084936202,1.96e-14,Proboscia alata
+571,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,10μm,Derek S.Harbour,314,935.148245586536,23561.9449019235,2.36e-14,Proboscia alata
+572,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,15μm,Derek S.Harbour,315,1947.23666010435,61850.1053675492,6.19e-14,Proboscia alata
+573,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,15μm,Derek S.Harbour,315,2155.22500452081,70685.8347057701,7.07e-14,Proboscia alata
+574,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,15μm,Derek S.Harbour,315,2475.54237077275,84823.0016469242,8.48e-14,Proboscia alata
+575,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,25μm,Derek S.Harbour,316,80.99273353876549,942.477796076938,9.42e-16,Proboscia alata
+576,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,2μm,Derek S.Harbour,317,11608.4252916802,647953.4848028921,6.48e-13,Proboscia alata
+578,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,5μm,Derek S.Harbour,318,283.88152071485,4908.7385212340505,4.91e-15,Proboscia alata
+579,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,5μm,Derek S.Harbour,318,326.0,5888.75055237857,5.89e-15,Proboscia alata
+580,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,5μm,Derek S.Harbour,318,405.759138553614,7853.98163397448,7.85e-15,Proboscia alata
+581,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,5μm,Derek S.Harbour,318,466.064535123123,9424.77796076938,9.42e-15,Proboscia alata
+582,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,auxospore ,Derek S.Harbour,319,374.53517989976405,7068.58347057702,7.07e-15,Proboscia alata
+583,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,,Derek S.Harbour,320,119.0,1563.65428268879,1.56e-15,Proboscia alata
+584,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,,Derek S.Harbour,320,1233.0,33901.1612259454,3.39e-14,Proboscia alata
+585,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,,Derek S.Harbour,320,1234.0,33937.3433040142,3.39e-14,Proboscia alata
+586,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,alata,,,Derek S.Harbour,320,666.157993679003,15079.644737231001,1.51e-14,Proboscia alata
+587,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,inermis,,,Derek S.Harbour,321,579.961943648833,12566.370614359199,1.26e-14,Proboscia inermis
+588,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Coccolithales,Calcidiscaceae,Calcidiscus,leptoporus,,,Derek S.Harbour,322,340.0,2144.6703614824696,2.14e-15,Calcidiscus leptoporus
+589,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Proboscia,truncata,,,Derek S.Harbour,323,4967.0,212050.687186854,2.12e-13,Proboscia truncata
+590,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,bergonii,,,Derek S.Harbour,324,2681.92146886321,94247.7796076937,9.42e-14,Rhizosolenia bergonii
+591,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,bergonii,,,Derek S.Harbour,324,3764.86386143526,147262.155637022,1.47e-13,Rhizosolenia bergonii
+592,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,calcar-avis,,,Derek S.Harbour,325,2475.54237077275,84823.0016469242,8.48e-14,Rhizosolenia calcar-avis
+593,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,calcar-avis,,,Derek S.Harbour,325,405.759138553614,7853.98163397448,7.85e-15,Rhizosolenia calcar-avis
+594,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,calcar-avis,,,Derek S.Harbour,325,935.148245586536,23561.9449019235,2.36e-14,Rhizosolenia calcar-avis
+595,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,castracanei,,,Derek S.Harbour,326,32830.8795363112,2544690.04940773,2.54e-12,Rhizosolenia castracanei
+596,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,castracanei,,,Derek S.Harbour,326,4967.12135432426,212057.504117312,2.12e-13,Rhizosolenia castracanei
+597,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,chunii,,,Derek S.Harbour,327,400.0,7707.63324378775,7.71e-15,Rhizosolenia chunii
+598,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,chunii,,,Derek S.Harbour,327,676.679350942101,15393.804002589899,1.54e-14,Rhizosolenia chunii
+599,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,cylindrus,,,Derek S.Harbour,328,113.69707095420799,1472.62155637022,1.47e-15,Rhizosolenia cylindrus
+600,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,cylindrus,,,Derek S.Harbour,328,150.004666794371,2120.57504117311,2.12e-15,Rhizosolenia cylindrus
+601,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Coccolithales,Calcidiscaceae,Calcidiscus,leptoporus,,,Derek S.Harbour,322,90.33555247654341,523.5987755982981,5.24e-16,Calcidiscus leptoporus
+602,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Coccolithales,Calcidiscaceae,Calcidiscus,leptoporus,,,Derek S.Harbour,322,90.3355524765435,523.598775598299,5.24e-16,Calcidiscus leptoporus
+603,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,delicatula,,,Derek S.Harbour,329,182.709034877144,2748.8935718910802,2.75e-15,Rhizosolenia delicatula
+604,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,delicatula,,,Derek S.Harbour,329,202.22456190711998,3141.59265358979,3.14e-15,Rhizosolenia delicatula
+605,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,delicatula,,,Derek S.Harbour,329,338.0,6175.610099661011,6.18e-15,Rhizosolenia delicatula
+606,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,delicatula,,,Derek S.Harbour,329,84.05236235632421,989.601685880784,9.90e-16,Rhizosolenia delicatula
+607,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,fragilissima,,,Derek S.Harbour,330,128.0,1721.0860782682,1.72e-15,Rhizosolenia fragilissima
+608,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,fragilissima,,,Derek S.Harbour,330,130.153785429438,1759.29188601029,1.76e-15,Rhizosolenia fragilissima
+609,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,fragilissima,,,Derek S.Harbour,330,144.055778394974,2010.6192982974699,2.01e-15,Rhizosolenia fragilissima
+610,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,fragilissima,,,Derek S.Harbour,330,338.0,6175.610099661011,6.18e-15,Rhizosolenia fragilissima
+611,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,fragilissima,,,Derek S.Harbour,330,59.5136655379872,628.318530717957,6.28e-16,Rhizosolenia fragilissima
+612,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,fragilissima,,,Derek S.Harbour,330,60.0,635.083153511714,6.35e-16,Rhizosolenia fragilissima
+613,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,fragilissima,,,Derek S.Harbour,330,60.71669340982161,645.083505079823,6.45e-16,Rhizosolenia fragilissima
+614,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,fragilissima,,,Derek S.Harbour,330,74.7601844154325,848.2300164692439,8.48e-16,Rhizosolenia fragilissima
+615,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,fragilissima,,,Derek S.Harbour,330,84.05236235632421,989.601685880784,9.90e-16,Rhizosolenia fragilissima
+616,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,hebetata,hebetata,,Derek S.Harbour,331,326.0,5888.75055237857,5.89e-15,Rhizosolenia hebetata
+617,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Coccolithales,Calcidiscaceae,Calcidiscus,leptoporus,rigidus,,Derek S.Harbour,332,173.311308380345,1047.1975511966,1.05e-15,Calcidiscus leptoporus
+618,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,hebetata,,10μm,Derek S.Harbour,333,935.148245586536,23561.9449019235,2.36e-14,Rhizosolenia hebetata
+619,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,hebetata,,,Derek S.Harbour,334,935.148245586536,23561.9449019235,2.36e-14,Rhizosolenia hebetata
+620,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,hebetata,semispina,,Derek S.Harbour,335,326.0,5888.75055237857,5.89e-15,Rhizosolenia hebetata
+621,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,hebetata,semispina,,Derek S.Harbour,335,326.073023157628,5890.48622548086,5.89e-15,Rhizosolenia hebetata
+622,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,hebetata,semispina,,Derek S.Harbour,335,935.0,23557.030304122796,2.36e-14,Rhizosolenia hebetata
+623,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,hebetata,X,10μm,Derek S.Harbour,336,935.148245586536,23561.9449019235,2.36e-14,Rhizosolenia hebetata
+624,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,hebetata,X,30μm,Derek S.Harbour,337,9255.36368399841,480946.419338061,4.81e-13,Rhizosolenia hebetata
+625,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,hyalina,,,Derek S.Harbour,338,1583.66478662888,47123.889803846796,4.71e-14,Rhizosolenia hyalina
+626,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,hyalina,,,Derek S.Harbour,338,794.2696866364109,19006.6355542183,1.90e-14,Rhizosolenia hyalina
+627,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,hyalina,,,Derek S.Harbour,338,9571.17132166635,502654.824574367,5.03e-13,Rhizosolenia hyalina
+628,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,imbricata,,10μm,Derek S.Harbour,339,405.759138553614,7853.98163397448,7.85e-15,Rhizosolenia imbricata
+629,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,imbricata,,10μm,Derek S.Harbour,339,935.0,23557.030304122796,2.36e-14,Rhizosolenia imbricata
+630,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,imbricata,,15μm,Derek S.Harbour,340,1560.0,46199.5376621608,4.62e-14,Rhizosolenia imbricata
+631,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,imbricata,,2μm,Derek S.Harbour,341,80.99273353876549,942.477796076938,9.42e-16,Rhizosolenia imbricata
+632,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,imbricata,,5μm,Derek S.Harbour,342,162.51013961838,2356.19449019234,2.36e-15,Rhizosolenia imbricata
+633,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,imbricata,,5μm,Derek S.Harbour,342,232.279910618121,3769.91118430776,3.77e-15,Rhizosolenia imbricata
+634,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Coccolithales,Calcidiscaceae,Umbilicosphaera,hulburtiana,,,Derek S.Harbour,343,12.7924614587461,65.4498469497871,6.54e-17,Umbilicosphaera hulburtiana
+635,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,imbricata,,5μm,Derek S.Harbour,342,326.0,5888.75055237857,5.89e-15,Rhizosolenia imbricata
+636,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,imbricata,,5μm,Derek S.Harbour,342,405.759138553614,7853.98163397448,7.85e-15,Rhizosolenia imbricata
+637,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,imbricata,,,Derek S.Harbour,344,326.0,5888.75055237857,5.89e-15,Rhizosolenia imbricata
+638,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,imbricata,,,Derek S.Harbour,344,326.073023157628,5890.48622548086,5.89e-15,Rhizosolenia imbricata
+639,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,imbricata,,,Derek S.Harbour,344,687.149297037058,15707.963267948899,1.57e-14,Rhizosolenia imbricata
+640,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,pungens,,10μm,Derek S.Harbour,345,935.148245586536,23561.9449019235,2.36e-14,Rhizosolenia pungens
+641,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,pungens,,25μm,Derek S.Harbour,346,3764.86386143526,147262.155637022,1.47e-13,Rhizosolenia pungens
+642,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,pungens,,5μm,Derek S.Harbour,347,283.88152071485,4908.7385212340505,4.91e-15,Rhizosolenia pungens
+643,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,pungens,,,Derek S.Harbour,348,405.759138553614,7853.98163397448,7.85e-15,Rhizosolenia pungens
+644,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,robusta,,,Derek S.Harbour,349,15220.9349645195,925486.6776461629,9.25e-13,Rhizosolenia robusta
+645,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,robusta,,,Derek S.Harbour,349,29607.5092765331,2221168.02635078,2.22e-12,Rhizosolenia robusta
+646,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,robusta,,,Derek S.Harbour,349,30540.0,2313669.69881949,2.31e-12,Rhizosolenia robusta
+647,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,setigera,,10μm,Derek S.Harbour,350,814.146792887546,19634.954084936202,1.96e-14,Rhizosolenia setigera
+648,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,setigera,,25μm,Derek S.Harbour,351,2766.0,98154.6226100659,9.82e-14,Rhizosolenia setigera
+649,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,setigera,,25μm,Derek S.Harbour,351,3277.7175735631604,122718.463030852,1.23e-13,Rhizosolenia setigera
+650,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,setigera,,2μm,Derek S.Harbour,352,70.5128567251103,785.398163397449,7.85e-16,Rhizosolenia setigera
+651,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,setigera,,5μm,Derek S.Harbour,353,171.0,2519.47858654512,2.52e-15,Rhizosolenia setigera
+652,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,setigera,,,Derek S.Harbour,354,202.22456190711998,3141.59265358979,3.14e-15,Rhizosolenia setigera
+653,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,setigera,,,Derek S.Harbour,354,283.88152071485,4908.7385212340505,4.91e-15,Rhizosolenia setigera
+654,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,setigera,,,Derek S.Harbour,354,80.99273353876549,942.477796076938,9.42e-16,Rhizosolenia setigera
+656,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,simplex,,,Derek S.Harbour,356,1022.71913227485,26507.1880146639,2.65e-14,Rhizosolenia simplex
+657,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,stolterfothii,,120μ,Derek S.Harbour,357,863.186760604341,21205.7504117311,2.12e-14,Rhizosolenia stolterfothii
+658,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,stolterfothii,,60μm,Derek S.Harbour,358,275.209397866487,4712.38898038469,4.71e-15,Rhizosolenia stolterfothii
+659,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,stolterfothii,, Large,Derek S.Harbour,359,1074.13337356764,28274.333882308198,2.83e-14,Rhizosolenia stolterfothii
+660,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,stolterfothii,, Large,Derek S.Harbour,359,1379.0,39279.279066210496,3.93e-14,Rhizosolenia stolterfothii
+661,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,stolterfothii,,,Derek S.Harbour,360,142.0,1972.9507424839499,1.97e-15,Rhizosolenia stolterfothii
+662,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,stolterfothii,,,Derek S.Harbour,360,1633.5676449132998,49087.3852123405,4.91e-14,Rhizosolenia stolterfothii
+663,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,stolterfothii,,,Derek S.Harbour,360,232.279910618121,3769.91118430776,3.77e-15,Rhizosolenia stolterfothii
+664,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,stolterfothii,,,Derek S.Harbour,360,730.461331365204,17023.5051916397,1.70e-14,Rhizosolenia stolterfothii
+666,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,stolterfothii,,Small,Derek S.Harbour,362,76.8553327247198,879.645943005142,8.80e-16,Rhizosolenia stolterfothii
+667,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,striata,,,Derek S.Harbour,363,489.49457931671503,10053.0964914873,1.01e-14,Rhizosolenia striata
+668,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,striata,,,Derek S.Harbour,363,935.148245586536,23561.9449019235,2.36e-14,Rhizosolenia striata
+669,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,styliformis,,,Derek S.Harbour,364,18285.1137639938,1178097.24509617,1.18e-12,Rhizosolenia styliformis
+670,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,styliformis,,,Derek S.Harbour,364,27123.0,1979233.37289525,1.98e-12,Rhizosolenia styliformis
+671,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,styliformis,,,Derek S.Harbour,364,4967.0,212050.687186854,2.12e-13,Rhizosolenia styliformis
+672,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,styliformis,,,Derek S.Harbour,364,4967.12135432426,212057.504117312,2.12e-13,Rhizosolenia styliformis
+673,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,styliformis,,,Derek S.Harbour,364,8411.773445419742,424115.008234622,4.24e-13,Rhizosolenia styliformis
+674,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Urosolenia,longiseta,,,Derek S.Harbour,365,421.087332813316,8246.68071567322,8.25e-15,Urosolenia longiseta
+675,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Coccolithales,Calcidiscaceae,Umbilicosphaera,sibogae,,,Derek S.Harbour,366,2001.4310969111398,14137.166941154099,1.41e-14,Umbilicosphaera sibogae
+677,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Striatellales,Striatellaceae,Striatella,unipunctata,,,Derek S.Harbour,368,258.475767015953,4339.04862254808,4.34e-15,Striatella unipunctata
+678,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Tabellariales,Tabellariaceae,Tabellaria,fenestrata,,,Derek S.Harbour,369,23.0,179.847765935022,1.80e-16,Tabellaria fenestrata
+679,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Lioloma,delicatulum,,,Derek S.Harbour,370,121.0,1598.3245159353698,1.60e-15,Lioloma delicatulum
+680,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Lioloma,delicatulum,,,Derek S.Harbour,370,132.43631980034598,1800.00000000001,1.80e-15,Lioloma delicatulum
+681,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Lioloma,delicatulum,,,Derek S.Harbour,370,42.0,397.202729487972,3.97e-16,Lioloma delicatulum
+682,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Lioloma,delicatulum,,,Derek S.Harbour,370,71.50697234738709,800.0,8.00e-16,Lioloma delicatulum
+683,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Lioloma,elongatum,,,Derek S.Harbour,371,559.986744622117,12000.0,1.20e-14,Lioloma elongatum
+684,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Lioloma,pacificum,,,Derek S.Harbour,372,559.986744622117,12000.0,1.20e-14,Lioloma pacificum
+685,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassionema,bacillare,,,Derek S.Harbour,373,28.6391776690104,240.0,2.40e-16,Thalassionema bacillare
+686,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassionema,frauenfeldii,,,Derek S.Harbour,374,48.5001788823043,480.00000000000097,4.80e-16,Thalassionema frauenfeldii
+687,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassionema,nitzschioides,,,Derek S.Harbour,375,100.0,1243.7607347260198,1.24e-15,Thalassionema nitzschioides
+688,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassionema,nitzschioides,,,Derek S.Harbour,375,14.7231250243272,100.0,1.00e-16,Thalassionema nitzschioides
+689,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassionema,nitzschioides,,,Derek S.Harbour,375,23.0,179.847765935022,1.80e-16,Thalassionema nitzschioides
+690,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassionema,nitzschioides,,,Derek S.Harbour,375,33.9322105846583,300.0,3.00e-16,Thalassionema nitzschioides
+691,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassionema,nitzschioides,,,Derek S.Harbour,375,34.0,300.78884977727404,3.01e-16,Thalassionema nitzschioides
+692,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassionema,nitzschioides,,,Derek S.Harbour,375,9.84724787261565,58.9048622548086,5.89e-17,Thalassionema nitzschioides
+693,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassiothrix,antarctica,,,Derek S.Harbour,376,122.0,1615.72780297573,1.62e-15,Thalassiothrix antarctica
+694,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassiothrix,antarctica,,,Derek S.Harbour,376,391.783877524376,7500.000000000021,7.50e-15,Thalassiothrix antarctica
+695,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Coccolithales,Coccolithaceae,Coccolithus,pelagicus,hyalinus,,Derek S.Harbour,377,173.311308380346,1047.1975511966,1.05e-15,Coccolithus pelagicus
+696,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Coccolithales,Coccolithaceae,Coccolithus,pelagicus,hyalinus,,Derek S.Harbour,377,233.0,1434.70171719047,1.43e-15,Coccolithus pelagicus
+697,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassiothrix,frauenfeldii,,,Derek S.Harbour,378,33.9322105846583,300.0,3.00e-16,Thalassiothrix frauenfeldii
+698,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassiothrix,longissima,,,Derek S.Harbour,379,121.0,1598.3245159353698,1.60e-15,Thalassiothrix longissima
+699,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassiothrix,longissima,,,Derek S.Harbour,379,122.0,1615.72780297573,1.62e-15,Thalassiothrix longissima
+700,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassiothrix,longissima,,,Derek S.Harbour,379,450.01222005257597,9000.0,9.00e-15,Thalassiothrix longissima
+702,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Lauderiaceae,Lauderia,annulata,,,Derek S.Harbour,381,1074.13337356764,28274.333882308198,2.83e-14,Lauderia annulata
+703,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Lauderiaceae,Lauderia,annulata,,,Derek S.Harbour,381,1484.8864620025,43295.0737572842,4.33e-14,Lauderia annulata
+704,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Lauderiaceae,Lauderia,annulata,,,Derek S.Harbour,381,342.465399678839,6283.18530717958,6.28e-15,Lauderia annulata
+705,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Lauderiaceae,Lauderia,annulata,,,Derek S.Harbour,381,466.064535123123,9424.77796076938,9.42e-15,Lauderia annulata
+706,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Lauderiaceae,Lauderia,annulata,,,Derek S.Harbour,381,579.961943648833,12566.370614359199,1.26e-14,Lauderia annulata
+707,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Lauderiaceae,Lauderia,annulata,,,Derek S.Harbour,381,634.0,14129.1958335566,1.41e-14,Lauderia annulata
+708,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Detonula,pumila,,,Derek S.Harbour,382,196.046927521483,3015.9289474462,3.02e-15,Detonula pumila
+709,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Detonula,pumila,,,Derek S.Harbour,382,338.0,6175.610099661011,6.18e-15,Detonula pumila
+710,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Detonula,pumila,,,Derek S.Harbour,382,481.0,9824.176426994709,9.82e-15,Detonula pumila
+711,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,costatum,,,Derek S.Harbour,383,11.879398384015698,75.3982236861549,7.54e-17,Skeletonema costatum
+712,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,costatum,,,Derek S.Harbour,383,16.9615889718386,120.46947548657101,1.20e-16,Skeletonema costatum
+713,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,costatum,,,Derek S.Harbour,383,30.595401463636303,261.79938779915,2.62e-16,Skeletonema costatum
+714,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,costatum,,,Derek S.Harbour,383,31.0,266.36423603905797,2.66e-16,Skeletonema costatum
+715,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,costatum,,,Derek S.Harbour,383,38.5656321806985,355.02894049290296,3.55e-16,Skeletonema costatum
+716,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,costatum,,,Derek S.Harbour,383,6.678975037567789,35.3429173528852,3.53e-17,Skeletonema costatum
+717,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,costatum,,,Derek S.Harbour,383,7.6,41.891233428277104,4.19e-17,Skeletonema costatum
+718,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Planktoniella,sol,,,Derek S.Harbour,384,137.160434918754,1884.95559215388,1.88e-15,Planktoniella sol
+719,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Planktoniella,sol,,,Derek S.Harbour,384,316.11201792122,5654.866776461629,5.65e-15,Planktoniella sol
+720,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Porosira,glacialis,,,Derek S.Harbour,385,1462.0,42419.1861953682,4.24e-14,Porosira glacialis
+722,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Porosira,pseudodenticulata,,,Derek S.Harbour,387,2481.34705061802,85084.8010347236,8.51e-14,Porosira pseudodenticulata
+723,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Coccolithales,Coccolithaceae,Coccolithus,pelagicus,,,Derek S.Harbour,388,130.716492430138,775.7346243950079,7.76e-16,Coccolithus pelagicus
+724,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,angulata,,,Derek S.Harbour,389,178.0,2656.0536621311803,2.66e-15,Thalassiosira angulata
+725,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Coccolithales,Coccolithaceae,Coccolithus,pelagicus,,,Derek S.Harbour,388,233.0,1434.70171719047,1.43e-15,Coccolithus pelagicus
+726,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,angulata,,,Derek S.Harbour,389,700.0,16095.628787606001,1.61e-14,Thalassiosira angulata
+727,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,anguste-lineata,,40μm,Derek S.Harbour,390,579.961943648833,12566.370614359199,1.26e-14,Thalassiosira anguste-lineata
+728,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,anguste-lineata,,,Derek S.Harbour,391,500.0,10337.9449745302,1.03e-14,Thalassiosira anguste-lineata
+729,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,anguste-lineata,,,Derek S.Harbour,391,543.787830525666,11545.3530019425,1.15e-14,Thalassiosira anguste-lineata
+730,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,anguste-lineata,,,Derek S.Harbour,391,581.0,12595.9739312446,1.26e-14,Thalassiosira anguste-lineata
+731,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,antarctica,,,Derek S.Harbour,392,70.5128567251103,785.398163397449,7.85e-16,Thalassiosira antarctica
+732,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,eccentrica,,,Derek S.Harbour,393,1462.0,42419.1861953682,4.24e-14,Thalassiosira eccentrica
+733,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,eccentrica,,,Derek S.Harbour,393,640.288406040592,14313.8815279185,1.43e-14,Thalassiosira eccentrica
+734,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,eccentrica,,,Derek S.Harbour,393,789.275920747849,18849.5559215387,1.88e-14,Thalassiosira eccentrica
+735,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,gracilis,,,Derek S.Harbour,394,130.595142497652,1767.14586764427,1.77e-15,Thalassiosira gracilis
+736,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,gravida,,15μm,Derek S.Harbour,395,130.595142497652,1767.14586764427,1.77e-15,Thalassiosira gravida
+737,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,gravida,,15μm,Derek S.Harbour,395,131.0,1774.35771216732,1.77e-15,Thalassiosira gravida
+738,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,gravida,,25μm,Derek S.Harbour,396,386.33715728972396,7363.107781851079,7.36e-15,Thalassiosira gravida
+739,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,gravida,,30μm,Derek S.Harbour,397,342.465399678839,6283.18530717958,6.28e-15,Thalassiosira gravida
+740,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,gravida,,30μm,Derek S.Harbour,397,510.0,10610.8513809782,1.06e-14,Thalassiosira gravida
+741,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,gravida,,40μm,Derek S.Harbour,398,580.0,12567.4556110673,1.26e-14,Thalassiosira gravida
+742,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,gravida,,,Derek S.Harbour,399,331.0,6007.87716211109,6.01e-15,Thalassiosira gravida
+743,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,gravida,,,Derek S.Harbour,399,509.708614858427,10602.8752058655,1.06e-14,Thalassiosira gravida
+744,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,gravida,,,Derek S.Harbour,399,510.0,10610.8513809782,1.06e-14,Thalassiosira gravida
+745,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,gravida,,,Derek S.Harbour,399,640.0,14305.398680628101,1.43e-14,Thalassiosira gravida
+746,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,gravida,,,Derek S.Harbour,399,640.288406040592,14313.8815279185,1.43e-14,Thalassiosira gravida
+747,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,hyalina,,,Derek S.Harbour,400,1462.0,42419.1861953682,4.24e-14,Thalassiosira hyalina
+748,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Coccosphaerales,Braarudosphaeraceae,Braarudosphaera,bigelowii,,,Derek S.Harbour,401,340.0,2144.6703614824696,2.14e-15,Braarudosphaera bigelowii
+756,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Coccosphaerales,Braarudosphaeraceae,Braarudosphaera,bigelowii,,,Derek S.Harbour,401,90.33555247654341,523.5987755982981,5.24e-16,Braarudosphaera bigelowii
+786,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,nordenskioeldii,,,Derek S.Harbour,426,178.0,2656.0536621311803,2.66e-15,Thalassiosira nordenskioeldii
+787,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,nordenskioeldii,,,Derek S.Harbour,426,386.33715728972396,7363.107781851079,7.36e-15,Thalassiosira nordenskioeldii
+788,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,nordenskioeldii,,,Derek S.Harbour,426,42.0,397.202729487972,3.97e-16,Thalassiosira nordenskioeldii
+789,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,oestrupii,,,Derek S.Harbour,427,130.595142497652,1767.14586764427,1.77e-15,Thalassiosira oestrupii
+790,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,oestrupii,,,Derek S.Harbour,427,301.810290394457,5320.66414997275,5.32e-15,Thalassiosira oestrupii
+791,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,partheneia,,,Derek S.Harbour,428,9.84724787261565,58.9048622548086,5.89e-17,Thalassiosira partheneia
+792,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,punctigera,,,Derek S.Harbour,429,1462.0,42419.1861953682,4.24e-14,Thalassiosira punctigera
+793,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,punctigera,,,Derek S.Harbour,429,1847.76479157185,57726.765009712304,5.77e-14,Thalassiosira punctigera
+795,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,rotula,,30μm,Derek S.Harbour,430,585.463360059,12723.450247038701,1.27e-14,Thalassiosira rotula
+796,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,rotula,,,Derek S.Harbour,431,500.0,10337.9449745302,1.03e-14,Thalassiosira rotula
+797,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,rotula,,,Derek S.Harbour,431,666.0,15074.9390428096,1.51e-14,Thalassiosira rotula
+798,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,subtilis,,,Derek S.Harbour,432,178.0,2656.0536621311803,2.66e-15,Thalassiosira subtilis
+799,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,subtilis,,,Derek S.Harbour,432,42.394886819685794,402.12385965949403,4.02e-16,Thalassiosira subtilis
+800,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,subtilis,,,Derek S.Harbour,432,59.5136655379872,628.318530717957,6.28e-16,Thalassiosira subtilis
+803,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Triceratiales,Triceratiaceae,Odontella,granulata,,,Derek S.Harbour,435,715.014992225969,16551.4376029328,1.66e-14,Odontella granulata
+804,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Triceratiales,Triceratiaceae,Odontella,longicruris,,,Derek S.Harbour,436,4169.102062402971,168411.500823462,1.68e-13,Odontella longicruris
+805,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Triceratiales,Triceratiaceae,Odontella,longicruris,,,Derek S.Harbour,436,419.0,8192.93489769169,8.19e-15,Odontella longicruris
+806,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Triceratiales,Triceratiaceae,Odontella,mobiliensis,,,Derek S.Harbour,437,3047.0,111480.93375257801,1.11e-13,Odontella mobiliensis
+807,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Triceratiales,Triceratiaceae,Odontella,mobiliensis,,,Derek S.Harbour,437,3438.2200789266,130685.83470577,1.31e-13,Odontella mobiliensis
+808,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Triceratiales,Triceratiaceae,Odontella,regia,,,Derek S.Harbour,438,3047.0,111480.93375257801,1.11e-13,Odontella regia
+809,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Triceratiales,Triceratiaceae,Odontella,regia,,,Derek S.Harbour,438,6146.77868741749,280685.83470577,2.81e-13,Odontella regia
+810,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Triceratiales,Triceratiaceae,Odontella,sinensis,,,Derek S.Harbour,439,6920.0,328041.71343999,3.28e-13,Odontella sinensis
+811,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Triceratiales,Triceratiaceae,Odontella,sinensis,,,Derek S.Harbour,439,8477.72270563429,428495.55921538704,4.28e-13,Odontella sinensis
+812,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Triceratiales,Triceratiaceae,Odontella,weissflogii,,,Derek S.Harbour,440,728.5877250836,16966.0749725451,1.70e-14,Odontella weissflogii
+814,Diatom,Chromista,Ochrophyta,Bacillariophyceae,Triceratiales,Triceratiaceae,Triceratium,punctatum,,,Derek S.Harbour,442,70.1047729784909,779.422863405995,7.79e-16,Triceratium punctatum
+819,Dinoflagellate,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Rhabdosphaeraceae,Discosphaera,tubifera,,,Derek S.Harbour,446,12.7924614587461,65.4498469497871,6.54e-17,Discosphaera tubifera
+823,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Citharistes,apsteinii,,,Derek S.Harbour,448,977.703156684756,6597.344572538571,6.60e-15,Citharistes apsteinii
+824,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,acuminata,,,Derek S.Harbour,449,1367.14588550648,9424.77796076938,9.42e-15,Dinophysis acuminata
+825,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,acuminata,,,Derek S.Harbour,449,2725.51198831335,19634.954084936202,1.96e-14,Dinophysis acuminata
+826,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,acuminata,,,Derek S.Harbour,449,2726.0,19638.694214471798,1.96e-14,Dinophysis acuminata
+827,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,acuminata,,,Derek S.Harbour,449,2965.42782249289,21478.6918622525,2.15e-14,Dinophysis acuminata
+828,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,acuminata,,Small,Derek S.Harbour,450,1482.71391124645,10274.5580768149,1.03e-14,Dinophysis acuminata
+829,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,acuminata,,Small,Derek S.Harbour,450,712.6013878576599,4712.38898038469,4.71e-15,Dinophysis acuminata
+831,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,acuta,,,Derek S.Harbour,451,8133.71734693725,62831.8530717958,6.28e-14,Dinophysis acuta
+832,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,acuta,,,Derek S.Harbour,451,8134.0,62834.175900134804,6.28e-14,Dinophysis acuta
+833,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,caudata,,,Derek S.Harbour,452,4151.90708445608,30725.3949665529,3.07e-14,Dinophysis caudata
+834,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,caudata,,,Derek S.Harbour,452,933.875702811805,6283.1853071795895,6.28e-15,Dinophysis caudata
+836,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,circumsuta,,,Derek S.Harbour,454,712.6013878576599,4712.38898038469,4.71e-15,Dinophysis circumsuta
+837,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,dens,,,Derek S.Harbour,455,2725.51198831335,19634.954084936202,1.96e-14,Dinophysis dens
+838,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,exigua,,,Derek S.Harbour,456,1627.6323812810401,11346.1141995462,1.13e-14,Dinophysis exigua
+839,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,exigua,,,Derek S.Harbour,456,878.905285220969,5890.48622548086,5.89e-15,Dinophysis exigua
+840,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,fava,,,Derek S.Harbour,457,3075.39864050355,22327.0474726734,2.23e-14,Dinophysis fava
+841,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,fortii,,,Derek S.Harbour,458,1627.6323812810401,11346.1141995462,1.13e-14,Dinophysis fortii
+842,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,fortii,,,Derek S.Harbour,458,2725.51198831335,19634.954084936202,1.96e-14,Dinophysis fortii
+843,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,fortii,,,Derek S.Harbour,458,3906.6061830529798,28797.9326579065,2.88e-14,Dinophysis fortii
+844,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,norvegica,,,Derek S.Harbour,459,2726.0,19638.694214471798,1.96e-14,Dinophysis norvegica
+845,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,oviformis,,,Derek S.Harbour,460,712.6013878576599,4712.38898038469,4.71e-15,Dinophysis oviformis
+846,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,ovum,,,Derek S.Harbour,461,1393.9025476723498,9621.12750161876,9.62e-15,Dinophysis ovum
+847,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,ovum,,,Derek S.Harbour,461,878.905285220969,5890.48622548086,5.89e-15,Dinophysis ovum
+848,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,parvula,,,Derek S.Harbour,462,1367.14588550648,9424.77796076938,9.42e-15,Dinophysis parvula
+851,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,punctata,,,Derek S.Harbour,464,713.0,4715.193283083499,4.72e-15,Dinophysis punctata
+852,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,sacculus,,,Derek S.Harbour,465,1015.9493535622399,6872.23392972765,6.87e-15,Dinophysis sacculus
+853,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,sacculus,,,Derek S.Harbour,465,2500.0,17911.3231272815,1.79e-14,Dinophysis sacculus
+856,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,schuettii,,,Derek S.Harbour,467,878.905285220969,5890.48622548086,5.89e-15,Dinophysis schuettii
+857,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,tripos,,,Derek S.Harbour,468,8134.0,62834.175900134804,6.28e-14,Dinophysis tripos
+858,Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Phalacroma,dens,,,Derek S.Harbour,469,379.184928227774,2408.5543677521696,2.41e-15,Phalacroma dens
+859,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratiaceae,Neoceratium,minutum,,,Derek S.Harbour,470,908.0,6098.14450162241,6.10e-15,Neoceratium minutum
+860,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratocoryaceae,Ceratocorys,armata,,,Derek S.Harbour,471,2001.4310969111398,14137.166941154099,1.41e-14,Ceratocorys armata
+861,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Ceratocoryaceae,Ceratocorys,gourretii,,,Derek S.Harbour,472,2001.4310969111398,14137.166941154099,1.41e-14,Ceratocorys gourretii
+863,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Cladopyxidaceae,Cladopyxis,brachiolata,,,Derek S.Harbour,474,283.423629652566,1767.1458676442603,1.77e-15,Cladopyxis brachiolata
+866,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Cladopyxidaceae,Peridiniella,catenata,,,Derek S.Harbour,476,1197.0,8182.125140072159,8.18e-15,Peridiniella catenata
+869,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Goniodomataceae,Goniodoma,polyedricum,,,Derek S.Harbour,479,1867.5526650616198,13133.345838244499,1.31e-14,Goniodoma polyedricum
+870,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Goniodomataceae,Goniodoma,polyedricum,,,Derek S.Harbour,479,2001.4310969111398,14137.166941154099,1.41e-14,Goniodoma polyedricum
+873,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Amylax,triacantha,,,Derek S.Harbour,482,2001.0,14133.927531926101,1.41e-14,Amylax triacantha
+874,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Amylax,triacantha,,,Derek S.Harbour,482,514.45560153853,3332.04250053958,3.33e-15,Amylax triacantha
+875,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,alaskensis,,,Derek S.Harbour,483,566.847259305132,3694.17168923632,3.69e-15,Gonyaulax alaskensis
+876,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,catenata,,,Derek S.Harbour,484,637.9157027409329,4188.79020478639,4.19e-15,Gonyaulax catenata
+877,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,digitale,,,Derek S.Harbour,485,3100.0,22517.0991544885,2.25e-14,Gonyaulax digitale
+878,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,grindleyi,,,Derek S.Harbour,486,1196.87702222609,8181.230868723409,8.18e-15,Gonyaulax grindleyi
+879,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,grindleyi,,,Derek S.Harbour,486,1336.85266529876,9202.77207991573,9.20e-15,Gonyaulax grindleyi
+880,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,grindleyi,,,Derek S.Harbour,486,283.423629652566,1767.1458676442603,1.77e-15,Gonyaulax grindleyi
+881,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,grindleyi,,,Derek S.Harbour,486,3091.0,22447.5606856392,2.24e-14,Gonyaulax grindleyi
+882,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,longispina,,,Derek S.Harbour,487,2001.0,14133.927531926101,1.41e-14,Gonyaulax longispina
+883,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,milneri,,,Derek S.Harbour,488,2001.4310969111398,14137.166941154099,1.41e-14,Gonyaulax milneri
+886,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,polygramma,,,Derek S.Harbour,490,1196.87702222609,8181.230868723409,8.18e-15,Gonyaulax polygramma
+887,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,polygramma,,,Derek S.Harbour,490,2001.4310969111398,14137.166941154099,1.41e-14,Gonyaulax polygramma
+888,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,polygramma,,,Derek S.Harbour,490,2669.68061425164,19207.3455144517,1.92e-14,Gonyaulax polygramma
+889,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,polygramma,,,Derek S.Harbour,490,4504.7208175222295,33510.3216382911,3.35e-14,Gonyaulax polygramma
+890,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,polygramma,,,Derek S.Harbour,490,4505.0,33512.5310257195,3.35e-14,Gonyaulax polygramma
+891,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,spinifera,,,Derek S.Harbour,491,1196.87702222609,8181.230868723409,8.18e-15,Gonyaulax spinifera
+892,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,spinifera,,,Derek S.Harbour,491,1236.29823359427,8468.191880790859,8.47e-15,Gonyaulax spinifera
+893,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,spinifera,,,Derek S.Harbour,491,2001.0,14133.927531926101,1.41e-14,Gonyaulax spinifera
+894,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,spinifera,,,Derek S.Harbour,491,2001.4310969111398,14137.166941154099,1.41e-14,Gonyaulax spinifera
+895,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,spinifera,,,Derek S.Harbour,491,2500.0,17911.3231272815,1.79e-14,Gonyaulax spinifera
+896,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,spinifera,,,Derek S.Harbour,491,283.423629652566,1767.1458676442603,1.77e-15,Gonyaulax spinifera
+897,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,tamarensis,,,Derek S.Harbour,492,1197.0,8182.125140072159,8.18e-15,Gonyaulax tamarensis
+898,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Gonyaulacaceae,Gonyaulax,verior,,,Derek S.Harbour,493,1648.0,11497.2182023779,1.15e-14,Gonyaulax verior
+902,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gymnodinium,conicum,,,Derek S.Harbour,495,2001.4310969111398,14137.166941154099,1.41e-14,Gymnodinium conicum
+904,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gymnodinium,galeaeforme,,,Derek S.Harbour,497,790.744424058888,5263.98981850199,5.26e-15,Gymnodinium galeaeforme
+905,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gymnodinium,mikimotoi,,,Derek S.Harbour,498,323.0,2030.77710162817,2.03e-15,Gymnodinium mikimotoi
+906,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gymnodinium,mikimotoi,,,Derek S.Harbour,498,638.0,4189.3790657268,4.19e-15,Gymnodinium mikimotoi
+924,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gymnodinium,pygmaeum,,,Derek S.Harbour,508,173.311308380345,1047.1975511966,1.05e-15,Gymnodinium pygmaeum
+925,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Isochrysidales,Noelaerhabdaceae,Emiliana,huxleyi,,Live,Derek S.Harbour,509,13.0,66.5800308137905,6.66e-17,Emiliana huxleyi
+926,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gymnodinium,pygmaeum,,,Derek S.Harbour,508,500.0,3232.52995307308,3.23e-15,Gymnodinium pygmaeum
+927,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gymnodinium,sanguineum,,,Derek S.Harbour,510,1367.14588550648,9424.77796076938,9.42e-15,Gymnodinium sanguineum
+928,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gymnodinium,simplex,,,Derek S.Harbour,511,9.504253115005131,47.712938426395,4.77e-17,Gymnodinium simplex
+929,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gyrodinium,aereolum,,25μm,Derek S.Harbour,512,323.18983023776,2032.04681419478,2.03e-15,Gyrodinium aereolum
+930,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gyrodinium,aureolum,,,Derek S.Harbour,513,410.100698548895,2617.9938779915,2.62e-15,Gyrodinium aureolum
+931,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gyrodinium,aureolum,,,Derek S.Harbour,513,600.3662810546859,3926.99081698724,3.93e-15,Gyrodinium aureolum
+932,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gyrodinium,aureolum,,,Derek S.Harbour,513,638.0,4189.3790657268,4.19e-15,Gyrodinium aureolum
+933,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gyrodinium,falcatum,,,Derek S.Harbour,514,637.915702740932,4188.790204786379,4.19e-15,Gyrodinium falcatum
+934,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gyrodinium,falcatum,,,Derek S.Harbour,514,637.9157027409329,4188.79020478639,4.19e-15,Gyrodinium falcatum
+936,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Katodinium,rotundatum,,,Derek S.Harbour,516,41.0,225.956781196548,2.26e-16,Katodinium rotundatum
+937,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Kareniaceae,Karenia,mikimotoi,,cyst ,Derek S.Harbour,517,638.0,4189.3790657268,4.19e-15,Karenia mikimotoi
+938,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Kareniaceae,Karenia,mikimotoi,,cyst ,Derek S.Harbour,517,639.0,4196.36497336712,4.20e-15,Karenia mikimotoi
+939,Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Kareniaceae,Karenia,mikimotoi,,,Derek S.Harbour,518,638.0,4189.3790657268,4.19e-15,Karenia mikimotoi
+941,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Isochrysidales,Noelaerhabdaceae,Emiliana,huxleyi,,Naked,Derek S.Harbour,520,13.0,66.5800308137905,6.66e-17,Emiliana huxleyi
+943,Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Oxytoxaceae,Corythodinium,tesselatum,,,Derek S.Harbour,522,410.100698548895,2617.9938779915,2.62e-15,Corythodinium tesselatum
+950,Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Peridiniida incertae sedis,Heterocapsa,minima,,,Derek S.Harbour,525,20.0,105.286414416138,1.05e-16,Heterocapsa minima
+951,Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Peridiniida incertae sedis,Heterocapsa,niei,,,Derek S.Harbour,526,20.0,105.286414416138,1.05e-16,Heterocapsa niei
+952,Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Peridiniida incertae sedis,Heterocapsa,triquetra,,,Derek S.Harbour,527,211.748038526082,1295.9069696057902,1.30e-15,Heterocapsa triquetra
+953,Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Peridiniida incertae sedis,Heterocapsa,triquetra,,,Derek S.Harbour,527,212.0,1297.5474732612402,1.30e-15,Heterocapsa triquetra
+954,Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Peridiniida incertae sedis,Heterocapsa,triquetra,,,Derek S.Harbour,527,60.0,338.803695465765,3.39e-16,Heterocapsa triquetra
+955,Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Peridiniida incertae sedis,Heterocapsa,triquetra,,,Derek S.Harbour,527,89.3138056360438,517.300842940392,5.17e-16,Heterocapsa triquetra
+956,Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Peridiniida incertae sedis,Heterocapsa,triquetra,,,Derek S.Harbour,527,90.0,521.529963894225,5.22e-16,Heterocapsa triquetra
+958,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Mesoporos,perforatus,,,Derek S.Harbour,529,112.255342009654,659.734457253859,6.60e-16,Mesoporos perforatus
+959,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Mesoporos,perforatus,,,Derek S.Harbour,529,124.607791978683,737.227076042408,7.37e-16,Mesoporos perforatus
+960,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Mesoporos,perforatus,,,Derek S.Harbour,529,156.96934995588302,942.47779607694,9.42e-16,Mesoporos perforatus
+961,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Mesoporos,perforatus,,,Derek S.Harbour,529,42.6460162362777,235.619449019234,2.36e-16,Mesoporos perforatus
+962,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Mesoporos,perforatus,,,Derek S.Harbour,529,81.8175864152477,471.238898038469,4.71e-16,Mesoporos perforatus
+963,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Mesoporos,perforatus,,,Derek S.Harbour,529,834.6236079468621,5575.27976257069,5.58e-15,Mesoporos perforatus
+964,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Mesoporos,perforatus,,,Derek S.Harbour,529,835.0,5577.954584293399,5.58e-15,Mesoporos perforatus
+965,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Isochrysidales,Noelaerhabdaceae,Emiliania,huxleyi,,,Derek S.Harbour,530,12.7924614587461,65.4498469497871,6.54e-17,Emiliania huxleyi
+966,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Isochrysidales,Noelaerhabdaceae,Emiliania,huxleyi,,,Derek S.Harbour,530,13.0,66.5800308137905,6.66e-17,Emiliania huxleyi
+967,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,balticum,,,Derek S.Harbour,531,66.0,374.958247036288,3.75e-16,Prorocentrum balticum
+968,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,balticum,,,Derek S.Harbour,531,66.3363010907499,376.991118430775,3.77e-16,Prorocentrum balticum
+969,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,compressum,,,Derek S.Harbour,532,933.875702811805,6283.1853071795895,6.28e-15,Prorocentrum compressum
+970,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,compressum,,,Derek S.Harbour,532,934.0,6284.07497132342,6.28e-15,Prorocentrum compressum
+971,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,dentatum,,,Derek S.Harbour,533,23.618769737098102,125.663706143592,1.26e-16,Prorocentrum dentatum
+972,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,dentatum,,,Derek S.Harbour,533,24.0,127.82261671642799,1.28e-16,Prorocentrum dentatum
+973,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,dentatum,,,Derek S.Harbour,533,90.33555247654341,523.5987755982981,5.24e-16,Prorocentrum dentatum
+974,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,gracile,,,Derek S.Harbour,534,628.541899512877,4123.3403578366,4.12e-15,Prorocentrum gracile
+975,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,gracile,,,Derek S.Harbour,534,886.0,5941.08357242694,5.94e-15,Prorocentrum gracile
+976,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,lenticulatum,,,Derek S.Harbour,535,407.633057975861,2601.23871717235,2.60e-15,Prorocentrum lenticulatum
+977,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,lima,,,Derek S.Harbour,536,933.875702811805,6283.1853071795895,6.28e-15,Prorocentrum lima
+978,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,magnum,,,Derek S.Harbour,537,208.596859718933,1275.40043190151,1.28e-15,Prorocentrum magnum
+979,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,micans,,,Derek S.Harbour,538,1050.7359155076401,7122.8326662093095,7.12e-15,Prorocentrum micans
+980,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,micans,,,Derek S.Harbour,538,1686.0,11779.4516736248,1.18e-14,Prorocentrum micans
+981,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,micans,,,Derek S.Harbour,538,1686.2046087956303,11780.972450961799,1.18e-14,Prorocentrum micans
+982,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,micans,,,Derek S.Harbour,538,301.150130492977,1884.95559215387,1.88e-15,Prorocentrum micans
+983,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,micans,,,Derek S.Harbour,538,371.431273984737,2356.19449019234,2.36e-15,Prorocentrum micans
+984,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,micans,,,Derek S.Harbour,538,712.6013878576599,4712.38898038469,4.71e-15,Prorocentrum micans
+985,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,minimum,,,Derek S.Harbour,539,25.095986517178897,134.041286553165,1.34e-16,Prorocentrum minimum
+986,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,minimum,,,Derek S.Harbour,539,26.0,139.183793145875,1.39e-16,Prorocentrum minimum
+987,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,minimum,,,Derek S.Harbour,539,26.3840003025946,141.371669411541,1.41e-16,Prorocentrum minimum
+988,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,minimum,,,Derek S.Harbour,539,29.1308183032883,157.07963267949,1.57e-16,Prorocentrum minimum
+998,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,rostratum,,,Derek S.Harbour,545,1050.7359155076401,7122.8326662093095,7.12e-15,Prorocentrum rostratum
+999,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,rostratum,,,Derek S.Harbour,545,237.786532807701,1466.07657167523,1.47e-15,Prorocentrum rostratum
+1000,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,scutellum,,,Derek S.Harbour,546,693.978913762851,4581.48928648511,4.58e-15,Prorocentrum scutellum
+1001,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,triestinum,,,Derek S.Harbour,547,23.618769737098102,125.663706143592,1.26e-16,Prorocentrum triestinum
+1002,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,triestinum,,,Derek S.Harbour,547,900.0,6041.0030165826,6.04e-15,Prorocentrum triestinum
+1003,Dinoflagellate,Chromista,Myzozoa,Peridinea,Prorocentrida,Prorocentraceae,Prorocentrum,vaginulum,,,Derek S.Harbour,548,1050.7359155076401,7122.8326662093095,7.12e-15,Prorocentrum vaginulum
+1004,Dinoflagellate,Chromista,Myzozoa,Peridinea,Pyrocystida,Pyrocystaceae,Pyrocystis,fusiformis,,,Derek S.Harbour,549,11912.0,94286.9944847515,9.43e-14,Pyrocystis fusiformis
+1005,Dinoflagellate,Chromista,Myzozoa,Peridinea,Pyrocystida,Pyrocystaceae,Pyrocystis,fusiformis,,,Derek S.Harbour,549,2453.0,17553.3128731735,1.76e-14,Pyrocystis fusiformis
+1006,Dinoflagellate,Chromista,Myzozoa,Peridinea,Thoracosphaeida,Thoracosphaeraceae,Thoracosphaera,heimii,,,Derek S.Harbour,550,90.33555247654341,523.5987755982981,5.24e-16,Thoracosphaera heimii
+1014,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Isochrysidales,Noelaerhabdaceae,Gephyrocapsa,oceanica,,,Derek S.Harbour,555,48.147358810000604,268.082573106329,2.68e-16,Gephyrocapsa oceanica
+1015,Dinoflagellate,Protozoa,Myzozoa,Dinophyceae,Pyrocystales,Pyrocystaceae,Pyrocystis,lunula,,,Derek S.Harbour,556,2453.0,17553.3128731735,1.76e-14,Pyrocystis lunula
+1016,Dinoflagellate,Protozoa,Myzozoa,Dinophyceae,Pyrocystales,Pyrocystaceae,Pyrocystis,lunula,,,Derek S.Harbour,556,4000.0,29530.8934419302,2.95e-14,Pyrocystis lunula
+1023,Flagellate,Chromista,Haptophyta,Prymnesiophyceae,Phaeocystales,Phaeocystaceae,Phaeocystis,pouchetii,,Colonies ,Derek S.Harbour,560,750.0,4975.923380633711,4.98e-15,Phaeocystis pouchetii
+1024,Flagellate,Chromista,Haptophyta,Prymnesiophyceae,Phaeocystales,Phaeocystaceae,Phaeocystis,pouchetii,,,Derek S.Harbour,561,15.0,77.5280367146569,7.75e-17,Phaeocystis pouchetii
+1025,Flagellate,Chromista,Haptophyta,Prymnesiophyceae,Phaeocystales,Phaeocystaceae,Phaeocystis,pouchetii,,,Derek S.Harbour,561,21.391696635592503,113.09733552923299,1.13e-16,Phaeocystis pouchetii
+1026,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Isochrysidales,Noelaerhabdaceae,Gephyrocapsa,ornata,,,Derek S.Harbour,562,12.7924614587461,65.4498469497871,6.54e-17,Gephyrocapsa ornata
+1032,Flagellate,Chromista,Ochrophyta,Dictyochophyceae,Dictyochales,Dictyochaceae,Distephanus,speculum,,,Derek S.Harbour,568,157.0,942.673573327116,9.43e-16,Distephanus speculum
+1045,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Prymnesiophyceae incertae sedis,,Florisphaera,profunda,,,Derek S.Harbour,575,12.7924614587461,65.4498469497871,6.54e-17,Florisphaera profunda
+1046,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Prymnesiophyceae incertae sedis,,Florisphaera,profunda,,,Derek S.Harbour,575,16.7371492680686,87.11374629016692,8.71e-17,Florisphaera profunda
+1064,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Calciosoleniaceae,Calciosolenia,brasiliensis,,,Derek S.Harbour,587,28.7655653119322,154.985237577096,1.55e-16,Calciosolenia brasiliensis
+1065,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Calciosoleniaceae,Calciosolenia,brasiliensis,,,Derek S.Harbour,587,29.0,156.329314419452,1.56e-16,Calciosolenia brasiliensis
+1077,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Noctilucea,Noctilucida,Kofoidiniaceae,Cymbodinium,elegans,,,Derek S.Harbour,595,600.3662810546859,3926.99081698724,3.93e-15,Cymbodinium elegans
+1078,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Noctilucea,Noctilucida,Kofoidiniaceae,Kofoidinium,velleloides,,,Derek S.Harbour,596,3437.36355578419,25132.741228718398,2.51e-14,Kofoidinium velleloides
+1079,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Noctilucea,Noctilucida,Kofoidiniaceae,Kofoidinium,velleloides,,,Derek S.Harbour,596,687.149297037058,4533.53890880273,4.53e-15,Kofoidinium velleloides
+1082,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Calciosoleniaceae,Calciosolenia,murrayi,,,Derek S.Harbour,598,28.7655653119322,154.985237577096,1.55e-16,Calciosolenia murrayi
+1083,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Noctilucea,Noctilucida,Kofoidiniaceae,Spatulodinium,pseudonoctiluca,,,Derek S.Harbour,599,21230.307496595,174358.392274234,1.74e-13,Spatulodinium pseudonoctiluca
+1086,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Noctilucea,Noctilucida,Noctilucaceae,Noctiluca,scintillans,,Juvenile ,Derek S.Harbour,602,634.271815789963,4163.34048320028,4.16e-15,Noctiluca scintillans
+1087,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Noctilucea,Noctilucida,Noctilucaceae,Noctiluca,scintillans,,,Derek S.Harbour,603,120858.00294989998,1109108.01661985,1.11e-12,Noctiluca scintillans
+1088,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Noctilucea,Noctilucida,Noctilucaceae,Noctiluca,scintillans,,,Derek S.Harbour,603,28829.1948469743,241435.17660771,2.41e-13,Noctiluca scintillans
+1089,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Noctilucea,Noctilucida,Noctilucaceae,Noctiluca,scintillans,,,Derek S.Harbour,603,81994.0,734049.94453741,7.34e-13,Noctiluca scintillans
+1090,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Amphisoleniaceae,Amphisolenia,globifera,,,Derek S.Harbour,604,926.846692979355,6232.88709979868,6.23e-15,Amphisolenia globifera
+1091,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,doryphorum,,,Derek S.Harbour,605,878.905285220969,5890.48622548086,5.89e-15,Dinophysis doryphorum
+1092,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,doryphorum,,,Derek S.Harbour,605,9401.97427371413,73303.8285837619,7.33e-14,Dinophysis doryphorum
+1093,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,nasuta,,,Derek S.Harbour,606,713.0,4715.193283083499,4.72e-15,Dinophysis nasuta
+1094,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,rotundata,,,Derek S.Harbour,607,2895.97692312,20943.9510239319,2.09e-14,Dinophysis rotundata
+1095,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,rotundata,,,Derek S.Harbour,607,3437.0,25129.913380271002,2.51e-14,Dinophysis rotundata
+1096,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Dinophysis,rotundata,,,Derek S.Harbour,607,3437.36355578419,25132.741228718398,2.51e-14,Dinophysis rotundata
+1097,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Histioneis,depressa,,,Derek S.Harbour,608,977.703156684756,6597.344572538571,6.60e-15,Histioneis depressa
+1098,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Histioneis,hyalina,,,Derek S.Harbour,609,977.703156684756,6597.344572538571,6.60e-15,Histioneis hyalina
+1099,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Rhabdosphaeraceae,Acanthoica,aculeata,,,Derek S.Harbour,610,49.147358810000604,274.009836078788,2.74e-16,Acanthoica aculeata
+1101,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Ornithocercus,heteroporus,,,Derek S.Harbour,612,1000.0,6757.518355386221,6.76e-15,Ornithocercus heteroporus
+1102,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Dinophysida,Dinophysiaceae,Ornithocercus,quadratus,,,Derek S.Harbour,613,1043.21169560628,7068.583470577049,7.07e-15,Ornithocercus quadratus
+1103,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Amphidomataceae,Amphidoma,caudatum,,,Derek S.Harbour,614,303.463472728391,1900.3632386347601,1.90e-15,Amphidoma caudatum
+1104,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Amphidomataceae,Amphidoma,caudatum,,,Derek S.Harbour,614,455.50987918492797,2927.43338823081,2.93e-15,Amphidoma caudatum
+1106,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Pyrophacaceae,Pyrophacus,horologicum,,,Derek S.Harbour,616,3571.82776651642,26179.938779915,2.62e-14,Pyrophacus horologicum
+1107,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Pyrophacaceae,Pyrophacus,horologicum,,,Derek S.Harbour,616,4000.0,29530.8934419302,2.95e-14,Pyrophacus horologicum
+1108,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gonyaulacida,Pyrophacaceae,Pyrophacus,steinii,,,Derek S.Harbour,617,15788.053963921799,127234.502470386,1.27e-13,Pyrophacus steinii
+1109,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Amphidinium,crassum,,,Derek S.Harbour,618,132.0,783.8402964966659,7.84e-16,Amphidinium crassum
+1116,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Rhabdosphaeraceae,Acanthoica,quattrospina,,,Derek S.Harbour,622,48.0,267.20979889872297,2.67e-16,Acanthoica quattrospina
+1117,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Rhabdosphaeraceae,Acanthoica,quattrospina,,,Derek S.Harbour,622,48.147358810000604,268.082573106329,2.68e-16,Acanthoica quattrospina
+1119,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gyrodinium,britannicum,,,Derek S.Harbour,624,18522.0,150796.534694961,1.51e-13,Gyrodinium britannicum
+1120,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gyrodinium,britannicum,,,Derek S.Harbour,624,3839.80207713733,28274.3338823081,2.83e-14,Gyrodinium britannicum
+1121,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gyrodinium,fusus,,,Derek S.Harbour,625,1403.6272819976,9692.550804342009,9.69e-15,Gyrodinium fusus
+1122,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gyrodinium,fusus,,,Derek S.Harbour,625,371.0,2353.28416193303,2.35e-15,Gyrodinium fusus
+1123,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gyrodinium,fusus,,,Derek S.Harbour,625,637.915702740932,4188.790204786379,4.19e-15,Gyrodinium fusus
+1124,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gyrodinium,fusus,,,Derek S.Harbour,625,637.9157027409329,4188.79020478639,4.19e-15,Gyrodinium fusus
+1127,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Gyrodinium,spirale,,,Derek S.Harbour,628,371.0,2353.28416193303,2.35e-15,Gyrodinium spirale
+1128,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Katodinium,glaucum,,,Derek S.Harbour,629,250.0,1546.3146895022198,1.55e-15,Katodinium glaucum
+1129,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Katodinium,glaucum,,,Derek S.Harbour,629,301.0,1883.9559323868302,1.88e-15,Katodinium glaucum
+1130,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Katodinium,glaucum,,Small,Derek S.Harbour,630,11.150055654452698,56.548667764616496,5.65e-17,Katodinium glaucum
+1131,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Katodinium,glaucum,,Small,Derek S.Harbour,630,14.7781873025456,76.308990658922,7.63e-17,Katodinium glaucum
+1135,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Rhabdosphaeraceae,Algirosphaera,robusta,,,Derek S.Harbour,633,48.0,267.20979889872297,2.67e-16,Algirosphaera robusta
+1152,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Torodinium,robustum,,,Derek S.Harbour,640,1509.47839326931,10471.975511966,1.05e-14,Torodinium robustum
+1153,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Gymnodiniaceae,Torodinium,robustum,,,Derek S.Harbour,640,2726.0,19638.694214471798,1.96e-14,Torodinium robustum
+1154,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Rhabdosphaeraceae,Rhabdosphaera,clavigera,,,Derek S.Harbour,641,12.7924614587461,65.4498469497871,6.54e-17,Rhabdosphaera clavigera
+1155,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Rhabdosphaeraceae,Rhabdosphaera,clavigera,,,Derek S.Harbour,641,13.0,66.5800308137905,6.66e-17,Rhabdosphaera clavigera
+1156,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Polykrikaceae,Polykrikos,schwartzii,,,Derek S.Harbour,642,13019.5969755971,103640.452073064,1.04e-13,Polykrikos schwartzii
+1157,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Polykrikaceae,Polykrikos,schwartzii,,,Derek S.Harbour,642,23924.0,197984.729915698,1.98e-13,Polykrikos schwartzii
+1158,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Polykrikaceae,Polykrikos,schwartzii,,,Derek S.Harbour,642,23924.1200740056,197985.787023107,1.98e-13,Polykrikos schwartzii
+1159,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Polykrikaceae,Polykrikos,schwartzii,,,Derek S.Harbour,642,3839.80207713733,28274.3338823081,2.83e-14,Polykrikos schwartzii
+1161,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Ptychodiscaceae,Ptychodiscus,noctiluca,,,Derek S.Harbour,644,3235.0311581170695,23561.944901923398,2.36e-14,Ptychodiscus noctiluca
+1162,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Ptychodiscaceae,Ptychodiscus,noctiluca,,Small,Derek S.Harbour,645,404.378894764634,2579.15300794728,2.58e-15,Ptychodiscus noctiluca
+1163,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Gymnodiniida,Ptychodiscaceae,Ptychodiscus,noctiluca,,Small,Derek S.Harbour,645,505.808264717316,3272.4923474893703,3.27e-15,Ptychodiscus noctiluca
+1170,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Oxytoxaceae,Oxytoxum,caudatum,,,Derek S.Harbour,651,12.7924614587461,65.4498469497871,6.54e-17,Oxytoxum caudatum
+1171,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Oxytoxaceae,Oxytoxum,laticeps,,,Derek S.Harbour,652,116.646592954991,687.223392972769,6.87e-16,Oxytoxum laticeps
+1172,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Oxytoxaceae,Oxytoxum,laticeps,,,Derek S.Harbour,652,30.2703697145855,163.62461737446802,1.64e-16,Oxytoxum laticeps
+1173,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Oxytoxaceae,Oxytoxum,laticeps,,,Derek S.Harbour,652,86.9348009401207,502.654824574367,5.03e-16,Oxytoxum laticeps
+1174,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Calciopappus,caudatus,,,Derek S.Harbour,653,28.7655653119322,154.985237577096,1.55e-16,Calciopappus caudatus
+1175,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Oxytoxaceae,Oxytoxum,milneri,,,Derek S.Harbour,654,253.71882087790297,1570.7963267948999,1.57e-15,Oxytoxum milneri
+1181,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Oxytoxaceae,Oxytoxum,ovale,,,Derek S.Harbour,656,116.646592954991,687.223392972769,6.87e-16,Oxytoxum ovale
+1182,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Oxytoxaceae,Oxytoxum,reticulatum,,,Derek S.Harbour,657,116.646592954991,687.223392972769,6.87e-16,Oxytoxum reticulatum
+1183,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Oxytoxaceae,Oxytoxum,scolopax,,,Derek S.Harbour,658,148.429082195091,888.023523414716,8.88e-16,Oxytoxum scolopax
+1185,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Podolampadaceae,Podolampas,bipes,,,Derek S.Harbour,660,563.0,3667.5043093931,3.67e-15,Podolampas bipes
+1186,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Podolampadaceae,Podolampas,bipes,,,Derek S.Harbour,660,563.423629652566,3670.4401411414797,3.67e-15,Podolampas bipes
+1187,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Podolampadaceae,Podolampas,elegans,,,Derek S.Harbour,661,300.0,1877.2981393212801,1.88e-15,Podolampas elegans
+1188,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Podolampadaceae,Podolampas,palmipes,,,Derek S.Harbour,662,283.0,1764.33607601262,1.76e-15,Podolampas palmipes
+1189,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Podolampadaceae,Podolampas,palmipes,,,Derek S.Harbour,662,283.423629652566,1767.1458676442603,1.77e-15,Podolampas palmipes
+1190,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Podolampadaceae,Podolampas,palmipes,,,Derek S.Harbour,662,600.3662810546859,3926.99081698724,3.93e-15,Podolampas palmipes
+1195,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Minuscula,bipes,,,Derek S.Harbour,664,132.246591823098,785.3981633974511,7.85e-16,Minuscula bipes
+1196,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Minuscula,bipes,,,Derek S.Harbour,664,1774.9930291463002,12441.9959349907,1.24e-14,Minuscula bipes
+1197,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Minuscula,bipes,,,Derek S.Harbour,664,2929.99194756671,21205.7504117311,2.12e-14,Minuscula bipes
+1198,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Minuscula,bipes,,,Derek S.Harbour,664,514.0,3328.9033822452097,3.33e-15,Minuscula bipes
+1199,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Minuscula,bipes,,,Derek S.Harbour,664,577.76502942407,3769.9111843077503,3.77e-15,Minuscula bipes
+1200,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Minuscula,bipes,,,Derek S.Harbour,664,90.0,521.529963894225,5.22e-16,Minuscula bipes
+1202,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,bipes,,,Derek S.Harbour,666,1425.0,9849.63344413199,9.85e-15,Protoperidinium bipes
+1203,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,bipes,,,Derek S.Harbour,666,90.0,521.529963894225,5.22e-16,Protoperidinium bipes
+1204,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,brevipes,,,Derek S.Harbour,667,1425.0,9849.63344413199,9.85e-15,Protoperidinium brevipes
+1205,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,brevipes,,,Derek S.Harbour,667,514.0,3328.9033822452097,3.33e-15,Protoperidinium brevipes
+1206,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,brevipes,,,Derek S.Harbour,667,514.45560153853,3332.04250053958,3.33e-15,Protoperidinium brevipes
+1207,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,brochii,,,Derek S.Harbour,668,637.9157027409329,4188.79020478639,4.19e-15,Protoperidinium brochii
+1208,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,claudicans,,,Derek S.Harbour,669,1425.0,9849.63344413199,9.85e-15,Protoperidinium claudicans
+1209,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,claudicans,,,Derek S.Harbour,669,2930.0,21205.8124109958,2.12e-14,Protoperidinium claudicans
+1210,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,conicum,,,Derek S.Harbour,670,1453.00350708237,10055.677654669,1.01e-14,Protoperidinium conicum
+1211,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,curtipes,,,Derek S.Harbour,671,10659.0,83772.72051650491,8.38e-14,Protoperidinium curtipes
+1212,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,curtipes,,,Derek S.Harbour,671,10659.3688045986,83775.8040957279,8.38e-14,Protoperidinium curtipes
+1213,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,curtipes,,,Derek S.Harbour,671,22844.573570908502,188495.55921538698,1.88e-13,Protoperidinium curtipes
+1214,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,curtipes,,,Derek S.Harbour,671,6045.35481498748,45823.3690681095,4.58e-14,Protoperidinium curtipes
+1215,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,depressum,,,Derek S.Harbour,672,5032.12304178269,37699.1118430775,3.77e-14,Protoperidinium depressum
+1216,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,depressum,,,Derek S.Harbour,672,61030.0,536168.699860976,5.36e-13,Protoperidinium depressum
+1217,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,depressum,,,Derek S.Harbour,672,8642.0,67017.062069762,6.70e-14,Protoperidinium depressum
+1218,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,depressum,,,Derek S.Harbour,672,8642.434095653309,67020.6432765821,6.70e-14,Protoperidinium depressum
+1219,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Calciopappus,rigidus,,,Derek S.Harbour,673,13.0,66.5800308137905,6.66e-17,Calciopappus rigidus
+1220,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,divergens,,,Derek S.Harbour,674,4240.0,31419.387881569302,3.14e-14,Protoperidinium divergens
+1221,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,divergens,,,Derek S.Harbour,674,61029.619771821504,536165.146212657,5.36e-13,Protoperidinium divergens
+1222,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,excentricum,,,Derek S.Harbour,675,1509.47839326931,10471.975511966,1.05e-14,Protoperidinium excentricum
+1223,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,globulum,,,Derek S.Harbour,676,2618.59307739821,18816.569198676,1.88e-14,Protoperidinium globulum
+1224,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,granii,,,Derek S.Harbour,677,1425.0,9849.63344413199,9.85e-15,Protoperidinium granii
+1225,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,granii,,,Derek S.Harbour,677,458.114333432579,2945.24311274043,2.95e-15,Protoperidinium granii
+1226,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,latissimum,,,Derek S.Harbour,678,1523.61332302655,10576.3265833175,1.06e-14,Protoperidinium latissimum
+1227,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,leonis,,,Derek S.Harbour,679,2313.5059753282003,16493.3614313464,1.65e-14,Protoperidinium leonis
+1228,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,minutum,,,Derek S.Harbour,680,1418.5341158810998,9802.09529351365,9.80e-15,Protoperidinium minutum
+1229,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,mite,,,Derek S.Harbour,681,2930.0,21205.8124109958,2.12e-14,Protoperidinium mite
+1236,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,oblongum,,,Derek S.Harbour,683,4304.2187629479495,31925.882504856298,3.19e-14,Protoperidinium oblongum
+1237,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,obtusum,,,Derek S.Harbour,684,2348.00860720758,16755.1608191456,1.68e-14,Protoperidinium obtusum
+1238,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,obtusum,,,Derek S.Harbour,684,3258.154108865,23741.1485751285,2.37e-14,Protoperidinium obtusum
+1239,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,obtusum,,,Derek S.Harbour,684,52040.0,452561.87582024204,4.53e-13,Protoperidinium obtusum
+1240,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,obtusum,,,Derek S.Harbour,684,6642.434095653311,50652.8005195346,5.07e-14,Protoperidinium obtusum
+1241,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Caneosphaera,molischii,,,Derek S.Harbour,685,21.0,110.89555616380501,1.11e-16,Caneosphaera molischii
+1242,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,oceanicum,,,Derek S.Harbour,686,22844.573570908502,188495.55921538698,1.88e-13,Protoperidinium oceanicum
+1243,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,oceanicum,,,Derek S.Harbour,686,52040.0,452561.87582024204,4.53e-13,Protoperidinium oceanicum
+1244,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,oceanicum,,,Derek S.Harbour,686,61030.0,536168.699860976,5.36e-13,Protoperidinium oceanicum
+1245,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,oceanicum,,,Derek S.Harbour,686,8642.434095653309,67020.6432765821,6.70e-14,Protoperidinium oceanicum
+1246,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,ovatum,,,Derek S.Harbour,687,2348.00860720758,16755.1608191456,1.68e-14,Protoperidinium ovatum
+1247,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,ovatum,,,Derek S.Harbour,687,28175.943510934303,235619.449019235,2.36e-13,Protoperidinium ovatum
+1248,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,ovatum,,,Derek S.Harbour,687,52040.0,452561.87582024204,4.53e-13,Protoperidinium ovatum
+1249,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,ovatum,,,Derek S.Harbour,687,6439.58681929365,49008.8453960008,4.90e-14,Protoperidinium ovatum
+1250,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,ovum,,,Derek S.Harbour,688,5816.76118839071,43982.2971502571,4.40e-14,Protoperidinium ovum
+1251,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Caneosphaera,molischii,,,Derek S.Harbour,685,48.147358810000604,268.082573106329,2.68e-16,Caneosphaera molischii
+1252,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,pallidum,,,Derek S.Harbour,689,1015.9493535622399,6872.23392972765,6.87e-15,Protoperidinium pallidum
+1253,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,pallidum,,,Derek S.Harbour,689,1509.47839326931,10471.975511966,1.05e-14,Protoperidinium pallidum
+1254,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,pallidum,,,Derek S.Harbour,689,1791.66690723406,12566.370614359199,1.26e-14,Protoperidinium pallidum
+1255,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,pallidum,,,Derek S.Harbour,689,2929.99194756671,21205.7504117311,2.12e-14,Protoperidinium pallidum
+1256,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,pellucidum,,,Derek S.Harbour,690,5045.35481498748,37804.5763863093,3.78e-14,Protoperidinium pellucidum
+1257,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,pellucidum,,,Derek S.Harbour,690,5621.0,42409.3153131305,4.24e-14,Protoperidinium pellucidum
+1258,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,pellucidum,,,Derek S.Harbour,690,786.789770856362,5235.98775598299,5.24e-15,Protoperidinium pellucidum
+1259,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,pellucidum,,,Derek S.Harbour,690,933.875702811803,6283.18530717958,6.28e-15,Protoperidinium pellucidum
+1260,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,pentagonum,,,Derek S.Harbour,691,3294.9379053325397,24026.391384987597,2.40e-14,Protoperidinium pentagonum
+1261,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,pentagonum,,,Derek S.Harbour,691,6045.35481498748,45823.3690681095,4.58e-14,Protoperidinium pentagonum
+1262,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,pyriforme,,,Derek S.Harbour,692,2930.0,21205.8124109958,2.12e-14,Protoperidinium pyriforme
+1263,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,pyriforme,,,Derek S.Harbour,692,505.808264717316,3272.4923474893703,3.27e-15,Protoperidinium pyriforme
+1264,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,pyriforme,,,Derek S.Harbour,692,600.3662810546859,3926.99081698724,3.93e-15,Protoperidinium pyriforme
+1265,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,pyriforme,,,Derek S.Harbour,692,970.407439202993,6544.984694978729,6.54e-15,Protoperidinium pyriforme
+1266,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,saltans,,,Derek S.Harbour,693,600.0,3924.4420992714504,3.92e-15,Protoperidinium saltans
+1267,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,saltans,,,Derek S.Harbour,693,8642.434095653309,67020.6432765821,6.70e-14,Protoperidinium saltans
+1268,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,simulum,,,Derek S.Harbour,694,1367.14588550648,9424.77796076938,9.42e-15,Protoperidinium simulum
+1269,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,steinii,,,Derek S.Harbour,695,1774.9930291463002,12441.9959349907,1.24e-14,Protoperidinium steinii
+1270,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,steinii,,,Derek S.Harbour,695,185.320191583418,1124.55742875643,1.12e-15,Protoperidinium steinii
+1271,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,steinii,,,Derek S.Harbour,695,193.602192817343,1178.09724509617,1.18e-15,Protoperidinium steinii
+1272,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,steinii,,,Derek S.Harbour,695,2930.0,21205.8124109958,2.12e-14,Protoperidinium steinii
+1273,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,steinii,,,Derek S.Harbour,695,505.808264717316,3272.4923474893703,3.27e-15,Protoperidinium steinii
+1274,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,tristylum,,,Derek S.Harbour,696,1015.9493535622399,6872.23392972765,6.87e-15,Protoperidinium tristylum
+1276,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Peridiniida,Protoperidiniaceae,Protoperidinium,tristylum,,,Derek S.Harbour,696,4045.35481498748,29887.2368421319,2.99e-14,Protoperidinium tristylum
+1278,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Pyrocystida,Pyrocystaceae,Dissodinium,pseudolunula,,,Derek S.Harbour,699,174.0,1051.62500122194,1.05e-15,Dissodinium pseudolunula
+1279,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Pyrocystida,Pyrocystaceae,Pyrocystis,noctiluca,,,Derek S.Harbour,700,103.729983881931,606.56441189691,6.07e-16,Pyrocystis noctiluca
+1280,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Pyrocystida,Pyrocystaceae,Pyrocystis,noctiluca,,,Derek S.Harbour,700,4504.7208175222295,33510.3216382911,3.35e-14,Pyrocystis noctiluca
+1281,Heterotrophic Dinoflagellate,Chromista,Myzozoa,Peridinea,Pyrocystida,Pyrocystaceae,Pyrocystis,noctiluca,,,Derek S.Harbour,700,5935.86647775615,44940.9950857029,4.49e-14,Pyrocystis noctiluca
+1295,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Coronosphaera,mediterranea,,,Derek S.Harbour,708,283.423629652566,1767.1458676442603,1.77e-15,Coronosphaera mediterranea
+1300,Heterotrophic Dinoflagellate,Protozoa,,,,,Solenicola,setigera,,,Derek S.Harbour,712,21.391696635592503,113.09733552923299,1.13e-16,Solenicola setigera
+1306,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Michaelsarsia,elegans,,,Derek S.Harbour,716,90.0,521.529963894225,5.22e-16,Michaelsarsia elegans
+1307,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Ophiaster,hydroideus,,,Derek S.Harbour,717,21.391696635592503,113.09733552923299,1.13e-16,Ophiaster hydroideus
+1308,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Ophiaster,hydroideus,,,Derek S.Harbour,717,6.81817086442554,33.5103216382911,3.35e-17,Ophiaster hydroideus
+1310,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Syracosphaera,borealis,,,Derek S.Harbour,719,21.391696635592503,113.09733552923299,1.13e-16,Syracosphaera borealis
+1317,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Syracosphaera,pirus,,,Derek S.Harbour,725,237.786532807701,1466.07657167523,1.47e-15,Syracosphaera pirus
+1319,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Syracosphaera,prolongata,,,Derek S.Harbour,726,237.786532807701,1466.07657167523,1.47e-15,Syracosphaera prolongata
+1320,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Syracosphaera,pulchra,,,Derek S.Harbour,727,173.0,1045.19658494416,1.05e-15,Syracosphaera pulchra
+1321,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Syracosphaera,pulchra,,,Derek S.Harbour,727,173.311308380345,1047.1975511966,1.05e-15,Syracosphaera pulchra
+1322,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Syracosphaera,pulchra,,,Derek S.Harbour,727,90.0,521.529963894225,5.22e-16,Syracosphaera pulchra
+1323,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Syracosphaerales,Syracosphaeraceae,Syracosphaera,rotula,,,Derek S.Harbour,728,90.0,521.529963894225,5.22e-16,Syracosphaera rotula
+1324,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Zygodiscales,Helicosphaeraceae,Helicosphaera,carterii,,,Derek S.Harbour,729,21.391696635592503,113.09733552923299,1.13e-16,Helicosphaera carterii
+1325,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Zygodiscales,Helicosphaeraceae,Helicosphaera,hyalina,,,Derek S.Harbour,730,21.391696635592503,113.09733552923299,1.13e-16,Helicosphaera hyalina
+1326,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Zygodiscales,Helicosphaeraceae,Helicosphaera,hyalina,,,Derek S.Harbour,730,22.3916966355925,118.730047088874,1.19e-16,Helicosphaera hyalina
+1328,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Zygodiscales,Pontosphaeraceae,Pontosphaera,syracusana,,,Derek S.Harbour,732,48.147358810000604,268.082573106329,2.68e-16,Pontosphaera syracusana
+1330,Coccolithophorid,Chromista,Haptophyta,Prymnesiophyceae,Zygodiscales,Pontosphaeraceae,Scyphosphaera,apsteinii,,,Derek S.Harbour,734,2001.4310969111398,14137.166941154099,1.41e-14,Scyphosphaera apsteinii
