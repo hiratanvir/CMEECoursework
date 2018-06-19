@@ -55,6 +55,7 @@ subset_dF['uniqueID'] = subset_dF['FinalID'].rank(method='dense').astype(int)
 #add column which combines Genus and species name
 subset_dF['GenusSpecies'] = subset_dF["ConGenus"].map(str) + ' ' + subset_dF["ConSpecies"]
 
+subset_dF.to_csv('../Data/bac_subset.csv', sep=',', encoding='utf-8')
 ### COMBININIG SIZE DATAFRAME AND BACTERIAL DataFrame ###
 #subset_dF = subset_dF.merge(sizeDF, how='left', left_on='GenusSpecies', right_on='Species').drop('Species', axis=1)
 

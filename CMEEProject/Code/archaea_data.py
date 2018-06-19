@@ -71,11 +71,13 @@ subset_dF['GenusSpecies'] = subset_dF["ConGenus"].map(str) + ' ' + subset_dF["Co
 #    subset_dF['GenusSpecies'] = subset_dF["ConGenus"].map(str) + '' + 'sp.'
 
 ### COMBININIG SIZE DATAFRAME AND BACTERIAL DataFrame ###
-subset_dF = subset_dF.merge(sizeDF, how='left', left_on='GenusSpecies', right_on='Species').drop('Species', axis=1)
+#subset_dF = subset_dF.merge(sizeDF, how='left', left_on='GenusSpecies', right_on='Species').drop('Species', axis=1)
 
 #concatenate columns for size and size size unit
-subset_dF.ConSize = subset_dF.ConSize.fillna(subset_dF.Mass)
-subset_dF.ConSizeUnit = subset_dF.ConSizeUnit.fillna(subset_dF.SizeUnit)
+#subset_dF.ConSize = subset_dF.ConSize.fillna(subset_dF.Mass)
+#subset_dF.ConSizeUnit = subset_dF.ConSizeUnit.fillna(subset_dF.SizeUnit)
+
+subset_dF.to_csv('../Data/arch_subset.csv', sep=',', encoding='utf-8')
 
 #Adding columns containing starting values of the model parameters for the NLLS fitting
 k = constants.value("Boltzmann constant in eV/K")

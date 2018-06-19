@@ -184,9 +184,16 @@ bac_volumes = pd.concat(frames)
 bac_volumes['VolumeUnit'] = 'm^3'
 bac_volumes['SizeUnit'] = 'um'
 
+#Adding a column in for average cell volumes using the minimum and maximum range
+bac_volumes['AverageVolume'] = bac_volumes[['MinVolume', 'MaxVolume']].mean(axis=1)
+
 ## APPLYING THE to_precision FUNCTION TO CONVERT THE VOLUMES TO 3 SIGNIFICANT FIGURES ##
 bac_volumes['MinVolume'] = bac_volumes.apply(lambda row: to_precision(row.MinVolume, 3),axis=1)
 bac_volumes['MaxVolume'] = bac_volumes.apply(lambda row: to_precision(row.MaxVolume, 3),axis=1)
+bac_volumes['AverageVolume'] = bac_volumes.apply(lambda row: to_precision(row.AverageVolume, 3),axis=1)
+
+#rearranging columns
+bac_volumes = bac_volumes[['GenusSpecies','MinWidth','MaxWidth','MinLength','MaxLength','SizeUnit','MinVolume','MaxVolume','AverageVolume','VolumeUnit','Shape','Phylum','Sources','Notes']]
 
 # Saving volumes to csv
 bac_volumes.to_csv('../Data/bac_volumes.csv', sep=',', encoding='utf-8')
@@ -234,9 +241,16 @@ archaea_size['VolumeUnit'] = 'm^3'
 archaea_size['SizeUnit'] = 'um'
 archaea_size = archaea_size.dropna(subset=['MinVolume','MaxVolume'], how='all')
 
+#Adding a column in for average cell volumes using the minimum and maximum range
+archaea_size['AverageVolume'] = archaea_size[['MinVolume', 'MaxVolume']].mean(axis=1)
+
 ## APPLYING THE to_precision FUNCTION TO CONVERT THE VOLUMES TO 3 SIGNIFICANT FIGURES ##
 archaea_size['MinVolume'] = archaea_size.apply(lambda row: to_precision(row.MinVolume, 3),axis=1)
 archaea_size['MaxVolume'] = archaea_size.apply(lambda row: to_precision(row.MaxVolume, 3),axis=1)
+archaea_size['AverageVolume'] = archaea_size.apply(lambda row: to_precision(row.AverageVolume, 3),axis=1)
+
+#rearranging columns
+archaea_size = archaea_size[['GenusSpecies','MinWidth','MaxWidth','MinLength','MaxLength','SizeUnit','MinVolume','MaxVolume','AverageVolume','VolumeUnit','Shape','Phylum','Sources','Notes']]
 
 # Saving volumes to csv
 archaea_size.to_csv('../Data/archaea_volumes.csv', sep=',', encoding='utf-8')
@@ -277,3 +291,8 @@ plankton_vols = plankton_vols[['GenusSpecies','Volumes','AverageVolume','VolumeU
 
 #save dataset
 plankton_vols.to_csv('../Data/phytoplankton_volumes.csv', sep=',', encoding='utf-8')
+
+#saving only the averages
+plankton_vols.drop_duplicates(subset='GenusSpecies',inplace=True)
+del plankton_vols['Volumes']
+plankton_vols.to_csv('../Data/phytoplankton_AvgVolumes.csv', sep=',', encoding='utf-8')

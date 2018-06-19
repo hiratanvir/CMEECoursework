@@ -38,6 +38,8 @@ subset_dF['uniqueID'] = subset_dF['FinalID'].rank(method='dense').astype(int)
 #add column which combines Genus and species name
 subset_dF['GenusSpecies'] = subset_dF["ConGenus"].map(str) + ' ' + subset_dF["ConSpecies"]
 
+subset_dF.to_csv('../Data/phyto_subset.csv', sep=',', encoding='utf-8')
+
 #subsetting GenusSpecies with existing size information already recorded in BioTraits
 #Dropping duplicated nan columns (if GenusSpecies did not have existing size info)
 #gets list of species and sizes that already exist in dataset
