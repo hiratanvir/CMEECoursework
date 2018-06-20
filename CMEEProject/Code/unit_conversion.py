@@ -258,8 +258,8 @@ archaea_size.to_csv('../Data/archaea_volumes.csv', sep=',', encoding='utf-8')
 ##############################################################################################################
 ##############################################################################################################
 
-#reading in biovolumes for phytoplankton dataset
-plankton = pd.read_csv('../Data/Table2.csv', low_memory=False)
+#reading in biovolumes from online phytoplankton dataset
+plankton = pd.read_csv('../Data/online_raw_data/Table2.csv', low_memory=False)
 
 #Converting temperature from cubic mirometers to cubic_meters and adding a column for it
 plankton['CellVolCubicMeters'] = plankton.apply(lambda row: float(row.Biovolume)*1e-18, axis = 1)
@@ -274,7 +274,9 @@ plankton['GenusSpecies'] = plankton["Genus"].map(str) + ' ' + plankton["Species"
 plankton['CellVolCubicMeters'] = plankton.apply(lambda row: to_precision(row.CellVolCubicMeters, 3),axis=1)
 
 #save dataset
-plankton.to_csv('../Data/plankton_volume_data.csv', sep=',', encoding='utf-8')
+plankton.to_csv('../Data/online_raw_data/plankton_volume_data.csv', sep=',', encoding='utf-8')
+
+                           ################################################################
 
 plankton_vols = pd.read_csv('../Data/phytoplankton_size.csv', low_memory=False)
 

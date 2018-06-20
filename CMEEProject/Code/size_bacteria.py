@@ -83,4 +83,4 @@ nan_rows.count()
 #cellsizeDF = cellsizeDF.merge(microbe_dF, how='left', left_on='GenusSpecies', right_on='species').drop('species', axis=1)
 
 
-cellsizeDF.to_csv('../Data/bacteria_size_.csv', sep=',', encoding='utf-8')
+#cellsizeDF.to_csv('../Data/bacteria_size_.csv', sep=',', encoding='utf-8')

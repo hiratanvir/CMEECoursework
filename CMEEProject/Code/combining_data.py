@@ -26,7 +26,7 @@ del bac_DF['Phylum']
 bac_DF = bac_DF[['FinalID','Consumer','OriginalTraitName','OriginalTraitValue','OriginalTraitUnit', \
                 'StandardisedTraitValue','StandardisedTraitUnit', 'ConTemp', 'ConTempUnit', \
                 'ConKingdom','ConPhylum','ConClass','ConOrder','ConFamily','ConGenus','ConSpecies', \
-                'ConSize','ConSizeUnit','uniqueID','GenusSpecies','MinVolume','MaxVolume', \
+                'ConSize','ConSizeUnit','GenusSpecies','MinVolume','MaxVolume', \
                 'AverageVolume','VolumeUnit','Sources','Notes']]
 
 #combining the size and volume columns
@@ -56,7 +56,7 @@ del arch_DF['Phylum']
 arch_DF = arch_DF[['FinalID','Consumer','OriginalTraitName','OriginalTraitValue','OriginalTraitUnit', \
                 'StandardisedTraitValue','StandardisedTraitUnit', 'ConTemp', 'ConTempUnit', \
                 'ConKingdom','ConPhylum','ConClass','ConOrder','ConFamily','ConGenus','ConSpecies', \
-                'ConSize','ConSizeUnit','uniqueID','GenusSpecies','MinVolume','MaxVolume', \
+                'ConSize','ConSizeUnit','GenusSpecies','MinVolume','MaxVolume', \
                 'AverageVolume','VolumeUnit','Sources','Notes']]
 
 #combining the size and volume columns
@@ -86,7 +86,7 @@ del phyto_DF['Phylum']
 phyto_DF = phyto_DF[['FinalID','Consumer','OriginalTraitName','OriginalTraitValue','OriginalTraitUnit', \
                 'StandardisedTraitValue','StandardisedTraitUnit', 'ConTemp', 'ConTempUnit', \
                 'ConKingdom','ConPhylum','ConClass','ConOrder','ConFamily','ConGenus','ConSpecies', \
-                'ConSize','ConSizeUnit','uniqueID','GenusSpecies', \
+                'ConSize','ConSizeUnit','StandardisedTraits','GenusSpecies', \
                 'AverageVolume','VolumeUnit','Sources','Notes']]
 
 #combining the size and volume columns

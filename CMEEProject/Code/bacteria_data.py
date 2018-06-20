@@ -11,13 +11,12 @@ __version__ = '2.7.14'
 import pandas as pd #reads in data as dataframes
 import numpy as np
 import scipy as sc
-
+from scipy import constants
+import matplotlib.pyplot as plt
+from scipy import stats
 
 #Reading in the csv file as a pandas dataframe
-subset_dF = pd.read_csv('../Data/GlobalDataset.csv', low_memory=False)
-
-#read in size DataFrame
-sizeDF = pd.read_csv('../Data/cellsizedata.csv', low_memory=False)
+subset_dF = pd.read_csv('../Data/GlobalDataset.csv', index_col=0)
 
 #Creating a subset of the dataframes with relevant columns
 subset_dF = subset_dF.loc[:, ['FinalID','Consumer','OriginalTraitName','OriginalTraitValue','OriginalTraitUnit','StandardisedTraitValue','StandardisedTraitUnit','ConTemp','ConTempUnit','ConKingdom','ConPhylum','ConClass','ConOrder','ConFamily','ConGenus','ConSpecies','ConSize','ConSizeUnit',]]
@@ -40,7 +39,6 @@ subset_dF = subset_dF[subset_dF['OriginalTraitName'].str.contains("rowth")]
 subset_dF = subset_dF[pd.to_numeric(subset_dF['ConTemp'], errors='coerce').notnull()]
 
 #filter rows by group and keep groups where it has more than 1 unique ConTemp value
-#subset_dF = subset_dF.groupby('FinalID').filter(lambda x: x.ConTemp.value_counts().max() < 2)
 subset_dF = subset_dF.groupby('FinalID').filter(lambda x: x.ConTemp.nunique() > 1)
 
 #Using groupby to group the IDs and then using filter to only show IDs with datasets with more than 4 datapoints
@@ -49,42 +47,46 @@ subset_dF = subset_dF.groupby(['FinalID']).filter(lambda x: len(x)>5)
 #Drop rows which have no information about ConGenus
 subset_dF = subset_dF.dropna(subset=['ConGenus','ConSpecies'])
 
-#Creating unique IDs to make the dataset IDs consistent i.e. there are no gaps in the numbering of IDs
-subset_dF['uniqueID'] = subset_dF['FinalID'].rank(method='dense').astype(int)
-
 #add column which combines Genus and species name
 subset_dF['GenusSpecies'] = subset_dF["ConGenus"].map(str) + ' ' + subset_dF["ConSpecies"]
 
 subset_dF.to_csv('../Data/bac_subset.csv', sep=',', encoding='utf-8')
-### COMBININIG SIZE DATAFRAME AND BACTERIAL DataFrame ###
-#subset_dF = subset_dF.merge(sizeDF, how='left', left_on='GenusSpecies', right_on='Species').drop('Species', axis=1)
 
-#concatenate columns for size and size size unit
-#subset_dF.ConSize = subset_dF.ConSize.fillna(subset_dF.Mass)
-#subset_dF.ConSizeUnit = subset_dF.ConSizeUnit.fillna(subset_dF.SizeUnit)
+
+####################### PREPARING BACTERIA DATA FOR NLLS FITTING #########################
+###########################################################################################
+
+# Reading in bacteria data after being combined with size dataset
+bacteria_data = pd.read_csv('../Data/BACTERIA.csv', index_col=0)
+
+del bacteria_data['Notes']
+del bacteria_data['Sources']
+
+#Creating unique IDs to make the dataset IDs consistent i.e. there are no gaps in the numbering of IDs
+bacteria_data['uniqueID'] = bacteria_data['FinalID'].rank(method='dense').astype(int)
 
 #Adding columns containing starting values of the model parameters for the NLLS fitting
 k = constants.value("Boltzmann constant in eV/K")
 e = np.exp(1)
 
 #Converting temperature from celcius to kelvin and adding a column for it
-subset_dF['Temp(kel)'] = subset_dF.apply(lambda row: float(row.ConTemp) + 273.15, axis = 1)
+bacteria_data['Temp(kel)'] = bacteria_data.apply(lambda row: float(row.ConTemp) + 273.15, axis = 1)
 
 #Adding a column for 1/kT (k constant x Temperature in Kelvin)
-subset_dF['1/kT'] = 1/(subset_dF['Temp(kel)']*float(k))
+bacteria_data['1/kT'] = 1/(bacteria_data['Temp(kel)']*float(k))
 
 #Adding columns for the log of Original Trait Values
-subset_dF['log_TraitValues'] = np.log(subset_dF.StandardisedTraitValue)
+bacteria_data['log_TraitValues'] = np.log(bacteria_data.StandardisedTraitValue)
 
 #sort data by temperature and id
-subset_dF = subset_dF.sort_values(['uniqueID','Temp(kel)'])
+bacteria_data = bacteria_data.sort_values(['uniqueID','Temp(kel)'])
 
 #Creating an empty dataframe with parameter columns
 newDF = pd.DataFrame(columns=['B0','E','Eh','El','Th','Tl','ID'])
 
 #subset_dF.to_csv('subset_dF.csv', sep=',', encoding='utf-8')
 
-grouped = subset_dF.groupby('uniqueID')
+grouped = bacteria_data.groupby('uniqueID')
 for i,g in grouped:
     print i
 
@@ -151,24 +153,11 @@ for i,g in grouped:
     newDF = pd.concat([newDF, temp.reset_index()])
     #newDF.to_csv('parameters.csv', sep=',', encoding='utf-8')
 
-final_dF = pd.merge(subset_dF, newDF, left_on='uniqueID', right_on='ID', how='right').drop('ID', axis=1)
+final_dF = pd.merge(bacteria_data, newDF, left_on='uniqueID', right_on='ID', how='right').drop('ID', axis=1)
 
 #Deal with E column where there is no E-value and give it a generic valur of 0.66
 final_dF.E = final_dF.E.fillna(value=0.66)
 final_dF.Eh = final_dF.Eh.fillna(value=2*0.66)
 final_dF.El = final_dF.El.fillna(value=0.66/2)
 
-columns = ['Mass', 'SizeUnit']
-final_dF = final_dF.drop(columns, axis=1)
-
 final_dF.to_csv('../Data/bacteria_subset.csv', sep=',', encoding='utf-8')
-
-#subset_dF.GenusSpecies[(subset_dF.ConSize == np.nan)].unique()
-
-#nan_rows = subset_dF[subset_dF['ConSize'].isnull()]
-
-#print "Bacterial species with no size information:"
-#a = nan_rows.GenusSpecies.unique()
-#dataframe=pd.DataFrame(a, columns=['no_size'])
-#dataframe.to_csv('../Data/no_size_bacteria.csv', sep=',', encoding='utf-8')
-#print str(len(nan_rows.GenusSpecies.unique())) + " out of 235 groups have no size information"

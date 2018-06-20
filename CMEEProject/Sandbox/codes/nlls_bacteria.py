@@ -159,3 +159,13 @@ for i,g in grouped:
 
 
 schoolfield_dF.to_csv('../Results/bacteria_schoolfield_report.csv', columns=['ID','B0','E','Eh','El','Th','Tl','AIC','chi-squared','r-squared','status'], sep=',', encoding='utf-8')
+
+#subset_dF.GenusSpecies[(subset_dF.ConSize == np.nan)].unique()
+
+#nan_rows = subset_dF[subset_dF['ConSize'].isnull()]
+
+#print "Bacterial species with no size information:"
+#a = nan_rows.GenusSpecies.unique()
+#dataframe=pd.DataFrame(a, columns=['no_size'])
+#dataframe.to_csv('../Data/no_size_bacteria.csv', sep=',', encoding='utf-8')
+#print str(len(nan_rows.GenusSpecies.unique())) + " out of 235 groups have no size information"

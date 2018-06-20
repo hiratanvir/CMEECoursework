@@ -24,7 +24,7 @@ from lmfit import minimize, Parameters, Parameter, report_fit
 #such as the inverse of the uncertainty in the data.
 
 #read in data as pandas
-dF = pd.read_csv('../Data/bacteria_subset.csv', low_memory=False)
+dF = pd.read_csv('../Data/bacteria_subset.csv', low_memory=False, index_col=0)
 
 ### NLLS FITTING OF THE SCHOOLFIELD MODEL ###
 
@@ -162,4 +162,4 @@ for i,g in grouped:
 
 
 
-schoolfield_dF.to_csv('../Results/bacteria_schoolfield_report.csv', columns=['ID','B0','E','Eh','El','Th','Tl','AIC','chi-squared','r-squared','status'], sep=',', encoding='utf-8')
+schoolfield_dF.to_csv('../Results/bacteria_schoolfield_params.csv', columns=['ID','B0','E','Eh','El','Th','Tl','AIC','chi-squared','r-squared','status'], sep=',', encoding='utf-8')

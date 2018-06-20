@@ -16,22 +16,130 @@ import matplotlib.pyplot as plt
 from scipy import stats
 from lmfit import minimize, Parameters, Parameter, report_fit
 
-### NLLS FITTING ###
+#Reading in the csv file as a pandas dataframe
+phyto_data = pd.read_csv('../Data/PHYTOPLANKTON.csv', low_memory=False)
+
+del phyto_data['Notes']
+del phyto_data['Sources']
+
+#Filter Plantae and Protozoa from ConKingdom only using bitwise operator (|)
+#subset_dF = subset_dF.loc[(subset_dF['ConKingdom'] == 'Plantae') | (subset_dF['ConKingdom'] == 'Protozoa')]
+
+#Creating unique IDs to make the dataset IDs consistent i.e. there are no gaps in the numbering of IDs
+phyto_data['uniqueID'] = phyto_data['FinalID'].rank(method='dense').astype(int)
+
+#Adding columns containing starting values of the model parameters for the NLLS fitting
+k = constants.value("Boltzmann constant in eV/K")
+e = np.exp(1)
+
+#Converting temperature from celcius to kelvin and adding a column for it
+phyto_data['Temp(kel)'] = phyto_data.apply(lambda row: float(row.ConTemp) + 273.15, axis = 1)
+
+#Adding a column for 1/kT (k constant x Temperature in Kelvin)
+phyto_data['1/kT'] = 1/(phyto_data['Temp(kel)']*float(k))
+
+#Adding columns for the log of Original Trait Values
+phyto_data['log_TraitValues'] = np.log(phyto_data.StandardisedTraitValue)
+
+#sort data by temperature and id
+phyto_data = phyto_data.sort_values(['uniqueID','Temp(kel)'])
+
+#Creating an empty dataframe with parameter columns
+newDF = pd.DataFrame(columns=['B0','E','Eh','El','Th','Tl','ID'])
+
+#subset_dF.to_csv('subset_dF.csv', sep=',', encoding='utf-8')
+
+grouped = phyto_data.groupby('uniqueID')
+for i,g in grouped:
+    print i
+
+    #define x and y axis for e parameter estimate plot
+    x = g['1/kT']
+    y = g['log_TraitValues']
+
+    #plot data
+    plt.plot(x,y) #[<matplotlib.lines.Line2D at 0x7fc56a1a2590>]
+
+    #Getting corresponding x values given y
+    line2d = plt.plot(x,y)
+    xvalues = line2d[0].get_xdata()
+    yvalues = line2d[0].get_ydata()
+
+    #Get the index of the max y value
+    # idy = np.where(yvalues==yvalues.max(axis=0)) #this is -13.138699...
+    idy = np.argmax(yvalues)
+    max_y = g['log_TraitValues'].max(axis=0) #Maximum y value but does not index it
+
+    #Getting both x and y vals in an array object together
+    xy = line2d[0].get_xydata()
+    maxy_x = xy[idy] #gives the max y-values with corresponding x-values array([-13.1386998 ,  38.92175788])
+    e_estimators = xy[:(idy+1)] #returns a list of x and y values from the maximum y-value to the maximum x value
+
+    #Split the list of lists (e_estimators) into two lists to give another set of x and y co-ordinates
+    x1, y1 = map(list, zip(*e_estimators))
+
+    #Use scipy stats to fit a regression line, and return the slope, intercept and r values
+    E_estimate = stats.linregress(x1, y1)
+
+    #Function to find the temperature closest to 283.15 K ~ giving the trait value for B0
+    def find_nearest(Temp, value):
+        idx = (np.abs(Temp-value)).idxmin()
+        return Temp[idx].astype(float)
+
+    Temp = g['Temp(kel)']
+    value = 283.15
+    #print(find_nearest(Temp,value))
+
+    #Finding the slope for the opposite side for the curve - corresponding to Eh value
+    # Eh > E as Eh is a positive slope on a log curve, and E is a negative slope
+    Eh_estimators = xy[idy:]
+    x2, y2 = map(list, zip(*Eh_estimators))
+    Eh_estimate = stats.linregress(x2,y2)
+
+
+    #Finding T-peak or Th ==>
+    #Get the corresponding x value where y is maximised - Also T-peak, as it gives the temperature at which the curve peaks
+    #Tl is the temperature at which the enzyme is 50% low-temperature deactivated - Setting it as the lowest temperature
+
+    #EXTRACTING STARTING PARAMETER VALUES and appending them to temporary dataframe
+
+    temp = pd.DataFrame({'B0':(g.loc[g['Temp(kel)']==(find_nearest(Temp,value)), 'StandardisedTraitValue'].iloc[0]),
+                        'E': E_estimate[0],
+                        'Eh': Eh_estimate[0],
+                        'El': E_estimate[0]/2,
+                        'Th': (xvalues[idy]).astype(float),
+                        'Tl': g['1/kT'].min(axis=0),
+                        'ID': i},
+                        index=[0])
+                        #g.set_index(['uniqueID'], inplace=True))
+
+    newDF = pd.concat([newDF, temp.reset_index()])
+    #newDF.to_csv('parameters.csv', sep=',', encoding='utf-8')
+
+final_dF = pd.merge(phyto_data, newDF, left_on='uniqueID', right_on='ID', how='right').drop('ID', axis=1)
+
+#Deal with E column where there is no E-value and give it a generic valur of 0.66
+final_dF.E = final_dF.E.fillna(value=0.66)
+final_dF.Eh = final_dF.Eh.fillna(value=2*0.66)
+final_dF.El = final_dF.El.fillna(value=0.66/2)
+
+final_dF.to_csv('../Data/phytoplankton_subset.csv', sep=',', encoding='utf-8')
+
+###########################################################################################################
+###########################################################################################################
+
+
+############################################ NLLS FITTING #################################################
 
 #Write an objective function that takes the values of the fitting variables and calculates either
 #a scalar value to be minimized or an array of values that are to be minimized
 #The objective function should return an array of (data-model) perhaps scaled by some weighting factor
 #such as the inverse of the uncertainty in the data.
 
-
 #read in data as pandas
-dF = pd.read_csv('../Data/archaea_subset.csv', low_memory=False)
+dF = pd.read_csv('../Data/phytoplankton_subset.csv', low_memory=False)
 
 ### NLLS FITTING OF THE SCHOOLFIELD MODEL ###
-
-#Defining constants
-k = constants.value("Boltzmann constant in eV/K")
-e = np.exp(1)
 
 # define objective function: returns the array to be minimized
 def get_residual(params, x, y):
@@ -163,4 +271,4 @@ for i,g in grouped:
 
 
 
-schoolfield_dF.to_csv('../Results/archaea_schoolfield_params.csv', columns=['ID','B0','E','Eh','El','Th','Tl','AIC','chi-squared','r-squared','status'], sep=',', encoding='utf-8')
+schoolfield_dF.to_csv('../Results/phytoplankton_schoolfield_params.csv', columns=['ID','B0','E','Eh','El','Th','Tl','AIC','chi-squared','r-squared','status'], sep=',', encoding='utf-8')
