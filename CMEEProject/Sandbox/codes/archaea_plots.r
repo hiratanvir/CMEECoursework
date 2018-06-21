@@ -8,7 +8,7 @@ library(scales)
 require(gridExtra)
 
 #load in TPC data set to get the x and y co-ordinates per group
-df <- read.csv("../Results/archaea_subset.csv")
+df <- read.csv("../Data/archaea_subset.csv")
 DF = df %>% group_by(uniqueID) %>% arrange(uniqueID) #orders the ID in ascending order
 
 #load in the nlls results for the full schoolfield model and plot the results on the same ggplot2 graph

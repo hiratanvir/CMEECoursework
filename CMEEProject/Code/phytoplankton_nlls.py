@@ -39,7 +39,7 @@ phyto_data['Temp(kel)'] = phyto_data.apply(lambda row: float(row.ConTemp) + 273.
 phyto_data['1/kT'] = 1/(phyto_data['Temp(kel)']*float(k))
 
 #Adding columns for the log of Original Trait Values
-phyto_data['log_TraitValues'] = np.log(phyto_data.StandardisedTraitValue)
+phyto_data['log_TraitValues'] = np.log(phyto_data.StandardisedTraits)
 
 #sort data by temperature and id
 phyto_data = phyto_data.sort_values(['uniqueID','Temp(kel)'])
@@ -103,7 +103,7 @@ for i,g in grouped:
 
     #EXTRACTING STARTING PARAMETER VALUES and appending them to temporary dataframe
 
-    temp = pd.DataFrame({'B0':(g.loc[g['Temp(kel)']==(find_nearest(Temp,value)), 'StandardisedTraitValue'].iloc[0]),
+    temp = pd.DataFrame({'B0':(g.loc[g['Temp(kel)']==(find_nearest(Temp,value)), 'StandardisedTraits'].iloc[0]),
                         'E': E_estimate[0],
                         'Eh': Eh_estimate[0],
                         'El': E_estimate[0]/2,
@@ -173,7 +173,7 @@ for i,g in grouped:
     # create data to be fitted
     x_vals = g['Temp(kel)']    #x is you temp data
     y_vals = g['log_TraitValues'] #is the y value, log transformed trait data
-    non_log_y = g['StandardisedTraitValue']
+    non_log_y = g['StandardisedTraits']
 
     # create a set of Parameters
     #E and Eh's have to be absolute values (use the abs function) --- make sure all the values for params are positive

@@ -8,11 +8,11 @@ library(scales)
 require(gridExtra)
 
 #load in TPC data set to get the x and y co-ordinates per group
-df <- read.csv("../Results/bacteria_subset.csv")
+df <- read.csv("../Data/bacteria_subset.csv")
 DF = df %>% group_by(uniqueID) %>% arrange(uniqueID) #orders the ID in ascending order
 
 #load in the nlls results for the full schoolfield model and plot the results on the same ggplot2 graph
-schoolfield_df <- read.csv("../Results/bacteria_schoolfield_report.csv")
+schoolfield_df <- read.csv("../Results/bacteria_schoolfield_params.csv")
 
 
 #function returns a dataframe with with x values and expected y values when using the schoolfield model
@@ -64,7 +64,7 @@ for(i in unique(DF$uniqueID)){
   bacteria_df <- rbind(bacteria_df, schoolfield(i, schoolfield_df, DF))
 }
 
-pdf("../Results/bacteria_temperature_plot.pdf") 
+pdf("../Results/plots/bacteria_schoolfield_plots.pdf") 
 models_plot <- ggplot(bacteria_df, aes(x=x_points, y=schoolfield_model))+geom_line(aes(color=ID), show.legend = FALSE)+
   xlab("Temp(kelvin)")+
   ylab("Growth Rate")+
@@ -72,3 +72,9 @@ models_plot <- ggplot(bacteria_df, aes(x=x_points, y=schoolfield_model))+geom_li
   theme(plot.title = element_text(hjust = 0.5)) 
 print(models_plot)
 dev.off()
+
+# extracting the highest growth rate for each ID and the corresponding temperature
+require(data.table) ## 1.9.2
+group <- as.data.table(bacteria_df)
+highest_gr = group[group[, .I[schoolfield_model == max(schoolfield_model)], by=ID]$V1]
+mean(highest_gr$x_points)

@@ -12,7 +12,7 @@ df <- read.csv("../Data/phytoplankton_subset.csv")
 DF = df %>% group_by(uniqueID) %>% arrange(uniqueID) #orders the ID in ascending order
 
 #load in the nlls results for the full schoolfield model and plot the results on the same ggplot2 graph
-schoolfield_df <- read.csv("../Data/phytoplankton_schoolfield_report.csv")
+schoolfield_df <- read.csv("../Results/phytoplankton_schoolfield_params.csv")
 
 
 #function returns a dataframe with with x values and expected y values when using the schoolfield model
@@ -64,7 +64,7 @@ for(i in unique(DF$uniqueID)){
   phytoplankton_df <- rbind(phytoplankton_df, schoolfield(i, schoolfield_df, DF))
 }
 
-pdf("../Results/phytoplankton_temperature_plot.pdf") 
+pdf("../Results/plots/phytoplankton_temperature_plot.pdf") 
 models_plot <- ggplot(phytoplankton_df, aes(x=x_points, y=schoolfield_model))+geom_line(aes(color=ID), show.legend = FALSE)+
   xlab("Temp(kelvin)")+
   ylab("Growth rate")+
@@ -72,3 +72,39 @@ models_plot <- ggplot(phytoplankton_df, aes(x=x_points, y=schoolfield_model))+ge
   theme(plot.title = element_text(hjust = 0.5)) 
 print(models_plot)
 dev.off()
+
+
+
+#pdf("../Results/phytoplankton.pdf")  
+#for(i in unique(DF$uniqueID)[52]){
+#  print(i)
+#  sfdf = subset(schoolfield_df, ID == i)
+#  DF2 = subset(DF, uniqueID == i)
+#  x_vals = DF2$Temp.kel.
+#  y_vals = DF2$StandardisedTraitValue
+  
+  
+#  schoolout <- schoolfield(i, schoolfield_df, DF)
+#  if(!is.null(schoolout)){
+#    x2 = schoolout[2]
+#    y2 = schoolout[3]
+#  }
+#  if(sfdf$status =="C"){
+#    models_plot <- ggplot(DF2, aes(x=x_vals, y=y_vals, colour))+geom_point(color="blue")+
+#      xlab("Temp(kelvin)")+
+#      ylab("Standardised Trait Value")+
+#      ggtitle(paste("Bacteria Model plot for ID:",i))+
+#      theme(plot.title = element_text(hjust = 0.5)) + geom_line(data=schoolfield(i, schoolfield_df, DF), aes(x2, y2, colour="Schoolfield model"))
+#    models_plot <- models_plot + labs(color='Legend')
+#    print(models_plot)
+#  }
+#}
+
+#dev.off()
+
+
+# extracting the highest growth rate for each ID and the corresponding temperature
+require(data.table) ## 1.9.2
+group <- as.data.table(phytoplankton_df)
+highest_gr = group[group[, .I[schoolfield_model == max(schoolfield_model)], by=ID]$V1]
+mean(highest_gr$x_points)
