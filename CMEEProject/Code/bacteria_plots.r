@@ -69,7 +69,7 @@ models_plot <- ggplot(bacteria_df, aes(x=x_points, y=schoolfield_model))+geom_li
   xlab("Temp(kelvin)")+
   ylab("Growth Rate")+
   ggtitle(paste("Bacteria Model plots"))+
-  theme(plot.title = element_text(hjust = 0.5)) 
+  theme(plot.title = element_text(hjust = 0.5)) + geom_vline(xintercept=c(279.3598, 289.15, 310), linetype="dotted")
 print(models_plot)
 dev.off()
 
