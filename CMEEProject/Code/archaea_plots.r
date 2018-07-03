@@ -73,7 +73,7 @@ models_plot <- ggplot(archaea_df, aes(x=x_points, y=schoolfield_model))+geom_lin
 print(models_plot)
 dev.off()
 
-# extracting the highest growth rate for each ID and the corresponding temperature
+# extracting the highest growth rate (Tpk) for the lowest temperature
 require(data.table) ## 1.9.2
 group <- as.data.table(archaea_df)
 highest_gr = group[group[, .I[schoolfield_model == max(schoolfield_model)], by=ID]$V1]

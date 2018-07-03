@@ -3,9 +3,10 @@ rm(list=ls())
 graphics.off()
 require(ggplot2)
 library(dplyr)
-library(reshape2)
-require(gridExtra)
-library(devtools)
+library(ggpmisc)
+library(grid)
+library(gridExtra)
+
 
 #load in TPC data set to get the x and y co-ordinates per group
 df <- read.csv("../Data/bacteria_subset.csv")
@@ -81,45 +82,44 @@ Average_volumes <- DF[,c("uniqueID","GenusSpecies","MinVolume","MaxVolume","Aver
 # Y= Y0.M^a
 # ln(Y) = Y0 + a.ln(M) + E
 
+
 merged_DF <- inner_join(Average_volumes, merged_GR, by='uniqueID')
+#Dropping NAs from the data i.e. IDs which did not converge
+subset <- na.omit(merged_DF)
+
+#Subsetting columns which are going to be log-transformed
 cols <- c("MinVolume","MaxVolume","AverageVolume","LowTemp_GR","MidTemp_GR","HighTemp_GR")
-merged_DF[cols] <- log10(merged_DF[cols])
+subset[cols] <- log10(subset[cols])
 
-plot(merged_DF$AverageVolume, merged_DF$LowTemp_GR)
-plot(merged_DF$AverageVolume, merged_DF$MidTemp_GR)
-plot(merged_DF$AverageVolume, merged_DF$HighTemp_GR)
+#### PLOTTING LOG-TRANSFORMED GROWTH RATES AGAINST CELL VOLUME FOR DIFFERENT TEMPERATURES ####
 
-LowT <- ggplot(merged_DF,aes(x=AverageVolume, y=LowTemp_GR))
-LowT <- LowT + geom_point(col="blue")
-LowT + stat_smooth(method="lm")
+LT <- ggplot(data = subset, aes(x = AverageVolume, y = LowTemp_GR)) +
+  geom_smooth(method = "lm", se=FALSE, color="black", formula = y~x) +
+  stat_poly_eq(formula = y~x, eq.with.lhs=FALSE, 
+               aes(label = paste("hat(italic(y))","~`=`~",..eq.label..,"~~~", ..rr.label.., sep = "")), 
+               parse = TRUE, label.y.npc = 0.2) +         
+  geom_point(col="darkblue") +  xlab("Log10 Average Volume (m^3)")+ ylab("Log10 Growth rate (6.2°C)")
 
-lm_eqn <- function(df){
-  m <- lm(y ~ x, df);
-  eq <- substitute(italic(y) == a + b %.% italic(x)*","~~italic(r)^2~"="~r2, 
-                   list(a = format(coef(m)[1], digits = 2), 
-                        b = format(coef(m)[2], digits = 2), 
-                        r2 = format(summary(m)$r.squared, digits = 3)))
-  as.character(as.expression(eq));                 
-}
+print(LT)
 
-p <- ggplot(data = merged_DF, aes(x = AverageVolume, y = LowTemp_GR)) +
-  geom_smooth(method = "lm", se=FALSE, color="black", formula = y ~ x) +
-  geom_point()
-print(p)
 
-p1 <- p + geom_text(x =AverageVolume, y =LowTemp_GR, label = lm_eqn(merged_DF), parse = TRUE)
+MT <- ggplot(data = subset, aes(x = AverageVolume, y = MidTemp_GR)) +
+  geom_smooth(method = "lm", se=FALSE, color="black", formula = y~x) +
+  stat_poly_eq(formula = y~x, eq.with.lhs=FALSE, 
+               aes(label = paste("hat(italic(y))","~`=`~",..eq.label..,"~~~", ..rr.label.., sep = "")), 
+               parse = TRUE, label.y.npc = 0.2) +         
+  geom_point(col="orange") +  xlab("Log10 Average Volume (m^3)")+ ylab("Log10 Growth rate (16°C)")
+print(MT)
 
-ggplot(data = merged_DF, aes(x = AverageVolume, y = LowTemp_GR, label=y)) +
-  stat_smooth_func(geom="text",method="lm",hjust=0,parse=TRUE) +
-  geom_smooth(method="lm",se=FALSE) +
-  geom_point() + facet_wrap(~class)
+HT <- ggplot(data = subset, aes(x = AverageVolume, y = HighTemp_GR)) +
+  geom_smooth(method = "lm", se=FALSE, color="black", formula = y~x) +
+  stat_poly_eq(formula = y~x, eq.with.lhs=FALSE, 
+               aes(label = paste("hat(italic(y))","~`=`~",..eq.label..,"~~~", ..rr.label.., sep = "")), 
+               parse = TRUE, label.y.npc = 0.2) +         
+  geom_point(col="red") +  xlab("Log10 Average Volume (m^3)")+ ylab("Log10 Growth rate (36.85°C)")
+print(HT)
 
-#pdf("../Results/plots/bacteria_schoolfield_plots1.pdf") 
-#models_plot <- ggplot(bacteria_df, aes(x=x_points, y=schoolfield_model))+geom_line(aes(color=ID), show.legend = FALSE)+
-#  xlab("Temp(kelvin)")+
-#  ylab("Growth Rate")+
-#  ggtitle(paste("Bacteria Model plots"))+
-#  theme(plot.title = element_text(hjust = 0.5)) + geom_vline(xintercept=c(279.3598), linetype="dotted")
-#print(models_plot)
-#dev.off()
-
+pdf("../Results/plots/bacteria_scaling.pdf") 
+plots <- grid.arrange(LT, MT, HT, top = textGrob("Bacteria Temperatures Corrected Plots",gp=gpar(fontsize=10,font=3)))
+print(plots)
+dev.off()
