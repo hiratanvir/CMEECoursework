@@ -57,7 +57,7 @@ colnames(GR_LowTemp) <- x
 
 #initialising empty dataframe to append growth rates at temperature = 289.15 Kelvin
 GR_MidTemp <- data.frame(matrix(ncol = 2, nrow = 0))
-GR_MidTemp <- rbind(GR_MidTemp, temp_correct(schoolfield_df, 312))
+GR_MidTemp <- rbind(GR_MidTemp, temp_correct(schoolfield_df, 318.9156))
 x <- c("uniqueID", "MidTemp_GR")
 colnames(GR_MidTemp) <- x
 
@@ -94,8 +94,8 @@ LT <- ggplot(data = subset, aes(x = AverageVolume, y = LowTemp_GR)) +
   geom_smooth(method = "lm", se=FALSE, color="black", formula = y~x) +
   stat_poly_eq(formula = y~x, eq.with.lhs=FALSE, 
                aes(label = paste("hat(italic(y))","~`=`~",..eq.label..,"~~~", ..rr.label.., sep = "")), 
-               parse = TRUE, label.x.npc = "right") +         
-  geom_point(col="darkblue")
+               parse = TRUE, label.y.npc = 0.2) +         
+  geom_point(col="darkblue") +  xlab("Log10 Average Volume (m^3)")+ ylab("Log10 Growth rate (12.8°C)")
 
 print(LT)
 
@@ -104,8 +104,8 @@ MT <- ggplot(data = subset, aes(x = AverageVolume, y = MidTemp_GR)) +
   geom_smooth(method = "lm", se=FALSE, color="black", formula = y~x) +
   stat_poly_eq(formula = y~x, eq.with.lhs=FALSE, 
                aes(label = paste("hat(italic(y))","~`=`~",..eq.label..,"~~~", ..rr.label.., sep = "")), 
-               parse = TRUE, label.x.npc = "right") +         
-  geom_point(col="orange")
+               parse = TRUE, label.y.npc = 0.2) +         
+  geom_point(col="orange") +  xlab("Log10 Average Volume (m^3)")+ ylab("Log10 Growth rate (45.8°C)")
 
 print(MT)
 
@@ -113,8 +113,12 @@ HT <- ggplot(data = subset, aes(x = AverageVolume, y = HighTemp_GR)) +
   geom_smooth(method = "lm", se=FALSE, color="black", formula = y~x) +
   stat_poly_eq(formula = y~x, eq.with.lhs=FALSE, 
                aes(label = paste("hat(italic(y))","~`=`~",..eq.label..,"~~~", ..rr.label.., sep = "")), 
-               parse = TRUE, label.x.npc = "right") +         
-  geom_point(col="red")
+               parse = TRUE, label.y.npc = 0.2) +         
+  geom_point(col="red") +  xlab("Log10 Average Volume (m^3)")+ ylab("Log10 Growth rate (64.4°C)")
 
 print(HT)
 
+pdf("../Results/plots/archaea_scaling.pdf") 
+plots <- grid.arrange(LT, MT, HT, top = textGrob("Archaea Temperatures Corrected Plots",gp=gpar(fontsize=10,font=3)))
+print(plots)
+dev.off()
