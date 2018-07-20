@@ -78,3 +78,35 @@ require(data.table) ## 1.9.2
 group <- as.data.table(archaea_df)
 highest_gr = group[group[, .I[schoolfield_model == max(schoolfield_model)], by=ID]$V1]
 mean(highest_gr$x_points)
+
+#make a dataframe with unique Id, min temp and max temp.
+temperature_data <- data.frame(matrix(ncol = 3, nrow=0))
+y <- c("ID","min_temp","max_temp")
+colnames(temperature_data) <- y
+
+#function returns the min and max temperature values for each ID
+temp_range <- function(i, schoolfield_df, DF){
+  #temp_df <- data.frame(ID=NA, MinTemp=NA, MaxTemp=NA)
+  sfdf = subset(schoolfield_df, ID == i)
+  DF2 = subset(DF, uniqueID == i)
+  
+  
+  if(sfdf$status =="C"){
+    #parameter values for the Schoolfield model
+    min_temp <- min(DF2$Temp.kel.)
+    max_temp <- max(DF2$Temp.kel.)
+    
+    d_f <- data.frame(ID=as.character(i), MinTemp=min_temp, MaxTemp=max_temp)
+  }
+  else{
+    d_f <- data.frame(ID=as.character(i), MinTemp=NA, MaxTemp=NA)
+  }
+  #temp_df <- rbind(temp_df, d_f)
+  return(d_f)
+}
+
+for(i in unique(DF$uniqueID)){
+  temperature_data <- rbind(temperature_data, temp_range(i, schoolfield_df, DF))
+}
+
+write.csv(temperature_data, file = "../Data/temperature_data_archaea.csv", row.names = FALSE)
