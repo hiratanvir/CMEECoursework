@@ -67,9 +67,9 @@ for(i in unique(DF$uniqueID)){
 pdf("../Results/plots/archaea_temperature_plot.pdf") 
 models_plot <- ggplot(archaea_df, aes(x=x_points, y=schoolfield_model))+geom_line(aes(color=ID), show.legend = FALSE)+
   xlab("Temp(kelvin)")+
-  ylab("Growth Rate")+
-  ggtitle(paste("Archaea Model plots"))+
-  theme(plot.title = element_text(hjust = 0.5)) 
+  ylab("Growth Rate (s^-1)")+
+  ggtitle(paste("Archaea TPC curves"))+
+  theme(plot.title = element_text(hjust = 0.5)) + geom_vline(xintercept=c(300, 316, 325), linetype="dotted")
 print(models_plot)
 dev.off()
 

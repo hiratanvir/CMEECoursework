@@ -67,9 +67,9 @@ for(i in unique(DF$uniqueID)){
 pdf("../Results/plots/phytoplankton_temperature_plot.pdf") 
 models_plot <- ggplot(phytoplankton_df, aes(x=x_points, y=schoolfield_model))+geom_line(aes(color=ID), show.legend = FALSE)+
   xlab("Temp(kelvin)")+
-  ylab("Growth rate")+
-  ggtitle(paste("Phytoplankton plots"))+
-  theme(plot.title = element_text(hjust = 0.5)) 
+  ylab("Growth rate (s^-1)")+
+  ggtitle(paste("Phytoplankton TPC curves"))+
+  theme(plot.title = element_text(hjust = 0.5)) + geom_vline(xintercept=c(276.15, 290, 296.1966), linetype="dotted")
 print(models_plot)
 dev.off()
 

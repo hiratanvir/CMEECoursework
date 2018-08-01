@@ -67,9 +67,9 @@ for(i in unique(DF$uniqueID)){
 pdf("../Results/plots/bacteria_schoolfield_plots.pdf") 
 models_plot <- ggplot(bacteria_df, aes(x=x_points, y=schoolfield_model))+geom_line(aes(color=ID), show.legend = FALSE)+
   xlab("Temp(kelvin)")+
-  ylab("Growth Rate")+
-  ggtitle(paste("Bacteria Model plots"))+
-  theme(plot.title = element_text(hjust = 0.5)) + geom_vline(xintercept=c(279.3598, 289.15, 310), linetype="dotted")
+  ylab("Growth Rate (s^-1)")+
+  ggtitle(paste("Bacteria TPC curves"))+
+  theme(plot.title = element_text(hjust = 0.5)) + geom_vline(xintercept=c(279.3598, 289.15, 305.9856), linetype="dotted")
 print(models_plot)
 dev.off()
 

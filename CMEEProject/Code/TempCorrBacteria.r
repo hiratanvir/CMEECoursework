@@ -104,24 +104,32 @@ merged_DF <- inner_join(Average_volumes, merged_GR, by='uniqueID')
 #Drop repeated IDs
 unique_ids <- merged_DF[ !duplicated(merged_DF[ , 1] ) , ]
 
+#averaging growth rates for repeated species to get single data points per species
+unique_gr <- unique_ids %>%
+  group_by(GenusSpecies) %>%
+  summarise_at(vars("LowTemp_GR", "MidTemp_GR", "HighTemp_GR"), mean, na.rm=T)
+
+unique_species <- Average_volumes[ !duplicated(Average_volumes[ , 2] ) , ]
+unique_data <- inner_join(unique_species, unique_gr, by='GenusSpecies')
+
 #Subsetting columns which are going to be log-transformed
 cols <- c("MinVolume","MaxVolume","AverageVolume","LowTemp_GR","MidTemp_GR","HighTemp_GR")
-unique_ids[cols] <- log10(unique_ids[cols])
+unique_data[cols] <- log10(unique_data[cols])
 
 #Dropping NAs from the data i.e. IDs which did not converge
 #subset <- na.omit(merged_DF)
 
 # Subset columns for different temperatures and removing the NAs
 # Low Temp subset
-LowTemp <- unique_ids[,c("AverageVolume","LowTemp_GR")]
+LowTemp <- unique_data[,c("GenusSpecies","AverageVolume","LowTemp_GR")]
 LowTemp <- na.omit(LowTemp)
 
 # Mid Temp subset
-MidTemp <- unique_ids[,c("AverageVolume","MidTemp_GR")]
+MidTemp <- unique_data[,c("GenusSpecies","AverageVolume","MidTemp_GR")]
 MidTemp <- na.omit(MidTemp)
 
 # High Temp subset
-HighTemp <- unique_ids[,c("AverageVolume","HighTemp_GR")]
+HighTemp <- unique_data[,c("GenusSpecies","AverageVolume","HighTemp_GR")]
 HighTemp <- na.omit(HighTemp)
 
 #### PLOTTING LOG-TRANSFORMED GROWTH RATES AGAINST CELL VOLUME FOR DIFFERENT TEMPERATURES ####
@@ -161,3 +169,4 @@ dev.off()
 #GR_HIGHHHTemp <- rbind(GR_HIGHHHTemp, temp_correct(schoolfield_df, 355))
 #x <- c("uniqueID", "HIGHHHTemp_GR")
 #colnames(GR_HIGHHHTemp) <- x
+
