@@ -103,49 +103,52 @@ unique_ids <- merged_DF[ !duplicated(merged_DF[ , 1] ) , ]
 cols <- c("MinVolume","MaxVolume","AverageVolume","LowTemp_GR","MidTemp_GR","HighTemp_GR")
 unique_ids[cols] <- log10(unique_ids[cols])
 
+#Dropping outliers that are 2 or more orders of magnitude away from regression line
+unique_ids <- unique_ids[ ! unique_ids$uniqueID %in% c(9,10,15), ]
+
 #Dropping NAs from the data i.e. IDs which did not converge
 #subset <- na.omit(merged_DF)
 
 # Subset columns for different temperatures and removing the NAs
 # Low Temp subset
-LowTemp <- unique_ids[,c("AverageVolume","LowTemp_GR")]
+LowTemp <- unique_ids[,c("GenusSpecies", "AverageVolume","LowTemp_GR")]
 LowTemp <- na.omit(LowTemp)
 
 # Mid Temp subset
-MidTemp <- unique_ids[,c("AverageVolume","MidTemp_GR")]
+MidTemp <- unique_ids[,c("GenusSpecies", "AverageVolume","MidTemp_GR")]
 MidTemp <- na.omit(MidTemp)
 
 # High Temp subset
-HighTemp <- unique_ids[,c("AverageVolume","HighTemp_GR")]
+HighTemp <- unique_ids[,c("GenusSpecies", "AverageVolume","HighTemp_GR")]
 HighTemp <- na.omit(HighTemp)
 
 #### PLOTTING LOG-TRANSFORMED GROWTH RATES AGAINST CELL VOLUME FOR DIFFERENT TEMPERATURES ####
 
 LT <- ggplot(data = LowTemp, aes(x = AverageVolume, y = LowTemp_GR)) +
-  geom_smooth(method = "lm", se=FALSE, color="black", formula = y~x) +
+  geom_smooth(method = "lm", se=TRUE, color="black", formula = y~x) +
   stat_poly_eq(formula = y~x, eq.with.lhs=FALSE, 
                aes(label = paste("hat(italic(y))","~`=`~",..eq.label..,"~~~", ..rr.label.., sep = "")), 
                parse = TRUE, label.y.npc = 0.2) +         
-  geom_point(col="darkblue") +  xlab("Log10 Average Volume (m^3)")+ ylab("Log10 Growth rate (26.85°C)")
+  geom_point(col="darkblue") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ ylab(expression(paste("log(Growth rate, ", s^{-1},") at 26.85°C")))
 
 print(LT)
 
 
 MT <- ggplot(data = MidTemp, aes(x = AverageVolume, y = MidTemp_GR)) +
-  geom_smooth(method = "lm", se=FALSE, color="black", formula = y~x) +
+  geom_smooth(method = "lm", se=TRUE, color="black", formula = y~x) +
   stat_poly_eq(formula = y~x, eq.with.lhs=FALSE, 
                aes(label = paste("hat(italic(y))","~`=`~",..eq.label..,"~~~", ..rr.label.., sep = "")), 
                parse = TRUE, label.y.npc = 0.2) +         
-  geom_point(col="orange") +  xlab("Log10 Average Volume (m^3)")+ ylab("Log10 Growth rate (42.85°C)")
+  geom_point(col="orange") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ ylab(expression(paste("log(Growth rate, ", s^{-1},") at 42.85°C")))
 
 print(MT)
 
 HT <- ggplot(data = HighTemp, aes(x = AverageVolume, y = HighTemp_GR)) +
-  geom_smooth(method = "lm", se=FALSE, color="black", formula = y~x) +
+  geom_smooth(method = "lm", se=TRUE, color="black", formula = y~x) +
   stat_poly_eq(formula = y~x, eq.with.lhs=FALSE, 
                aes(label = paste("hat(italic(y))","~`=`~",..eq.label..,"~~~", ..rr.label.., sep = "")), 
                parse = TRUE, label.y.npc = 0.2) +         
-  geom_point(col="red") +  xlab("Log10 Average Volume (m^3)")+ ylab("Log10 Growth rate (51.85°C)")
+  geom_point(col="red") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ ylab(expression(paste("log(Growth rate, ", s^{-1},") at 51.85°C")))
 
 print(HT)
 
