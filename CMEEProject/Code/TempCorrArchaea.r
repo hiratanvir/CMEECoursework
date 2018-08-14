@@ -4,6 +4,9 @@ graphics.off()
 require(ggplot2)
 library(dplyr)
 library(ggpmisc)
+library(grid)
+library(gridExtra)
+
 
 #load in TPC data set to get the x and y co-ordinates per group
 df <- read.csv("../Data/archaea_subset.csv")
@@ -128,8 +131,14 @@ LT <- ggplot(data = LowTemp, aes(x = AverageVolume, y = LowTemp_GR)) +
   geom_smooth(method = "lm", se=TRUE, color="black", formula = y~x) +
   stat_poly_eq(formula = y~x, eq.with.lhs=FALSE, 
                aes(label = paste("hat(italic(y))","~`=`~",..eq.label..,"~~~", ..rr.label.., sep = "")), 
-               parse = TRUE, label.y.npc = 0.2) +         
-  geom_point(col="darkblue") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ ylab(expression(paste("log(Growth rate, ", s^{-1},") at 26.85°C")))
+               parse = TRUE, label.y.npc = 0.2) + 
+  stat_fit_glance(method = 'lm',
+                  method.args = list(formula = y~x),
+                  geom = 'text',
+                  aes(label = paste("P-value = ", signif(..p.value.., digits = 4), sep = "")),
+                  label.x.npc = 'left', label.y.npc = 0.18, size = 4) +        
+  geom_point(col="darkblue") + theme(axis.title.x=element_blank(),
+                                     axis.title.y=element_blank()) + ggtitle("26.85°C")
 
 print(LT)
 
@@ -138,8 +147,13 @@ MT <- ggplot(data = MidTemp, aes(x = AverageVolume, y = MidTemp_GR)) +
   geom_smooth(method = "lm", se=TRUE, color="black", formula = y~x) +
   stat_poly_eq(formula = y~x, eq.with.lhs=FALSE, 
                aes(label = paste("hat(italic(y))","~`=`~",..eq.label..,"~~~", ..rr.label.., sep = "")), 
-               parse = TRUE, label.y.npc = 0.2) +         
-  geom_point(col="orange") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ ylab(expression(paste("log(Growth rate, ", s^{-1},") at 42.85°C")))
+               parse = TRUE, label.y.npc = 0.2) + stat_fit_glance(method = 'lm',
+                                                                  method.args = list(formula = y~x),
+                                                                  geom = 'text',
+                                                                  aes(label = paste("P-value = ", signif(..p.value.., digits = 4), sep = "")),
+                                                                  label.x.npc = 'left', label.y.npc = 0.18, size = 4) + 
+  geom_point(col="orange") + theme(axis.title.x=element_blank(),
+                                   axis.title.y=element_blank()) + ggtitle("42.85°C")
 
 print(MT)
 
@@ -147,12 +161,57 @@ HT <- ggplot(data = HighTemp, aes(x = AverageVolume, y = HighTemp_GR)) +
   geom_smooth(method = "lm", se=TRUE, color="black", formula = y~x) +
   stat_poly_eq(formula = y~x, eq.with.lhs=FALSE, 
                aes(label = paste("hat(italic(y))","~`=`~",..eq.label..,"~~~", ..rr.label.., sep = "")), 
-               parse = TRUE, label.y.npc = 0.2) +         
-  geom_point(col="red") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ ylab(expression(paste("log(Growth rate, ", s^{-1},") at 51.85°C")))
+               parse = TRUE, label.y.npc = 0.2) + stat_fit_glance(method = 'lm',
+                                                                  method.args = list(formula = y~x),
+                                                                  geom = 'text',
+                                                                  aes(label = paste("P-value = ", signif(..p.value.., digits = 4), sep = "")),
+                                                                  label.x.npc = 'left', label.y.npc = 0.18, size = 4) +         
+  geom_point(col="red") + theme(axis.title.x=element_blank(),
+                                axis.title.y=element_blank()) + ggtitle("51.85°C")
 
 print(HT)
 
 pdf("../Results/plots/archaea_scaling.pdf") 
-plots <- grid.arrange(LT, MT, HT, top = textGrob("Archaea Temperatures Corrected Plots",gp=gpar(fontsize=10,font=3)))
+plots <- grid.arrange(LT, MT, HT, top = textGrob("Archaea Temperatures Corrected Plots",gp=gpar(fontsize=13,font=3)),
+                      bottom = textGrob(expression(paste("log(Volume, ", m^{3},")"))),
+                      left = textGrob(expression(paste("log(Growth rate, ", s^{-1},")")), rot=90))
 print(plots)
+dev.off()
+
+
+#expression(paste("log(Growth rate, ", s^{-1},")"))
+#expression(paste("log(Volume, ", m^{3},")")))
+######################################################################################################################
+#Pull out p-values and r-squared from a linear regression
+
+ggplotRegression <- function (fit) {
+  
+  
+  ggplot(fit$model, aes_string(x = names(fit$model)[2], y = names(fit$model)[1])) + 
+    geom_point() +
+    stat_smooth(method = "lm", col = "black") +
+    labs(title = paste("R2 = ",signif(summary(fit)$r.squared, 5),
+                       "Intercept =",signif(fit$coef[[1]],5 ),
+                       " Slope =",signif(fit$coef[[2]], 5),
+                       " P =",signif(summary(fit)$coef[2,4], 5)))
+}
+
+
+LL <- ggplotRegression(lm(LowTemp_GR ~ AverageVolume, data = LowTemp)) +         
+  geom_point(col="darkblue") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ ylab(expression(paste("log(Growth rate, ", s^{-1},") at 26.85°C"))) 
+print(LL)
+ggsave("../Results/plots/supplementary/LowTemp_archaea.pdf")
+
+
+MM <- ggplotRegression(lm(MidTemp_GR ~ AverageVolume, data = MidTemp)) +         
+  geom_point(col="orange") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ ylab(expression(paste("log(Growth rate, ", s^{-1},") at 42.85°C"))) 
+print(MM)
+ggsave("../Results/plots/supplementary/MidTemp_archaea.pdf")
+
+
+HH <- ggplotRegression(lm(HighTemp_GR ~ AverageVolume, data = HighTemp)) +         
+  geom_point(col="red") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ ylab(expression(paste("log(Growth rate, ", s^{-1},") at 51.85°C"))) 
+print(HH)
+ggsave("../Results/plots/supplementary/HighTemp_archaea.pdf") 
+
 dev.off()
