@@ -137,7 +137,7 @@ LT <- ggplot(data = LowTemp, aes(x = AverageVolume, y = LowTemp_GR)) +
                   geom = 'text',
                   aes(label = paste("P-value = ", signif(..p.value.., digits = 4), sep = "")),
                   label.x.npc = 'left', label.y.npc = 0.18, size = 4) +        
-  geom_point(col="darkblue") + theme(axis.title.x=element_blank(),
+  geom_point(col="darkblue") + theme_bw() + theme(axis.title.x=element_blank(),
                                      axis.title.y=element_blank()) + ggtitle("26.85°C")
 
 print(LT)
@@ -152,7 +152,7 @@ MT <- ggplot(data = MidTemp, aes(x = AverageVolume, y = MidTemp_GR)) +
                                                                   geom = 'text',
                                                                   aes(label = paste("P-value = ", signif(..p.value.., digits = 4), sep = "")),
                                                                   label.x.npc = 'left', label.y.npc = 0.18, size = 4) + 
-  geom_point(col="orange") + theme(axis.title.x=element_blank(),
+  geom_point(col="orange") + theme_bw() + theme(axis.title.x=element_blank(),
                                    axis.title.y=element_blank()) + ggtitle("42.85°C")
 
 print(MT)
@@ -166,7 +166,7 @@ HT <- ggplot(data = HighTemp, aes(x = AverageVolume, y = HighTemp_GR)) +
                                                                   geom = 'text',
                                                                   aes(label = paste("P-value = ", signif(..p.value.., digits = 4), sep = "")),
                                                                   label.x.npc = 'left', label.y.npc = 0.18, size = 4) +         
-  geom_point(col="red") + theme(axis.title.x=element_blank(),
+  geom_point(col="red") + theme_bw() + theme(axis.title.x=element_blank(),
                                 axis.title.y=element_blank()) + ggtitle("51.85°C")
 
 print(HT)
@@ -181,6 +181,7 @@ dev.off()
 
 #expression(paste("log(Growth rate, ", s^{-1},")"))
 #expression(paste("log(Volume, ", m^{3},")")))
+
 ######################################################################################################################
 #Pull out p-values and r-squared from a linear regression
 
@@ -196,22 +197,77 @@ ggplotRegression <- function (fit) {
                        " P =",signif(summary(fit)$coef[2,4], 5)))
 }
 
+# create multiple linear model
 
-LL <- ggplotRegression(lm(LowTemp_GR ~ AverageVolume, data = LowTemp)) +         
-  geom_point(col="darkblue") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ ylab(expression(paste("log(Growth rate, ", s^{-1},") at 26.85°C"))) 
+################## LOW TEMPERATURE #####################
+lm_LT <- lm(LowTemp_GR ~ AverageVolume , data=LowTemp)
+summary(lm_LT)
+
+LL <- ggplotRegression(lm_LT) +         
+  geom_point(col="darkblue") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ 
+  ylab(expression(paste("log(Growth rate, ", s^{-1},") at 26.85°C"))) + theme_bw()
 print(LL)
 ggsave("../Results/plots/supplementary/LowTemp_archaea.pdf")
 
+################## MID TEMPERATURE #####################
+lm_MT <- lm(MidTemp_GR ~ AverageVolume, data = MidTemp)
+summary(lm_MT)
 
-MM <- ggplotRegression(lm(MidTemp_GR ~ AverageVolume, data = MidTemp)) +         
-  geom_point(col="orange") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ ylab(expression(paste("log(Growth rate, ", s^{-1},") at 42.85°C"))) 
+MM <- ggplotRegression(lm_MT) +         
+  geom_point(col="orange") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ 
+  ylab(expression(paste("log(Growth rate, ", s^{-1},") at 42.85°C"))) + theme_bw()
 print(MM)
 ggsave("../Results/plots/supplementary/MidTemp_archaea.pdf")
 
+################## HIGH TEMPERATURE #####################
+lm_HT <- lm(HighTemp_GR ~ AverageVolume, data = HighTemp)
+summary(lm_HT)
 
-HH <- ggplotRegression(lm(HighTemp_GR ~ AverageVolume, data = HighTemp)) +         
-  geom_point(col="red") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ ylab(expression(paste("log(Growth rate, ", s^{-1},") at 51.85°C"))) 
+HH <- ggplotRegression(lm_HT) +         
+  geom_point(col="red") +  xlab(expression(paste("log(Volume, ", m^{3},")")))+ 
+    ylab(expression(paste("log(Growth rate, ", s^{-1},") at 51.85°C"))) + theme_bw()
 print(HH)
 ggsave("../Results/plots/supplementary/HighTemp_archaea.pdf") 
 
 dev.off()
+
+#converting data from wide to long format
+library(tidyr)
+data_wide <- unique_ids[,c("uniqueID","AverageVolume","LowTemp_GR","MidTemp_GR","HighTemp_GR")]
+data_long <- gather(data_wide, Temperature, GrowthRate, LowTemp_GR:HighTemp_GR, factor_key=TRUE)
+data_long <- data_long[,c("uniqueID","AverageVolume","GrowthRate","Temperature")]
+data_long <- na.omit(data_long)
+
+
+# Plotting all three linear regressions on one plot
+combined_plot <- ggplot(data_long, aes(x = AverageVolume, y = GrowthRate, color=Temperature)) + 
+  scale_color_manual(labels = c("26.85°C", "42.85°C","51.85°C"), values = c("darkblue", "orange","red")) + 
+  geom_point() + stat_smooth(method="lm", se=TRUE) +  stat_poly_eq(formula = y~x, eq.with.lhs=FALSE, 
+                                                                   aes(label = paste("hat(italic(y))","~`=`~",..eq.label..,"~~~", ..rr.label.., sep = "")), 
+                                                                   parse = TRUE, label.x.npc = 'right', label.y.npc = 'bottom', size = 4) + xlab(expression(paste("log(Volume, ", m^{3},")"))) +
+  ylab(expression(paste("log(Growth rate, ", s^{-1},")"))) + ggtitle("Archaea Temperature-Corrected Regressions") + theme_bw()
+
+print(combined_plot)
+ggsave("../Results/plots/archaea_slopes.pdf")
+
+#Statistical inference
+library(jtools)
+summ(lm_LT, confint = TRUE, digits = 3)
+
+library(lsmeans)
+m.interaction <- lm(GrowthRate ~ AverageVolume*Temperature, data = data_long)
+anova(m.interaction)
+
+# Obtain slopes
+m.interaction$coefficients
+m.lst <- lstrends(m.interaction, "Temperature", var="AverageVolume")
+m.lst
+
+# Compare slopes
+pairs(m.lst)
+
+# Linear mixed effects model
+library(lme4)
+list <- lmList(GrowthRate~AverageVolume|Temperature,data_long)
+mixed_model <- lmer(GrowthRate ~ AverageVolume*Temperature + (1|Temperature), data=data_long)
+summary(mixed_model)
