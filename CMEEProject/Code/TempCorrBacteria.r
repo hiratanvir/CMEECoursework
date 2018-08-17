@@ -92,7 +92,7 @@ colnames(GR_HighTemp) <- x
 merged_GR <- inner_join(GR_LowTemp, GR_MidTemp, by='uniqueID') %>%
   inner_join(., GR_HighTemp, by='uniqueID')
 
-Average_volumes <- DF[,c("uniqueID","GenusSpecies","MinVolume","MaxVolume","AverageVolume","VolumeUnit")]
+Average_volumes <- DF[,c("uniqueID","GenusSpecies","ConPhylum","MinVolume","MaxVolume","AverageVolume","VolumeUnit")]
 
 ####### LOG TRANSFORMING THE GROWTH RATES and VOLUMES ######################################################################
 # Y= Y0.M^a
@@ -125,16 +125,18 @@ unique_data <- unique_data[ ! unique_data$uniqueID %in% c(90,117), ]
 
 # Subset columns for different temperatures and removing the NAs
 # Low Temp subset
-LowTemp <- unique_data[,c("GenusSpecies","AverageVolume","LowTemp_GR")]
+LowTemp <- unique_data[,c("GenusSpecies","ConPhylum","AverageVolume","LowTemp_GR")]
 LowTemp <- na.omit(LowTemp)
 
 # Mid Temp subset
-MidTemp <- unique_data[,c("GenusSpecies","AverageVolume","MidTemp_GR")]
+MidTemp <- unique_data[,c("GenusSpecies","ConPhylum","AverageVolume","MidTemp_GR")]
 MidTemp <- na.omit(MidTemp)
+write.table(MidTemp, "../Results/MidTemp_Bacteria.csv", sep = ",", row.names = FALSE)
 
 # High Temp subset
-HighTemp <- unique_data[,c("GenusSpecies","AverageVolume","HighTemp_GR")]
+HighTemp <- unique_data[,c("GenusSpecies","ConPhylum","AverageVolume","HighTemp_GR")]
 HighTemp <- na.omit(HighTemp)
+write.table(HighTemp, "../Results/HighTemp_Bacteria1.csv", sep = ",", row.names = FALSE)
 
 #### PLOTTING LOG-TRANSFORMED GROWTH RATES AGAINST CELL VOLUME FOR DIFFERENT TEMPERATURES ####
 
@@ -260,7 +262,7 @@ data_long <- data_long %>% mutate (Temp = ifelse(Temperature == 'LowTemp_GR', '6
                                  ifelse(Temperature == 'HighTemp_GR', '32.8', NA))))
 
 data_long$Temp <- as.numeric(as.character(data_long$Temp))
-
+write.table(data_long, "../Results/Bacteria_all.csv", sep = ",", row.names = FALSE)
 
 # Plotting all three linear regressions on one plot
 combined_plot <- ggplot(data_long, aes(x = AverageVolume, y = GrowthRate, color=Temperature)) + 
@@ -272,6 +274,7 @@ combined_plot <- ggplot(data_long, aes(x = AverageVolume, y = GrowthRate, color=
 
 print(combined_plot)
 ggsave("../Results/plots/bacteria_slopes.pdf")
+
 
 ###################################################################################################################
 #Statistical inference
@@ -302,29 +305,45 @@ library(lme4)
 #lm if  you dont include random effect (lmer if you do)
 list <- lmList(GrowthRate~AverageVolume|Temperature,data_long)
 
-#Linear model with temperature as a fixed interaction with average volume
-#Temperature is also a continuous variable here and not a factor
-mixed_model <- lm(GrowthRate ~ AverageVolume*Temp, data=data_long)
+################# MIXED MODEL ##############################
+#If temperature was considered a random effect then lmer would be used and the model would be this:
+mixed_model <- lmer(GrowthRate ~ AverageVolume+ (1|Temperature), data=data_long)
 summary(mixed_model)
 
+# TO CHECK THE DISTRIBUTION OF RESIDUALS
+par(mfrow=c(2,2))
+plot(mixed_model)
+
+##################### LINEAR MODELS #########################
+#Linear model with temperature as a fixed interaction with average volume
+#Temperature is also a continuous variable here and not a factor
+l_m <- lm(GrowthRate ~ AverageVolume*Temp, data=data_long)
+summary(l_m)
+
 #Temperature as a factor
-mixed_model_factor <- lm(GrowthRate ~ AverageVolume*Temperature, data=data_long)
-summary(mixed_model_factor)
+lm_factor <- lm(GrowthRate ~ AverageVolume*Temperature, data=data_long)
+summary(lm_factor)
 
 #Another way of writing the model, and it is easier to simply this as you can take the interaction out
 #Volume+Tempertaure+Volume*Temperature 
-mixed_model_same<- lm(GrowthRate ~ AverageVolume + Temp + AverageVolume*Temperature, data=data_long)
-summary(mixed_model_same)
+lm_same<- lm(GrowthRate ~ AverageVolume + Temp + AverageVolume:Temp, data=data_long)
+summary(lm_same)
 
 #simplified model minus interaction between average volume and temperature
-mixed_model_simplified<- lm(GrowthRate ~ AverageVolume + Temp, data=data_long)
-summary(mixed_model_simplified)
+lm_simplified<- lm(GrowthRate ~ AverageVolume + Temp, data=data_long)
+summary(lm_simplified)
 
-#If temperature was considered a random effect then lmer would be used and the model would be this:
-mixed_model_2 <- lmer(GrowthRate ~ AverageVolume+ (1|Temperature), data=data_long)
-summary(mixed_model_2)
+#third model just looking at temperature
+lm_temp <- lm(GrowthRate ~ Temp, data = data_long)
+summary(lm_temp)
 
-par(mfrow=c(2,2))
-plot(mixed_model_2)
+# only volume
+lm_vol <- lm(GrowthRate ~ AverageVolume, data = data_long)
+summary(lm_vol)
 
-mixed_model_3 <- lm(GrowthRate ~ AverageVolume*Group*Temperature, data=data_long)
+anova(l_m, lm_simplified)
+anova(l_m, lm_simplified, lm_temp)
+anova(l_m, lm_simplified, lm_temp, lm_vol)
+AIC(l_m, lm_simplified, lm_temp, lm_vol)
+
+

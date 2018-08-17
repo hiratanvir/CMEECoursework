@@ -116,10 +116,14 @@ unique_ids <- unique_ids[ ! unique_ids$uniqueID %in% c(9,10,15), ]
 # Low Temp subset
 LowTemp <- unique_ids[,c("GenusSpecies", "AverageVolume","LowTemp_GR")]
 LowTemp <- na.omit(LowTemp)
+write.table(LowTemp, "../Results/LowTemp_Archaea.csv", sep = ",", row.names = FALSE)
+
 
 # Mid Temp subset
 MidTemp <- unique_ids[,c("GenusSpecies", "AverageVolume","MidTemp_GR")]
 MidTemp <- na.omit(MidTemp)
+write.table(MidTemp, "../Results/MidTemp_Archaea.csv", sep = ",", row.names = FALSE)
+
 
 # High Temp subset
 HighTemp <- unique_ids[,c("GenusSpecies", "AverageVolume","HighTemp_GR")]
@@ -238,6 +242,12 @@ data_long <- gather(data_wide, Temperature, GrowthRate, LowTemp_GR:HighTemp_GR, 
 data_long <- data_long[,c("uniqueID","AverageVolume","GrowthRate","Temperature")]
 data_long <- na.omit(data_long)
 
+data_long <- data_long %>% mutate (Temp = ifelse(Temperature == 'LowTemp_GR', '26.85', 
+                                                 ifelse(Temperature == 'MidTemp_GR', '42.85',
+                                                        ifelse(Temperature == 'HighTemp_GR', '51.85', NA))))
+
+data_long$Temp <- as.numeric(as.character(data_long$Temp))
+write.table(data_long, "../Results/Archaea_all.csv", sep = ",", row.names = FALSE)
 
 # Plotting all three linear regressions on one plot
 combined_plot <- ggplot(data_long, aes(x = AverageVolume, y = GrowthRate, color=Temperature)) + 
@@ -255,6 +265,7 @@ library(jtools)
 summ(lm_LT, confint = TRUE, digits = 3)
 
 library(lsmeans)
+#ANCOVA analysis with temperature as an interaction
 m.interaction <- lm(GrowthRate ~ AverageVolume*Temperature, data = data_long)
 anova(m.interaction)
 
@@ -266,8 +277,54 @@ m.lst
 # Compare slopes
 pairs(m.lst)
 
+### Ruling out using an ANCOVA as you need balanced data for that & linear models account for more types of variation
+
 # Linear mixed effects model
+
+#Checking the distribution of the data
+hist(data_long$GrowthRate)
+
 library(lme4)
+#lm if  you dont include random effect (lmer if you do)
 list <- lmList(GrowthRate~AverageVolume|Temperature,data_long)
-mixed_model <- lmer(GrowthRate ~ AverageVolume*Temperature + (1|Temperature), data=data_long)
+
+################# MIXED MODEL ##############################
+#If temperature was considered a random effect then lmer would be used and the model would be this:
+mixed_model <- lmer(GrowthRate ~ AverageVolume+ (1|Temperature), data=data_long)
 summary(mixed_model)
+
+# TO CHECK THE DISTRIBUTION OF RESIDUALS
+par(mfrow=c(2,2))
+plot(mixed_model)
+
+##################### LINEAR MODELS #########################
+#Linear model with temperature as a fixed interaction with average volume
+#Temperature is also a continuous variable here and not a factor
+l_m <- lm(GrowthRate ~ AverageVolume*Temp, data=data_long)
+summary(l_m)
+
+#Temperature as a factor
+lm_factor <- lm(GrowthRate ~ AverageVolume*Temperature, data=data_long)
+summary(lm_factor)
+
+#Another way of writing the model, and it is easier to simply this as you can take the interaction out
+#Volume+Tempertaure+Volume*Temperature 
+lm_same<- lm(GrowthRate ~ AverageVolume + Temp + AverageVolume:Temp, data=data_long)
+summary(lm_same)
+
+#simplified model minus interaction between average volume and temperature
+lm_simplified<- lm(GrowthRate ~ AverageVolume + Temp, data=data_long)
+summary(lm_simplified)
+
+#third model just looking at temperature
+lm_temp <- lm(GrowthRate ~ Temp, data = data_long)
+summary(lm_temp)
+
+# only volume
+lm_vol <- lm(GrowthRate ~ AverageVolume, data = data_long)
+summary(lm_vol)
+
+anova(l_m, lm_simplified)
+anova(l_m, lm_simplified, lm_temp)
+anova(l_m, lm_simplified, lm_temp, lm_vol)
+AIC(l_m, lm_simplified, lm_temp, lm_vol)
