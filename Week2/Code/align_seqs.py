@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # Filename: align_seqs.py
 
+#This version runs on python 2.7.10 so in order to run it
+#on a compatible ipython version on mac, enter python -m IPython
+
 __author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
 __version__ = '0.0.1'
 
@@ -10,7 +13,7 @@ import sys
 
 #This section tells us that the script has a default relative path which uses "../Data/align.csv' as the sole argument"
 #However, you can also run this script other .csv files because you are providing it with another argument (>1)
-def file_function(arguments): 
+def file_function(arguments):
     if len(arguments) > 1:
         print "more than one argument given, assigning relative path to given path"
         return str(arguments[1])
@@ -19,7 +22,7 @@ def file_function(arguments):
         return str('../Data/align.csv')
 
 # function that computes a score
-# by returning the number of matches 
+# by returning the number of matches
 # starting from arbitrary startpoint
 def calculate_score(s1, s2, l1, l2, startpoint):
     # startpoint is the point at which we want to start
@@ -28,24 +31,24 @@ def calculate_score(s1, s2, l1, l2, startpoint):
     for i in range(l2):
         if (i + startpoint) < l1:
             # if its matching the character
-            if s1[i + startpoint] == s2[i]: #if a sequence at from the start of s1 matches s2, then it is matched 
-                matched = matched + "*" #creating a variable that marks the location with "*" where two characters from each sequence match 
+            if s1[i + startpoint] == s2[i]: #if a sequence at from the start of s1 matches s2, then it is matched
+                matched = matched + "*" #creating a variable that marks the location with "*" where two characters from each sequence match
                 score = score + 1 #
             else:
                 matched = matched + "-" #otherwise creating a variable which can be outputted to mark unmatched sequences with "-"
 
     # build some formatted output
-    print "." * startpoint + matched           
+    print "." * startpoint + matched
     print "." * startpoint + s2
     print s1
-    print score 
+    print score
     print ""
 
     return score
 
-#In this main argument, 
-#we are creating a function to open and read the csv file and looping through rows to print out the rows 
-def main(arguments): 
+#In this main argument,
+#we are creating a function to open and read the csv file and looping through rows to print out the rows
+def main(arguments):
     filename = file_function(arguments)
     f = csv.reader(open(filename, 'r'))
     for row in f:
@@ -71,7 +74,7 @@ def main(arguments):
         l1, l2 = l2, l1 # swap the two lengths
 
     """
-    calculate_score(s1, s2, l1, l2, 0)  
+    calculate_score(s1, s2, l1, l2, 0)
     calculate_score(s1, s2, l1, l2, 1)
     calculate_score(s1, s2, l1, l2, 5)
     """

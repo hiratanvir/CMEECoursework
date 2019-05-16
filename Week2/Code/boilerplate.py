@@ -4,7 +4,9 @@
 	you can use several lines"""
 
 __author__ = 'Hira Tanvir (hira.tanvir@imperial.ac.uk)'
-__version__ = '0.0.1'
+__version__ = '2.7.10'
+#This version runs on python 2.7.10 so in order to run it
+#on a compatible ipython version on mac, enter python -m IPython
 
 # imports
 import sys # module to interface our program with the operating system
